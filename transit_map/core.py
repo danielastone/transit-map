@@ -225,6 +225,23 @@ def audit(inventory, osm, reviews=()):
             "screen_counts": dict(Counter(r["screen"] for r in rows)), "records": rows}
 
 
+def review_worklist(inventory, osm, reviews):
+    """Expose all records; proximity never clears the need for an identity review."""
+    by_id = {r["entrance_id"]: r for r in reviews}
+    work = []
+    for screen in audit(inventory, osm, reviews)["records"]:
+        review = by_id.get(screen["entrance_id"])
+        status = review["status"] if review else "Unreviewed"
+        reasons = []
+        if status != "Existing entrance confirmed":
+            reasons.append("Initial desktop review required" if status == "Unreviewed" else status)
+        if screen["candidate_reuse_count"] > 1:
+            reasons.append("Shared automated candidate: verify entrance identity across source records")
+        work.append(dict(screen, review_status=status, review_required=bool(reasons),
+                         review_reasons=reasons, review_notes=review["notes"] if review else ""))
+    return sorted(work, key=lambda r: (not r["review_required"], r["entrance_id"]))
+
+
 def validate(inventory, stations, osm, reviews):
     """Reject broken IDs, partial query coverage, and invalid source coordinates."""
     ids = [r["id"] for r in inventory]
@@ -252,6 +269,14 @@ def validate(inventory, stations, osm, reviews):
         raise ValueError("Duplicate or unknown review ID")
     if any(r["status"] not in REVIEW_STATUSES for r in reviews):
         raise ValueError("Unknown review status")
+    from datetime import date
+    for review in reviews:
+        if not isinstance(review.get("notes"), str) or not review["notes"].strip():
+            raise ValueError("Review requires nonempty notes")
+        try:
+            date.fromisoformat(review.get("reviewed_on", ""))
+        except (TypeError, ValueError):
+            raise ValueError("Review requires ISO reviewed_on date") from None
     feature_ids = [f["id"] for f in osm["features"]]
     if len(feature_ids) != len(set(feature_ids)):
         raise ValueError("Duplicate OSM feature IDs")

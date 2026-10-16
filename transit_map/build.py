@@ -9,7 +9,7 @@ import shutil
 from pathlib import Path
 from urllib.parse import urlsplit
 
-from .core import audit, validate
+from .core import audit, review_worklist, validate
 
 ROOT = Path(__file__).resolve().parents[1]
 FILES = {'entrances': 'data/wmata/entrances.json', 'stations': 'data/wmata/stations.json',
@@ -113,6 +113,8 @@ def publish(state, manifest, output):
         station_links.append(f'<li><a href="{route}">{escape(station["name"])}</a> ({len(records)})</li>')
         listing = ''.join(f'<li><a href="../entrances/{r["id"]}.html">{escape(r["description"])}</a></li>' for r in records)
         pages[route] = page(station['name'], link(station['source_url'], 'WMATA station source') + '<ul>' + listing + '</ul>', '../')
+    worklist = review_worklist(entrances, state["osm"], list(reviews.values()))
+    write(output / "data/review-queue.json", {"records": worklist})
     tasks = []
     for record in entrances:
         review = reviews.get(record['id'])
@@ -123,14 +125,15 @@ def publish(state, manifest, output):
         body += '<h2>Provenance</h2>' + link(record['source_url'], 'WMATA source')
         body += '<p>Source panorama coordinates are research references only; they are not an OSM edit source. Automated distance screening does not establish a missing entrance. No record is approved for OSM upload.</p>'
         pages[f'entrances/{record["id"]}.html'] = page(record['id'], body, '../')
-        if review and review['status'] == 'Geometry present; entrance position unverified':
-            tasks.append(f'<li><a href="entrances/{record["id"]}.html">{record["id"]}</a>: verify the physical entrance threshold and access route.</li>')
+    for task in worklist:
+        reasons = '; '.join(task['review_reasons']) or 'Desktop confirmation recorded; no open task'
+        tasks.append(f'<li data-entrance-id="{escape(task["entrance_id"], quote=True)}"><a href="entrances/{escape(task["entrance_id"], quote=True)}.html">{escape(task["entrance_id"])}</a>: {escape(task["review_status"])} — {escape(reasons)}</li>')
     pages['index.html'] = page('WMATA entrance research',
         f'<p>{len(entrances)} source entrance records across {len(station_links)} stations; {len(reviews)} desktop reviews.</p>'
         '<p>This is a research inventory, not a live service or accessibility guide.</p>'
         '<p><a href="tasks.html">Research tasks</a> · <a href="data/audit.json">Automated screening JSON</a> · '
         '<a href="data/semantic-manifest.json">Build provenance</a></p><ul>' + ''.join(station_links) + '</ul>')
-    pages['tasks.html'] = page('Research tasks', '<p>Derived from unresolved desktop reviews; other records still require initial review.</p><ul>' + ''.join(tasks) + '</ul>')
+    pages['tasks.html'] = page('Research tasks', '<p>All source records are listed. Shared candidates require identity review regardless of distance or desktop status. Proximity is not a confirmed match.</p><p><a href="data/review-queue.json">Review queue JSON</a></p><ul>' + ''.join(tasks) + '</ul>')
     for path, html in pages.items():
         target = output / path
         target.parent.mkdir(parents=True, exist_ok=True)

@@ -11,3 +11,7 @@ Example shape (illustrative, not a real observation):
 ```
 
 Network fetches remain proposals in `build/`; they never rewrite the baseline or submit OSM edits. OSM snapshot replacement is deliberately unsupported by this first ledger version: a future versioned snapshot migration must preserve licensing, query completeness, and historical provenance.
+
+Reviews require a nonempty textual `notes` field, an ISO `reviewed_on` date, and one of the statuses accepted by `transit_map.core.REVIEW_STATUSES`. All statuses appear in both the published worklist and CLI review queue; unreviewed records also remain visible. A shared automated candidate always creates a review reason, even if a desktop confirmation is recorded.
+
+Station metadata updates are supported. Adding, deleting or renaming a station changes the membership shared by the inventory and frozen OSM query windows, so it requires a future explicit snapshot migration. Adding only a station fails inventory coverage; adding a station and entrance together fails OSM query coverage. Do not bypass those checks or change the baseline lock to force admission.

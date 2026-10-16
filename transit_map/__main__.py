@@ -10,7 +10,7 @@ from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
-from .core import audit, parse_osm, parse_wmata, validate
+from .core import audit, parse_osm, parse_wmata, review_worklist, validate
 
 ROOT = Path(__file__).resolve().parents[1]
 USER_AGENT = "transit-map/0.1 (https://github.com/danielastone/transit-map; read-only research)"
@@ -136,16 +136,15 @@ def main(argv=None):
             print(json.dumps(validate(inventory, stations, osm, reviews), indent=2))
         elif args.command == "review-queue":
             by_id = {r["id"]: r for r in inventory}
-            lines = ["# Desktop review queue", "", "Generated from `data/reviews.json`.", "",
-                     "These are desktop outcomes, not surveyed entrance positions or proposed OSM changes.", ""]
-            for status in ("Geometry present; entrance position unverified", "Existing entrance confirmed"):
-                lines.extend(["## " + status, ""])
-                for review in sorted(reviews, key=lambda r: r["entrance_id"]):
-                    if review["status"] != status:
-                        continue
-                    record = by_id[review["entrance_id"]]
-                    lines.extend([f"### {record['id']}: {record['station']}", "",
-                                  record["description"], "", review["notes"], ""])
+            lines = ["# Desktop review queue", "", "Generated from materialized research records.", "",
+                     "All records remain visible. Proximity does not confirm entrance identity.", "",
+                     "Shared candidates require review regardless of distance or desktop status.", ""]
+            for task in review_worklist(inventory, osm, reviews):
+                record = by_id[task["entrance_id"]]
+                reasons = "; ".join(task["review_reasons"]) or "Desktop confirmation recorded; no open task"
+                lines.extend([f"## {record['id']}: {record['station']}", "",
+                              record["description"], "", task["review_status"], "", reasons, "",
+                              task["review_notes"], ""])
             output = Path(args.output)
             output.parent.mkdir(parents=True, exist_ok=True)
             output.write_text("\n".join(lines), encoding="utf-8")

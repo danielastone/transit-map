@@ -89,3 +89,15 @@ Start with one pending entrance in the review queue. Establish its actual thresh
 existing OSM node/way connection, street/level access, and a permitted source for
 any new position or tag. Record the evidence before preparing an edit. The CLI
 does not generate or submit OSM change files.
+
+## Architecture and publication
+
+See [ARCHITECTURE.md](ARCHITECTURE.md) and [transaction rules](transactions/README.md). The stack mirrors DC Public Realm: frozen JSON baseline → append-only transactions → validated Python materialization → semantic HTML/JSON → GitHub Pages.
+
+```sh
+python -m unittest discover -s tests -v
+python -m transit_map.build
+python -m http.server 8000 --directory build/site
+```
+
+Open http://localhost:8000. Generated output is disposable; source changes go through transactions and pull requests. Pages deployment requires the repository setting described in the architecture document.

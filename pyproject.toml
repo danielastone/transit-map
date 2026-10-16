@@ -1,0 +1,6 @@
+[project]
+name = "transit-map"
+version = "0.1.0"
+description = "Research and review tools for WMATA entrance mapping"
+requires-python = ">=3.10"
+dependencies = []

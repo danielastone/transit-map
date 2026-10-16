@@ -1,0 +1,17 @@
+{
+  "retrieved_on": "2026-10-16",
+  "station_count": 98,
+  "entrance_count": 242,
+  "osm_feature_count": 714,
+  "desktop_reviews": 14,
+  "review_counts": {
+    "Geometry present; entrance position unverified": 9,
+    "Existing entrance confirmed": 5
+  },
+  "osm_query_failures": 0,
+  "research_only": [
+    "data/wmata/entrances.json:research_reference",
+    "data/research/audit_snapshot.csv"
+  ],
+  "osm_edits_submitted": 0
+}

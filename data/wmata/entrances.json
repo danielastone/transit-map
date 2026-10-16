@@ -1,0 +1,3636 @@
+{
+  "retrieved_on": "2026-10-16",
+  "source": "https://www.wmata.com/ridertools",
+  "records": [
+    {
+      "id": "WMATA-001",
+      "station": "ADDISON ROAD-SEAT PLEASANT",
+      "description": "Addison Rd. south of Central Ave.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/addison-rd/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577995550166!6m8!1m7!1sCAoSLEFGMVFpcFBIVUthOU9Ba3NscUNNNzQtRmhwWGgwWXlUZWVHMW1GdU80LXls!2m2!1d38.886703454968!2d-76.895824059597!3f82.83966469276382!4f2.2528916806601273!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.886703454968,
+        "longitude": -76.895824059597,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-002",
+      "station": "ANACOSTIA",
+      "description": "Howard Rd. north of Anacostia Freeway",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/anacostia/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1591996359922!6m8!1m7!1sCAoSLEFGMVFpcE9pQzhYSHU3VVZJMFkySndzREtnWmdFU3l0VHl0czJMaGo5dHJX!2m2!1d38.864616762775!2d-76.995962154275!3f145.63400355182318!4f3.0138404266474765!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.864616762775,
+        "longitude": -76.995962154275,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-003",
+      "station": "ANACOSTIA",
+      "description": "Howard Rd. & Firth Sterling Ave.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/anacostia/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1591996554286!6m8!1m7!1sCAoSLEFGMVFpcE8tWlBYb1h5bGpDcFEyOGs0VjA1dkJkUUV4RnVMTWo2TEJaeWdN!2m2!1d38.86221532934!2d-76.994917806792!3f253.95947417331402!4f5.373371977852528!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.86221532934,
+        "longitude": -76.994917806792,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-004",
+      "station": "ARCHIVES-NAVY MEMORIAL-PENN QUARTER",
+      "description": "7th St. north of Pennsylvania Ave. (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/archives/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1545933935040!6m8!1m7!1sCAoSLEFGMVFpcE5kcE9SOXpTUW1yX2laTFA0U1NtR3IwcHY5TG1WckpnSHFhTVVQ!2m2!1d38.893983385073!2d-77.022074161472!3f268.32435356900123!4f-1.7834138087717548!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.893983385073,
+        "longitude": -77.022074161472,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-005",
+      "station": "ARCHIVES-NAVY MEMORIAL-PENN QUARTER",
+      "description": "7th St. north of Pennsylvania Ave.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/archives/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1545934011898!6m8!1m7!1sCAoSLEFGMVFpcE1zYzRTS21CRVFoVC1SdW9KT2p2dC1lNk41eDRCdGVSUDN5NTA1!2m2!1d38.894073355572!2d-77.022297162631!3f122.45007203275446!4f-3.4436663428365364!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.894073355572,
+        "longitude": -77.022297162631,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-006",
+      "station": "ARLINGTON CEMETERY",
+      "description": "Memorial Drive",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/arlington-cemetery/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1575930182577!6m8!1m7!1sCAoSLEFGMVFpcE1SZGV4V1Y0ckFmaUhDb1NmVG5wRVdQSHNaUjFhVkd1b2MyTWRo!2m2!1d38.884500718331!2d-77.063762746325!3f23.144030976119844!4f1.0830473156662492!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.884500718331,
+        "longitude": -77.063762746325,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-007",
+      "station": "ARLINGTON CEMETERY",
+      "description": "Memorial Drive for Blue Line to Franconia-Springfield (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/arlington-cemetery/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1575930275711!6m8!1m7!1sCAoSLEFGMVFpcE1aY0FhTWxxb1lyUWM1T2ltT1dIYndneEtPZDRGVjNNUDh3RDhZ!2m2!1d38.884658368357!2d-77.063306421183!3f334.0636200136031!4f1.6706471019232367!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.884658368357,
+        "longitude": -77.063306421183,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-008",
+      "station": "ARLINGTON CEMETERY",
+      "description": "Memorial Drive for Blue Line to Largo Town Center (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/arlington-cemetery/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1575930308679!6m8!1m7!1sCAoSLEFGMVFpcE5ncXNtaDNYbWdPd3NsclJJREU1Wm9qbnNtTW1OQ1VFU0VMLTdu!2m2!1d38.884755017829!2d-77.06304138245!3f332.97954121961544!4f-5.4039282745167725!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.884755017829,
+        "longitude": -77.06304138245,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-009",
+      "station": "ASHBURN",
+      "description": "43625 Croson Ln",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/ashburn/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1712693839738!6m8!1m7!1sCAoSLEFGMVFpcFBJdVRkZXduRnpUQXNJS25kaGxoT3VTOGYxVUpwYVRKbnN6M1JR!2m2!1d39.004664147297!2d-77.491959213417!3f146.65!4f-1.3499999999999943!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 39.004664147297,
+        "longitude": -77.491959213417,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-010",
+      "station": "ASHBURN",
+      "description": "43625 Croson Ln (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/ashburn/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1712693792457!6m8!1m7!1sCAoSLEFGMVFpcE9mNkhmaTQ2VU5lZEI0clNBRE10RzVZelVxZzJWNkdKOFFMTWRH!2m2!1d39.004407788672!2d-77.491732598041!3f154.15!4f-4.180000000000007!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 39.004407788672,
+        "longitude": -77.491732598041,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-011",
+      "station": "ASHBURN",
+      "description": "43655 Ashburn Metro Drive (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/ashburn/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1712693721408!6m8!1m7!1sCAoSLEFGMVFpcFBvTHJXVUlkdXF2QnBzcm45VnlINDhYSkp5UGl4WHZkbnZKYWFp!2m2!1d39.004863098438!2d-77.490132589332!3f232.66!4f-9.299999999999997!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 39.004863098438,
+        "longitude": -77.490132589332,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-012",
+      "station": "ASHBURN",
+      "description": "43655 Ashburn Metro Drive",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/ashburn/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1712693651341!6m8!1m7!1sCAoSLEFGMVFpcFBvREc2QkJBazRVVTdLQVRMRmxDUzNxMTNqOWw3YlZrOXpweGRq!2m2!1d39.005018563148!2d-77.489843393168!3f247.4!4f-3.519999999999996!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 39.005018563148,
+        "longitude": -77.489843393168,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-013",
+      "station": "BALLSTON-MU",
+      "description": "N Fairfax Dr. & N Stuart St. (South Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/ballston-mu/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577812599243!6m8!1m7!1sCAoSLEFGMVFpcFBaZjJzSzgwOGZqTVY1U1V5OXpZM0RMSzZJaUo0RUxyV191clQz!2m2!1d38.882028168333!2d-77.112079394915!3f1.1584240265912058!4f-0.2494108170952387!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.882028168333,
+        "longitude": -77.112079394915,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-014",
+      "station": "BALLSTON-MU",
+      "description": "N Fairfax Dr. & N Stuart St. (North Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/ballston-mu/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577812563417!6m8!1m7!1sCAoSLEFGMVFpcE4zcklqUHVrT0dOT2xHRkx1dDRtNnJrWmNRUWhwTko4MDhldkox!2m2!1d38.882352551718!2d-77.112048975276!3f294.428709763349!4f5.522164323691015!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.882352551718,
+        "longitude": -77.112048975276,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-015",
+      "station": "BALLSTON-MU",
+      "description": "N Fairfax Dr. & N Stuart St.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/ballston-mu/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577812490359!6m8!1m7!1sCAoSLEFGMVFpcFBUZUFFYkM0S050bV9xUGl4NmU3cFhyVGhPeXh0UnJmMGY2MjBI!2m2!1d38.881931149162!2d-77.111277550491!3f261.001560286847!4f0.5531476223754623!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.881931149162,
+        "longitude": -77.111277550491,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-016",
+      "station": "BENNING ROAD",
+      "description": "Benning Rd. north of E. Capitol St. (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/benning-rd/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577998769149!6m8!1m7!1sCAoSLEFGMVFpcE1FMFlEUlBNeElIcVlJX3VCWnZUZUJIcnRrZ2ZBTFVFOXVuWUlV!2m2!1d38.890530204398!2d-76.937508344427!3f299.94241838739674!4f1.7395788196317739!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.890530204398,
+        "longitude": -76.937508344427,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-017",
+      "station": "BENNING ROAD",
+      "description": "Benning Rd. north of E. Capitol St.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/benning-rd/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577998683502!6m8!1m7!1sCAoSLEFGMVFpcE9QejRFZFZYZEFHVGpPMk1lbjRyV19OUGRGN3dxSjRzTDctSGds!2m2!1d38.890387001306!2d-76.937287155659!3f260.920930667315!4f5.168977675417182!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.890387001306,
+        "longitude": -76.937287155659,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-018",
+      "station": "BETHESDA",
+      "description": "West side of Wisconsin Ave. at Montgomery Lane",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/bethesda/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577814045070!6m8!1m7!1sCAoSLEFGMVFpcE12VmYyX3llMGU5ZUhkdFlaRDRHejJTLWhLczRwSFlmb0RsbGds!2m2!1d38.984731194176!2d-77.09465521786!3f151.88258922394357!4f-0.5796260547311789!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.984731194176,
+        "longitude": -77.09465521786,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-019",
+      "station": "BETHESDA",
+      "description": "West side of Wisconsin Ave. at Montgomery Lane (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/bethesda/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577815612352!6m8!1m7!1sCAoSLEFGMVFpcFB6c054NFZKSi1tZ0xkWmhJbUJkQ2IxbkxpSXp6d00yYjIzTzY2!2m2!1d38.98364327978!2d-77.094062636184!3f241.00488818276912!4f0.9202854271599961!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.98364327978,
+        "longitude": -77.094062636184,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-020",
+      "station": "BRADDOCK ROAD",
+      "description": "North side Braddock Rd. At West St.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/braddock-rd/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1591996866116!6m8!1m7!1sCAoSLEFGMVFpcE1iTENBd0ZjTUlULWdZY0tYTFp5OE9RSVdVamE1clo4SnV2VzNo!2m2!1d38.813711547475!2d-77.053808049644!3f323.19750515736547!4f6.802428568640991!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.813711547475,
+        "longitude": -77.053808049644,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-021",
+      "station": "BRANCH AVENUE",
+      "description": "Old Soper Rd. & Auth Rd.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/branch-av/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577989003498!6m8!1m7!1sCAoSLEFGMVFpcE1IOWhnX1VZbUhCb2J3R3c0RFRjekZmMi16TERBN0lRZ1NGT3Yx!2m2!1d38.826965283397!2d-76.912632908533!3f27.067520881200434!4f3.433330408945679!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.826965283397,
+        "longitude": -76.912632908533,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-022",
+      "station": "BRANCH AVENUE",
+      "description": "Branch Ave. & Auth Way.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/branch-av/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577989043058!6m8!1m7!1sCAoSLEFGMVFpcE9FSmVKWmdrbHZwNHgyUENXVUZJNUxXWm52VFBrSUFBbGJ4eHNK!2m2!1d38.827235110017!2d-76.91236840102!3f242.34483602688184!4f4.929732679837215!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.827235110017,
+        "longitude": -76.91236840102,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-023",
+      "station": "BROOKLAND-CUA",
+      "description": "John F Mccormack Rd NE & Michigan Ave NE",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/brookland-cua/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1570568403568!6m8!1m7!1sCAoSLEFGMVFpcE9NU0JuUC1Kd0txNFg1QVVrVEctazhxcWJINVFNV1phZ2g4ZE1P!2m2!1d38.933947578593!2d-76.995077545459!3f181.53797665141371!4f7.11977382589653!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.933947578593,
+        "longitude": -76.995077545459,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-024",
+      "station": "BROOKLAND-CUA",
+      "description": "Michigan Ave. & Bunker Hill Rd. NE",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/brookland-cua/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1570568565011!6m8!1m7!1sCAoSLEFGMVFpcE5MOXVEVUxxOTRNVGhDaWFtaFdfOWd5aEhyZF9XM1VPRTVTYWhl!2m2!1d38.933465249915!2d-76.994234040668!3f311.68390312386!4f2.754366572453762!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.933465249915,
+        "longitude": -76.994234040668,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-025",
+      "station": "BROOKLAND-CUA",
+      "description": "Michigan Ave. & Bunker Hill Rd. NE (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/brookland-cua/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1570568619181!6m8!1m7!1sCAoSLEFGMVFpcFBmVlE4cWs3Q3BqTTlxUV9Iek5aZUk1c0tmNldpZnFZYTgzMllf!2m2!1d38.933784851217!2d-76.994329974646!3f249.60114927472432!4f3.861374830235704!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.933784851217,
+        "longitude": -76.994329974646,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-026",
+      "station": "CAPITOL HEIGHTS",
+      "description": "E. Capitol St. & Southern Ave. (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/capitol-heights/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1591997041460!6m8!1m7!1sCAoSLEFGMVFpcE9jZ011NjZZNE03QkprVVVBaTdiTzQ5c0hGTnJKODNtVTlVdEFj!2m2!1d38.889241539817!2d-76.913006893268!3f65.58635037785226!4f12.531505308071772!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.889241539817,
+        "longitude": -76.913006893268,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-027",
+      "station": "CAPITOL HEIGHTS",
+      "description": "E. Capitol St. & Southern Ave.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/capitol-heights/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1591996991307!6m8!1m7!1sCAoSLEFGMVFpcFA2U004S2pxN0dwZnZmcnVrRkF0bFo5NndlcmV1eWhoNzNBTi1R!2m2!1d38.889197893812!2d-76.913385757239!3f66.85661683924893!4f1.7083636312056427!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.889197893812,
+        "longitude": -76.913385757239,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-028",
+      "station": "CAPITOL SOUTH",
+      "description": "First & C St. SE",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/capitol-south/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1591997113640!6m8!1m7!1sCAoSLEFGMVFpcFBGVXRCSld0TDVidGNzZllxZXVjSEtrZ0I1N1V4QnpyZjcyamtJ!2m2!1d38.885700350684!2d-77.00599766869!3f245.98836497479618!4f0.3918554920551003!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.885700350684,
+        "longitude": -77.00599766869,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-029",
+      "station": "CAPITOL SOUTH",
+      "description": "First & D St. SE (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/capitol-south/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1591997156199!6m8!1m7!1sCAoSLEFGMVFpcE9uZkR4SEFQZV8tOElvZC1ZZnhPX2VLaGNQSi1yQzlrUzFQRmQ0!2m2!1d38.885133119771!2d-77.006150739628!3f355.45043245621247!4f-1.3740077999462983!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.885133119771,
+        "longitude": -77.006150739628,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-030",
+      "station": "CHEVERLY",
+      "description": "Columbia Park Rd. south of Rt. 50",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/cheverly/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1575928016531!6m8!1m7!1sCAoSLEFGMVFpcE0xZHBsQlNlajJGQ2RJTmZnNW5zU3YyYkMwcmNUcHFUQTk2RWFF!2m2!1d38.91629572889!2d-76.916356043101!3f253.19585540680902!4f-11.82495018605367!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.91629572889,
+        "longitude": -76.916356043101,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-031",
+      "station": "CLARENDON",
+      "description": "Wilson Blvd. & N. Highland St. (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/clarendon/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577815982793!6m8!1m7!1sCAoSLEFGMVFpcE1BU3BNcmZBXzJOTktOMm50Z2l1VlIwaThpWVJ3MnJBZnNQMFc1!2m2!1d38.886786023466!2d-77.095624012085!3f226.58077792378754!4f3.896696649984179!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.886786023466,
+        "longitude": -77.095624012085,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-032",
+      "station": "CLARENDON",
+      "description": "Wilson Blvd. & N. Highland St.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/clarendon/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577816051389!6m8!1m7!1sCAoSLEFGMVFpcE9OdHM3ZV92RTE4bUhfZHVyUG5qV2o1cUZTdnBrQWlJNnZSdU45!2m2!1d38.887263310124!2d-77.095067144813!3f192.84726785856114!4f3.7083092405151064!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.887263310124,
+        "longitude": -77.095067144813,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-033",
+      "station": "CLEVELAND PARK",
+      "description": "East side of Connecticut Ave., north of Ordway St. NW",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/cleveland-park/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1568750456038!6m8!1m7!1sCAoSLEFGMVFpcFAyOVptSExCZkNuWFpyNEJwdGczTldobUlxR2gxeVJFbHBzOXlx!2m2!1d38.935871777182!2d-77.058490172632!3f3.491196773129674!4f5.3606435848191865!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.935871777182,
+        "longitude": -77.058490172632,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-034",
+      "station": "CLEVELAND PARK",
+      "description": "East side of Connecticut Ave., north of Ordway St. NW (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/cleveland-park/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1568752561580!6m8!1m7!1sCAoSLEFGMVFpcE9WS09xQkYxRW45Rk45WWN6ay1SMEdjZEtLRm42cy1VYmxwZTdu!2m2!1d38.935717517191!2d-77.058439321981!3f28.59553322182503!4f0.09171281749908644!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.935717517191,
+        "longitude": -77.058439321981,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-035",
+      "station": "COLLEGE PARK-U OF MD",
+      "description": "River Rd & Campus Dr",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/college-park-u-of-md/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577826621903!6m8!1m7!1sCAoSLEFGMVFpcE43T0lxWXNIYTdBdkU5eC0tSlY4LThjQnBMMFNSTmxiR0xBY0Vx!2m2!1d38.978124982436!2d-76.927856976526!3f342.54772842086794!4f2.4858864256282374!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.978124982436,
+        "longitude": -76.927856976526,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-036",
+      "station": "COLLEGE PARK-U OF MD",
+      "description": "Calvert Rd (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/college-park-u-of-md/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577826859550!6m8!1m7!1sCAoSLEFGMVFpcE9fSlFVU25aYlExelNGM3UxcFBIY2ItcXZCR1JXRmdueUtDODY1!2m2!1d38.978357454034!2d-76.92876126865!3f100.0263312621687!4f-1.6322075919851784!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.978357454034,
+        "longitude": -76.92876126865,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-037",
+      "station": "COLLEGE PARK-U OF MD",
+      "description": "Calvert Rd",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/college-park-u-of-md/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577826897185!6m8!1m7!1sCAoSLEFGMVFpcE02b3oySUhHZWEzbF9jTmRsN2dIY2dnNU11SjBSQUtwQUp6RTBT!2m2!1d38.978397787296!2d-76.928925495172!3f174.41670348042123!4f2.5717473706753395!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.978397787296,
+        "longitude": -76.928925495172,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-038",
+      "station": "COLUMBIA HEIGHTS",
+      "description": "NE corner of 14th and Irving St. NW",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/columbia-heights/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1591997380911!6m8!1m7!1sCAoSLEFGMVFpcE9EQ2FQTGE0Q1otNTdORnB4V3IxVmptY1VRQTEzVUdsWWlPN2FH!2m2!1d38.929039417022!2d-77.032494892633!3f156.20676141989946!4f7.378243877509732!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.929039417022,
+        "longitude": -77.032494892633,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-039",
+      "station": "COLUMBIA HEIGHTS",
+      "description": "SW corner of 14th and Irving St. NW",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/columbia-heights/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1591997502113!6m8!1m7!1sCAoSLEFGMVFpcE5qaFBYNGdEay1sVVJ4THFRS0pTSHpmUnlDeFZHNW5FeDBVUFBv!2m2!1d38.92869066074!2d-77.033169436226!3f132.41162318455324!4f4.512087096091506!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.92869066074,
+        "longitude": -77.033169436226,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-040",
+      "station": "COLUMBIA HEIGHTS",
+      "description": "SW corner of 14th and Irving St. NW (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/columbia-heights/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1591997548958!6m8!1m7!1sCAoSLEFGMVFpcE1EQ2pxTkpwM1hwekJlR0ZtVEMzVm5JV2JfVDExT05DWVRmbFZ6!2m2!1d38.928561373625!2d-77.03276107809!3f256.9444145445319!4f6.026253008389816!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.928561373625,
+        "longitude": -77.03276107809,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-041",
+      "station": "CONGRESS HEIGHTS",
+      "description": "South of Alabama Ave SE near 13th St. SE",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/congress-heights/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1591997811013!6m8!1m7!1sCAoSLEFGMVFpcFBTdVpYSHZSUlJmbEtON2xtZjNvdEJzeWwxQmhPQXVFMXNyS09z!2m2!1d38.844545899243!2d-76.987645609394!3f38.51533395116265!4f-0.09445703354974455!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.844545899243,
+        "longitude": -76.987645609394,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-042",
+      "station": "CONGRESS HEIGHTS",
+      "description": "Alabama Ave & 13th St. SE (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/congress-heights/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1591997721642!6m8!1m7!1sCAoSLEFGMVFpcE1PNVh2Q1NHbFQtOEs4a0g1RWxJYnVlMDRqRDRsNmh3SzR4STlN!2m2!1d38.845240606397!2d-76.987835052241!3f177.63653270571112!4f3.0148408251447023!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.845240606397,
+        "longitude": -76.987835052241,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-043",
+      "station": "CONGRESS HEIGHTS",
+      "description": "Alabama Ave & 13th St. SE",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/congress-heights/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1591997675040!6m8!1m7!1sCAoSLEFGMVFpcFBOZHF5cHByUkk1VnZMM3J6RHFXcTB5WlFWU2pBRXQ2T0QwaDE1!2m2!1d38.845466609587!2d-76.987862536488!3f114.31218464810874!4f6.036148718412321!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.845466609587,
+        "longitude": -76.987862536488,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-044",
+      "station": "COURT HOUSE",
+      "description": "Clarendon Blvd. & N. Court House Rd. (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/court-house/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1591998053348!6m8!1m7!1sCAoSLEFGMVFpcE9Hdjd4Y2NmcGlJdUF5RzduanpiSlFZV2lHMHMtdzdzcXJjdG14!2m2!1d38.890507968689!2d-77.086098894934!3f153.02560305149314!4f14.938955104591585!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.890507968689,
+        "longitude": -77.086098894934,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-045",
+      "station": "COURT HOUSE",
+      "description": "Clarendon Blvd. & N. Court House Rd.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/court-house/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1591997972791!6m8!1m7!1sCAoSLEFGMVFpcE43cXlwRGFQVHNoWWNVTGVPZFdab0pub2llaGlxVjVETlJOWkc3!2m2!1d38.891294796289!2d-77.085025492975!3f169.12354015483217!4f7.3981046677157565!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.891294796289,
+        "longitude": -77.085025492975,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-046",
+      "station": "CRYSTAL CITY",
+      "description": "S Bell St & 18th St S",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/crystal-city/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1591998379968!6m8!1m7!1sCAoSLEFGMVFpcE9FQU9QMXR1QW8yOEJ1TG9DRkhDWF9kTk9tMTl3cHRFWHhVNHdz!2m2!1d38.857974518562!2d-77.051524342508!3f32.96450402295396!4f3.366213032134567!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.857974518562,
+        "longitude": -77.051524342508,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-047",
+      "station": "CRYSTAL CITY",
+      "description": "S Bell St & 18th St S (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/crystal-city/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1591998472137!6m8!1m7!1sCAoSLEFGMVFpcFBYYUxmd0lCNmFBWGtZbVQxNUljZHJQRElaQzdNTDRYR2hfZjhT!2m2!1d38.858041988309!2d-77.050784799439!3f185.03428506915105!4f-3.9488647517619597!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.858041988309,
+        "longitude": -77.050784799439,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-048",
+      "station": "DEANWOOD",
+      "description": "Polk St. NE & Olive St. NE (Tunnel)",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/deanwood/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1591998643119!6m8!1m7!1sCAoSLEFGMVFpcE0zU0lEd2RkdkMtVlh6TnpXM1pTREkyMTBzQlpXWWlKMGFyRUNU!2m2!1d38.90858962162!2d-76.935218937125!3f143.20225981425148!4f2.4910249771326107!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.90858962162,
+        "longitude": -76.935218937125,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-049",
+      "station": "DEANWOOD",
+      "description": "Minnesota Ave. NE, between Nash & 48th St. (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/deanwood/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1591998794343!6m8!1m7!1sCAoSLEFGMVFpcE5MV0JEUmJpYTVNc1M1SURnamVydHVXVFMyVTBHRFdIVzRlMXBv!2m2!1d38.908175552677!2d-76.934821437256!3f324.6691101834101!4f5.317632516068443!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.908175552677,
+        "longitude": -76.934821437256,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-050",
+      "station": "DEANWOOD",
+      "description": "Minnesota Ave. NE, between Nash & 48th St.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/deanwood/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1591998732765!6m8!1m7!1sCAoSLEFGMVFpcE5pRG5nVFJlRHdtSFBsQ2J1V05FXzBmVGVqWVdnOEI3N3RuazQ0!2m2!1d38.908298657348!2d-76.934542393967!3f297.1862163846666!4f2.196662173256655!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.908298657348,
+        "longitude": -76.934542393967,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-051",
+      "station": "DOWNTOWN LARGO",
+      "description": "Lottsford Rd. (North)",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/downtown-largo/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592001940269!6m8!1m7!1sCAoSLEFGMVFpcE9pRGVHdTBSNmliTm84RzJNbXNVZ3pmdFpfNDlaeUJtYnJIUW1D!2m2!1d38.900226565293!2d-76.845313234127!3f150.2679712739707!4f9.07396454438883!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.900226565293,
+        "longitude": -76.845313234127,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-052",
+      "station": "DOWNTOWN LARGO",
+      "description": "Harry S. Truman Dr. & Largo Dr.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/downtown-largo/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592001887122!6m8!1m7!1sCAoSLEFGMVFpcE83OTdKVkdlWGhoYlF4ZWluNjFoMU4xdGtUVTJTeHMyajZmeXFM!2m2!1d38.899779926725!2d-76.844831123274!3f308.91607206485634!4f-0.23545172053776753!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.899779926725,
+        "longitude": -76.844831123274,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-053",
+      "station": "DUNN LORING-MERRIFIELD",
+      "description": "Gallows Rd. & I-66",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/dunn-loring/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577801884941!6m8!1m7!1sCAoSLEFGMVFpcE8zRGtGeUtmZHJaOGd3YU9hY1k2X1lKVkFvQnJsVjBlYW5yandT!2m2!1d38.882707894579!2d-77.228351049843!3f324.06062477940776!4f-0.47596008958470293!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.882707894579,
+        "longitude": -77.228351049843,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-054",
+      "station": "DUPONT CIRCLE",
+      "description": "Connecticut Ave. & 19th St. NW",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/dupont-circle/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1775601044044!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJQ1hwZmVzdXdF!2m2!1d38.90854749706871!2d-77.04331885645252!3f17.875139520791095!4f-13.032516453281218!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.90854749706871,
+        "longitude": -77.04331885645252,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-055",
+      "station": "DUPONT CIRCLE",
+      "description": "Connecticut Ave. & Q St. NW",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/dupont-circle/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577811365126!6m8!1m7!1sCAoSLEFGMVFpcFBOaFdzOWNaV3FhV0tlOHRqTjlOc1N5R1RpX2VCVDNvZVZORVpQ!2m2!1d38.911025967807!2d-77.044782358592!3f126.4862292401872!4f-7.276155801114925!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.911025967807,
+        "longitude": -77.044782358592,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-056",
+      "station": "DUPONT CIRCLE",
+      "description": "Connecticut Ave. & Q St. NW (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/dupont-circle/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577811433432!6m8!1m7!1sCAoSLEFGMVFpcFBFT0RZeFh6b09HVUtrZlFIZ2hrUDJxUkVOMExJMkdjY2huVFp1!2m2!1d38.910799259855!2d-77.044553621515!3f248.47325291093904!4f7.0118131946338025!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.910799259855,
+        "longitude": -77.044553621515,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-057",
+      "station": "EAST FALLS CHURCH",
+      "description": "N. Sycamore St. & I-66",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/east-falls-church/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577817719756!6m8!1m7!1sCAoSLEFGMVFpcE1WM182dHJKVzZtbDVIaWlvaWJzWXRGTE1XbTdQOU1Da2otX1ZR!2m2!1d38.885786710889!2d-77.156473017262!3f316.11!4f1.8199999999999932!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.885786710889,
+        "longitude": -77.156473017262,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-058",
+      "station": "EASTERN MARKET",
+      "description": "Pennsylvania Ave. & 7th St. SE",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/eastern-market/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1591998949886!6m8!1m7!1sCAoSLEFGMVFpcE84NWV1RDVWX0hRN1FDek5id1k1QVV0Vm8zNV83ck9TWVFqeWpD!2m2!1d38.884254191208!2d-76.995663150254!3f227.14570718254407!4f1.1566478258684754!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.884254191208,
+        "longitude": -76.995663150254,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-059",
+      "station": "EASTERN MARKET",
+      "description": "Pennsylvania Ave. & 7th St. SE (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/eastern-market/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1591998995755!6m8!1m7!1sCAoSLEFGMVFpcE82S3FOWi1tSFJQQ0NNN25LU0Rhb2ZsWnVOaTg0SGhoTjhrVWt1!2m2!1d38.884234955226!2d-76.996008011552!3f286.1299637005109!4f6.463725570860433!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.884234955226,
+        "longitude": -76.996008011552,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-060",
+      "station": "EISENHOWER AVENUE",
+      "description": "Eisenhower Ave. & Swamp Fox Rd.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/eisenhower-av/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1591999218155!6m8!1m7!1sCAoSLEFGMVFpcE5FdVgxWXplei1SUHVlSzJMWkFmanpuX2NITU5KMTVKd2UwMGRl!2m2!1d38.800622043029!2d-77.071063548432!3f124.39496508384875!4f7.389416112628197!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.800622043029,
+        "longitude": -77.071063548432,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-061",
+      "station": "FARRAGUT NORTH",
+      "description": "NE corner Connecticut Ave. & K St., NW",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/farragut-north/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1601493220680!6m8!1m7!1sCAoSLEFGMVFpcE5VaDJpQ0tYdEVZUmFWWlJyVlFQZFR5SlVxcGFVRTdLa2VCUEFE!2m2!1d38.902602806582!2d-77.039309432578!3f42.64641050980083!4f-5.240335499652431!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.902602806582,
+        "longitude": -77.039309432578,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-062",
+      "station": "FARRAGUT NORTH",
+      "description": "NE corner Connecticut Ave. & K St., NW (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/farragut-north/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1568736143316!6m8!1m7!1sCAoSLEFGMVFpcE5MMF90eTlEMEFyUjA5WnBweHlQLU1sVXQxR3VwVWhCSlN2WkY5!2m2!1d38.903004255816!2d-77.03935853519!3f66.02622900134817!4f-2.2095973799920756!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.903004255816,
+        "longitude": -77.03935853519,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-063",
+      "station": "FARRAGUT NORTH",
+      "description": "NE corner Connecticut Ave. & L St., NW",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/farragut-north/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1568732487177!6m8!1m7!1sCAoSLEFGMVFpcE03QWVfRkVqU3YxcWhweUpjcHVDZXR5VjNfa1hlN2RVVWZNMUdC!2m2!1d38.903826166093!2d-77.039793587254!3f355.28622478182643!4f5.15687197166767!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.903826166093,
+        "longitude": -77.039793587254,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-064",
+      "station": "FARRAGUT NORTH",
+      "description": "SW corner Connecticut Ave. & L St., NW",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/farragut-north/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1568731960271!6m8!1m7!1sCAoSLEFGMVFpcE9ETHYtUTIxdFg3OVNCMjlYc1NxSzJiWUZZVDhBVS1ObW1XY3RT!2m2!1d38.903636305729!2d-77.040252602162!3f145.21810586971273!4f2.1317418680341262!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.903636305729,
+        "longitude": -77.040252602162,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-065",
+      "station": "FARRAGUT WEST",
+      "description": "NW corner 18th & I St., NW",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/farragut-west/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1591999409324!6m8!1m7!1sCAoSLEFGMVFpcE5aMDllUTdGTHl5MXdjZ0ZkMExvOGcyaWw4TnNLSjdETnV0OTJH!2m2!1d38.901648241308!2d-77.041964361095!3f174.36093038403578!4f3.5987543158750697!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.901648241308,
+        "longitude": -77.041964361095,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-066",
+      "station": "FARRAGUT WEST",
+      "description": "NW corner 18th & I St., NW (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/farragut-west/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1591999458920!6m8!1m7!1sCAoSLEFGMVFpcE1JTFotQkpQVzFGbjRZT3JJTWc4eVk3NlZicWtVei05aEZyWGtu!2m2!1d38.901523301269!2d-77.041892160585!3f179.3631589405713!4f4.928777532906523!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.901523301269,
+        "longitude": -77.041892160585,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-067",
+      "station": "FARRAGUT WEST",
+      "description": "SE corner 17th & I St., NW",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/farragut-west/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1591999658874!6m8!1m7!1sCAoSLEFGMVFpcE5JY2w0TEpQTzFETzU5ZEtKZXJoTF9mbzdrNmJzVzNEWUZsaDhM!2m2!1d38.90116861952!2d-77.03913083317!3f263.8724863511649!4f-5.859871768541112!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.90116861952,
+        "longitude": -77.03913083317,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-068",
+      "station": "FEDERAL CENTER SW",
+      "description": "3rd St.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/federal-center-sw/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1591999768306!6m8!1m7!1sCAoSLEFGMVFpcE9wblJHU2ZjT05yU3lwaFYybE9jbjU1TEl5dGdWRVdXZ3dNTFIy!2m2!1d38.88486411184!2d-77.01532047266!3f268.51094600066915!4f1.2925074707514739!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.88486411184,
+        "longitude": -77.01532047266,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-069",
+      "station": "FEDERAL CENTER SW",
+      "description": "3rd St. (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/federal-center-sw/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1591999848737!6m8!1m7!1sCAoSLEFGMVFpcE5tTVhEa2VvV044YVNPcF9ZbDNIVzd2MkU5eF9PNElMMGlXRHA0!2m2!1d38.885007023219!2d-77.015967629674!3f202.03368621809452!4f8.678753711653314!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.885007023219,
+        "longitude": -77.015967629674,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-070",
+      "station": "FEDERAL TRIANGLE",
+      "description": "West side of 12th St. between Pennsylvania & Constitution Ave. NW",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/federal-triangle/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1591999972587!6m8!1m7!1sCAoSLEFGMVFpcE5ZNHdBSzVJdHJJOU5TWllsVmJZc0JsTXhKYnVtQXkzb0ZTaXJF!2m2!1d38.893827488141!2d-77.029109405003!3f70.71171364587951!4f13.507991861491988!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.893827488141,
+        "longitude": -77.029109405003,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-071",
+      "station": "FEDERAL TRIANGLE",
+      "description": "West side of 12th St. between Pennsylvania & Constitution Ave. NW (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/federal-triangle/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1591999929393!6m8!1m7!1sCAoSLEFGMVFpcFBPa0dMSEwxZUUzd3o2V1kwdTMzb3NPS1ZsNW5UQVBITnRWVHU4!2m2!1d38.893836764041!2d-77.028317066672!3f181.79178919939852!4f5.250714721388491!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.893836764041,
+        "longitude": -77.028317066672,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-072",
+      "station": "FOGGY BOTTOM-GWU",
+      "description": "NW corner 23rd & I St. NW",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/foggy-bottom-gwu/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592000049320!6m8!1m7!1sCAoSLEFGMVFpcE5Hdml1SjJWaXJPYkw4Wl9VcXRnamhMamR5bEQyeTBVZzBFQi1D!2m2!1d38.900874380033!2d-77.050258166216!3f259.3141874071198!4f0.46476702771985856!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.900874380033,
+        "longitude": -77.050258166216,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-073",
+      "station": "FOGGY BOTTOM-GWU",
+      "description": "NW corner 23rd & I St. NW (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/foggy-bottom-gwu/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592000110743!6m8!1m7!1sCAoSLEFGMVFpcFBTY0JYMEFETVdLamhkdGJwOVZCY2J3Sjl1NUpQV205aE5LMnRL!2m2!1d38.900799339758!2d-77.050767503616!3f306.7780686759303!4f-2.5564841542907857!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.900799339758,
+        "longitude": -77.050767503616,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-074",
+      "station": "FOREST GLEN",
+      "description": "Elkton Ave & Forest Glen Rd.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/forest-glen/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577818282073!6m8!1m7!1sCAoSLEFGMVFpcE9VbnEtUXduNDY0d2JrYU9qaGNZV3kzSERBb055cHBmTFI5R1Fm!2m2!1d39.015875685241!2d-77.044435446705!3f147.56617400058815!4f5.3516654073181655!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 39.015875685241,
+        "longitude": -77.044435446705,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-075",
+      "station": "FOREST GLEN",
+      "description": "Georgia Ave & Forest Glen Rd.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/forest-glen/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577818348218!6m8!1m7!1sCAoSLEFGMVFpcFA0UGhBUTVCNUdWbHpNODZlY3M2Y0RmSlpsams2YnY1Mk5RenpM!2m2!1d39.015274692282!2d-77.0436773333!3f35.140097928110684!4f1.8334387293599974!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 39.015274692282,
+        "longitude": -77.0436773333,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-076",
+      "station": "FORT TOTTEN",
+      "description": "Galloway St. & First Place, NE",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/fort-totten/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1575930647431!6m8!1m7!1sCAoSLEFGMVFpcE9DQS04ZjgyQzhtNGRZV1NFaWdaQlJSVFRvMnFyTTZBLW9sazVL!2m2!1d38.952229672142!2d-77.002035599612!3f204.59636317997223!4f3.486367199390557!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.952229672142,
+        "longitude": -77.002035599612,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-077",
+      "station": "FRANCONIA-SPRINGFIELD",
+      "description": "Franconia-Springfield Parkway at Frontier Dr.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/franconia-springfield/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592000354148!6m8!1m7!1sCAoSLEFGMVFpcFBvNjZGemxId2dQbDRzNzBlalo0MjZlS3VnR2g4RmwwNW5CRXBi!2m2!1d38.766864949162!2d-77.169141604681!3f175.9505567124517!4f8.197476418937413!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.766864949162,
+        "longitude": -77.169141604681,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-078",
+      "station": "FRIENDSHIP HEIGHTS",
+      "description": "East side Wisconsin Ave., NW at Western Ave.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/friendship-heights/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577819391234!6m8!1m7!1sCAoSLEFGMVFpcFAzYzMwZHlQc1h4TEV4TXpLTzVHa01ablBHcFZ1NXZDZEowMUVp!2m2!1d38.961289911284!2d-77.085612941298!3f231.3608152021348!4f-9.905907627945737!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.961289911284,
+        "longitude": -77.085612941298,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-079",
+      "station": "FRIENDSHIP HEIGHTS",
+      "description": "East side Wisconsin Ave., NW at Western Ave. (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/friendship-heights/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577819701150!6m8!1m7!1sCAoSLEFGMVFpcE8zQkxxeThocEVvNTRfN3l0T0FEX20tTmRsbElLbmpQOFoyV1pm!2m2!1d38.960208504883!2d-77.085243879367!3f46.614892569242436!4f-4.976113307612678!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.960208504883,
+        "longitude": -77.085243879367,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-080",
+      "station": "FRIENDSHIP HEIGHTS",
+      "description": "SW corner Wisconsin Ave. & Jenifer St. (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/friendship-heights/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577819202074!6m8!1m7!1sCAoSLEFGMVFpcE9XYVZQTzJFaXh1MWRRNUpISXM1YXlpZzM2QmFsN29TUF9sTmh4!2m2!1d38.958513515445!2d-77.08485733078!3f244.39888658799524!4f5.114966300349494!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.958513515445,
+        "longitude": -77.08485733078,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-081",
+      "station": "FRIENDSHIP HEIGHTS",
+      "description": "West side Wisconsin Ave., NW at Western Ave.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/friendship-heights/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577819772621!6m8!1m7!1sCAoSLEFGMVFpcFBpNkJONGxlNVpTM2VQQlk2V3pJcmN1cGx2QkxlbjdPUnB0ZmlU!2m2!1d38.960964694415!2d-77.086026223417!3f242.07780369256014!4f0.3495117456198358!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.960964694415,
+        "longitude": -77.086026223417,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-082",
+      "station": "GALLERY PL-CHINATOWN",
+      "description": "Entrance A - 7th & F St., NW",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/gallery-place/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1546528893297!6m8!1m7!1sCAoSLEFGMVFpcE9ZNkVWMGtoX1Ixa2VVRTV4NDhKX01rVFRSWm5xX1NlbWl1SmFR!2m2!1d38.898181956911!2d-77.022053501483!3f90.76422613220262!4f-1.25538875465962!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.898181956911,
+        "longitude": -77.022053501483,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-083",
+      "station": "GALLERY PL-CHINATOWN",
+      "description": "Entrance B - 9th & G St., NW",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/gallery-place/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1546542160165!6m8!1m7!1sCAoSLEFGMVFpcFBJX3NEU3R6QWNhak5CWU4wbzExM29WVFVsRnpVTFZ4SDZiMlZF!2m2!1d38.898374105667!2d-77.023245385539!3f34.047448881733914!4f-10.18607942867743!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.898374105667,
+        "longitude": -77.023245385539,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-084",
+      "station": "GALLERY PL-CHINATOWN",
+      "description": "Entrance C - 7th & H St., NW",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/gallery-place/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1546542022419!6m8!1m7!1sCAoSLEFGMVFpcE5Tcy10MnhJclFjWHlLOGhtaVhHbktGVVl0R0VNbnZUaWtORXFm!2m2!1d38.89901024442!2d-77.022017893825!3f120.54412305607217!4f1.298592783393957!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.89901024442,
+        "longitude": -77.022017893825,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-085",
+      "station": "GALLERY PL-CHINATOWN",
+      "description": "Entrance D - 7th & G St., NW (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/gallery-place/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1546542205389!6m8!1m7!1sCAoSLEFGMVFpcE9UWnFyR3ktSE1xM1R4YUNLT3dXTjFKelIybkUyRVJSdkNWaXQ1!2m2!1d38.898215751428!2d-77.022041929786!3f87.2033407770471!4f-1.5904145160917267!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.898215751428,
+        "longitude": -77.022041929786,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-086",
+      "station": "GEORGIA AVE-PETWORTH",
+      "description": "Georgia Ave NW & Quincy St. NW (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/georgia-av-petworth/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592001138877!6m8!1m7!1sCAoSLEFGMVFpcFAzTWtOMVZxeWttODNqU09NQ2ZJSjQ2MElsWlBzTjJWMUU2a3Qw!2m2!1d38.936848172642!2d-77.024554020169!3f247.14156345457215!4f0.6319870117260962!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.936848172642,
+        "longitude": -77.024554020169,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-087",
+      "station": "GEORGIA AVE-PETWORTH",
+      "description": "Georgia Ave NW & Quincy St. NW",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/georgia-av-petworth/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592001064055!6m8!1m7!1sCAoSLEFGMVFpcE5leXpHRk9kUjh6Q1ZLektCLWNTemhhdGFIOVNUaU5LRWV1LXk3!2m2!1d38.937202802986!2d-77.024722462474!3f168.3744676856463!4f-2.232054211557667!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.937202802986,
+        "longitude": -77.024722462474,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-088",
+      "station": "GEORGIA AVE-PETWORTH",
+      "description": "Georgia and New Hampshire Ave., NW",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/georgia-av-petworth/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592000984049!6m8!1m7!1sCAoSLEFGMVFpcE5JYnQ0aXEyRHVhYnhFdEwyTzJTcE9HeHRfMnEzdWFycVFsX1l1!2m2!1d38.936979117687!2d-77.02400936577!3f268.39919659986106!4f-1.1594785895686783!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.936979117687,
+        "longitude": -77.02400936577,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-089",
+      "station": "GLENMONT",
+      "description": "East side of Georgia Ave., north of Layhill Rd.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/glenmont/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1568815020180!6m8!1m7!1sCAoSLEFGMVFpcE5ZeGlsRExGdWM3ZmZhQ095MVFESUktdDdBYmNNVXlJTzdXM3Y1!2m2!1d39.062376274432!2d-77.053185438009!3f160.14773871528516!4f3.1825224837350135!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 39.062376274432,
+        "longitude": -77.053185438009,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-090",
+      "station": "GLENMONT",
+      "description": "East side of Georgia Ave., north of Layhill Rd. (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/glenmont/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1568815063412!6m8!1m7!1sCAoSLEFGMVFpcE4tVTVQeXFmZGZPRDRPUmJ0bUlsVGVQYVJZVy1NXzhwemJqbF8z!2m2!1d39.062307176739!2d-77.053382317862!3f190.35215095484472!4f0.650326652897931!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 39.062307176739,
+        "longitude": -77.053382317862,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-091",
+      "station": "GLENMONT",
+      "description": "West side of Georgia Ave., north of Layhill Rd.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/glenmont/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1568816449642!6m8!1m7!1sCAoSLEFGMVFpcE95NC02MDZjSEZ1Sk82WG9zdVY0Y0pFbTFxV2VkM05CdDNZc0It!2m2!1d39.061822220887!2d-77.053698161318!3f112.18302410344725!4f-2.2713967117439893!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 39.061822220887,
+        "longitude": -77.053698161318,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-092",
+      "station": "GLENMONT",
+      "description": "West side of Georgia Ave., north of Layhill Rd. (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/glenmont/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1568816824943!6m8!1m7!1sCAoSLEFGMVFpcE9wWVpCdEdSa1gtaTg2aW41RzdIenl4SS03bVB4UnlYM2FaaHFn!2m2!1d39.061942658528!2d-77.053601635782!3f325.2448613506714!4f4.502952915908182!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 39.061942658528,
+        "longitude": -77.053601635782,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-093",
+      "station": "GREENBELT",
+      "description": "Greenbelt Metro Dr. at Cherrywood Lane",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/greenbelt/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592001240755!6m8!1m7!1sCAoSLEFGMVFpcFBSaEp0aHdhemxKc0R0ZWhIQ0UzSm5rVFZUMndsQjhINGhOUTdW!2m2!1d39.010821761804!2d-76.910661044785!3f302.21946911536395!4f1.6075745392216163!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 39.010821761804,
+        "longitude": -76.910661044785,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-094",
+      "station": "GREENBELT",
+      "description": "Commuter Train Connection",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/greenbelt/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592001289058!6m8!1m7!1sCAoSLEFGMVFpcFBudVo5YlNWZkxzN0tRTTJqZnI1d3ZVdmJBbklONHB3Y2dITFFs!2m2!1d39.010817366067!2d-76.911962908721!3f106.48059658151125!4f-1.2536565671839242!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 39.010817366067,
+        "longitude": -76.911962908721,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-095",
+      "station": "GREENSBORO",
+      "description": "Leesburg Pike & Marshalls Dr. (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/greensboro/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577994947357!6m8!1m7!1sCAoSLEFGMVFpcFByZ21XM0ZXS2taYks0N21DcU5TTEU5R3ZQcFRNYTdiT1JKSTJp!2m2!1d38.920512201839!2d-77.23398384507!3f133.56770997619824!4f-1.5035410031764371!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.920512201839,
+        "longitude": -77.23398384507,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-096",
+      "station": "GREENSBORO",
+      "description": "Leesburg Pike & Marshalls Dr.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/greensboro/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577994882709!6m8!1m7!1sCAoSLEFGMVFpcE1FdUQzMFcwdjVoVWhjMHdXX1lVSnA5eGpyTVNieERQUW9KWlZs!2m2!1d38.920727040457!2d-77.234179401684!3f160.89919584550952!4f-11.84129499947737!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.920727040457,
+        "longitude": -77.234179401684,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-097",
+      "station": "GREENSBORO",
+      "description": "Leesburg Pike & Greensboro Station Pl. (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/greensboro/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577995079425!6m8!1m7!1sCAoSLEFGMVFpcFB5UklZRFlvaC1jZ1p3Z3FrbWZaa211bVVYU2J3VC1QZ0JUQTFz!2m2!1d38.920977986873!2d-77.233220097123!3f126.78427173253078!4f2.6235471204090715!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.920977986873,
+        "longitude": -77.233220097123,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-098",
+      "station": "GREENSBORO",
+      "description": "Leesburg Pike & Greensboro Station Pl.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/greensboro/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577995027759!6m8!1m7!1sCAoSLEFGMVFpcE8xSHZBNDNvZjdqLWhRMVYzYkJYTXZzT1VRa3BjQVpfRmUzMUlX!2m2!1d38.921142792864!2d-77.232937811691!3f217.76206847850636!4f-1.3164075333031633!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.921142792864,
+        "longitude": -77.232937811691,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-099",
+      "station": "GROSVENOR-STRATHMORE",
+      "description": "East side of Rockville Pike near Tuckerman Ln.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/grosvenor-strathmore/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1568755071757!6m8!1m7!1sCAoSLEFGMVFpcFAzUzZMMkpKcW5BQ1dVem5IWm5OQzd5V01VTHZaakVhVVYzb0st!2m2!1d39.028954854946!2d-77.103476183287!3f248.71353999669788!4f0.6684472845617933!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 39.028954854946,
+        "longitude": -77.103476183287,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-100",
+      "station": "GROSVENOR-STRATHMORE",
+      "description": "East side of Rockville Pike near Tuckerman Ln. ",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/grosvenor-strathmore/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592001396030!6m8!1m7!1sCAoSLEFGMVFpcE8xRzhvZHZqX2QwSkV4ZkN0bDR6Zk5lMTdrNlNOMjNmOXBYRUVB!2m2!1d39.028738546425!2d-77.10379992059!3f19.39482336229007!4f6.911485528446576!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 39.028738546425,
+        "longitude": -77.10379992059,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-101",
+      "station": "GROSVENOR-STRATHMORE",
+      "description": "West side of Rockville Pike near Tuckerman Ln.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/grosvenor-strathmore/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1568754968102!6m8!1m7!1sCAoSLEFGMVFpcFAxcXJuTGRFN1ItNms4RGlxM0hhVEFCRjA3bXlEWE1pbjNpNmhx!2m2!1d39.02869935!2d-77.104316216667!3f68.8353009075259!4f1.4752360286488653!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 39.02869935,
+        "longitude": -77.104316216667,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-102",
+      "station": "HERNDON",
+      "description": "Herndon-Monroe Park And Ride",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/herndon/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1712692455682!6m8!1m7!1sCAoSLEFGMVFpcE1DdEtsOW13ZDVNNWFlSXF6TEJVY2g4TmVEWWp4SVZfdmJTSWhi!2m2!1d38.951528902296!2d-77.384841889088!3f6.76!4f-18.150000000000006!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.951528902296,
+        "longitude": -77.384841889088,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-103",
+      "station": "HERNDON",
+      "description": "585 Herndon Pkwy",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/herndon/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1712692393406!6m8!1m7!1sCAoSLEFGMVFpcE03WlVUT0d6Mm8zb2lzNVE3Q0RCOXhOQS1hcWhXYlh3ZUYtb2Vs!2m2!1d38.953564559643!2d-77.384506933547!3f313.01!4f-4.150000000000006!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.953564559643,
+        "longitude": -77.384506933547,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-104",
+      "station": "HERNDON",
+      "description": "Herndon Station South Busbay (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/herndon/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1712692354735!6m8!1m7!1sCAoSLEFGMVFpcE5MeThLMFpDQURsWWJfS2R1RnIyMjlwTnRwMzI5cFEtdzZ4TThl!2m2!1d38.951784472431!2d-77.384835652162!3f279.15!4f2.0999999999999943!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.951784472431,
+        "longitude": -77.384835652162,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-105",
+      "station": "HERNDON",
+      "description": "585 Herndon Pkwy (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/herndon/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1712692309695!6m8!1m7!1sCAoSLEFGMVFpcE5sUXhlRFR5cTVWUWd5SG82SFFPNnlobmxBNWJPcEU4UG5RS1Q1!2m2!1d38.953584232788!2d-77.384859161708!3f285.35!4f-7.6299999999999955!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.953584232788,
+        "longitude": -77.384859161708,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-106",
+      "station": "HERNDON",
+      "description": "Herndon Station South Busbay",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/herndon/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1712692261082!6m8!1m7!1sCAoSLEFGMVFpcE1KcUtZOENXcVR5UEY3eFJ0TDNsZThFdXVPMnhaLTVIV3k3M3Rs!2m2!1d38.951765904259!2d-77.384434579239!3f290.8!4f-5.680000000000007!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.951765904259,
+        "longitude": -77.384434579239,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-107",
+      "station": "HUNTINGTON",
+      "description": "Huntington Ave. at Fenwick Dr.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/huntington/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592001490049!6m8!1m7!1sCAoSLEFGMVFpcE5VNWw5UzVnN055ZVFtTzlaU19FZ3BELUhEWWFwTFVLNl85cGRx!2m2!1d38.794834461783!2d-77.075068085619!3f205.38470569610158!4f8.902364215388701!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.794834461783,
+        "longitude": -77.075068085619,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-108",
+      "station": "HUNTINGTON",
+      "description": "Kings Highway, north of Fort Dr.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/huntington/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592001537703!6m8!1m7!1sCAoSLEFGMVFpcE1HZ3o5d3NHR2RFVFdjcGZiTUZuWTUtV3FhWEJKdHI4SlE2Q3NV!2m2!1d38.792422778545!2d-77.075918482371!3f18.099903905915326!4f5.257748096336044!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.792422778545,
+        "longitude": -77.075918482371,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-109",
+      "station": "HYATTSVILLE CROSSING",
+      "description": "South side of East-West Hwy., west of Belcrest Rd.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/hyattsville-crossing/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577995844369!6m8!1m7!1sCAoSLEFGMVFpcFBGQ3BlVkh5cklxeVdRYW9JcWhwS1JzaV9yMExsc0owZV9VTTc4!2m2!1d38.965438929462!2d-76.955577628213!3f197.4350322310002!4f-1.5447993788672818!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.965438929462,
+        "longitude": -76.955577628213,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-110",
+      "station": "INNOVATION CENTER",
+      "description": "Innovation Station North Busbay",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/innovation-center/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1712692749107!6m8!1m7!1sCAoSLEFGMVFpcFBMUzNkNU9CQjB6YnBTT3Y4YkJnN3c2LVF0S3VqUDJNM0FwMnpD!2m2!1d38.962053059419!2d-77.416856298624!3f145.33!4f-25.64!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.962053059419,
+        "longitude": -77.416856298624,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-111",
+      "station": "INNOVATION CENTER",
+      "description": "Innovation Station South Busbay",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/innovation-center/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1712692712553!6m8!1m7!1sCAoSLEFGMVFpcE54SFpnSTVuaUJja1VlNnlIZUVUTk56dkQ4alNNaVlSM1ZDYVZ2!2m2!1d38.959950771843!2d-77.417268581448!3f30.56!4f6.450000000000003!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.959950771843,
+        "longitude": -77.417268581448,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-112",
+      "station": "INNOVATION CENTER",
+      "description": "Innovation Station South Busbay (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/innovation-center/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1712692615638!6m8!1m7!1sCAoSLEFGMVFpcE5qd242bWdNNmRFeC0wNHVqeE9YT2h6c0l0eE9ueHJsMVF3X0dy!2m2!1d38.960203668887!2d-77.417143590507!3f288.89!4f-4.040000000000006!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.960203668887,
+        "longitude": -77.417143590507,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-113",
+      "station": "JUDICIARY SQUARE",
+      "description": "4th St. between D & E St.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/judiciary-sq/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1545935143067!6m8!1m7!1sCAoSLEFGMVFpcE1DS0VCTUs0UXF4VF9ieDY3LU5yeVFNNHY1YXZkcE1rTS1TU2dL!2m2!1d38.896091063779!2d-77.017131896832!3f71.43722219152146!4f6.244804002049662!5f0.40057115415536015",
+      "research_reference": {
+        "latitude": 38.896091063779,
+        "longitude": -77.017131896832,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-114",
+      "station": "JUDICIARY SQUARE",
+      "description": "F St., between 4th & 5th St. NW",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/judiciary-sq/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1545934264380!6m8!1m7!1sCAoSLEFGMVFpcFBYN1FGcGYtVlVQMHVWbjNteDM2bnFoaFVuTnVqM194WXNjajl5!2m2!1d38.897382540741!2d-77.017826170358!3f171.20479284190893!4f-10.902894617400761!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.897382540741,
+        "longitude": -77.017826170358,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-115",
+      "station": "JUDICIARY SQUARE",
+      "description": "F St., between 4th & 5th St. NW for Red Line To Glenmont (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/judiciary-sq/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1545934489046!6m8!1m7!1sCAoSLEFGMVFpcE9rM0Z5VndaTk9ZUXI2N2I4c0hJc0ZadW11dkZKWF9yTVI2ZmpR!2m2!1d38.897115982648!2d-77.017947549936!3f45.9880405026915!4f2.929894995699982!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.897115982648,
+        "longitude": -77.017947549936,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-116",
+      "station": "JUDICIARY SQUARE",
+      "description": "F St., between 4th & 5th St. NW for Red Line To Shady Grove (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/judiciary-sq/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1545934859789!6m8!1m7!1sCAoSLEFGMVFpcE1ZajEtSWY3ZUJlOV9naG5tM2hURXUwbU5IRFI5dFYya1BIT3F3!2m2!1d38.897077123024!2d-77.017647292756!3f225.89349351675511!4f-14.890609401932963!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.897077123024,
+        "longitude": -77.017647292756,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-117",
+      "station": "KING ST-OLD TOWN",
+      "description": "Commuter Train Connection",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/king-st-old-town/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592001707278!6m8!1m7!1sCAoSLEFGMVFpcFBKakFfM1pBWXYxY2tzM1hjTHlsQ0QzeEItbHVBX3diNDFySWUy!2m2!1d38.806708424359!2d-77.060836630661!3f227.22485911425676!4f-0.8650417049622519!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.806708424359,
+        "longitude": -77.060836630661,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-118",
+      "station": "KING ST-OLD TOWN",
+      "description": "King St. and Cameron St.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/king-st-old-town/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592001612701!6m8!1m7!1sCAoSLEFGMVFpcE8wLTVMajdDaU83UVR0THgtOWhibzBZN0J5aXZtYXFBdXpOUXpa!2m2!1d38.807240191841!2d-77.059846796072!3f29.081729855230055!4f2.2599306858667205!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.807240191841,
+        "longitude": -77.059846796072,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-119",
+      "station": "KING ST-OLD TOWN",
+      "description": "King St., west of Commonwealth Ave.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/king-st-old-town/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592001781252!6m8!1m7!1sCAoSLEFGMVFpcFBBTVhSbHZLbzBPVjlndFJxWlIyd0RSbE0wZTVrV1FtbHcxQ010!2m2!1d38.806337417249!2d-77.061334262333!3f49.09991755396729!4f-1.3752658404635554!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.806337417249,
+        "longitude": -77.061334262333,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-120",
+      "station": "L'ENFANT PLAZA",
+      "description": "SW Corner DOT Courtyard",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/l'enfant-plaza/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1599671758903!6m8!1m7!1sCAoSLEFGMVFpcE8yMkgzcWpCVndHcGc5MGYzUGhGaGM1QUp0TVYya2ttejNpb2hG!2m2!1d38.886115845851!2d-77.022038997778!3f268.3182655488616!4f-0.08129411665731823!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.886115845851,
+        "longitude": -77.022038997778,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-121",
+      "station": "L'ENFANT PLAZA",
+      "description": "Entrance A - 7 St, Maryland Av",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/l'enfant-plaza/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1599671700132!6m8!1m7!1sCAoSLEFGMVFpcFAyd0x1R1cwR1NIZVFyT01rZ25hM1QwQVFsUFJtSWloUmptdE1Y!2m2!1d38.886272800379!2d-77.021608974728!3f256.0605163574219!4f0!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.886272800379,
+        "longitude": -77.021608974728,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-122",
+      "station": "L'ENFANT PLAZA",
+      "description": "Entrance C - 9 St, L'Enfant Plaza",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/l'enfant-plaza/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1599671816037!6m8!1m7!1sCAoSLEFGMVFpcE1FdlUtWWN5YjFGSWN3cEU4WTFZcXhoSmFzLWRWMDRMMjEtVzBl!2m2!1d38.88461300982!2d-77.023575939385!3f0!4f0!5f0.9437261300653188",
+      "research_reference": {
+        "latitude": 38.88461300982,
+        "longitude": -77.023575939385,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-123",
+      "station": "L'ENFANT PLAZA",
+      "description": "Entrance B - 6 St",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/l'enfant-plaza/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1599671548122!6m8!1m7!1sCAoSLEFGMVFpcFBoaGhhVV9RTE53TVV6eDk1RGZaR2NiYkE0UmZ6clFWR1UxNERn!2m2!1d38.884719978356!2d-77.020561751018!3f180.20844926849136!4f-25.301094160202!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.884719978356,
+        "longitude": -77.020561751018,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-124",
+      "station": "LANDOVER",
+      "description": "West side of Pennsy Dr., north of Landover Rd.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/landover/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1568817346782!6m8!1m7!1sCAoSLEFGMVFpcE5Vc2VfOVVpYlpFcDFJbGxKeVp5a0VRekdWelZDWjB4VWMyeDhD!2m2!1d38.933336099536!2d-76.891081078164!3f312.7026001173703!4f5.429669280467564!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.933336099536,
+        "longitude": -76.891081078164,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-125",
+      "station": "LOUDOUN GATEWAY",
+      "description": "Loudoun Gateway Station North Busbay (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/loudoun-gateway/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1712693507246!6m8!1m7!1sCAoSLEFGMVFpcE9vbkhQZ0hZblp2WHlpM1hrSzdzMUVoSVN0UXY5cWl1NG5mTi1P!2m2!1d38.992978675947!2d-77.459979722323!3f189.77!4f-0.0799999999999983!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.992978675947,
+        "longitude": -77.459979722323,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-126",
+      "station": "LOUDOUN GATEWAY",
+      "description": "Loudoun Gateway Station South Busbay",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/loudoun-gateway/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1712693350803!6m8!1m7!1sCAoSLEFGMVFpcE1KMmswbUFQVEhNd3dWRjBldmVyWENtM3d2MGRQS2Z4VGlQSDc3!2m2!1d38.993254598797!2d-77.459989487423!3f176.12!4f-13.010000000000005!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.993254598797,
+        "longitude": -77.459989487423,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-127",
+      "station": "LOUDOUN GATEWAY",
+      "description": "Loudoun Gateway Station Garage Entrance",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/loudoun-gateway/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1712693289769!6m8!1m7!1sCAoSLEFGMVFpcE81cjBsQ3JKV0R0Y2VkTWxOS212NUN6ekliMEpjQjBVdjdWMHha!2m2!1d38.992946600548!2d-77.45930904419!3f260.36!4f-3.4000000000000057!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.992946600548,
+        "longitude": -77.45930904419,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-128",
+      "station": "MCLEAN",
+      "description": "Dolley Madison Blvd & Scotts Xing (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/mclean/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592002194858!6m8!1m7!1sCAoSLEFGMVFpcE9YcF9QelpNd1FJbzM3a3cxbmQyMElpV0lENF9FWF8yWFRKYmpQ!2m2!1d38.924790509621!2d-77.209516971061!3f43.99797931721554!4f-5.571464964547857!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.924790509621,
+        "longitude": -77.209516971061,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-129",
+      "station": "MCLEAN",
+      "description": "Dolley Madison Blvd & Scotts Xing",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/mclean/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592002222157!6m8!1m7!1sCAoSLEFGMVFpcFBkSzVGSGx1MHBkb3dDdFlNY0pYeUlWOVNaLWg1anhlczdSTkxM!2m2!1d38.924752441921!2d-77.20958713639!3f263.5279650141184!4f1.3484911557287802!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.924752441921,
+        "longitude": -77.20958713639,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-130",
+      "station": "MCLEAN",
+      "description": "Dolley Madison Blvd & Colshire Dr (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/mclean/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592002102473!6m8!1m7!1sCAoSLEFGMVFpcFBSbVZRQTdHcmFnT1lLWkliSnRPb2x4Zy1KRFkwSkVwaTJJeDB5!2m2!1d38.924401193508!2d-77.208523901716!3f307.1117027031073!4f-7.618703385316607!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.924401193508,
+        "longitude": -77.208523901716,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-131",
+      "station": "MCLEAN",
+      "description": "Dolley Madison Blvd & Colshire Dr",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/mclean/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592002062603!6m8!1m7!1sCAoSLEFGMVFpcFBnZlRMR1pnUDhrSHg4Y0tiM3dhZEVKUDRicFZIVThuMFVpV3JK!2m2!1d38.924666454698!2d-77.20828127438!3f202.26273135545844!4f0.44679873174220575!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.924666454698,
+        "longitude": -77.20828127438,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-132",
+      "station": "MCPHERSON SQUARE",
+      "description": "SW corner 14th & I St., NW",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/mcpherson-sq/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592226436463!6m8!1m7!1sCAoSLEFGMVFpcE55ZXlYOEtxRkhzajZDWXBPYlhvSUtaTDlxcjhEV3c3NTFfNG14!2m2!1d38.900894390174!2d-77.032223150882!3f3.8695811687025525!4f1.2783810588222906!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.900894390174,
+        "longitude": -77.032223150882,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-133",
+      "station": "MCPHERSON SQUARE",
+      "description": "SW corner 14th & I St., NW (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/mcpherson-sq/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592226357837!6m8!1m7!1sCAoSLEFGMVFpcE1TU0Vqbm5rY1dUemVFLWwyX1FZcFh1VEt4WlNtV2luQzdGYkdN!2m2!1d38.901159464719!2d-77.032301421355!3f180.4140879675194!4f1.990876941609784!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.901159464719,
+        "longitude": -77.032301421355,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-134",
+      "station": "MCPHERSON SQUARE",
+      "description": "SW corner Vermont Ave. & I St.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/mcpherson-sq/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592226537009!6m8!1m7!1sCAoSLEFGMVFpcE40MlE1Rk5fMENIeGlUWHpjdUpUdXcwVXFvR0xlR2tUOUdlRjJL!2m2!1d38.901124687957!2d-77.034984855463!3f60.74898926477645!4f-4.238855071547334!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.901124687957,
+        "longitude": -77.034984855463,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-135",
+      "station": "MEDICAL CENTER",
+      "description": "SW corner of Rockville Pike & South Dr.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/medical-center/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1568754491576!6m8!1m7!1sCAoSLEFGMVFpcE9oazllZjFFcG1xYy1MS2FBVXdWdk1sRmZiTnQzamQ1aHVEZ24x!2m2!1d38.99905220721!2d-77.097994811168!3f82.17217965377041!4f16.385869344562664!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.99905220721,
+        "longitude": -77.097994811168,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-136",
+      "station": "MEDICAL CENTER",
+      "description": "SW corner of Rockville Pike & South Dr. (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/medical-center/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1568754564905!6m8!1m7!1sCAoSLEFGMVFpcE9hSHpNNEZ2NXJsajdvVWVJRUhFUUZ6R09BUnNXNVR1UEI1X1dB!2m2!1d38.999061482435!2d-77.09715296496!3f105.3321268049416!4f3.6615925174841664!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.999061482435,
+        "longitude": -77.09715296496,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-137",
+      "station": "METRO CENTER",
+      "description": "12th and G St. NW (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/metro-center/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1546269527033!6m8!1m7!1sCAoSLEFGMVFpcFBUeGRkRlU5ZTQwbmFQNWNtWC1JZms4ZHB4ZlVBdVJidjNOVGxN!2m2!1d38.898690890048!2d-77.027869922069!3f108.54!4f0.769999999999996!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.898690890048,
+        "longitude": -77.027869922069,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-138",
+      "station": "METRO CENTER",
+      "description": "NE corner 12th and G St. NW",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/metro-center/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1546269646140!6m8!1m7!1sCAoSLEFGMVFpcFBiOW1qcFV6MUZZZGxZcFhVS0ZEZl9iX05Wb2tTc0dFei1JRDhQ!2m2!1d38.898459022156!2d-77.027850817186!3f59.65!4f0.18999999999999773!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.898459022156,
+        "longitude": -77.027850817186,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-139",
+      "station": "METRO CENTER",
+      "description": "SE corner 11th and G St. NW",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/metro-center/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1546269409587!6m8!1m7!1sCAoSLEFGMVFpcE0wcTdyQ1k5X2FLOXNndnFsdzB6dnBGTWhkNFFpazZTOVpuczcw!2m2!1d38.898220941325!2d-77.027019402164!3f37.48!4f5.1200000000000045!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.898220941325,
+        "longitude": -77.027019402164,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-140",
+      "station": "METRO CENTER",
+      "description": "SE corner 13th and G St. NW",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/metro-center/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1546270222043!6m8!1m7!1sCAoSLEFGMVFpcE4xWmhuQ1ZlaFBkQzBUYmowUGppYk15ZVRDLXdPN2ZyaThjZ2pf!2m2!1d38.898302736713!2d-77.029567462251!3f125.96303114305435!4f-2.5516926125376926!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.898302736713,
+        "longitude": -77.029567462251,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-141",
+      "station": "METRO CENTER",
+      "description": "SW corner 12th and F St. NW",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/metro-center/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1546269459178!6m8!1m7!1sCAoSLEFGMVFpcE0tM3RsX0oxa09Wak5JM3RzejhpUDBTQ01haEVTN3lSWkVYT2lq!2m2!1d38.89727661457!2d-77.028276794018!3f140.69!4f-8.629999999999995!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.89727661457,
+        "longitude": -77.028276794018,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-142",
+      "station": "MINNESOTA AVE",
+      "description": "Hayes St NE & Kenilworth Ave NE",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/minnesota-av/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577823505409!6m8!1m7!1sCAoSLEFGMVFpcE5nSXNZNml2UDRtWEMyTU9GdXp1Q0hmUFVQWGZVVkowcjhHSW4t!2m2!1d38.900140624464!2d-76.946871464361!3f332.8823555157642!4f-1.0282176362981943!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.900140624464,
+        "longitude": -76.946871464361,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-143",
+      "station": "MINNESOTA AVE",
+      "description": "Minnesota Ave., north of Grant St. NE",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/minnesota-av/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577821544942!6m8!1m7!1sCAoSLEFGMVFpcE15cFlleXlwUnhqRjhfNDlfZ01PTUFZM0VCZmh5RTE0RkI5THpv!2m2!1d38.898548405313!2d-76.946899319904!3f13.505771260944641!4f1.0190960663009179!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.898548405313,
+        "longitude": -76.946899319904,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-144",
+      "station": "MINNESOTA AVE",
+      "description": "Minnesota Ave., north of Grant St. NE (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/minnesota-av/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577821500127!6m8!1m7!1sCAoSLEFGMVFpcFBLdGNNbWlKc2FsMnhOTDItV3hrTGxPZ3M2TzlqbkRNcm5DRGJM!2m2!1d38.898733940818!2d-76.946737979552!3f30.144066366732652!4f-1.1202487915792858!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.898733940818,
+        "longitude": -76.946737979552,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-145",
+      "station": "MORGAN BOULEVARD",
+      "description": "Garrett A. Morgan Blvd. and Fieldstone Way",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/morgan-blvd/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592226687066!6m8!1m7!1sCAoSLEFGMVFpcE10NWlHWlB5dkZ1YVdyQmNsZHE0T1dncWVQR2VhM0hvdUg0VVVz!2m2!1d38.893475078154!2d-76.868361802542!3f328.91903141489007!4f14.790582700684155!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.893475078154,
+        "longitude": -76.868361802542,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-146",
+      "station": "MORGAN BOULEVARD",
+      "description": "Garret A Morgan Blvd",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/morgan-blvd/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592226654521!6m8!1m7!1sCAoSLEFGMVFpcFB4R1VsZlpSTUd2RFE5X1JMWk4zc0ROTWR4SEFRYXhlRzZqbHJm!2m2!1d38.893837885546!2d-76.868604920911!3f149.3406686056069!4f7.6992071266966065!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.893837885546,
+        "longitude": -76.868604920911,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-147",
+      "station": "MT VERNON SQ 7TH ST-CONVENTION CENTER",
+      "description": "NW corner 7th & M St. NW (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/mt-vernon-sq/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592227138641!6m8!1m7!1sCAoSLEFGMVFpcE9ydEJ6YmRDVk14b3Z5UDNzejRmNHRvVXA1SGdaTG81VUFnOExv!2m2!1d38.905901235512!2d-77.022127558961!3f357.5611830693455!4f2.797065619008521!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.905901235512,
+        "longitude": -77.022127558961,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-148",
+      "station": "MT VERNON SQ 7TH ST-CONVENTION CENTER",
+      "description": "SW corner 7th & M St. NW",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/mt-vernon-sq/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592226836607!6m8!1m7!1sCAoSLEFGMVFpcE5uWFU5Q3dxNm1zcFg1WEx0QkVrWGFBUFdfalhxOTlCRFl4UVhS!2m2!1d38.905255223958!2d-77.022276731919!3f5.544761828767875!4f3.13331653077924!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.905255223958,
+        "longitude": -77.022276731919,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-149",
+      "station": "MT VERNON SQ 7TH ST-CONVENTION CENTER",
+      "description": "SW corner 7th & M St. NW (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/mt-vernon-sq/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592226890989!6m8!1m7!1sCAoSLEFGMVFpcE4wa0plVmRCSm1wdTdRRi1SZXpiTUZ4V3BJeEJwVEJMSVNqWkVv!2m2!1d38.905468839053!2d-77.022323486361!3f340.8240919809665!4f6.3270473191553265!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.905468839053,
+        "longitude": -77.022323486361,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-150",
+      "station": "NAVY YARD-BALLPARK",
+      "description": "SE corner M & Half St., SE",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/navy-yard-ballpark/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592227372702!6m8!1m7!1sCAoSLEFGMVFpcFA5TmRwZHgyX3VKd1dlZ1RadDhSRUtMM3NNTUFqMWNOQ0tkZEdf!2m2!1d38.876084687039!2d-77.007354881072!3f91.20907462161146!4f5.225246819289637!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.876084687039,
+        "longitude": -77.007354881072,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-151",
+      "station": "NAVY YARD-BALLPARK",
+      "description": "NW corner of M St. at New Jersey Ave. SE (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/navy-yard-ballpark/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592227242080!6m8!1m7!1sCAoSLEFGMVFpcFBZZmhkci1sRU9HWkY5QjUwXzFwUWxveVNNLW5HNjBrMmNjdGdR!2m2!1d38.876595759321!2d-77.004728645611!3f26.037287947533798!4f-0.2644174013985321!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.876595759321,
+        "longitude": -77.004728645611,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-152",
+      "station": "NAVY YARD-BALLPARK",
+      "description": "NW corner of M St. at New Jersey Ave. SE",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/navy-yard-ballpark/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592227294722!6m8!1m7!1sCAoSLEFGMVFpcE5NckRVVVVoUDlZajczTGl1NXhjVlQ5VnhpLXV0OWc3aTVxZVE2!2m2!1d38.876664023065!2d-77.004348442461!3f267.1150130756996!4f4.809566057912278!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.876664023065,
+        "longitude": -77.004348442461,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-153",
+      "station": "NAYLOR ROAD",
+      "description": "Between Naylor Rd., Branch Ave. and Suitland Parkway",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/naylor-rd/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592227595736!6m8!1m7!1sCAoSLEFGMVFpcE5OVGUxX3ZsZWR6M29VVFdmVnVNNktULU1tUmlUaDR1amZWQVhT!2m2!1d38.850766730921!2d-76.956845021283!3f341.79386703770876!4f4.787733098168502!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.850766730921,
+        "longitude": -76.956845021283,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-154",
+      "station": "NEW CARROLLTON",
+      "description": "Garden City Dr & Corporate Dr",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/new-carrollton/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592227790931!6m8!1m7!1sCAoSLEFGMVFpcFBMR2cxYTV6Tk5KTDJ2LU1TR1QxT0xrWlNmMGxmSnEySVNPMUlP!2m2!1d38.947940040335!2d-76.87159855833!3f286.34179292666875!4f8.60178686506704!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.947940040335,
+        "longitude": -76.87159855833,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-155",
+      "station": "NEW CARROLLTON",
+      "description": "Between Ellin Rd. & Harkins Rd. and Garden City Dr. & John Hanson Hwy.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/new-carrollton/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592227682322!6m8!1m7!1sCAoSLEFGMVFpcE1JTzZ3cHFmcGZTc192QkFnSm5Rckg1Q3U1aWxrdlBaYjlPalVs!2m2!1d38.948503504208!2d-76.872421339491!3f137.85853445472534!4f1.6615531367688305!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.948503504208,
+        "longitude": -76.872421339491,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-156",
+      "station": "NOMA-GALLAUDET U",
+      "description": "M & 2nd St. NE",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/noma-gallaudet-u/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592228520921!6m8!1m7!1sCAoSLEFGMVFpcE16b2FzeGJ1U2YwYmNUaUxNYnE4d28zNGprUDBtdG9pNXQ4clp6!2m2!1d38.905766886785!2d-77.003653259951!3f21.23891760271374!4f10.332292461226501!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.905766886785,
+        "longitude": -77.003653259951,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-157",
+      "station": "NOMA-GALLAUDET U",
+      "description": "Florida Ave. & 2nd St. NE",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/noma-gallaudet-u/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592228446805!6m8!1m7!1sCAoSLEFGMVFpcE5wY2s0T1dKZFkyN0RuNTRhOTRzSUJ1eThtbWJuNTMwSVBYc2RP!2m2!1d38.907325456227!2d-77.003430815302!3f91.19179604902794!4f16.532829952989715!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.907325456227,
+        "longitude": -77.003430815302,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-158",
+      "station": "NORTH BETHESDA",
+      "description": "East side of Rockville Pike at Marinelli Rd.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/north-bethesda/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1575909962064!6m8!1m7!1sCAoSLEFGMVFpcE5FeFVaaDFWMzlHbi0zN3VOQ3dXTVRwRVZLc3hfbm4zeGFGUGRM!2m2!1d39.047394239998!2d-77.112574128373!3f339.41091556223523!4f2.9797163215147293!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 39.047394239998,
+        "longitude": -77.112574128373,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-159",
+      "station": "PENTAGON",
+      "description": "Metrobus Island, S Rotary Rd. (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/pentagon/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592228686426!6m8!1m7!1sCAoSLEFGMVFpcFBDU2tzamxCcDMtX0cyY3Y1bEJJMHFfM2ZHSm9xcVFjdU8wSlVY!2m2!1d38.869594687596!2d-77.053843869154!3f163.4307577005133!4f6.756310936294966!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.869594687596,
+        "longitude": -77.053843869154,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-160",
+      "station": "PENTAGON",
+      "description": "Metrobus Island, S Rotary Rd. (North Entrance)",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/pentagon/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592228722386!6m8!1m7!1sCAoSLEFGMVFpcE40ck9oTmdEbGJpWkZtMXRfd1BfMFVGR1RCSlUxUG40cnUtcTBm!2m2!1d38.869812558547!2d-77.053564857768!3f294.6834421304893!4f12.228915098369342!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.869812558547,
+        "longitude": -77.053564857768,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-161",
+      "station": "PENTAGON",
+      "description": "Metrobus Island, S Rotary Rd. (South Entrance)",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/pentagon/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592228589867!6m8!1m7!1sCAoSLEFGMVFpcE82RDRJUlUyWFpBVDZOSzJiMVM1Wnp6OG9iRHJCdXVPdnpuczJi!2m2!1d38.869040659096!2d-77.054525854256!3f353.6383287131374!4f6.209145005883045!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.869040659096,
+        "longitude": -77.054525854256,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-162",
+      "station": "PENTAGON CITY",
+      "description": "East side of Hayes St. between Army-Navy Dr. & 15th St.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/pentagon-city/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592228963746!6m8!1m7!1sCAoSLEFGMVFpcE03cjh3QjNNMTJXVm5GZjkxT3dKM1BjWEJoSVowbGhfNi1aX1Ni!2m2!1d38.862540772908!2d-77.059105960505!3f351.195879390668!4f-6.114164434858807!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.862540772908,
+        "longitude": -77.059105960505,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-163",
+      "station": "PENTAGON CITY",
+      "description": "East side of Hayes St. between Army-Navy Dr. & 15th St. (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/pentagon-city/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592229012187!6m8!1m7!1sCAoSLEFGMVFpcE1Kck5NMDh1NVZDbnpTcmllZkxzMzQwSVZQVUwxeWt5Y2dDeWJE!2m2!1d38.862818231157!2d-77.058993923342!3f95.7791187708323!4f-1.0835336838026421!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.862818231157,
+        "longitude": -77.058993923342,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-164",
+      "station": "PENTAGON CITY",
+      "description": "West side of Hayes St. between Army-Navy Dr. & 15th St.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/pentagon-city/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592228884551!6m8!1m7!1sCAoSLEFGMVFpcFBxc1VxRllmRzJUa3JNeE9mWW1DamNnYnlLOUhnbkYzTzJTNEtT!2m2!1d38.862583271207!2d-77.059816192649!3f312.82765835678947!4f4.3012389759005885!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.862583271207,
+        "longitude": -77.059816192649,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-165",
+      "station": "POTOMAC AVE",
+      "description": "NE corner 14th St. & Potomac Ave., SE, north of Pennsylvania Ave.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/potomac-av/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577823965333!6m8!1m7!1sCAoSLEFGMVFpcFBORWUwT1dIYkdFREpPS05BOE1hbjRPWmEzb2h4OTZGUVloaXRD!2m2!1d38.880700158592!2d-76.98528170584!3f69.93433673941135!4f-0.9311967653393651!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.880700158592,
+        "longitude": -76.98528170584,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-166",
+      "station": "POTOMAC AVE",
+      "description": "NE corner 14th St. & Potomac Ave., SE, north of Pennsylvania Ave. (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/potomac-av/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577824008526!6m8!1m7!1sCAoSLEFGMVFpcFB0ZjNhREN6VUhDUmVVb1ZhSlQwR0NRUjdfN1E2WENucHpMZ005!2m2!1d38.881063034849!2d-76.985185195574!3f84.24718872108602!4f0.1374531647471997!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.881063034849,
+        "longitude": -76.985185195574,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-167",
+      "station": "POTOMAC YARD",
+      "description": "3201 University Dr",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/potomac-yard/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1721761093482!6m8!1m7!1sCAoSLEFGMVFpcE5nOWN3MVNkaTNMREZFVC0wWDZoX1lXNG83bXBpbEVidXJLMzJT!2m2!1d38.835025996865!2d-77.047467428099!3f80.31!4f7.650000000000006!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.835025996865,
+        "longitude": -77.047467428099,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-168",
+      "station": "POTOMAC YARD",
+      "description": "3201 University Dr (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/potomac-yard/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1721761161912!6m8!1m7!1sCAoSLEFGMVFpcE95eEZnTHJaV1d5OHo0NlZSWGw0RzZvcllEazJDWVowZjdiVGZp!2m2!1d38.835065023231!2d-77.047205701018!3f26.03!4f-2.8700000000000045!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.835065023231,
+        "longitude": -77.047205701018,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-169",
+      "station": "POTOMAC YARD",
+      "description": "3001 Potomac Ave",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/potomac-yard/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1721761263532!6m8!1m7!1sCAoSLEFGMVFpcE02SkJfNUE4WFBTVHVzTVpOdDcxSGxyeV92ZUhmQmpvelE3SGQz!2m2!1d38.832724579625!2d-77.047495793054!3f70.08!4f6.480000000000004!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.832724579625,
+        "longitude": -77.047495793054,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-170",
+      "station": "POTOMAC YARD",
+      "description": "3001 Potomac Ave (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/potomac-yard/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1721761420493!6m8!1m7!1sCAoSLEFGMVFpcFBpSEdkSnFJTnRTb0ROUkRtaUdGcGNHTHY0dk5LWHctcy1NZ2ZT!2m2!1d38.832765185428!2d-77.04744964662!3f3.04!4f0.9899999999999949!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.832765185428,
+        "longitude": -77.04744964662,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-171",
+      "station": "POTOMAC YARD",
+      "description": "2900 Potomac Greens Dr",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/potomac-yard/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1721761682448!6m8!1m7!1sCAoSLEFGMVFpcE5FRWJmY3RpdzFKc2hNY1NTV0lua05FYW5wOVJyM1Ryempna2NI!2m2!1d38.834192754561!2d-77.046173523766!3f278.5!4f-1.5699999999999932!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.834192754561,
+        "longitude": -77.046173523766,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-172",
+      "station": "RESTON TOWN CENTER",
+      "description": "Sunset Hills Rd & Town Center Pkwy (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/reston-town-center/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1712692091586!6m8!1m7!1sCAoSLEFGMVFpcE1RY0VSeFctMHRwT25DOHdtUGw0YW10a2VLVWJvMkc0ckExRU5i!2m2!1d38.954255746925!2d-77.35861855886!3f173.99!4f0.5499999999999972!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.954255746925,
+        "longitude": -77.35861855886,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-173",
+      "station": "RESTON TOWN CENTER",
+      "description": "Reston Station South Busbay (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/reston-town-center/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1712692013872!6m8!1m7!1sCAoSLEFGMVFpcE9Qc21BcWZCZHBKblR0UVRXREgxc2ZEUTl5Rk1scHFxNFZOeWhx!2m2!1d38.953139539619!2d-77.359852257106!3f108.15!4f-0.7999999999999972!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.953139539619,
+        "longitude": -77.359852257106,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-174",
+      "station": "RESTON TOWN CENTER",
+      "description": "Sunset Hills Rd & Town Center Pkwy",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/reston-town-center/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1712691922128!6m8!1m7!1sCAoSLEFGMVFpcE55RkQ0T0lDOVV4RHdfWTJ5eFlqMXYyZDIyam5MUERzZTV1STFf!2m2!1d38.95438135209!2d-77.358299653645!3f256.6!4f-1.8199999999999932!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.95438135209,
+        "longitude": -77.358299653645,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-175",
+      "station": "RESTON TOWN CENTER",
+      "description": "Reston Station South Busbay",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/reston-town-center/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1712691751958!6m8!1m7!1sCAoSLEFGMVFpcE9Qc21BcWZCZHBKblR0UVRXREgxc2ZEUTl5Rk1scHFxNFZOeWhx!2m2!1d38.953139539619!2d-77.359852257106!3f92.73!4f-10.11!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.953139539619,
+        "longitude": -77.359852257106,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-176",
+      "station": "RHODE ISLAND AVE-BRENTWOOD",
+      "description": "South side Rhode Island Ave., NE, west of 8th St.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/rhode-island-av/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1564775323764!6m8!1m7!1sCAoSLEFGMVFpcFBIdWd5aXpHWlNiM1pVRFhOYThYa0c2TVAtSnZRWWZ3TVZocmQw!2m2!1d38.920432480388!2d-76.996123257827!3f10.755796931685186!4f-3.8198512170713315!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.920432480388,
+        "longitude": -76.996123257827,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-177",
+      "station": "ROCKVILLE",
+      "description": "East side of Hungerford Dr. (Rt. 355) near Park Ave.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/rockville/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1575919728708!6m8!1m7!1sCAoSLEFGMVFpcE8zTFZIQXdjT2NCRDlvX2Rva2p3Q0VlTnNPX3F3enR3TlJrZVdI!2m2!1d39.084374796775!2d-77.146756586931!3f57.78456862730034!4f4.328082529499014!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 39.084374796775,
+        "longitude": -77.146756586931,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-178",
+      "station": "ROCKVILLE",
+      "description": "S Stonestreet Ave & Park Rd",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/rockville/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577389531232!6m8!1m7!1sCAoSLEFGMVFpcE1PajVQbmJxTjZmUGhNY3R1ZEtiTldjVXlGSTVCSmNhZ2QzdmJH!2m2!1d39.084759835117!2d-77.146217113698!3f214.46613886038756!4f-1.1767410185098441!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 39.084759835117,
+        "longitude": -77.146217113698,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-179",
+      "station": "RONALD REAGAN WASHINGTON NATIONAL AIRPORT",
+      "description": "S Smith Blvd (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/ronald-reagan-washington-national-airport/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592229421584!6m8!1m7!1sCAoSLEFGMVFpcE9kdUQydUNXblZ5MDhqb05fOFYtNjBfaVBLekdoZmNnSWI0bGdw!2m2!1d38.853446437279!2d-77.044184423498!3f71.2056032932164!4f-2.0069702469836415!5f0.7820865974627469tabindex=\"0\"></iframe>",
+      "research_reference": {
+        "latitude": 38.853446437279,
+        "longitude": -77.044184423498,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-180",
+      "station": "RONALD REAGAN WASHINGTON NATIONAL AIRPORT",
+      "description": "Smith Blvd., opposite Main Terminal",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/ronald-reagan-washington-national-airport/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592229308256!6m8!1m7!1sCAoSLEFGMVFpcE11a3BrLXpPQlZpQXhvTldZbFFnN3F6VF9BWnhGWndjU1FXc0tu!2m2!1d38.854632642478!2d-77.044552949656!3f142.99151935426704!4f-0.8416849682684528!5f0.4000000000000002>",
+      "research_reference": {
+        "latitude": 38.854632642478,
+        "longitude": -77.044552949656,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-181",
+      "station": "RONALD REAGAN WASHINGTON NATIONAL AIRPORT",
+      "description": "Terminal 2",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/ronald-reagan-washington-national-airport/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592229467226!6m8!1m7!1sCAoSLEFGMVFpcFBZWlI2NV9Ma3JCMFF6TXZNWi1EX1F4cjI5SjltLXpUZkctRm9D!2m2!1d38.852334800609!2d-77.043523094634!3f318.49192887278383!4f2.1146018530108392!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.852334800609,
+        "longitude": -77.043523094634,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-182",
+      "station": "ROSSLYN",
+      "description": "East side Fort Myer Dr. between 19th St. & Wilson Blvd.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/rosslyn/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577825616369!6m8!1m7!1sCAoSLEFGMVFpcE5kVzRDNGgwMTM0RWdFdkhta2NueDBNLXFGbWlzcWtUWkw5cF91!2m2!1d38.895807724862!2d-77.072122011102!3f84.49293730876452!4f-4.76852916319605!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.895807724862,
+        "longitude": -77.072122011102,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-183",
+      "station": "ROSSLYN",
+      "description": "East side N. Moore St. & Wilson Blvd.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/rosslyn/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577825129896!6m8!1m7!1sCAoSLEFGMVFpcE5jOWhzVTVqdEFFN1RCQW5EYjBzOFlkN0lPSXVpTERnWEpOdG9L!2m2!1d38.896002549519!2d-77.071445240918!3f258.2300624205854!4f2.1724806578159956!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.896002549519,
+        "longitude": -77.071445240918,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-184",
+      "station": "ROSSLYN",
+      "description": "East side N. Moore St. & Wilson Blvd. (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/rosslyn/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577825084780!6m8!1m7!1sCAoSLEFGMVFpcE15YTRtYzVwZEtYY3BPVmxwUG9paktDSFBoMDlqUWJiYmFweVZy!2m2!1d38.896106967814!2d-77.071451022655!3f50.41278198424184!4f0.10499269368393982!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.896106967814,
+        "longitude": -77.071451022655,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-185",
+      "station": "SHADY GROVE",
+      "description": "Crabbs Branch Way & Redland Rd",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/shady-grove/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1600457369767!6m8!1m7!1sCAoSLEFGMVFpcFBPbVpMTG11RTN2VzRTTFpLU0Zta09wbHVFMUJGMThTR1FtVzhk!2m2!1d39.120351554023!2d-77.164223808726!3f293.9507384436419!4f-3.780000000000001!5f0.7172741685533417",
+      "research_reference": {
+        "latitude": 39.120351554023,
+        "longitude": -77.164223808726,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-186",
+      "station": "SHADY GROVE",
+      "description": "Somerville Dr.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/shady-grove/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1596037879663!6m8!1m7!1sCAoSLEFGMVFpcE5PRVRIeXVsS1M2bWxDUDZ2MkZPNHIwekV4RTFETXJvbkJpQjk5!2m2!1d39.119905989845!2d-77.165031645339!3f49.91321267977143!4f-1.7937704918032722!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 39.119905989845,
+        "longitude": -77.165031645339,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-187",
+      "station": "SHADY GROVE",
+      "description": "Somerville Dr. (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/shady-grove/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1575924783450!6m8!1m7!1sCAoSLEFGMVFpcE5zdktOMndBSmhodU5CbnpRQnZVUUV1d0d3b2VTclI1ZHBsTkRT!2m2!1d39.12007116!2d-77.16500269!3f337.23703929919867!4f-0.3783808430330424!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 39.12007116,
+        "longitude": -77.16500269,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-188",
+      "station": "SHAW-HOWARD U",
+      "description": "North side of R St., between 7th & 8th St.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/shaw-howard-u/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592229628053!6m8!1m7!1sCAoSLEFGMVFpcE1KM1lEZ3NNTjZudFhkWlVLNDZ0MXB2SWRIX25ZS2F2WWs2Y2Zi!2m2!1d38.914599820945!2d-77.021673084418!3f177.00871026292367!4f-6.006899919283057!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.914599820945,
+        "longitude": -77.021673084418,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-189",
+      "station": "SHAW-HOWARD U",
+      "description": "NE corner of 7th & S St. NW (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/shaw-howard-u/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592229761241!6m8!1m7!1sCAoSLEFGMVFpcE82aHUyT1NvR1pLUjVBaDgzR3NiNFNzTU14VldhZHZpc2d3eTNx!2m2!1d38.914169198558!2d-77.02164571112!3f39.46484569613631!4f6.626551460888194!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.914169198558,
+        "longitude": -77.02164571112,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-190",
+      "station": "SHAW-HOWARD U",
+      "description": "NE corner of 7th & S St. NW",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/shaw-howard-u/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592229857085!6m8!1m7!1sCAoSLEFGMVFpcE5qTVdydGtkMURoTFRiRTFyVTF6RjktTnV4MFZSNDNTa0JZaXg4!2m2!1d38.912780628794!2d-77.022752090119!3f85.15060041751059!4f5.0263969123237615!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.912780628794,
+        "longitude": -77.022752090119,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-191",
+      "station": "SILVER SPRING",
+      "description": "North side of Colesville Rd between East-West Hwy. & Second Ave.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/silver-spring/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1564772843373!6m8!1m7!1sCAoSLEFGMVFpcE5WRzJ2X2NqYWVvZXBxNjFmcHJjMVhucTZIaXJEMWxkeWxuWVNB!2m2!1d38.994045785357!2d-77.031804964418!3f335.02431760429846!4f0.2477755062843272!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.994045785357,
+        "longitude": -77.031804964418,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-192",
+      "station": "SILVER SPRING",
+      "description": "South side of Colesville Rd between East-West Hwy. & Second Ave.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/silver-spring/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1564772564342!6m8!1m7!1sCAoSLEFGMVFpcE9pa05ONW40UkFXd1hiQUo0Ym5oZE81cGMtMFRNbTg0N19QLWxi!2m2!1d38.993915257197!2d-77.031053481712!3f213.35156780652036!4f2.1603143969599046!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.993915257197,
+        "longitude": -77.031053481712,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-193",
+      "station": "SMITHSONIAN",
+      "description": "12th St. at Jefferson Dr. SW (The Mall)",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/smithsonian/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592230015572!6m8!1m7!1sCAoSLEFGMVFpcFBDcnMxMkFXT2xkQXI2T015SFhTT1h0cDFsZUpieVBYaU83ckdv!2m2!1d38.889094309194!2d-77.028302946468!3f264.23938452533207!4f2.2133751094972496!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.889094309194,
+        "longitude": -77.028302946468,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-194",
+      "station": "SMITHSONIAN",
+      "description": "NW corner 12th St. & Independence Ave., SW (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/smithsonian/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592230058479!6m8!1m7!1sCAoSLEFGMVFpcE5rRTJMZjVVMmFyM3ExX2hlYzZMaDFxNG94Z2NJb2xzUVlJcnJE!2m2!1d38.887709678057!2d-77.028620321065!3f54.284257965914286!4f-1.5808082075318168!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.887709678057,
+        "longitude": -77.028620321065,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-195",
+      "station": "SOUTHERN AVENUE",
+      "description": "Maryland side of Southern Ave., SE opposite Valley Terrace SE",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/southern-av/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577828483538!6m8!1m7!1sCAoSLEFGMVFpcE15NDNHX25KSnphV1hxOEtEdmVjYl9iaEtoMklJa2tDRDljdXBO!2m2!1d38.840420029726!2d-76.975658652016!3f336.8088120039918!4f3.7327027155915573!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.840420029726,
+        "longitude": -76.975658652016,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-196",
+      "station": "SPRING HILL",
+      "description": "Leesburg Pike & Spring Hill Rd (West side)",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/spring-hill/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577987142792!6m8!1m7!1sCAoSLEFGMVFpcE05MG1hY3lIYWIwcWV0Y1hlVmk1YTdxRTdYTjRBVFVCd1ZSZjdQ!2m2!1d38.929333973882!2d-77.240787391655!3f199.1936824289599!4f-5.573581694970159!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.929333973882,
+        "longitude": -77.240787391655,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-197",
+      "station": "SPRING HILL",
+      "description": "Leesburg Pike & Spring Hill Rd (East side)",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/spring-hill/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577987321034!6m8!1m7!1sCAoSLEFGMVFpcE40cXRFXzR6Zng5a0hVcFhrYVc5bHdDMTZucUtQUkFUdzVMb0Fy!2m2!1d38.92825055!2d-77.241592493866!3f352.2296049413526!4f0.8170159583999066!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.92825055,
+        "longitude": -77.241592493866,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-198",
+      "station": "SPRING HILL",
+      "description": "Leesburg Pike & Spring Hill Rd (West side Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/spring-hill/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577987270383!6m8!1m7!1sCAoSLEFGMVFpcE5qcHVzTURsa3BDQjdtWVg0WnhHSEVpeWx2dDZIUmgyRkQ3Q18w!2m2!1d38.929076510131!2d-77.240875048593!3f315.5047526720473!4f-0.3865121318810196!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.929076510131,
+        "longitude": -77.240875048593,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-199",
+      "station": "SPRING HILL",
+      "description": "Leesburg Pike & Spring Hill Rd (East side Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/spring-hill/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577987377877!6m8!1m7!1sCAoSLEFGMVFpcE9INmQ4d0hGd1d0NDRPR25Qa01UWEM1UGo5aG92SV9ZWGxmb2Fu!2m2!1d38.928514969637!2d-77.241790342447!3f313.45882298864177!4f-4.640417621913286!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.928514969637,
+        "longitude": -77.241790342447,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-200",
+      "station": "STADIUM-ARMORY",
+      "description": "East side 19th St., SE between C & Burke St.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/stadium-armory/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1575925687377!6m8!1m7!1sCAoSLEFGMVFpcE9DOVlPaUpJa09wSlZRQW54M2FqWDE2bW1aTXllYmgyZUxUQ2FQ!2m2!1d38.885581976019!2d-76.977115796138!3f43.80050076050091!4f16.13181221176447!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.885581976019,
+        "longitude": -76.977115796138,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-201",
+      "station": "STADIUM-ARMORY",
+      "description": "East side 19th St., SE between C & Burke St. (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/stadium-armory/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1575925644536!6m8!1m7!1sCAoSLEFGMVFpcE9wUjhlR29rVjI4ZXlJMy03NHZQOXpPZWZfVURYUkNQQU5Sck1r!2m2!1d38.885913662175!2d-76.97713848!3f264.566388176834!4f5.5615355607157255!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.885913662175,
+        "longitude": -76.97713848,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-202",
+      "station": "STADIUM-ARMORY",
+      "description": "NE corner 19th St. & Independence Ave.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/stadium-armory/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1575925422270!6m8!1m7!1sCAoSLEFGMVFpcFBNWDM4dGFVZWVGTTRSZTQxdkRMQ0NFcGRSdGU3bVI4UWRzcmpD!2m2!1d38.888453489921!2d-76.97709609002!3f179.26022704859966!4f5.557459746203733!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.888453489921,
+        "longitude": -76.97709609002,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-203",
+      "station": "SUITLAND",
+      "description": "Silver Hill Rd near Suitland Pkwy",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/suitland/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577996354102!6m8!1m7!1sCAoSLEFGMVFpcFBaaVRKSnpvN3ZnSXBQcGFwZnRqem1LOU9DU0k3QmRVVVhuNHJv!2m2!1d38.844369902277!2d-76.932135514603!3f213.21612467392197!4f6.125742826058698!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.844369902277,
+        "longitude": -76.932135514603,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-204",
+      "station": "TAKOMA",
+      "description": "Cedar St. at Carroll Ave. NW",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/takoma/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1564773741585!6m8!1m7!1sCAoSLEFGMVFpcE1yYlNQMGhjczFaV3pMWWFaWFc5RFZVV1JaQkUxRjZPOTg3NTBH!2m2!1d38.975132048896!2d-77.01732279939!3f246.4311605813966!4f2.5466392241043962!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.975132048896,
+        "longitude": -77.01732279939,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-205",
+      "station": "TAKOMA",
+      "description": "Cedar St. at Carroll Ave. NW (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/takoma/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1564773682274!6m8!1m7!1sCAoSLEFGMVFpcE1iYjlRQ0xYcXVuNGl5dXVmOURjNFd3WDhWQUhFREJESXpyVmY1!2m2!1d38.97585194!2d-77.01782323!3f240.4953322838797!4f-2.920052552430363!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.97585194,
+        "longitude": -77.01782323,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-206",
+      "station": "TENLEYTOWN-AU",
+      "description": "East side of Wisconsin Ave. NW, north of Albemarle St.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/tenleytown-au/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1565027249813!6m8!1m7!1sCAoSLEFGMVFpcE9KZWRhaklQZmpzWDBvNnFXalV2Ym82YWlkc3M4a2lMT2xCbVFw!2m2!1d38.94803480446!2d-77.079353819852!3f3.119879986474814!4f-7.781010152933078!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.94803480446,
+        "longitude": -77.079353819852,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-207",
+      "station": "TENLEYTOWN-AU",
+      "description": "West side of Wisconsin Ave. NW, north of Albemarle St.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/tenleytown-au/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1564776448897!6m8!1m7!1sCAoSLEFGMVFpcE5pb0paR09mUnNHRV9fV05UdWZUZl9QN3dYa3IwY0ZObnNuRUc0!2m2!1d38.948341808929!2d-77.080183806873!3f169.5424378579216!4f-17.47390928310024!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.948341808929,
+        "longitude": -77.080183806873,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-208",
+      "station": "TWINBROOK",
+      "description": "Chapman Ave., one block East Of Rockville Pike between Halpine Rd. & Twinbrook Pkwy.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/twinbrook/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1568755461030!6m8!1m7!1sCAoSLEFGMVFpcE41alZCT0dHV1ZBSUxPVDVZdHdCV19CV0NlMVp6UmVBanI0MjB1!2m2!1d39.061967411751!2d-77.120627471379!3f346.39900312286545!4f2.0109942345699636!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 39.061967411751,
+        "longitude": -77.120627471379,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-209",
+      "station": "TWINBROOK",
+      "description": "Parklawn Dr & Wicomico Ave",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/twinbrook/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1568755527290!6m8!1m7!1sCAoSLEFGMVFpcE9EOUN4THZ4MW1GbFZzZUNDWDVwc0NVSWV0Ti1WTUcwOWFIVU1u!2m2!1d39.062350715593!2d-77.120376669056!3f226.96553561870155!4f4.650267706907201!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 39.062350715593,
+        "longitude": -77.120376669056,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-210",
+      "station": "TYSONS",
+      "description": "Tysons One Pl & Tysons Blvd (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/tysons/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592230239543!6m8!1m7!1sCAoSLEFGMVFpcE5GbGJuY3BHeHczZDU1cS04ZVJvQ01zMHhaQXB2b1RKT3B0WVFS!2m2!1d38.919766126486!2d-77.222101279496!3f79.36666785222073!4f5.558154594456241!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.919766126486,
+        "longitude": -77.222101279496,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-211",
+      "station": "TYSONS",
+      "description": "Tysons One Pl & Tysons Blvd",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/tysons/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592230304064!6m8!1m7!1sCAoSLEFGMVFpcFA4eXVLWE5RYjNvZkRONTlhaFE5cnRGUEhZejhHVzZYa0kyZGQ3!2m2!1d38.919785601706!2d-77.222466543293!3f113.76727686775436!4f-5.427536056206293!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.919785601706,
+        "longitude": -77.222466543293,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-212",
+      "station": "TYSONS",
+      "description": "Tysons Blvd & Chain Bridge Rd (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/tysons/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592230486739!6m8!1m7!1sCAoSLEFGMVFpcE9MSjJoQXBkbDF1V2d4dXE3ZkFOd2lNM3JCRnM0Y1lZNVlTUk9m!2m2!1d38.920640009144!2d-77.22258539119!3f0.3911014839045901!4f-2.7391713247099005!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.920640009144,
+        "longitude": -77.22258539119,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-213",
+      "station": "TYSONS",
+      "description": "Tysons Blvd & Chain Bridge Rd",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/tysons/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592230450628!6m8!1m7!1sCAoSLEFGMVFpcE5oekJNbEZPU044cXRrb044THZFM0lfQjRXNDJaUE0xZDlzdTk4!2m2!1d38.920602183233!2d-77.222589563906!3f242.95678914315238!4f-0.7520397079633341!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.920602183233,
+        "longitude": -77.222589563906,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-214",
+      "station": "U ST/AFRICAN AMER CIVIL WAR MEM/CARDOZO",
+      "description": "10th St., south of U St.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/u-st/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592230795023!6m8!1m7!1sCAoSLEFGMVFpcFBMMzNiRzViMksxeWE4cTQwUFZnRjlWV05OQXd1cnFpQmdvMk0z!2m2!1d38.91667377431!2d-77.025982797875!3f6.995781282608499!4f5.683702395824966!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.91667377431,
+        "longitude": -77.025982797875,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-215",
+      "station": "U ST/AFRICAN AMER CIVIL WAR MEM/CARDOZO",
+      "description": "SE corner 13th & U St. NW",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/u-st/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592230635788!6m8!1m7!1sCAoSLEFGMVFpcE9xXzV0M2cwYWRYU0lfMjBQYlZnSmxFX1A3T1E4NDdtV3BEc0la!2m2!1d38.916869824535!2d-77.029228664865!3f132.67769364689323!4f9.738920834465205!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.916869824535,
+        "longitude": -77.029228664865,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-216",
+      "station": "U ST/AFRICAN AMER CIVIL WAR MEM/CARDOZO",
+      "description": "SE corner 13th & U St. NW (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/u-st/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592230703813!6m8!1m7!1sCAoSLEFGMVFpcE40dEs0ZW9EakVKem04UTZINDM2N0JvQ1BQVDNKQ2wtM2FjdlZX!2m2!1d38.916798391755!2d-77.028918447676!3f168.0366966248819!4f8.869416549456204!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.916798391755,
+        "longitude": -77.028918447676,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-217",
+      "station": "UNION STATION",
+      "description": "1st St NE., between Massachusetts Ave. & G St NE. ",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/union-station/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1546021509677!6m8!1m7!1sCAoSLEFGMVFpcE1BMjMxYnFYX0lzdmgtSWstX1IxVmtjZVpPcXhvMVF5NEFURmtK!2m2!1d38.897602484335!2d-77.007525545832!3f145.3127719849889!4f-0.5950341436083306!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.897602484335,
+        "longitude": -77.007525545832,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-218",
+      "station": "UNION STATION",
+      "description": "East side of First St., NE And Entrance to Amtrak Terminal",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/union-station/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1546022034808!6m8!1m7!1sCAoSLEFGMVFpcE5YdG9Lb0x1YVNuX05kZkxkTnYwcFIwamRvVzdnV1YzS2JfaVpX!2m2!1d38.897577575242!2d-77.007286723897!3f42.06698031945041!4f-2.7957685531204817!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.897577575242,
+        "longitude": -77.007286723897,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-219",
+      "station": "UNION STATION",
+      "description": "Massachusetts Ave., NE and Upper-Level concourse access to Buses and Shops",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/union-station/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1546020966603!6m8!1m7!1sCAoSLEFGMVFpcFBka2xLTjFSVnloYm0xRm40MFVvLWxfSDNnVlVVRzB6VzFpZERn!2m2!1d38.897430198407!2d-77.007335437553!3f188.93622460458616!4f-1.6177423811810314!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.897430198407,
+        "longitude": -77.007335437553,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-220",
+      "station": "VAN DORN STREET",
+      "description": "S. Van Dorn St. & Eisenhower Ave. (Bus Bay)",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/van-dorn-st/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592230942242!6m8!1m7!1sCAoSLEFGMVFpcE54RDU5RDRLOGY0d01VclNkN0dPMF8yYVNzb2I4bS11QmtUQ1N5!2m2!1d38.799524358449!2d-77.129129141055!3f273.96464794113444!4f-0.014077018351642323!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.799524358449,
+        "longitude": -77.129129141055,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-221",
+      "station": "VAN DORN STREET",
+      "description": "S. Van Dorn St. & Eisenhower Ave.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/van-dorn-st/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592230870901!6m8!1m7!1sCAoSLEFGMVFpcE9ZYTRYQ1hyNS1VNy1lZ0lZSk0yY2Z6eTVvMm5EUmNIUzAtXy02!2m2!1d38.799728375077!2d-77.129699168403!3f127.41412284304849!4f8.753216000262!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.799728375077,
+        "longitude": -77.129699168403,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-222",
+      "station": "VAN NESS-UDC",
+      "description": "East side of Connecticut Ave. north of Veazy St. NW",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/van-ness-udc/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1564775762236!6m8!1m7!1sCAoSLEFGMVFpcE5zbnZLd2JxRVZqSnhHMlM1Y2ZrLVNTY3F6NTU5S3djZUJwUTdn!2m2!1d38.944634986828!2d-77.063576719507!3f162.24675819927975!4f0.023252313073641062!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.944634986828,
+        "longitude": -77.063576719507,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-223",
+      "station": "VAN NESS-UDC",
+      "description": "West side of Connecticut Ave. north of Veazy St. NW",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/van-ness-udc/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1564775644458!6m8!1m7!1sCAoSLEFGMVFpcE11Y0xWSnBLcHJ0SktHMUN6UGpncFBvejZsVlJPbll2MmtUOG1X!2m2!1d38.944602382892!2d-77.064075934723!3f158.30858359822318!4f4.3405685485964085!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.944602382892,
+        "longitude": -77.064075934723,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-224",
+      "station": "VAN NESS-UDC",
+      "description": "West side of Connecticut Ave., south of Veazy St. (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/van-ness-udc/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1564775875349!6m8!1m7!1sCAoSLEFGMVFpcFBlNmhXdl96Rl8wekstUHpTX3E0Y2wtNllMbWlKS0VQcFpLQWJY!2m2!1d38.943991046644!2d-77.063582006627!3f251.0731638227381!4f0.17348435951456054!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.943991046644,
+        "longitude": -77.063582006627,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-225",
+      "station": "VIENNA/FAIRFAX-GMU",
+      "description": "Nutley St. & Virginia Center Blvd",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/vienna/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1575929300744!6m8!1m7!1sCAoSLEFGMVFpcE93dnpueWtGSzFqemw4cDI0cnhEbnBDRE1mNzIxMkgtUU9KaU91!2m2!1d38.877329414737!2d-77.271289765644!3f338.6978506716353!4f3.5411898700296547!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.877329414737,
+        "longitude": -77.271289765644,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-226",
+      "station": "VIENNA/FAIRFAX-GMU",
+      "description": "Nutley St. & Saintsbury Dr",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/vienna/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1575929260044!6m8!1m7!1sCAoSLEFGMVFpcE10Wm9OWUtZLXRSNU5Za3h1UWNFUEdZemFzRnA3VkQxazZuN2ky!2m2!1d38.878347890384!2d-77.271550863697!3f151.64494784903306!4f-6.156902700380741!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.878347890384,
+        "longitude": -77.271550863697,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-227",
+      "station": "VIRGINIA SQUARE-GMU",
+      "description": "SW corner of Fairfax Dr. & N. Monroe St. (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/virginia-sq-gmu/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577997954556!6m8!1m7!1sCAoSLEFGMVFpcE9HZElQaW9scTI5eXV1bWZNSWpiLXprdDdSTXYtN1R2bUd3MjZj!2m2!1d38.883017053811!2d-77.103280228801!3f311.02394095322705!4f-0.6227500325043849!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.883017053811,
+        "longitude": -77.103280228801,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-228",
+      "station": "VIRGINIA SQUARE-GMU",
+      "description": "SW corner of Fairfax Dr. & N. Monroe St.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/virginia-sq-gmu/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577997916577!6m8!1m7!1sCAoSLEFGMVFpcE9BX0pYclNNNHM5S000Y2NqTmhBeGczUlpveHQzb3JMd3FVZWdO!2m2!1d38.882734072306!2d-77.103238490709!3f330.76978660944894!4f7.082078335893826!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.882734072306,
+        "longitude": -77.103238490709,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-229",
+      "station": "WASHINGTON DULLES INTERNATIONAL AIRPORT",
+      "description": "Dulles Airport Parking Garage",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/washington-dulles-international-airport/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1712693160386!6m8!1m7!1sCAoSLEFGMVFpcE5CdHhUd0hrRnVFaUdWU1I5OXRjcExYUGthUF84NEx3VHRKbVR0!2m2!1d38.955895460622!2d-77.44765176784!3f280!4f20!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.955895460622,
+        "longitude": -77.44765176784,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-230",
+      "station": "WASHINGTON DULLES INTERNATIONAL AIRPORT",
+      "description": "Dulles Airport Pedestrian Tunnel",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/washington-dulles-international-airport/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1712693114943!6m8!1m7!1sCAoSLEFGMVFpcFAxSUlFZlEwTkdjM0U3UnE0aUhDLU9nUkkzWkx0OWZzWGJJOThr!2m2!1d38.955227406579!2d-77.447691279641!3f0!4f0!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.955227406579,
+        "longitude": -77.447691279641,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-231",
+      "station": "WATERFRONT",
+      "description": "M St. at 4th St. SW (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/waterfront/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592231084411!6m8!1m7!1sCAoSLEFGMVFpcE1qcG4wNVpHWlRuT3JDTFZVRVJCQjFENlpxQUgwR3pIZlZzTE50!2m2!1d38.876612893212!2d-77.017344285908!3f357.2102922535777!4f1.6273267935210782!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.876612893212,
+        "longitude": -77.017344285908,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-232",
+      "station": "WATERFRONT",
+      "description": "M St. at 4th St. SW",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/waterfront/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592231034685!6m8!1m7!1sCAoSLEFGMVFpcE5fanVnWmNRZnViTUJ6cjNFSzZDNldqLVF2bTRldmJKU3FnZEVL!2m2!1d38.87714200243!2d-77.017618078002!3f172.36548143772012!4f1.4410784484713588!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.87714200243,
+        "longitude": -77.017618078002,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-233",
+      "station": "WEST FALLS CHURCH",
+      "description": "West Falls Church Station (Busbay)",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/west-falls-church/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577986646260!6m8!1m7!1sCAoSLEFGMVFpcFBKQWh4Z0VxaGFHY2w2VEdNS2RYRHJsaHB3ZzRXY0h1TzNvaEI1!2m2!1d38.901108062749!2d-77.189111154302!3f88.84996764588836!4f-2.239819800251027!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.901108062749,
+        "longitude": -77.189111154302,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-234",
+      "station": "WEST FALLS CHURCH",
+      "description": "Median of 1-66 At Leesburg Pike",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/west-falls-church/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577986711233!6m8!1m7!1sCAoSLEFGMVFpcE14eEhnanhUWnR6V0NmRUNjd01VUnByWXpTWHFRamxCTFZvaTg1!2m2!1d38.900178905222!2d-77.188856981164!3f330.8912169960692!4f2.9966952831658347!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.900178905222,
+        "longitude": -77.188856981164,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-235",
+      "station": "WEST HYATTSVILLE",
+      "description": "West side of Ager Rd., north of Queens Chapel Rd.",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/west-hyattsville/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1592231153812!6m8!1m7!1sCAoSLEFGMVFpcFBxTXN5azJYMnV4bG04VE83SUMtU0UwUlIzS09oNEZZMnRoYjlJ!2m2!1d38.955718420643!2d-76.968803947289!3f238.64505928180543!4f8.690421175177988!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.955718420643,
+        "longitude": -76.968803947289,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-236",
+      "station": "WHEATON",
+      "description": "Georgia Ave. & Reedie Dr (Busbay)",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/wheaton/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1568813695248!6m8!1m7!1sCAoSLEFGMVFpcE1wUXUtUnhfNnJLUko3YWlNZEVzVmx2OS1PN1JvNmpKaTdrNWFK!2m2!1d39.038253759882!2d-77.051150166324!3f43.155244518094264!4f8.03020669891606!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 39.038253759882,
+        "longitude": -77.051150166324,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-237",
+      "station": "WHEATON",
+      "description": "Georgia Ave. at Reedie Dr",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/wheaton/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1568813952597!6m8!1m7!1sCAoSLEFGMVFpcE1YS3UtcnUwc21CT2JiXzJWWWI2TUlVTWZBdWJsYW80OURfaWxm!2m2!1d39.038714287806!2d-77.050238527083!3f184.5700056502459!4f7.943521952380962!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 39.038714287806,
+        "longitude": -77.050238527083,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-238",
+      "station": "WIEHLE-RESTON EAST",
+      "description": "Wiehle Ave & Reston Station Blvd Entrance",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/wiehle-reston-east/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1601900547043!6m8!1m7!1sCAoSLEFGMVFpcFBpQ05Hd1gwUUdUcmFuU0xTREVKa2hxTDJqSUhBNFExeWljMFl1!2m2!1d38.948338829026!2d-77.338878818351!3f197.56836300993194!4f1.6612386260482737!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.948338829026,
+        "longitude": -77.338878818351,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-239",
+      "station": "WIEHLE-RESTON EAST",
+      "description": "Dulles Toll Rd Exit 13 & Wiehle Ave (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/wiehle-reston-east/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577999610720!6m8!1m7!1sCAoSLEFGMVFpcE55LVN3TEdYOWY1RnFHSjZmbjhGLUV0c2wzeENka2Vzam1yN1NF!2m2!1d38.946984470351!2d-77.340106965174!3f285.8757848770396!4f-4.872153623414306!5f0.4000000000000002",
+      "research_reference": {
+        "latitude": 38.946984470351,
+        "longitude": -77.340106965174,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-240",
+      "station": "WIEHLE-RESTON EAST",
+      "description": "Dulles Toll Rd Exit 13 & Wiehle Ave",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/wiehle-reston-east/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1577999531039!6m8!1m7!1sCAoSLEFGMVFpcE1Sc2xwV1FRejlPVzIybVIxNzRoZm4yS3A1U0tXdkY0NFc3SXVO!2m2!1d38.946869921882!2d-77.339800378377!3f269.16292395756153!4f0.009373149845671946!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.946869921882,
+        "longitude": -77.339800378377,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-241",
+      "station": "WOODLEY PARK-ZOO/ADAMS MORGAN",
+      "description": "SW corner Connecticut Ave. & 24th St. NW",
+      "kind": "Other entrance",
+      "wheelchair_flag": "Not marked",
+      "source_url": "https://www.wmata.com/ridertools/station/woodley-park/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1568748831725!6m8!1m7!1sCAoSLEFGMVFpcFBWRW51RmltYzdiNk5SbUtNN3pxR09aNVE4X2dYTWozM3NCZEJP!2m2!1d38.924448777438!2d-77.052255165379!3f284.3243009839823!4f-0.7366888932002098!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.924448777438,
+        "longitude": -77.052255165379,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    },
+    {
+      "id": "WMATA-242",
+      "station": "WOODLEY PARK-ZOO/ADAMS MORGAN",
+      "description": "SW corner Connecticut Ave. & Woodley Rd. (Elevator)",
+      "kind": "Elevator",
+      "wheelchair_flag": "Yes",
+      "source_url": "https://www.wmata.com/ridertools/station/woodley-park/info",
+      "station_view_url": "https://www.google.com/maps/embed?pb=!4v1568748961404!6m8!1m7!1sCAoSLEFGMVFpcE9DNnR1T0xaTE1zaERJai14RTJndlByMldLTWF6eWJ2bDVCR2cx!2m2!1d38.925501847615!2d-77.052802901156!3f216.41995163715663!4f-1.9856085285641711!5f0.7820865974627469",
+      "research_reference": {
+        "latitude": 38.925501847615,
+        "longitude": -77.052802901156,
+        "source": "Google panorama URL embedded on WMATA website",
+        "osm_edit_source": false
+      }
+    }
+  ]
+}

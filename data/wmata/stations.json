@@ -1,0 +1,398 @@
+{
+  "retrieved_on": "2026-10-16",
+  "universe_source": "https://maps2.dcgis.dc.gov/dcgis/rest/services/DCGIS_DATA/Transportation_Rail_Bus_WebMercator/MapServer/111",
+  "records": [
+    {
+      "name": "ADDISON ROAD-SEAT PLEASANT",
+      "source_url": "https://www.wmata.com/ridertools/station/addison-rd/info"
+    },
+    {
+      "name": "ANACOSTIA",
+      "source_url": "https://www.wmata.com/ridertools/station/anacostia/info"
+    },
+    {
+      "name": "ARCHIVES-NAVY MEMORIAL-PENN QUARTER",
+      "source_url": "https://www.wmata.com/ridertools/station/archives/info"
+    },
+    {
+      "name": "ARLINGTON CEMETERY",
+      "source_url": "https://www.wmata.com/ridertools/station/arlington-cemetery/info"
+    },
+    {
+      "name": "ASHBURN",
+      "source_url": "https://www.wmata.com/ridertools/station/ashburn/info"
+    },
+    {
+      "name": "BALLSTON-MU",
+      "source_url": "https://www.wmata.com/ridertools/station/ballston-mu/info"
+    },
+    {
+      "name": "BENNING ROAD",
+      "source_url": "https://www.wmata.com/ridertools/station/benning-rd/info"
+    },
+    {
+      "name": "BETHESDA",
+      "source_url": "https://www.wmata.com/ridertools/station/bethesda/info"
+    },
+    {
+      "name": "BRADDOCK ROAD",
+      "source_url": "https://www.wmata.com/ridertools/station/braddock-rd/info"
+    },
+    {
+      "name": "BRANCH AVENUE",
+      "source_url": "https://www.wmata.com/ridertools/station/branch-av/info"
+    },
+    {
+      "name": "BROOKLAND-CUA",
+      "source_url": "https://www.wmata.com/ridertools/station/brookland-cua/info"
+    },
+    {
+      "name": "CAPITOL HEIGHTS",
+      "source_url": "https://www.wmata.com/ridertools/station/capitol-heights/info"
+    },
+    {
+      "name": "CAPITOL SOUTH",
+      "source_url": "https://www.wmata.com/ridertools/station/capitol-south/info"
+    },
+    {
+      "name": "CHEVERLY",
+      "source_url": "https://www.wmata.com/ridertools/station/cheverly/info"
+    },
+    {
+      "name": "CLARENDON",
+      "source_url": "https://www.wmata.com/ridertools/station/clarendon/info"
+    },
+    {
+      "name": "CLEVELAND PARK",
+      "source_url": "https://www.wmata.com/ridertools/station/cleveland-park/info"
+    },
+    {
+      "name": "COLLEGE PARK-U OF MD",
+      "source_url": "https://www.wmata.com/ridertools/station/college-park-u-of-md/info"
+    },
+    {
+      "name": "COLUMBIA HEIGHTS",
+      "source_url": "https://www.wmata.com/ridertools/station/columbia-heights/info"
+    },
+    {
+      "name": "CONGRESS HEIGHTS",
+      "source_url": "https://www.wmata.com/ridertools/station/congress-heights/info"
+    },
+    {
+      "name": "COURT HOUSE",
+      "source_url": "https://www.wmata.com/ridertools/station/court-house/info"
+    },
+    {
+      "name": "CRYSTAL CITY",
+      "source_url": "https://www.wmata.com/ridertools/station/crystal-city/info"
+    },
+    {
+      "name": "DEANWOOD",
+      "source_url": "https://www.wmata.com/ridertools/station/deanwood/info"
+    },
+    {
+      "name": "DOWNTOWN LARGO",
+      "source_url": "https://www.wmata.com/ridertools/station/downtown-largo/info"
+    },
+    {
+      "name": "DUNN LORING-MERRIFIELD",
+      "source_url": "https://www.wmata.com/ridertools/station/dunn-loring/info"
+    },
+    {
+      "name": "DUPONT CIRCLE",
+      "source_url": "https://www.wmata.com/ridertools/station/dupont-circle/info"
+    },
+    {
+      "name": "EAST FALLS CHURCH",
+      "source_url": "https://www.wmata.com/ridertools/station/east-falls-church/info"
+    },
+    {
+      "name": "EASTERN MARKET",
+      "source_url": "https://www.wmata.com/ridertools/station/eastern-market/info"
+    },
+    {
+      "name": "EISENHOWER AVENUE",
+      "source_url": "https://www.wmata.com/ridertools/station/eisenhower-av/info"
+    },
+    {
+      "name": "FARRAGUT NORTH",
+      "source_url": "https://www.wmata.com/ridertools/station/farragut-north/info"
+    },
+    {
+      "name": "FARRAGUT WEST",
+      "source_url": "https://www.wmata.com/ridertools/station/farragut-west/info"
+    },
+    {
+      "name": "FEDERAL CENTER SW",
+      "source_url": "https://www.wmata.com/ridertools/station/federal-center-sw/info"
+    },
+    {
+      "name": "FEDERAL TRIANGLE",
+      "source_url": "https://www.wmata.com/ridertools/station/federal-triangle/info"
+    },
+    {
+      "name": "FOGGY BOTTOM-GWU",
+      "source_url": "https://www.wmata.com/ridertools/station/foggy-bottom-gwu/info"
+    },
+    {
+      "name": "FOREST GLEN",
+      "source_url": "https://www.wmata.com/ridertools/station/forest-glen/info"
+    },
+    {
+      "name": "FORT TOTTEN",
+      "source_url": "https://www.wmata.com/ridertools/station/fort-totten/info"
+    },
+    {
+      "name": "FRANCONIA-SPRINGFIELD",
+      "source_url": "https://www.wmata.com/ridertools/station/franconia-springfield/info"
+    },
+    {
+      "name": "FRIENDSHIP HEIGHTS",
+      "source_url": "https://www.wmata.com/ridertools/station/friendship-heights/info"
+    },
+    {
+      "name": "GALLERY PL-CHINATOWN",
+      "source_url": "https://www.wmata.com/ridertools/station/gallery-place/info"
+    },
+    {
+      "name": "GEORGIA AVE-PETWORTH",
+      "source_url": "https://www.wmata.com/ridertools/station/georgia-av-petworth/info"
+    },
+    {
+      "name": "GLENMONT",
+      "source_url": "https://www.wmata.com/ridertools/station/glenmont/info"
+    },
+    {
+      "name": "GREENBELT",
+      "source_url": "https://www.wmata.com/ridertools/station/greenbelt/info"
+    },
+    {
+      "name": "GREENSBORO",
+      "source_url": "https://www.wmata.com/ridertools/station/greensboro/info"
+    },
+    {
+      "name": "GROSVENOR-STRATHMORE",
+      "source_url": "https://www.wmata.com/ridertools/station/grosvenor-strathmore/info"
+    },
+    {
+      "name": "HERNDON",
+      "source_url": "https://www.wmata.com/ridertools/station/herndon/info"
+    },
+    {
+      "name": "HUNTINGTON",
+      "source_url": "https://www.wmata.com/ridertools/station/huntington/info"
+    },
+    {
+      "name": "HYATTSVILLE CROSSING",
+      "source_url": "https://www.wmata.com/ridertools/station/hyattsville-crossing/info"
+    },
+    {
+      "name": "INNOVATION CENTER",
+      "source_url": "https://www.wmata.com/ridertools/station/innovation-center/info"
+    },
+    {
+      "name": "JUDICIARY SQUARE",
+      "source_url": "https://www.wmata.com/ridertools/station/judiciary-sq/info"
+    },
+    {
+      "name": "KING ST-OLD TOWN",
+      "source_url": "https://www.wmata.com/ridertools/station/king-st-old-town/info"
+    },
+    {
+      "name": "L'ENFANT PLAZA",
+      "source_url": "https://www.wmata.com/ridertools/station/l'enfant-plaza/info"
+    },
+    {
+      "name": "LANDOVER",
+      "source_url": "https://www.wmata.com/ridertools/station/landover/info"
+    },
+    {
+      "name": "LOUDOUN GATEWAY",
+      "source_url": "https://www.wmata.com/ridertools/station/loudoun-gateway/info"
+    },
+    {
+      "name": "MCLEAN",
+      "source_url": "https://www.wmata.com/ridertools/station/mclean/info"
+    },
+    {
+      "name": "MCPHERSON SQUARE",
+      "source_url": "https://www.wmata.com/ridertools/station/mcpherson-sq/info"
+    },
+    {
+      "name": "MEDICAL CENTER",
+      "source_url": "https://www.wmata.com/ridertools/station/medical-center/info"
+    },
+    {
+      "name": "METRO CENTER",
+      "source_url": "https://www.wmata.com/ridertools/station/metro-center/info"
+    },
+    {
+      "name": "MINNESOTA AVE",
+      "source_url": "https://www.wmata.com/ridertools/station/minnesota-av/info"
+    },
+    {
+      "name": "MORGAN BOULEVARD",
+      "source_url": "https://www.wmata.com/ridertools/station/morgan-blvd/info"
+    },
+    {
+      "name": "MT VERNON SQ 7TH ST-CONVENTION CENTER",
+      "source_url": "https://www.wmata.com/ridertools/station/mt-vernon-sq/info"
+    },
+    {
+      "name": "NAVY YARD-BALLPARK",
+      "source_url": "https://www.wmata.com/ridertools/station/navy-yard-ballpark/info"
+    },
+    {
+      "name": "NAYLOR ROAD",
+      "source_url": "https://www.wmata.com/ridertools/station/naylor-rd/info"
+    },
+    {
+      "name": "NEW CARROLLTON",
+      "source_url": "https://www.wmata.com/ridertools/station/new-carrollton/info"
+    },
+    {
+      "name": "NOMA-GALLAUDET U",
+      "source_url": "https://www.wmata.com/ridertools/station/noma-gallaudet-u/info"
+    },
+    {
+      "name": "NORTH BETHESDA",
+      "source_url": "https://www.wmata.com/ridertools/station/north-bethesda/info"
+    },
+    {
+      "name": "PENTAGON",
+      "source_url": "https://www.wmata.com/ridertools/station/pentagon/info"
+    },
+    {
+      "name": "PENTAGON CITY",
+      "source_url": "https://www.wmata.com/ridertools/station/pentagon-city/info"
+    },
+    {
+      "name": "POTOMAC AVE",
+      "source_url": "https://www.wmata.com/ridertools/station/potomac-av/info"
+    },
+    {
+      "name": "POTOMAC YARD",
+      "source_url": "https://www.wmata.com/ridertools/station/potomac-yard/info"
+    },
+    {
+      "name": "RESTON TOWN CENTER",
+      "source_url": "https://www.wmata.com/ridertools/station/reston-town-center/info"
+    },
+    {
+      "name": "RHODE ISLAND AVE-BRENTWOOD",
+      "source_url": "https://www.wmata.com/ridertools/station/rhode-island-av/info"
+    },
+    {
+      "name": "ROCKVILLE",
+      "source_url": "https://www.wmata.com/ridertools/station/rockville/info"
+    },
+    {
+      "name": "RONALD REAGAN WASHINGTON NATIONAL AIRPORT",
+      "source_url": "https://www.wmata.com/ridertools/station/ronald-reagan-washington-national-airport/info"
+    },
+    {
+      "name": "ROSSLYN",
+      "source_url": "https://www.wmata.com/ridertools/station/rosslyn/info"
+    },
+    {
+      "name": "SHADY GROVE",
+      "source_url": "https://www.wmata.com/ridertools/station/shady-grove/info"
+    },
+    {
+      "name": "SHAW-HOWARD U",
+      "source_url": "https://www.wmata.com/ridertools/station/shaw-howard-u/info"
+    },
+    {
+      "name": "SILVER SPRING",
+      "source_url": "https://www.wmata.com/ridertools/station/silver-spring/info"
+    },
+    {
+      "name": "SMITHSONIAN",
+      "source_url": "https://www.wmata.com/ridertools/station/smithsonian/info"
+    },
+    {
+      "name": "SOUTHERN AVENUE",
+      "source_url": "https://www.wmata.com/ridertools/station/southern-av/info"
+    },
+    {
+      "name": "SPRING HILL",
+      "source_url": "https://www.wmata.com/ridertools/station/spring-hill/info"
+    },
+    {
+      "name": "STADIUM-ARMORY",
+      "source_url": "https://www.wmata.com/ridertools/station/stadium-armory/info"
+    },
+    {
+      "name": "SUITLAND",
+      "source_url": "https://www.wmata.com/ridertools/station/suitland/info"
+    },
+    {
+      "name": "TAKOMA",
+      "source_url": "https://www.wmata.com/ridertools/station/takoma/info"
+    },
+    {
+      "name": "TENLEYTOWN-AU",
+      "source_url": "https://www.wmata.com/ridertools/station/tenleytown-au/info"
+    },
+    {
+      "name": "TWINBROOK",
+      "source_url": "https://www.wmata.com/ridertools/station/twinbrook/info"
+    },
+    {
+      "name": "TYSONS",
+      "source_url": "https://www.wmata.com/ridertools/station/tysons/info"
+    },
+    {
+      "name": "U ST/AFRICAN AMER CIVIL WAR MEM/CARDOZO",
+      "source_url": "https://www.wmata.com/ridertools/station/u-st/info"
+    },
+    {
+      "name": "UNION STATION",
+      "source_url": "https://www.wmata.com/ridertools/station/union-station/info"
+    },
+    {
+      "name": "VAN DORN STREET",
+      "source_url": "https://www.wmata.com/ridertools/station/van-dorn-st/info"
+    },
+    {
+      "name": "VAN NESS-UDC",
+      "source_url": "https://www.wmata.com/ridertools/station/van-ness-udc/info"
+    },
+    {
+      "name": "VIENNA/FAIRFAX-GMU",
+      "source_url": "https://www.wmata.com/ridertools/station/vienna/info"
+    },
+    {
+      "name": "VIRGINIA SQUARE-GMU",
+      "source_url": "https://www.wmata.com/ridertools/station/virginia-sq-gmu/info"
+    },
+    {
+      "name": "WASHINGTON DULLES INTERNATIONAL AIRPORT",
+      "source_url": "https://www.wmata.com/ridertools/station/washington-dulles-international-airport/info"
+    },
+    {
+      "name": "WATERFRONT",
+      "source_url": "https://www.wmata.com/ridertools/station/waterfront/info"
+    },
+    {
+      "name": "WEST FALLS CHURCH",
+      "source_url": "https://www.wmata.com/ridertools/station/west-falls-church/info"
+    },
+    {
+      "name": "WEST HYATTSVILLE",
+      "source_url": "https://www.wmata.com/ridertools/station/west-hyattsville/info"
+    },
+    {
+      "name": "WHEATON",
+      "source_url": "https://www.wmata.com/ridertools/station/wheaton/info"
+    },
+    {
+      "name": "WIEHLE-RESTON EAST",
+      "source_url": "https://www.wmata.com/ridertools/station/wiehle-reston-east/info"
+    },
+    {
+      "name": "WOODLEY PARK-ZOO/ADAMS MORGAN",
+      "source_url": "https://www.wmata.com/ridertools/station/woodley-park/info"
+    }
+  ]
+}

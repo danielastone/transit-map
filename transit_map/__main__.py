@@ -45,6 +45,11 @@ def download(url, cache, refresh=False):
 
 
 def source_data(args):
+    defaults = [str(ROOT / path) for path in ("data/wmata/entrances.json", "data/wmata/stations.json", "data/osm/features.geojson", "data/reviews.json")]
+    if [args.inventory, args.stations, args.osm, args.reviews] == defaults:
+        from .build import materialize
+        state, _ = materialize()
+        return state['entrances']['records'], state['stations']['records'], state['osm'], state['reviews']['records']
     return (read_json(args.inventory)["records"], read_json(args.stations)["records"],
             read_json(args.osm), read_json(args.reviews)["records"])
 

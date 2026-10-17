@@ -1,0 +1,126 @@
+{
+  "reviewed_on": "2026-10-16",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "license_url": "https://www.openstreetmap.org/copyright",
+  "map": {
+    "url": "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Pentagon%20City_vicinity-map.pdf",
+    "edition": "June 2025",
+    "sha256": "66fa783002e396f2020a03589fdc9a0884756daf7fa7c3e51c9df16bd5e411a1"
+  },
+  "additional_operator_context": {
+    "source_url": "https://www.arlingtonva.us/Government/Projects/Project-Types/Transportation-Projects/Pentagon-City-Metro-Station-Second-Elevator",
+    "publisher": "Arlington County",
+    "reported_completion_date": "2025-09-17",
+    "claim": "Second street-level elevator installed and open on west side of South Hayes Street at 12th Street South.",
+    "coordinates_used": false,
+    "inventory_implication": "No separately labelled west-elevator source record in the existing three-view inventory; reconcile before claiming full entrance coverage."
+  },
+  "scope": "Map inspected visually; general entrance node and nearby distinct railway node checked live. No field or panorama inspection. No elevator-tagged feature in recorded query.",
+  "elements": [
+    {
+      "id": "node/449437258",
+      "version": 6,
+      "tags": {
+        "description": "Blue and Yellow Line",
+        "name": "Pentagon City Metro",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "coordinates": [
+        -77.0591009,
+        38.8626798
+      ]
+    },
+    {
+      "id": "node/11767528252",
+      "version": 1,
+      "tags": {
+        "railway": "subway_entrance"
+      },
+      "coordinates": [
+        -77.0590046,
+        38.8631523
+      ]
+    },
+    {
+      "id": "way/1086281513",
+      "version": 2,
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "surface": "concrete"
+      },
+      "node_refs": [
+        "9953403006",
+        "449437258",
+        "9953403005"
+      ],
+      "coordinates": [
+        [
+          -77.0590845,
+          38.8626776
+        ],
+        [
+          -77.0591009,
+          38.8626798
+        ],
+        [
+          -77.0591193,
+          38.8626807
+        ]
+      ]
+    },
+    {
+      "id": "way/1266961615",
+      "version": 1,
+      "tags": {
+        "highway": "steps"
+      },
+      "node_refs": [
+        "11767528251",
+        "11767528252"
+      ],
+      "coordinates": [
+        [
+          -77.0589863,
+          38.8632294
+        ],
+        [
+          -77.0590046,
+          38.8631523
+        ]
+      ]
+    }
+  ],
+  "live_checks": [
+    {
+      "id": "449437258",
+      "version": "6",
+      "timestamp": "2024-05-04T19:39:16Z",
+      "lat": "38.8626798",
+      "lon": "-77.0591009"
+    },
+    {
+      "id": "11767528252",
+      "version": "1",
+      "timestamp": "2024-03-28T00:17:21Z",
+      "lat": "38.8631523",
+      "lon": "-77.0590046"
+    }
+  ],
+  "research_distances_m": [
+    {
+      "entrance_id": "WMATA-162",
+      "osm_edit_source": false,
+      "candidate_id": "node/449437258",
+      "distance_m": 15.5
+    },
+    {
+      "entrance_id": "WMATA-163",
+      "osm_edit_source": false,
+      "candidate_id": "node/449437258",
+      "distance_m": 18.0
+    }
+  ]
+}

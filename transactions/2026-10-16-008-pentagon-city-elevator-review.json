@@ -1,0 +1,33 @@
+{
+  "transaction_id": "2026-10-16-pentagon-city-elevator-review",
+  "rationale": "Support general east entrance while keeping elevator identity unresolved; flag independently documented west-elevator opening as a source-coverage reconciliation task.",
+  "sources": [
+    "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Pentagon%20City_vicinity-map.pdf",
+    "https://www.arlingtonva.us/Government/Projects/Project-Types/Transportation-Projects/Pentagon-City-Metro-Station-Second-Elevator",
+    "https://www.openstreetmap.org/node/449437258"
+  ],
+  "operations": [
+    {
+      "table": "reviews",
+      "action": "add",
+      "id": "WMATA-162",
+      "record": {
+        "entrance_id": "WMATA-162",
+        "reviewed_on": "2026-10-16",
+        "status": "Existing entrance confirmed",
+        "notes": "Desktop identity review: Named railway entrance node 449437258 lies on the east side of Hayes Street and connects to sidewalk way 1086281513. Source description and the independent WMATA vicinity map agree on the east station access area; the research-reference distance is 15.5 m. This supports the general east entrance identity, not the specific elevator identity or complete accessible route. Source coverage caveat: Arlington County reports a second WEST-side street elevator completed 2025-09-17; the June 2025 map predates it and the existing scraped inventory has no separately labelled west-elevator record. This needs independent inventory reconciliation; no new source record or coordinate is invented here. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Pentagon%20City_vicinity-map.pdf ; https://www.arlingtonva.us/Government/Projects/Project-Types/Transportation-Projects/Pentagon-City-Metro-Station-Second-Elevator ; https://www.openstreetmap.org/node/449437258 ; docs/evidence/pentagon-city-2026-10-16.json. Source panoramas, field conditions and current operation were not inspected. No source coordinates changed or OSM edit approved."
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "add",
+      "id": "WMATA-163",
+      "record": {
+        "entrance_id": "WMATA-163",
+        "reviewed_on": "2026-10-16",
+        "status": "Geometry present; entrance position unverified",
+        "notes": "Desktop identity review: WMATA map and source description identify an east-side elevator. Shared candidate node 449437258, 18.0 m from this research reference, is railway=subway_entrance and wheelchair=yes but not highway=elevator. The recorded OSM query has no elevator-tagged feature, including no raw element with an elevator key/value. The wheelchair tag does not identify a specific elevator or establish its position/topology. Another nearby railway entrance node 11767528252 connects to steps way 1266961615 and is not promoted into an elevator match. Exact elevator geometry remains unverified; missing tags are not proof of a missing physical elevator. Do not create or retag an elevator solely from the shared candidate. Source coverage caveat: Arlington County reports a second WEST-side street elevator completed 2025-09-17; the June 2025 map predates it and the existing scraped inventory has no separately labelled west-elevator record. This needs independent inventory reconciliation; no new source record or coordinate is invented here. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Pentagon%20City_vicinity-map.pdf ; https://www.arlingtonva.us/Government/Projects/Project-Types/Transportation-Projects/Pentagon-City-Metro-Station-Second-Elevator ; https://www.openstreetmap.org/node/449437258 ; docs/evidence/pentagon-city-2026-10-16.json. Source panoramas, field conditions and current operation were not inspected. No source coordinates changed or OSM edit approved."
+      }
+    }
+  ]
+}

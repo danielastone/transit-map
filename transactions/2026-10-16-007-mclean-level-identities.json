@@ -1,0 +1,33 @@
+{
+  "transaction_id": "2026-10-16-mclean-level-identities",
+  "rationale": "Expose shared-candidate platform-level membership and unresolved street elevator identity; do not promote proximity into a street-level entrance confirmation.",
+  "sources": [
+    "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/McLean_vicinity-map.pdf",
+    "https://www.wmata.com/ridertools/station/mclean/info",
+    "https://www.openstreetmap.org/way/810065189"
+  ],
+  "operations": [
+    {
+      "table": "reviews",
+      "action": "add",
+      "id": "WMATA-128",
+      "record": {
+        "entrance_id": "WMATA-128",
+        "reviewed_on": "2026-10-16",
+        "status": "Geometry present; entrance position unverified",
+        "notes": "Desktop level/identity review: The operator map shows station access and elevators by the Dolley Madison/Scotts Crossing side, but the nearest shared railway entrance node 10242056060 also belongs to platform area 810065189 tagged level=2 and layer=2, and connects to footway 1119813162 without an explicit level. Another railway entrance node 13334336661 lies on station building outline 227612806 and connects to footway 1453963154. These associations create unresolved street-threshold/level semantics, not two confirmed street entrances. The shared node wheelchair=yes tag does not identify a specific elevator. Nearest elevator node 13325542089 is tagged level=0;-1;-2;-3;-4 and connects to footway 1453014394; no station-serving identity or route is established by this review. Do not choose that elevator merely because it is nearest, infer platform connectivity, or add another entrance/elevator without verifying the existing geometry. Exact source identity, street entrance level and elevator connection remain open. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/McLean_vicinity-map.pdf ; https://www.openstreetmap.org/node/10242056060 ; https://www.openstreetmap.org/node/13334336661 ; https://www.openstreetmap.org/node/13325542089 ; https://www.openstreetmap.org/way/810065189 ; docs/evidence/mclean-2026-10-16.json. No source panorama or field inspection, equipment operation or complete accessible route verified. Coordinates unchanged; no OSM edit approved."
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "add",
+      "id": "WMATA-129",
+      "record": {
+        "entrance_id": "WMATA-129",
+        "reviewed_on": "2026-10-16",
+        "status": "Geometry present; entrance position unverified",
+        "notes": "Desktop level/identity review: The operator map shows station access and elevators by the Dolley Madison/Scotts Crossing side, but the nearest shared railway entrance node 10242056060 also belongs to platform area 810065189 tagged level=2 and layer=2, and connects to footway 1119813162 without an explicit level. Another railway entrance node 13334336661 lies on station building outline 227612806 and connects to footway 1453963154. These associations create unresolved street-threshold/level semantics, not two confirmed street entrances. The shared node wheelchair=yes tag does not identify a specific elevator. Nearest elevator node 13325542089 is tagged level=0;-1;-2;-3;-4 and connects to footway 1453014394; no station-serving identity or route is established by this review. Do not choose that elevator merely because it is nearest, infer platform connectivity, or add another entrance/elevator without verifying the existing geometry. Exact source identity, street entrance level and elevator connection remain open. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/McLean_vicinity-map.pdf ; https://www.openstreetmap.org/node/10242056060 ; https://www.openstreetmap.org/node/13334336661 ; https://www.openstreetmap.org/node/13325542089 ; https://www.openstreetmap.org/way/810065189 ; docs/evidence/mclean-2026-10-16.json. No source panorama or field inspection, equipment operation or complete accessible route verified. Coordinates unchanged; no OSM edit approved."
+      }
+    }
+  ]
+}

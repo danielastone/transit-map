@@ -116,3 +116,7 @@ python -m http.server 8000 --directory build/site
 ```
 
 Open http://localhost:8000. Generated output is disposable; source changes go through transactions and pull requests. Pages deployment requires the repository setting described in the architecture document.
+
+### Recovering cited OSM evidence
+
+`python -m transit_map recover-evidence --maps` retrieves missing cited OSM geometry into ignored `build/evidence/`, using histories at the review-day boundary (America/New_York), capped at recovery start for a day still in progress. Inspect problems, version changes and rendered PDF editions before admitting a new evidence file. Current retained recovery is [baseline-recovery-2026-10-16.json](docs/evidence/baseline-recovery-2026-10-16.json). Reproducibility tests allow no known missing citations; retained evidence does not itself validate a review's interpretation.

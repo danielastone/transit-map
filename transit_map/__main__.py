@@ -108,10 +108,56 @@ def fetch_osm(args):
     return 1 if failures else 0
 
 
+def recover_evidence(args):
+    """N4: fetch review-time OSM history for cited elements the repo does not retain."""
+    from . import evidence
+    inventory, _, osm, reviews = source_data(args)
+    by_review = {r["entrance_id"]: r for r in reviews}
+    gaps = evidence.unreproducible_citations(reviews, osm, ROOT / "docs/evidence")
+    if args.review:
+        gaps = {k: v for k, v in gaps.items() if k in set(args.review)}
+    if not gaps:
+        print(json.dumps({"unreproducible_citations": 0}))
+        return 0
+    cache = Path(args.cache)
+
+    def fetch_history(element_id):
+        kind, ident = element_id.split("/")
+        raw, _ = download(f"{evidence.API}/{kind}/{ident}/history.json",
+                          cache / f"{kind}-{ident}.json", args.refresh)
+        time.sleep(args.delay)
+        return json.loads(raw)["elements"]
+
+    def fetch_bytes(url):
+        raw, _ = download(url, cache / ("map-" + url.rsplit("/", 1)[-1].replace("%20", "_")), args.refresh)
+        return raw
+
+    def fetch_nodes(node_ids):
+        import hashlib
+        records = []
+        for start in range(0, len(node_ids), 500):
+            ids = ",".join(n.split("/")[1] for n in node_ids[start:start + 500])
+            key = hashlib.sha256(ids.encode()).hexdigest()[:20]
+            raw, _ = download(f"{evidence.API}/nodes.json?nodes={ids}",
+                              cache / f"nodes-batch-{key}.json", args.refresh)
+            records.extend(json.loads(raw)["elements"])
+            time.sleep(args.delay)
+        return records
+
+    maps = evidence.map_records([by_review[r] for r in gaps], fetch_bytes if args.maps else None)
+    result = evidence.recover(gaps, by_review, {r["id"]: r for r in inventory}, fetch_history, maps, fetch_nodes=fetch_nodes)
+    write_json(args.output, result)
+    changed = sum(c["changed_after_review"] for c in result["live_checks"])
+    print(json.dumps({"reviews": len(gaps), "elements": len(result["elements"]),
+                      "changed_after_review": changed, "problems": result["problems"],
+                      "output": args.output}, indent=2))
+    return 1 if result["problems"] else 0
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     sub = parser.add_subparsers(dest="command", required=True)
-    for name in ("validate", "audit", "review-queue", "fetch-wmata", "fetch-osm"):
+    for name in ("validate", "audit", "review-queue", "fetch-wmata", "fetch-osm", "recover-evidence"):
         command = sub.add_parser(name)
         command.add_argument("--inventory", default=str(ROOT / "data/wmata/entrances.json"))
         command.add_argument("--stations", default=str(ROOT / "data/wmata/stations.json"))
@@ -119,9 +165,13 @@ def main(argv=None):
         command.add_argument("--reviews", default=str(ROOT / "data/reviews.json"))
         if name != "validate":
             default = {"audit": "build/audit.json", "review-queue": "build/review-queue.md",
-                       "fetch-wmata": "build/wmata.json", "fetch-osm": "build/osm.geojson"}[name]
+                       "fetch-wmata": "build/wmata.json", "fetch-osm": "build/osm.geojson",
+                       "recover-evidence": "build/evidence/baseline-recovery.json"}[name]
             command.add_argument("--output", default=default)
-        if name.startswith("fetch-"):
+        if name == "recover-evidence":
+            command.add_argument("--review", action="append", help="Limit to an entrance ID (repeatable)")
+            command.add_argument("--maps", action="store_true", help="Also download cited WMATA maps and hash them")
+        if name.startswith("fetch-") or name == "recover-evidence":
             command.add_argument("--cache", default=f"build/cache/{name}")
             command.add_argument("--refresh", action="store_true", help="Bypass cached responses")
             command.add_argument("--delay", type=float, default=0.5, help="Seconds between requests")
@@ -131,6 +181,8 @@ def main(argv=None):
             return fetch_wmata(args)
         if args.command == "fetch-osm":
             return fetch_osm(args)
+        if args.command == "recover-evidence":
+            return recover_evidence(args)
         inventory, stations, osm, reviews = source_data(args)
         if args.command == "validate":
             print(json.dumps(validate(inventory, stations, osm, reviews), indent=2))

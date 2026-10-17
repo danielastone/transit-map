@@ -1,0 +1,3458 @@
+{
+  "reviewed_on": "2026-10-16",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "license_url": "https://www.openstreetmap.org/copyright",
+  "scope": "Retrospective recovery of OSM elements cited in baseline desktop review notes. Each element is its OSM history version as of the end of the review day (America/New_York), capped at recovery start if that day is still in progress; way node coordinates are resolved at the same exclusive cutoff. This reproduces cited geometry; it does not re-review or strengthen the outcomes. Contributor names and UIDs omitted.",
+  "review_day_end_utc": "2026-10-17T04:00:00Z",
+  "recovery_started_at_utc": "2026-10-17T01:40:17.461516Z",
+  "review_cutoff_utc": "2026-10-17T01:40:17.461516Z",
+  "cited_by": {
+    "WMATA-021": [
+      "node/7792548646",
+      "way/305845880",
+      "way/305845881",
+      "way/834810244"
+    ],
+    "WMATA-022": [
+      "node/7792548645",
+      "way/305845881",
+      "way/834810243"
+    ],
+    "WMATA-107": [
+      "node/6542276608",
+      "way/305842958",
+      "way/696658744",
+      "way/696658748"
+    ],
+    "WMATA-108": [
+      "node/5589300606",
+      "way/584775752"
+    ],
+    "WMATA-142": [
+      "way/305847609",
+      "way/305847610"
+    ],
+    "WMATA-172": [
+      "way/1010702112"
+    ],
+    "WMATA-173": [
+      "way/1010702114"
+    ],
+    "WMATA-195": [
+      "node/9384597573",
+      "node/9384597574",
+      "way/1017457921"
+    ],
+    "WMATA-208": [
+      "node/3105395343",
+      "way/305852778",
+      "way/305852779",
+      "way/305852780"
+    ],
+    "WMATA-209": [
+      "node/10035031323",
+      "way/1095734267",
+      "way/305852778"
+    ],
+    "WMATA-210": [
+      "node/4448309368",
+      "way/447761001",
+      "way/447761002",
+      "way/447761004",
+      "way/447761005"
+    ],
+    "WMATA-211": [
+      "node/10243110918",
+      "node/4448309372",
+      "way/1119943184",
+      "way/1201241347",
+      "way/447760998",
+      "way/447761001"
+    ]
+  },
+  "maps": [
+    {
+      "url": "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Branch%20Av_vicinity-map.pdf",
+      "edition": "June 2026",
+      "sha256": "1ee3aa11ce79225545baa7a5c6816a05b0e73de3dcf511975f744b58b1d40ff7",
+      "edition_verification": "PDF rendered and visually inspected; edition footer checked against extracted text."
+    },
+    {
+      "url": "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Huntington_vicinity-map.pdf",
+      "edition": "June 2025",
+      "sha256": "1c5d9e7848e401fa269241c82a5633ad994e3f1664c0f99d73ea64d326fa74cf",
+      "edition_verification": "PDF rendered and visually inspected; edition footer checked against extracted text."
+    },
+    {
+      "url": "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Minnesota%20Av_vicinity-map.pdf",
+      "edition": "June 2025",
+      "sha256": "e9c6569803f02730d9161bbd8bdb256fb283c2a96b04cd1268f6cd8996ca7e0f",
+      "edition_verification": "PDF rendered and visually inspected; edition footer checked against extracted text."
+    },
+    {
+      "url": "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Reston%20Town%20Center_vicinity-map.pdf",
+      "edition": "June 2025",
+      "sha256": "7fb7d4d72ea1078cb9119935390dedfa145feb532d9f03178c3b7d2ba08b5dc4",
+      "edition_verification": "PDF rendered and visually inspected; edition footer checked against extracted text."
+    },
+    {
+      "url": "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Southern%20Av_vicinity-map.pdf",
+      "edition": "June 2025",
+      "sha256": "81785ed23617eb0398bd3624cc0504aecb01638764dd7b2a2b65dc67df7c229f",
+      "edition_verification": "PDF rendered and visually inspected; edition footer checked against extracted text."
+    },
+    {
+      "url": "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Twinbrook_vicinity-map.pdf",
+      "edition": "June 2025",
+      "sha256": "b0f32289cbf4b90ab5281684d5e2f3fe897c5f783a7a85daa4337f50746a3b5f",
+      "edition_verification": "PDF rendered and visually inspected; edition footer checked against extracted text."
+    },
+    {
+      "url": "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Tysons_vicinity-map.pdf",
+      "edition": "December 2025",
+      "sha256": "2f890a3b2b7cf8c928d912231a97ddd0428faa2cf0faf6df26b3955b3bff3f3a",
+      "edition_verification": "PDF rendered and visually inspected; edition footer checked against extracted text."
+    }
+  ],
+  "elements": [
+    {
+      "id": "node/10035031323",
+      "version": 1,
+      "timestamp": "2022-09-18T20:52:35Z",
+      "tags": {},
+      "coordinates": [
+        -77.1203987,
+        39.0623412
+      ]
+    },
+    {
+      "id": "node/10243110918",
+      "version": 1,
+      "timestamp": "2022-12-06T19:02:21Z",
+      "tags": {},
+      "coordinates": [
+        -77.2221849,
+        38.9197674
+      ]
+    },
+    {
+      "id": "node/3105395343",
+      "version": 1,
+      "timestamp": "2014-10-01T13:03:57Z",
+      "tags": {},
+      "coordinates": [
+        -77.1207529,
+        39.0621601
+      ]
+    },
+    {
+      "id": "node/4448309368",
+      "version": 5,
+      "timestamp": "2022-12-06T19:02:21Z",
+      "tags": {},
+      "coordinates": [
+        -77.222106,
+        38.9197613
+      ]
+    },
+    {
+      "id": "node/4448309372",
+      "version": 3,
+      "timestamp": "2023-08-23T05:54:10Z",
+      "tags": {},
+      "coordinates": [
+        -77.2224638,
+        38.9197909
+      ]
+    },
+    {
+      "id": "node/5589300606",
+      "version": 1,
+      "timestamp": "2018-04-30T21:50:42Z",
+      "tags": {},
+      "coordinates": [
+        -77.0759284,
+        38.792421
+      ]
+    },
+    {
+      "id": "node/6542276608",
+      "version": 3,
+      "timestamp": "2021-04-19T19:03:34Z",
+      "tags": {},
+      "coordinates": [
+        -77.0751229,
+        38.7947686
+      ]
+    },
+    {
+      "id": "node/7792548645",
+      "version": 1,
+      "timestamp": "2020-08-06T21:55:30Z",
+      "tags": {},
+      "coordinates": [
+        -76.912407,
+        38.8272293
+      ]
+    },
+    {
+      "id": "node/7792548646",
+      "version": 1,
+      "timestamp": "2020-08-06T21:55:30Z",
+      "tags": {},
+      "coordinates": [
+        -76.9125993,
+        38.8270432
+      ]
+    },
+    {
+      "id": "node/9384597573",
+      "version": 1,
+      "timestamp": "2022-01-01T23:07:20Z",
+      "tags": {},
+      "coordinates": [
+        -76.9757571,
+        38.8403651
+      ]
+    },
+    {
+      "id": "node/9384597574",
+      "version": 1,
+      "timestamp": "2022-01-01T23:07:20Z",
+      "tags": {},
+      "coordinates": [
+        -76.975691,
+        38.8404184
+      ]
+    },
+    {
+      "id": "way/1010702112",
+      "version": 5,
+      "timestamp": "2026-05-20T16:12:29Z",
+      "tags": {
+        "building": "bridge",
+        "building:levels": "2",
+        "layer": "1"
+      },
+      "node_refs": [
+        "node/9324751309",
+        "node/9324751298",
+        "node/9324751297",
+        "node/9324751296",
+        "node/9324751295",
+        "node/9324751294",
+        "node/9324751293",
+        "node/7433034321",
+        "node/9324751292",
+        "node/9324751291",
+        "node/9324751290",
+        "node/9324751289",
+        "node/9324751288",
+        "node/10680807586",
+        "node/10680807585",
+        "node/10680807584",
+        "node/10680807583",
+        "node/9324751287",
+        "node/9324751308",
+        "node/13853418711",
+        "node/9324751307",
+        "node/9324751306",
+        "node/11383075905",
+        "node/11383075903",
+        "node/12187168819",
+        "node/9324751305",
+        "node/9324751304",
+        "node/12187168820",
+        "node/11383075904",
+        "node/11383075906",
+        "node/9324751303",
+        "node/9324751302",
+        "node/9324751301",
+        "node/9324751300",
+        "node/9324751299",
+        "node/9324751309"
+      ],
+      "coordinates": [
+        [
+          -77.3601986,
+          38.9535108
+        ],
+        [
+          -77.3602043,
+          38.9535236
+        ],
+        [
+          -77.3600511,
+          38.9535637
+        ],
+        [
+          -77.3600471,
+          38.9535538
+        ],
+        [
+          -77.3599291,
+          38.9535846
+        ],
+        [
+          -77.3599328,
+          38.953595
+        ],
+        [
+          -77.3598258,
+          38.9536229
+        ],
+        [
+          -77.3598072,
+          38.9535783
+        ],
+        [
+          -77.3597889,
+          38.9535353
+        ],
+        [
+          -77.3598959,
+          38.9535085
+        ],
+        [
+          -77.3599006,
+          38.9535165
+        ],
+        [
+          -77.3600169,
+          38.9534847
+        ],
+        [
+          -77.3600126,
+          38.9534761
+        ],
+        [
+          -77.3600699,
+          38.9534616
+        ],
+        [
+          -77.3600597,
+          38.9534361
+        ],
+        [
+          -77.3601303,
+          38.9534195
+        ],
+        [
+          -77.3601396,
+          38.9534417
+        ],
+        [
+          -77.3601675,
+          38.9534347
+        ],
+        [
+          -77.3601725,
+          38.9534482
+        ],
+        [
+          -77.3601866,
+          38.9534445
+        ],
+        [
+          -77.3606841,
+          38.9533127
+        ],
+        [
+          -77.3607029,
+          38.953296
+        ],
+        [
+          -77.3607266,
+          38.9531756
+        ],
+        [
+          -77.3607292,
+          38.9531623
+        ],
+        [
+          -77.3607594,
+          38.9530085
+        ],
+        [
+          -77.3607793,
+          38.9529076
+        ],
+        [
+          -77.3608632,
+          38.9529176
+        ],
+        [
+          -77.3608427,
+          38.9530182
+        ],
+        [
+          -77.3608112,
+          38.9531722
+        ],
+        [
+          -77.3608091,
+          38.9531825
+        ],
+        [
+          -77.3607834,
+          38.9533085
+        ],
+        [
+          -77.3607975,
+          38.9533101
+        ],
+        [
+          -77.3607874,
+          38.9533664
+        ],
+        [
+          -77.3607163,
+          38.9533851
+        ],
+        [
+          -77.3607109,
+          38.9533742
+        ],
+        [
+          -77.3601986,
+          38.9535108
+        ]
+      ]
+    },
+    {
+      "id": "way/1010702114",
+      "version": 3,
+      "timestamp": "2026-05-20T15:56:10Z",
+      "tags": {
+        "building": "bridge",
+        "building:levels": "2",
+        "layer": "1"
+      },
+      "node_refs": [
+        "node/9324774438",
+        "node/9324774437",
+        "node/9324774436",
+        "node/9324774435",
+        "node/9324774434",
+        "node/9324774442",
+        "node/11383075910",
+        "node/11383075912",
+        "node/11383075914",
+        "node/9324774439",
+        "node/9324774440",
+        "node/11383075913",
+        "node/11383075911",
+        "node/11383075909",
+        "node/9324774441",
+        "node/9324774433",
+        "node/9324774432",
+        "node/9324774431",
+        "node/9324774430",
+        "node/9324774429",
+        "node/9324774428",
+        "node/13853391339",
+        "node/13853391338",
+        "node/9324774427",
+        "node/9324774426",
+        "node/9324774425",
+        "node/9324774424",
+        "node/9324774423",
+        "node/7432921910",
+        "node/9324774438"
+      ],
+      "coordinates": [
+        [
+          -77.3612819,
+          38.9523674
+        ],
+        [
+          -77.3611672,
+          38.9523539
+        ],
+        [
+          -77.3611688,
+          38.9523459
+        ],
+        [
+          -77.3610346,
+          38.9523302
+        ],
+        [
+          -77.3610331,
+          38.9523378
+        ],
+        [
+          -77.3609774,
+          38.9523313
+        ],
+        [
+          -77.360949,
+          38.952478
+        ],
+        [
+          -77.3609379,
+          38.9525347
+        ],
+        [
+          -77.3609064,
+          38.9526981
+        ],
+        [
+          -77.3608867,
+          38.9528001
+        ],
+        [
+          -77.3608034,
+          38.9527904
+        ],
+        [
+          -77.3608232,
+          38.952688
+        ],
+        [
+          -77.3608547,
+          38.9525247
+        ],
+        [
+          -77.3608662,
+          38.9524654
+        ],
+        [
+          -77.360894,
+          38.9523215
+        ],
+        [
+          -77.3608722,
+          38.9523189
+        ],
+        [
+          -77.3608752,
+          38.9523033
+        ],
+        [
+          -77.3608519,
+          38.9523006
+        ],
+        [
+          -77.3608637,
+          38.9522392
+        ],
+        [
+          -77.3608907,
+          38.9522424
+        ],
+        [
+          -77.3608937,
+          38.9522266
+        ],
+        [
+          -77.3609528,
+          38.9522334
+        ],
+        [
+          -77.3609748,
+          38.9522361
+        ],
+        [
+          -77.3610514,
+          38.952245
+        ],
+        [
+          -77.3610494,
+          38.9522552
+        ],
+        [
+          -77.3611869,
+          38.9522712
+        ],
+        [
+          -77.3611884,
+          38.9522631
+        ],
+        [
+          -77.3612996,
+          38.9522761
+        ],
+        [
+          -77.361291,
+          38.952323
+        ],
+        [
+          -77.3612819,
+          38.9523674
+        ]
+      ]
+    },
+    {
+      "id": "way/1017457921",
+      "version": 2,
+      "timestamp": "2026-05-20T19:04:43Z",
+      "tags": {
+        "highway": "footway"
+      },
+      "node_refs": [
+        "node/9384597573",
+        "node/9384597574"
+      ],
+      "coordinates": [
+        [
+          -76.9757571,
+          38.8403651
+        ],
+        [
+          -76.975691,
+          38.8404184
+        ]
+      ]
+    },
+    {
+      "id": "way/1095734267",
+      "version": 3,
+      "timestamp": "2023-11-05T15:37:38Z",
+      "tags": {
+        "highway": "footway",
+        "surface": "concrete:plates"
+      },
+      "node_refs": [
+        "node/10035031323",
+        "node/2477168419"
+      ],
+      "coordinates": [
+        [
+          -77.1203987,
+          39.0623412
+        ],
+        [
+          -77.1203128,
+          39.0623844
+        ]
+      ]
+    },
+    {
+      "id": "way/1119943184",
+      "version": 1,
+      "timestamp": "2022-12-06T19:02:21Z",
+      "tags": {
+        "access": "yes",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "up"
+      },
+      "node_refs": [
+        "node/10243110917",
+        "node/10243110918"
+      ],
+      "coordinates": [
+        [
+          -77.2224059,
+          38.9197865
+        ],
+        [
+          -77.2221849,
+          38.9197674
+        ]
+      ]
+    },
+    {
+      "id": "way/1201241347",
+      "version": 1,
+      "timestamp": "2023-08-23T05:54:10Z",
+      "tags": {
+        "covered": "yes",
+        "highway": "footway",
+        "surface": "paved"
+      },
+      "node_refs": [
+        "node/10243110917",
+        "node/4448309372"
+      ],
+      "coordinates": [
+        [
+          -77.2224059,
+          38.9197865
+        ],
+        [
+          -77.2224638,
+          38.9197909
+        ]
+      ]
+    },
+    {
+      "id": "way/305842958",
+      "version": 3,
+      "timestamp": "2019-06-12T11:49:22Z",
+      "tags": {
+        "highway": "footway"
+      },
+      "node_refs": [
+        "node/1550601908",
+        "node/3502676134",
+        "node/3502676133",
+        "node/3502676132",
+        "node/1550601883",
+        "node/6542276608"
+      ],
+      "coordinates": [
+        [
+          -77.0738162,
+          38.7941347
+        ],
+        [
+          -77.0744989,
+          38.7944556
+        ],
+        [
+          -77.0748395,
+          38.7946667
+        ],
+        [
+          -77.0749656,
+          38.794721
+        ],
+        [
+          -77.074971,
+          38.7947566
+        ],
+        [
+          -77.0751229,
+          38.7947686
+        ]
+      ]
+    },
+    {
+      "id": "way/305845880",
+      "version": 2,
+      "timestamp": "2022-04-08T18:29:46Z",
+      "tags": {
+        "highway": "footway"
+      },
+      "node_refs": [
+        "node/9652338419",
+        "node/3105321635",
+        "node/9652338426",
+        "node/9652338423",
+        "node/9652338421",
+        "node/3105321636",
+        "node/3105321638",
+        "node/9652291216",
+        "node/9652338433",
+        "node/3105321637",
+        "node/810699911",
+        "node/2519063006"
+      ],
+      "coordinates": [
+        [
+          -76.9137561,
+          38.8263292
+        ],
+        [
+          -76.913727,
+          38.8263531
+        ],
+        [
+          -76.9136502,
+          38.826427
+        ],
+        [
+          -76.9134808,
+          38.826638
+        ],
+        [
+          -76.9130949,
+          38.827005
+        ],
+        [
+          -76.9128815,
+          38.8271673
+        ],
+        [
+          -76.9126315,
+          38.8270126
+        ],
+        [
+          -76.9125961,
+          38.8269907
+        ],
+        [
+          -76.9117918,
+          38.8264927
+        ],
+        [
+          -76.9115953,
+          38.826371
+        ],
+        [
+          -76.9115125,
+          38.8262968
+        ],
+        [
+          -76.9114565,
+          38.8262443
+        ]
+      ]
+    },
+    {
+      "id": "way/305845881",
+      "version": 3,
+      "timestamp": "2020-08-06T21:55:30Z",
+      "tags": {
+        "bridge": "yes",
+        "highway": "footway",
+        "layer": "1"
+      },
+      "node_refs": [
+        "node/7792548646",
+        "node/3105321639",
+        "node/3105321640",
+        "node/7792548645"
+      ],
+      "coordinates": [
+        [
+          -76.9125993,
+          38.8270432
+        ],
+        [
+          -76.91251,
+          38.8271281
+        ],
+        [
+          -76.9124732,
+          38.8271631
+        ],
+        [
+          -76.912407,
+          38.8272293
+        ]
+      ]
+    },
+    {
+      "id": "way/305847609",
+      "version": 4,
+      "timestamp": "2022-11-17T14:04:27Z",
+      "tags": {
+        "bicycle": "yes",
+        "highway": "footway",
+        "layer": "-1",
+        "surface": "concrete",
+        "tunnel": "yes"
+      },
+      "node_refs": [
+        "node/6744756799",
+        "node/3105340703",
+        "node/3105340704",
+        "node/3105340705",
+        "node/3105340706"
+      ],
+      "coordinates": [
+        [
+          -76.9468287,
+          38.8987045
+        ],
+        [
+          -76.9467419,
+          38.8987745
+        ],
+        [
+          -76.9469503,
+          38.8989347
+        ],
+        [
+          -76.9470229,
+          38.8989864
+        ],
+        [
+          -76.9472922,
+          38.899183
+        ]
+      ]
+    },
+    {
+      "id": "way/305847610",
+      "version": 3,
+      "timestamp": "2019-08-25T22:12:11Z",
+      "tags": {
+        "bicycle": "yes",
+        "highway": "footway",
+        "surface": "concrete"
+      },
+      "node_refs": [
+        "node/3105340706",
+        "node/3105340707",
+        "node/3105340708",
+        "node/3105340709",
+        "node/2873438991"
+      ],
+      "coordinates": [
+        [
+          -76.9472922,
+          38.899183
+        ],
+        [
+          -76.9468039,
+          38.8995674
+        ],
+        [
+          -76.9468472,
+          38.8996008
+        ],
+        [
+          -76.9469313,
+          38.8995346
+        ],
+        [
+          -76.9469478,
+          38.8995473
+        ]
+      ]
+    },
+    {
+      "id": "way/305852778",
+      "version": 5,
+      "timestamp": "2024-10-30T18:30:38Z",
+      "tags": {
+        "highway": "footway",
+        "layer": "-1",
+        "surface": "paving_stones",
+        "tunnel": "yes"
+      },
+      "node_refs": [
+        "node/10035031323",
+        "node/3105395341",
+        "node/7795668296",
+        "node/3105395343"
+      ],
+      "coordinates": [
+        [
+          -77.1203987,
+          39.0623412
+        ],
+        [
+          -77.1206158,
+          39.0622319
+        ],
+        [
+          -77.1207038,
+          39.0621829
+        ],
+        [
+          -77.1207529,
+          39.0621601
+        ]
+      ]
+    },
+    {
+      "id": "way/305852779",
+      "version": 3,
+      "timestamp": "2024-10-30T18:40:50Z",
+      "tags": {
+        "highway": "footway",
+        "surface": "concrete:plates"
+      },
+      "node_refs": [
+        "node/3105395343",
+        "node/3105395344",
+        "node/5704058958",
+        "node/3569631793"
+      ],
+      "coordinates": [
+        [
+          -77.1207529,
+          39.0621601
+        ],
+        [
+          -77.121136,
+          39.0624783
+        ],
+        [
+          -77.1211682,
+          39.0624867
+        ],
+        [
+          -77.1212012,
+          39.0624871
+        ]
+      ]
+    },
+    {
+      "id": "way/305852780",
+      "version": 4,
+      "timestamp": "2023-11-05T15:34:48Z",
+      "tags": {
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "up",
+        "ramp": "no"
+      },
+      "node_refs": [
+        "node/3105395343",
+        "node/3105395346"
+      ],
+      "coordinates": [
+        [
+          -77.1207529,
+          39.0621601
+        ],
+        [
+          -77.1206104,
+          39.0620439
+        ]
+      ]
+    },
+    {
+      "id": "way/447760998",
+      "version": 9,
+      "timestamp": "2023-08-23T05:54:10Z",
+      "tags": {
+        "highway": "footway",
+        "surface": "paved"
+      },
+      "node_refs": [
+        "node/4448309372",
+        "node/5474262293",
+        "node/10242873701",
+        "node/10207729379",
+        "node/5474262292",
+        "node/10207729378",
+        "node/10207729373",
+        "node/5474262291",
+        "node/5474262290",
+        "node/5474262289",
+        "node/8901683551",
+        "node/5474262288",
+        "node/5474262287",
+        "node/5473632069"
+      ],
+      "coordinates": [
+        [
+          -77.2224638,
+          38.9197909
+        ],
+        [
+          -77.2225393,
+          38.9197936
+        ],
+        [
+          -77.2226606,
+          38.919797
+        ],
+        [
+          -77.2226874,
+          38.9198338
+        ],
+        [
+          -77.2228532,
+          38.9198345
+        ],
+        [
+          -77.2228751,
+          38.9198314
+        ],
+        [
+          -77.222911,
+          38.9198364
+        ],
+        [
+          -77.2231109,
+          38.9198585
+        ],
+        [
+          -77.2233093,
+          38.9199006
+        ],
+        [
+          -77.2234165,
+          38.9199309
+        ],
+        [
+          -77.2235435,
+          38.9199688
+        ],
+        [
+          -77.2236088,
+          38.919971
+        ],
+        [
+          -77.2237238,
+          38.91996
+        ],
+        [
+          -77.223874,
+          38.9199412
+        ]
+      ]
+    },
+    {
+      "id": "way/447761001",
+      "version": 7,
+      "timestamp": "2023-08-23T05:54:10Z",
+      "tags": {
+        "addr:housenumber": "1923",
+        "addr:postcode": "22102",
+        "addr:street": "Chain Bridge Road",
+        "building": "yes",
+        "building:levels": "2"
+      },
+      "node_refs": [
+        "node/4448309362",
+        "node/10269750952",
+        "node/4448309365",
+        "node/10242873693",
+        "node/10242873694",
+        "node/10242873696",
+        "node/10242873697",
+        "node/4448309372",
+        "node/10242873698",
+        "node/10242873699",
+        "node/10242873695",
+        "node/4448309367",
+        "node/4448309363",
+        "node/4448309362"
+      ],
+      "coordinates": [
+        [
+          -77.2220144,
+          38.9198511
+        ],
+        [
+          -77.2220895,
+          38.9198576
+        ],
+        [
+          -77.2221699,
+          38.9198645
+        ],
+        [
+          -77.2221794,
+          38.9197981
+        ],
+        [
+          -77.2223563,
+          38.9198133
+        ],
+        [
+          -77.2223547,
+          38.9198243
+        ],
+        [
+          -77.2224578,
+          38.9198331
+        ],
+        [
+          -77.2224638,
+          38.9197909
+        ],
+        [
+          -77.22247,
+          38.9197473
+        ],
+        [
+          -77.2223659,
+          38.9197383
+        ],
+        [
+          -77.2223641,
+          38.9197504
+        ],
+        [
+          -77.2220328,
+          38.9197219
+        ],
+        [
+          -77.2220282,
+          38.9197542
+        ],
+        [
+          -77.2220144,
+          38.9198511
+        ]
+      ]
+    },
+    {
+      "id": "way/447761002",
+      "version": 4,
+      "timestamp": "2025-08-24T23:01:16Z",
+      "tags": {
+        "covered": "yes",
+        "highway": "footway",
+        "layer": "2",
+        "surface": "paving_stones"
+      },
+      "node_refs": [
+        "node/10269750952",
+        "node/4448309368"
+      ],
+      "coordinates": [
+        [
+          -77.2220895,
+          38.9198576
+        ],
+        [
+          -77.222106,
+          38.9197613
+        ]
+      ]
+    },
+    {
+      "id": "way/447761004",
+      "version": 4,
+      "timestamp": "2025-08-24T23:01:12Z",
+      "tags": {
+        "covered": "yes",
+        "highway": "footway",
+        "layer": "2",
+        "surface": "paving_stones"
+      },
+      "node_refs": [
+        "node/10243110918",
+        "node/4448309368"
+      ],
+      "coordinates": [
+        [
+          -77.2221849,
+          38.9197674
+        ],
+        [
+          -77.222106,
+          38.9197613
+        ]
+      ]
+    },
+    {
+      "id": "way/447761005",
+      "version": 3,
+      "timestamp": "2025-08-24T23:01:06Z",
+      "tags": {
+        "covered": "yes",
+        "highway": "footway",
+        "layer": "2",
+        "surface": "paving_stones"
+      },
+      "node_refs": [
+        "node/4448309368",
+        "node/4448309363"
+      ],
+      "coordinates": [
+        [
+          -77.222106,
+          38.9197613
+        ],
+        [
+          -77.2220282,
+          38.9197542
+        ]
+      ]
+    },
+    {
+      "id": "way/584775752",
+      "version": 3,
+      "timestamp": "2025-06-27T14:45:41Z",
+      "tags": {
+        "highway": "footway",
+        "surface": "concrete"
+      },
+      "node_refs": [
+        "node/5589300620",
+        "node/5589300619",
+        "node/5589300606",
+        "node/5589300607"
+      ],
+      "coordinates": [
+        [
+          -77.0760265,
+          38.7924339
+        ],
+        [
+          -77.0759491,
+          38.7924237
+        ],
+        [
+          -77.0759284,
+          38.792421
+        ],
+        [
+          -77.0759199,
+          38.7924615
+        ]
+      ]
+    },
+    {
+      "id": "way/696658744",
+      "version": 2,
+      "timestamp": "2020-02-26T13:07:25Z",
+      "tags": {
+        "highway": "footway"
+      },
+      "node_refs": [
+        "node/6542276608",
+        "node/7244937542",
+        "node/2274650101"
+      ],
+      "coordinates": [
+        [
+          -77.0751229,
+          38.7947686
+        ],
+        [
+          -77.0751964,
+          38.7948299
+        ],
+        [
+          -77.0752773,
+          38.7948973
+        ]
+      ]
+    },
+    {
+      "id": "way/696658748",
+      "version": 1,
+      "timestamp": "2019-06-12T11:49:22Z",
+      "tags": {
+        "highway": "footway"
+      },
+      "node_refs": [
+        "node/6542276614",
+        "node/6542276608"
+      ],
+      "coordinates": [
+        [
+          -77.0751589,
+          38.7945746
+        ],
+        [
+          -77.0751229,
+          38.7947686
+        ]
+      ]
+    },
+    {
+      "id": "way/834810243",
+      "version": 2,
+      "timestamp": "2022-04-08T18:29:46Z",
+      "tags": {
+        "highway": "footway"
+      },
+      "node_refs": [
+        "node/7792548645",
+        "node/9652338456",
+        "node/3105321641",
+        "node/9652291215"
+      ],
+      "coordinates": [
+        [
+          -76.912407,
+          38.8272293
+        ],
+        [
+          -76.9123927,
+          38.8272436
+        ],
+        [
+          -76.9123808,
+          38.8272555
+        ],
+        [
+          -76.9123347,
+          38.827301
+        ]
+      ]
+    },
+    {
+      "id": "way/834810244",
+      "version": 1,
+      "timestamp": "2020-08-06T21:55:30Z",
+      "tags": {
+        "highway": "footway"
+      },
+      "node_refs": [
+        "node/3105321638",
+        "node/7792548646"
+      ],
+      "coordinates": [
+        [
+          -76.9126315,
+          38.8270126
+        ],
+        [
+          -76.9125993,
+          38.8270432
+        ]
+      ]
+    }
+  ],
+  "live_checks": [
+    {
+      "id": "node/10035031323",
+      "review_time_version": 1,
+      "current_version": 1,
+      "current_visible": true,
+      "changed_after_review": false
+    },
+    {
+      "id": "node/10243110918",
+      "review_time_version": 1,
+      "current_version": 1,
+      "current_visible": true,
+      "changed_after_review": false
+    },
+    {
+      "id": "node/3105395343",
+      "review_time_version": 1,
+      "current_version": 1,
+      "current_visible": true,
+      "changed_after_review": false
+    },
+    {
+      "id": "node/4448309368",
+      "review_time_version": 5,
+      "current_version": 5,
+      "current_visible": true,
+      "changed_after_review": false
+    },
+    {
+      "id": "node/4448309372",
+      "review_time_version": 3,
+      "current_version": 3,
+      "current_visible": true,
+      "changed_after_review": false
+    },
+    {
+      "id": "node/5589300606",
+      "review_time_version": 1,
+      "current_version": 1,
+      "current_visible": true,
+      "changed_after_review": false
+    },
+    {
+      "id": "node/6542276608",
+      "review_time_version": 3,
+      "current_version": 3,
+      "current_visible": true,
+      "changed_after_review": false
+    },
+    {
+      "id": "node/7792548645",
+      "review_time_version": 1,
+      "current_version": 1,
+      "current_visible": true,
+      "changed_after_review": false
+    },
+    {
+      "id": "node/7792548646",
+      "review_time_version": 1,
+      "current_version": 1,
+      "current_visible": true,
+      "changed_after_review": false
+    },
+    {
+      "id": "node/9384597573",
+      "review_time_version": 1,
+      "current_version": 1,
+      "current_visible": true,
+      "changed_after_review": false
+    },
+    {
+      "id": "node/9384597574",
+      "review_time_version": 1,
+      "current_version": 1,
+      "current_visible": true,
+      "changed_after_review": false
+    },
+    {
+      "id": "way/1010702112",
+      "review_time_version": 5,
+      "current_version": 5,
+      "current_visible": true,
+      "changed_after_review": false
+    },
+    {
+      "id": "way/1010702114",
+      "review_time_version": 3,
+      "current_version": 3,
+      "current_visible": true,
+      "changed_after_review": false
+    },
+    {
+      "id": "way/1017457921",
+      "review_time_version": 2,
+      "current_version": 2,
+      "current_visible": true,
+      "changed_after_review": false
+    },
+    {
+      "id": "way/1095734267",
+      "review_time_version": 3,
+      "current_version": 3,
+      "current_visible": true,
+      "changed_after_review": false
+    },
+    {
+      "id": "way/1119943184",
+      "review_time_version": 1,
+      "current_version": 1,
+      "current_visible": true,
+      "changed_after_review": false
+    },
+    {
+      "id": "way/1201241347",
+      "review_time_version": 1,
+      "current_version": 1,
+      "current_visible": true,
+      "changed_after_review": false
+    },
+    {
+      "id": "way/305842958",
+      "review_time_version": 3,
+      "current_version": 3,
+      "current_visible": true,
+      "changed_after_review": false
+    },
+    {
+      "id": "way/305845880",
+      "review_time_version": 2,
+      "current_version": 2,
+      "current_visible": true,
+      "changed_after_review": false
+    },
+    {
+      "id": "way/305845881",
+      "review_time_version": 3,
+      "current_version": 3,
+      "current_visible": true,
+      "changed_after_review": false
+    },
+    {
+      "id": "way/305847609",
+      "review_time_version": 4,
+      "current_version": 4,
+      "current_visible": true,
+      "changed_after_review": false
+    },
+    {
+      "id": "way/305847610",
+      "review_time_version": 3,
+      "current_version": 3,
+      "current_visible": true,
+      "changed_after_review": false
+    },
+    {
+      "id": "way/305852778",
+      "review_time_version": 5,
+      "current_version": 5,
+      "current_visible": true,
+      "changed_after_review": false
+    },
+    {
+      "id": "way/305852779",
+      "review_time_version": 3,
+      "current_version": 3,
+      "current_visible": true,
+      "changed_after_review": false
+    },
+    {
+      "id": "way/305852780",
+      "review_time_version": 4,
+      "current_version": 4,
+      "current_visible": true,
+      "changed_after_review": false
+    },
+    {
+      "id": "way/447760998",
+      "review_time_version": 9,
+      "current_version": 9,
+      "current_visible": true,
+      "changed_after_review": false
+    },
+    {
+      "id": "way/447761001",
+      "review_time_version": 7,
+      "current_version": 7,
+      "current_visible": true,
+      "changed_after_review": false
+    },
+    {
+      "id": "way/447761002",
+      "review_time_version": 4,
+      "current_version": 4,
+      "current_visible": true,
+      "changed_after_review": false
+    },
+    {
+      "id": "way/447761004",
+      "review_time_version": 4,
+      "current_version": 4,
+      "current_visible": true,
+      "changed_after_review": false
+    },
+    {
+      "id": "way/447761005",
+      "review_time_version": 3,
+      "current_version": 3,
+      "current_visible": true,
+      "changed_after_review": false
+    },
+    {
+      "id": "way/584775752",
+      "review_time_version": 3,
+      "current_version": 3,
+      "current_visible": true,
+      "changed_after_review": false
+    },
+    {
+      "id": "way/696658744",
+      "review_time_version": 2,
+      "current_version": 2,
+      "current_visible": true,
+      "changed_after_review": false
+    },
+    {
+      "id": "way/696658748",
+      "review_time_version": 1,
+      "current_version": 1,
+      "current_visible": true,
+      "changed_after_review": false
+    },
+    {
+      "id": "way/834810243",
+      "review_time_version": 2,
+      "current_version": 2,
+      "current_visible": true,
+      "changed_after_review": false
+    },
+    {
+      "id": "way/834810244",
+      "review_time_version": 1,
+      "current_version": 1,
+      "current_visible": true,
+      "changed_after_review": false
+    }
+  ],
+  "node_dependencies": [
+    {
+      "id": "node/10035031323",
+      "version": 1,
+      "timestamp": "2022-09-18T20:52:35Z",
+      "coordinates": [
+        -77.1203987,
+        39.0623412
+      ],
+      "version_source": "history",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/10207729373",
+      "version": 1,
+      "timestamp": "2022-11-21T16:57:12Z",
+      "coordinates": [
+        -77.222911,
+        38.9198364
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/10207729378",
+      "version": 1,
+      "timestamp": "2022-11-21T16:57:12Z",
+      "coordinates": [
+        -77.2228751,
+        38.9198314
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/10207729379",
+      "version": 2,
+      "timestamp": "2022-12-06T17:07:14Z",
+      "coordinates": [
+        -77.2226874,
+        38.9198338
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/10242873693",
+      "version": 1,
+      "timestamp": "2022-12-06T17:07:14Z",
+      "coordinates": [
+        -77.2221794,
+        38.9197981
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/10242873694",
+      "version": 1,
+      "timestamp": "2022-12-06T17:07:14Z",
+      "coordinates": [
+        -77.2223563,
+        38.9198133
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/10242873695",
+      "version": 1,
+      "timestamp": "2022-12-06T17:07:14Z",
+      "coordinates": [
+        -77.2223641,
+        38.9197504
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/10242873696",
+      "version": 1,
+      "timestamp": "2022-12-06T17:07:14Z",
+      "coordinates": [
+        -77.2223547,
+        38.9198243
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/10242873697",
+      "version": 1,
+      "timestamp": "2022-12-06T17:07:14Z",
+      "coordinates": [
+        -77.2224578,
+        38.9198331
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/10242873698",
+      "version": 1,
+      "timestamp": "2022-12-06T17:07:14Z",
+      "coordinates": [
+        -77.22247,
+        38.9197473
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/10242873699",
+      "version": 1,
+      "timestamp": "2022-12-06T17:07:14Z",
+      "coordinates": [
+        -77.2223659,
+        38.9197383
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/10242873701",
+      "version": 1,
+      "timestamp": "2022-12-06T17:07:14Z",
+      "coordinates": [
+        -77.2226606,
+        38.919797
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/10243110917",
+      "version": 1,
+      "timestamp": "2022-12-06T19:02:21Z",
+      "coordinates": [
+        -77.2224059,
+        38.9197865
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/10243110918",
+      "version": 1,
+      "timestamp": "2022-12-06T19:02:21Z",
+      "coordinates": [
+        -77.2221849,
+        38.9197674
+      ],
+      "version_source": "history",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/10269750952",
+      "version": 2,
+      "timestamp": "2023-08-23T05:54:10Z",
+      "coordinates": [
+        -77.2220895,
+        38.9198576
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/10680807583",
+      "version": 1,
+      "timestamp": "2023-02-20T13:20:48Z",
+      "coordinates": [
+        -77.3601396,
+        38.9534417
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/10680807584",
+      "version": 1,
+      "timestamp": "2023-02-20T13:20:48Z",
+      "coordinates": [
+        -77.3601303,
+        38.9534195
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/10680807585",
+      "version": 1,
+      "timestamp": "2023-02-20T13:20:48Z",
+      "coordinates": [
+        -77.3600597,
+        38.9534361
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/10680807586",
+      "version": 1,
+      "timestamp": "2023-02-20T13:20:48Z",
+      "coordinates": [
+        -77.3600699,
+        38.9534616
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/11383075903",
+      "version": 1,
+      "timestamp": "2023-11-29T05:26:05Z",
+      "coordinates": [
+        -77.3607292,
+        38.9531623
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/11383075904",
+      "version": 1,
+      "timestamp": "2023-11-29T05:26:05Z",
+      "coordinates": [
+        -77.3608112,
+        38.9531722
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/11383075905",
+      "version": 1,
+      "timestamp": "2023-11-29T05:26:05Z",
+      "coordinates": [
+        -77.3607266,
+        38.9531756
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/11383075906",
+      "version": 1,
+      "timestamp": "2023-11-29T05:26:05Z",
+      "coordinates": [
+        -77.3608091,
+        38.9531825
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/11383075909",
+      "version": 1,
+      "timestamp": "2023-11-29T05:26:05Z",
+      "coordinates": [
+        -77.3608662,
+        38.9524654
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/11383075910",
+      "version": 1,
+      "timestamp": "2023-11-29T05:26:05Z",
+      "coordinates": [
+        -77.360949,
+        38.952478
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/11383075911",
+      "version": 2,
+      "timestamp": "2024-09-19T22:06:06Z",
+      "coordinates": [
+        -77.3608547,
+        38.9525247
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/11383075912",
+      "version": 2,
+      "timestamp": "2024-09-19T22:06:06Z",
+      "coordinates": [
+        -77.3609379,
+        38.9525347
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/11383075913",
+      "version": 1,
+      "timestamp": "2023-11-29T05:26:05Z",
+      "coordinates": [
+        -77.3608232,
+        38.952688
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/11383075914",
+      "version": 1,
+      "timestamp": "2023-11-29T05:26:05Z",
+      "coordinates": [
+        -77.3609064,
+        38.9526981
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/12187168819",
+      "version": 1,
+      "timestamp": "2024-09-19T22:06:06Z",
+      "coordinates": [
+        -77.3607594,
+        38.9530085
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/12187168820",
+      "version": 1,
+      "timestamp": "2024-09-19T22:06:06Z",
+      "coordinates": [
+        -77.3608427,
+        38.9530182
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/13853391338",
+      "version": 1,
+      "timestamp": "2026-05-20T15:56:10Z",
+      "coordinates": [
+        -77.3609748,
+        38.9522361
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/13853391339",
+      "version": 1,
+      "timestamp": "2026-05-20T15:56:10Z",
+      "coordinates": [
+        -77.3609528,
+        38.9522334
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/13853418711",
+      "version": 1,
+      "timestamp": "2026-05-20T16:12:29Z",
+      "coordinates": [
+        -77.3601866,
+        38.9534445
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/1550601883",
+      "version": 3,
+      "timestamp": "2018-07-29T18:03:14Z",
+      "coordinates": [
+        -77.074971,
+        38.7947566
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/1550601908",
+      "version": 2,
+      "timestamp": "2013-08-04T05:26:25Z",
+      "coordinates": [
+        -77.0738162,
+        38.7941347
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/2274650101",
+      "version": 2,
+      "timestamp": "2015-05-07T10:08:05Z",
+      "coordinates": [
+        -77.0752773,
+        38.7948973
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/2477168419",
+      "version": 4,
+      "timestamp": "2021-04-19T19:07:30Z",
+      "coordinates": [
+        -77.1203128,
+        39.0623844
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/2519063006",
+      "version": 1,
+      "timestamp": "2013-11-03T19:39:17Z",
+      "coordinates": [
+        -76.9114565,
+        38.8262443
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/2873438991",
+      "version": 3,
+      "timestamp": "2022-05-01T23:30:32Z",
+      "coordinates": [
+        -76.9469478,
+        38.8995473
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/3105321635",
+      "version": 1,
+      "timestamp": "2014-10-01T11:41:00Z",
+      "coordinates": [
+        -76.913727,
+        38.8263531
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/3105321636",
+      "version": 1,
+      "timestamp": "2014-10-01T11:41:00Z",
+      "coordinates": [
+        -76.9128815,
+        38.8271673
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/3105321637",
+      "version": 1,
+      "timestamp": "2014-10-01T11:41:00Z",
+      "coordinates": [
+        -76.9115953,
+        38.826371
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/3105321638",
+      "version": 1,
+      "timestamp": "2014-10-01T11:41:00Z",
+      "coordinates": [
+        -76.9126315,
+        38.8270126
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/3105321639",
+      "version": 2,
+      "timestamp": "2018-09-19T14:26:01Z",
+      "coordinates": [
+        -76.91251,
+        38.8271281
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/3105321640",
+      "version": 2,
+      "timestamp": "2018-09-19T14:26:01Z",
+      "coordinates": [
+        -76.9124732,
+        38.8271631
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/3105321641",
+      "version": 2,
+      "timestamp": "2018-09-19T14:26:01Z",
+      "coordinates": [
+        -76.9123808,
+        38.8272555
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/3105340703",
+      "version": 2,
+      "timestamp": "2026-05-20T15:27:10Z",
+      "coordinates": [
+        -76.9467419,
+        38.8987745
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/3105340704",
+      "version": 1,
+      "timestamp": "2014-10-01T12:02:43Z",
+      "coordinates": [
+        -76.9469503,
+        38.8989347
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/3105340705",
+      "version": 1,
+      "timestamp": "2014-10-01T12:02:43Z",
+      "coordinates": [
+        -76.9470229,
+        38.8989864
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/3105340706",
+      "version": 2,
+      "timestamp": "2021-04-23T15:06:28Z",
+      "coordinates": [
+        -76.9472922,
+        38.899183
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/3105340707",
+      "version": 2,
+      "timestamp": "2022-05-01T23:30:32Z",
+      "coordinates": [
+        -76.9468039,
+        38.8995674
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/3105340708",
+      "version": 2,
+      "timestamp": "2022-05-01T23:30:32Z",
+      "coordinates": [
+        -76.9468472,
+        38.8996008
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/3105340709",
+      "version": 2,
+      "timestamp": "2022-05-01T23:30:32Z",
+      "coordinates": [
+        -76.9469313,
+        38.8995346
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/3105395341",
+      "version": 1,
+      "timestamp": "2014-10-01T13:03:57Z",
+      "coordinates": [
+        -77.1206158,
+        39.0622319
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/3105395343",
+      "version": 1,
+      "timestamp": "2014-10-01T13:03:57Z",
+      "coordinates": [
+        -77.1207529,
+        39.0621601
+      ],
+      "version_source": "history",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/3105395344",
+      "version": 1,
+      "timestamp": "2014-10-01T13:03:57Z",
+      "coordinates": [
+        -77.121136,
+        39.0624783
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/3105395346",
+      "version": 1,
+      "timestamp": "2014-10-01T13:03:57Z",
+      "coordinates": [
+        -77.1206104,
+        39.0620439
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/3502676132",
+      "version": 1,
+      "timestamp": "2015-05-07T10:08:05Z",
+      "coordinates": [
+        -77.0749656,
+        38.794721
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/3502676133",
+      "version": 1,
+      "timestamp": "2015-05-07T10:08:05Z",
+      "coordinates": [
+        -77.0748395,
+        38.7946667
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/3502676134",
+      "version": 1,
+      "timestamp": "2015-05-07T10:08:05Z",
+      "coordinates": [
+        -77.0744989,
+        38.7944556
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/3569631793",
+      "version": 2,
+      "timestamp": "2018-06-20T06:48:29Z",
+      "coordinates": [
+        -77.1212012,
+        39.0624871
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/4448309362",
+      "version": 6,
+      "timestamp": "2022-12-17T15:26:18Z",
+      "coordinates": [
+        -77.2220144,
+        38.9198511
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/4448309363",
+      "version": 4,
+      "timestamp": "2022-12-06T17:07:14Z",
+      "coordinates": [
+        -77.2220282,
+        38.9197542
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/4448309365",
+      "version": 4,
+      "timestamp": "2022-12-06T17:07:14Z",
+      "coordinates": [
+        -77.2221699,
+        38.9198645
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/4448309367",
+      "version": 4,
+      "timestamp": "2022-12-06T17:07:14Z",
+      "coordinates": [
+        -77.2220328,
+        38.9197219
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/4448309368",
+      "version": 5,
+      "timestamp": "2022-12-06T19:02:21Z",
+      "coordinates": [
+        -77.222106,
+        38.9197613
+      ],
+      "version_source": "history",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/4448309372",
+      "version": 3,
+      "timestamp": "2023-08-23T05:54:10Z",
+      "coordinates": [
+        -77.2224638,
+        38.9197909
+      ],
+      "version_source": "history",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/5473632069",
+      "version": 1,
+      "timestamp": "2018-03-12T17:54:27Z",
+      "coordinates": [
+        -77.223874,
+        38.9199412
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/5474262287",
+      "version": 1,
+      "timestamp": "2018-03-12T22:24:35Z",
+      "coordinates": [
+        -77.2237238,
+        38.91996
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/5474262288",
+      "version": 2,
+      "timestamp": "2021-07-07T17:26:28Z",
+      "coordinates": [
+        -77.2236088,
+        38.919971
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/5474262289",
+      "version": 2,
+      "timestamp": "2021-07-07T17:26:28Z",
+      "coordinates": [
+        -77.2234165,
+        38.9199309
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/5474262290",
+      "version": 2,
+      "timestamp": "2021-07-07T17:26:28Z",
+      "coordinates": [
+        -77.2233093,
+        38.9199006
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/5474262291",
+      "version": 2,
+      "timestamp": "2022-11-21T16:57:12Z",
+      "coordinates": [
+        -77.2231109,
+        38.9198585
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/5474262292",
+      "version": 2,
+      "timestamp": "2022-11-21T16:57:12Z",
+      "coordinates": [
+        -77.2228532,
+        38.9198345
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/5474262293",
+      "version": 3,
+      "timestamp": "2022-12-06T17:07:14Z",
+      "coordinates": [
+        -77.2225393,
+        38.9197936
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/5589300606",
+      "version": 1,
+      "timestamp": "2018-04-30T21:50:42Z",
+      "coordinates": [
+        -77.0759284,
+        38.792421
+      ],
+      "version_source": "history",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/5589300607",
+      "version": 3,
+      "timestamp": "2021-04-19T19:03:34Z",
+      "coordinates": [
+        -77.0759199,
+        38.7924615
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/5589300619",
+      "version": 1,
+      "timestamp": "2018-04-30T21:50:42Z",
+      "coordinates": [
+        -77.0759491,
+        38.7924237
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/5589300620",
+      "version": 1,
+      "timestamp": "2018-04-30T21:50:42Z",
+      "coordinates": [
+        -77.0760265,
+        38.7924339
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/5704058958",
+      "version": 1,
+      "timestamp": "2018-06-20T06:48:29Z",
+      "coordinates": [
+        -77.1211682,
+        39.0624867
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/6542276608",
+      "version": 3,
+      "timestamp": "2021-04-19T19:03:34Z",
+      "coordinates": [
+        -77.0751229,
+        38.7947686
+      ],
+      "version_source": "history",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/6542276614",
+      "version": 2,
+      "timestamp": "2025-06-27T14:45:41Z",
+      "coordinates": [
+        -77.0751589,
+        38.7945746
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/6744756799",
+      "version": 2,
+      "timestamp": "2026-05-20T15:27:10Z",
+      "coordinates": [
+        -76.9468287,
+        38.8987045
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/7244937542",
+      "version": 1,
+      "timestamp": "2020-02-26T13:07:25Z",
+      "coordinates": [
+        -77.0751964,
+        38.7948299
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/7432921910",
+      "version": 5,
+      "timestamp": "2025-07-07T19:37:43Z",
+      "coordinates": [
+        -77.361291,
+        38.952323
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/7433034321",
+      "version": 3,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3598072,
+        38.9535783
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/7792548645",
+      "version": 1,
+      "timestamp": "2020-08-06T21:55:30Z",
+      "coordinates": [
+        -76.912407,
+        38.8272293
+      ],
+      "version_source": "history",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/7792548646",
+      "version": 1,
+      "timestamp": "2020-08-06T21:55:30Z",
+      "coordinates": [
+        -76.9125993,
+        38.8270432
+      ],
+      "version_source": "history",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/7795668296",
+      "version": 1,
+      "timestamp": "2020-08-08T00:56:07Z",
+      "coordinates": [
+        -77.1207038,
+        39.0621829
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/810699911",
+      "version": 1,
+      "timestamp": "2010-07-10T22:32:41Z",
+      "coordinates": [
+        -76.9115125,
+        38.8262968
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/8901683551",
+      "version": 2,
+      "timestamp": "2022-12-06T17:07:14Z",
+      "coordinates": [
+        -77.2235435,
+        38.9199688
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324751287",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3601675,
+        38.9534347
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324751288",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3600126,
+        38.9534761
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324751289",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3600169,
+        38.9534847
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324751290",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3599006,
+        38.9535165
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324751291",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3598959,
+        38.9535085
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324751292",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3597889,
+        38.9535353
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324751293",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3598258,
+        38.9536229
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324751294",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3599328,
+        38.953595
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324751295",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3599291,
+        38.9535846
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324751296",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3600471,
+        38.9535538
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324751297",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3600511,
+        38.9535637
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324751298",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3602043,
+        38.9535236
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324751299",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3607109,
+        38.9533742
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324751300",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3607163,
+        38.9533851
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324751301",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3607874,
+        38.9533664
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324751302",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3607975,
+        38.9533101
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324751303",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3607834,
+        38.9533085
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324751304",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3608632,
+        38.9529176
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324751305",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3607793,
+        38.9529076
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324751306",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3607029,
+        38.953296
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324751307",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3606841,
+        38.9533127
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324751308",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3601725,
+        38.9534482
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324751309",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3601986,
+        38.9535108
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324774423",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3612996,
+        38.9522761
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324774424",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3611884,
+        38.9522631
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324774425",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3611869,
+        38.9522712
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324774426",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3610494,
+        38.9522552
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324774427",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3610514,
+        38.952245
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324774428",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3608937,
+        38.9522266
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324774429",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3608907,
+        38.9522424
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324774430",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3608637,
+        38.9522392
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324774431",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3608519,
+        38.9523006
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324774432",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3608752,
+        38.9523033
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324774433",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3608722,
+        38.9523189
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324774434",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3610331,
+        38.9523378
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324774435",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3610346,
+        38.9523302
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324774436",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3611688,
+        38.9523459
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324774437",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3611672,
+        38.9523539
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324774438",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3612819,
+        38.9523674
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324774439",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3608867,
+        38.9528001
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324774440",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3608034,
+        38.9527904
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324774441",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.360894,
+        38.9523215
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9324774442",
+      "version": 1,
+      "timestamp": "2021-12-09T14:58:37Z",
+      "coordinates": [
+        -77.3609774,
+        38.9523313
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9384597573",
+      "version": 1,
+      "timestamp": "2022-01-01T23:07:20Z",
+      "coordinates": [
+        -76.9757571,
+        38.8403651
+      ],
+      "version_source": "history",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9384597574",
+      "version": 1,
+      "timestamp": "2022-01-01T23:07:20Z",
+      "coordinates": [
+        -76.975691,
+        38.8404184
+      ],
+      "version_source": "history",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9652291215",
+      "version": 1,
+      "timestamp": "2022-04-08T18:29:46Z",
+      "coordinates": [
+        -76.9123347,
+        38.827301
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9652291216",
+      "version": 1,
+      "timestamp": "2022-04-08T18:29:46Z",
+      "coordinates": [
+        -76.9125961,
+        38.8269907
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9652338419",
+      "version": 1,
+      "timestamp": "2022-04-08T18:29:46Z",
+      "coordinates": [
+        -76.9137561,
+        38.8263292
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9652338421",
+      "version": 2,
+      "timestamp": "2022-05-13T14:47:42Z",
+      "coordinates": [
+        -76.9130949,
+        38.827005
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9652338423",
+      "version": 2,
+      "timestamp": "2022-05-13T14:47:42Z",
+      "coordinates": [
+        -76.9134808,
+        38.826638
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9652338426",
+      "version": 1,
+      "timestamp": "2022-04-08T18:29:46Z",
+      "coordinates": [
+        -76.9136502,
+        38.826427
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9652338433",
+      "version": 1,
+      "timestamp": "2022-04-08T18:29:46Z",
+      "coordinates": [
+        -76.9117918,
+        38.8264927
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    },
+    {
+      "id": "node/9652338456",
+      "version": 1,
+      "timestamp": "2022-04-08T18:29:46Z",
+      "coordinates": [
+        -76.9123927,
+        38.8272436
+      ],
+      "version_source": "latest_before_cutoff",
+      "changed_after_cutoff": false
+    }
+  ],
+  "research_distances_m": [
+    {
+      "entrance_id": "WMATA-021",
+      "element": "node/7792548646",
+      "osm_edit_source": false,
+      "distance_m": 9.1
+    },
+    {
+      "entrance_id": "WMATA-021",
+      "element": "way/305845880",
+      "osm_edit_source": false,
+      "distance_m": 4.2
+    },
+    {
+      "entrance_id": "WMATA-021",
+      "element": "way/305845881",
+      "osm_edit_source": false,
+      "distance_m": 9.1
+    },
+    {
+      "entrance_id": "WMATA-021",
+      "element": "way/834810244",
+      "osm_edit_source": false,
+      "distance_m": 5.3
+    },
+    {
+      "entrance_id": "WMATA-022",
+      "element": "node/7792548645",
+      "osm_edit_source": false,
+      "distance_m": 3.4
+    },
+    {
+      "entrance_id": "WMATA-022",
+      "element": "way/305845881",
+      "osm_edit_source": false,
+      "distance_m": 3.4
+    },
+    {
+      "entrance_id": "WMATA-022",
+      "element": "way/834810243",
+      "osm_edit_source": false,
+      "distance_m": 2.2
+    },
+    {
+      "entrance_id": "WMATA-107",
+      "element": "node/6542276608",
+      "osm_edit_source": false,
+      "distance_m": 8.7
+    },
+    {
+      "entrance_id": "WMATA-107",
+      "element": "way/305842958",
+      "osm_edit_source": false,
+      "distance_m": 7.8
+    },
+    {
+      "entrance_id": "WMATA-107",
+      "element": "way/696658744",
+      "osm_edit_source": false,
+      "distance_m": 8.5
+    },
+    {
+      "entrance_id": "WMATA-107",
+      "element": "way/696658748",
+      "osm_edit_source": false,
+      "distance_m": 8.7
+    },
+    {
+      "entrance_id": "WMATA-108",
+      "element": "node/5589300606",
+      "osm_edit_source": false,
+      "distance_m": 0.9
+    },
+    {
+      "entrance_id": "WMATA-108",
+      "element": "way/584775752",
+      "osm_edit_source": false,
+      "distance_m": 0.8
+    },
+    {
+      "entrance_id": "WMATA-142",
+      "element": "way/305847609",
+      "osm_edit_source": false,
+      "distance_m": 112.5
+    },
+    {
+      "entrance_id": "WMATA-142",
+      "element": "way/305847610",
+      "osm_edit_source": false,
+      "distance_m": 60.1
+    },
+    {
+      "entrance_id": "WMATA-172",
+      "element": "way/1010702112",
+      "osm_edit_source": false,
+      "distance_m": 125.9
+    },
+    {
+      "entrance_id": "WMATA-173",
+      "element": "way/1010702114",
+      "osm_edit_source": false,
+      "distance_m": 90.9
+    },
+    {
+      "entrance_id": "WMATA-195",
+      "element": "node/9384597573",
+      "osm_edit_source": false,
+      "distance_m": 10.5
+    },
+    {
+      "entrance_id": "WMATA-195",
+      "element": "node/9384597574",
+      "osm_edit_source": false,
+      "distance_m": 2.8
+    },
+    {
+      "entrance_id": "WMATA-195",
+      "element": "way/1017457921",
+      "osm_edit_source": false,
+      "distance_m": 2.8
+    },
+    {
+      "entrance_id": "WMATA-208",
+      "element": "node/3105395343",
+      "osm_edit_source": false,
+      "distance_m": 24.0
+    },
+    {
+      "entrance_id": "WMATA-208",
+      "element": "way/305852778",
+      "osm_edit_source": false,
+      "distance_m": 24.0
+    },
+    {
+      "entrance_id": "WMATA-208",
+      "element": "way/305852779",
+      "osm_edit_source": false,
+      "distance_m": 24.0
+    },
+    {
+      "entrance_id": "WMATA-208",
+      "element": "way/305852780",
+      "osm_edit_source": false,
+      "distance_m": 8.6
+    },
+    {
+      "entrance_id": "WMATA-209",
+      "element": "node/10035031323",
+      "osm_edit_source": false,
+      "distance_m": 2.2
+    },
+    {
+      "entrance_id": "WMATA-209",
+      "element": "way/1095734267",
+      "osm_edit_source": false,
+      "distance_m": 0.1
+    },
+    {
+      "entrance_id": "WMATA-209",
+      "element": "way/305852778",
+      "osm_edit_source": false,
+      "distance_m": 2.2
+    },
+    {
+      "entrance_id": "WMATA-210",
+      "element": "node/4448309368",
+      "osm_edit_source": false,
+      "distance_m": 0.7
+    },
+    {
+      "entrance_id": "WMATA-210",
+      "element": "way/447761001",
+      "osm_edit_source": false,
+      "distance_m": 4.2
+    },
+    {
+      "entrance_id": "WMATA-210",
+      "element": "way/447761002",
+      "osm_edit_source": false,
+      "distance_m": 0.3
+    },
+    {
+      "entrance_id": "WMATA-210",
+      "element": "way/447761004",
+      "osm_edit_source": false,
+      "distance_m": 0.7
+    },
+    {
+      "entrance_id": "WMATA-210",
+      "element": "way/447761005",
+      "osm_edit_source": false,
+      "distance_m": 0.6
+    },
+    {
+      "entrance_id": "WMATA-211",
+      "element": "node/10243110918",
+      "osm_edit_source": false,
+      "distance_m": 24.4
+    },
+    {
+      "entrance_id": "WMATA-211",
+      "element": "node/4448309372",
+      "osm_edit_source": false,
+      "distance_m": 0.6
+    },
+    {
+      "entrance_id": "WMATA-211",
+      "element": "way/1119943184",
+      "osm_edit_source": false,
+      "distance_m": 5.2
+    },
+    {
+      "entrance_id": "WMATA-211",
+      "element": "way/1201241347",
+      "osm_edit_source": false,
+      "distance_m": 0.6
+    },
+    {
+      "entrance_id": "WMATA-211",
+      "element": "way/447760998",
+      "osm_edit_source": false,
+      "distance_m": 0.6
+    },
+    {
+      "entrance_id": "WMATA-211",
+      "element": "way/447761001",
+      "osm_edit_source": false,
+      "distance_m": 0.2
+    }
+  ],
+  "problems": []
+}

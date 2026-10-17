@@ -207,3 +207,36 @@ Result: 17 accepted identities, 6 rejected-and-unresolved, 24 reviewed-unresolve
 Independent review reproduced the 17/6/24/195 adjusted partition and unchanged raw screens. The WMATA-115/116 decisions reject a steps-connected general entrance as the identity of a specific elevator; they do not reject mapped elevator existence or assign a direction, so the interpretation is retained. Older confirmations remain subject to N4 evidence recovery.
 
 Before merge, three validation gaps were reproduced and corrected: explicit null decision lists passed validation but failed downstream; nonstring decision values could raise TypeError instead of a validation error; hostless HTTPS evidence was accepted. Regressions now cover those cases and the build-time missing-evidence-file gate. Absent decision fields remain permitted for historical transaction replay; explicit null fields are rejected. Queue instructions now describe decision-based closure. No review judgments or adjusted counts changed in this verification.
+
+## Step 13 — N4 evidence recovery tooling (2026-10-16)
+
+**Scope, measured strictly.** An element counts as reproducible only if the OSM snapshot, its stop-area relations, or an evidence extract's element list retains it. Under that rule, **10 of the 14 baseline reviews cite 22 unique OSM elements** that no repository file retains: WMATA-021, 022, 107, 108, 142, 195, 208, 209, 210 and 211. All later reviews are reproducible. (External Pass 2 counted 12 reviews by substring matching; WMATA-172/174 are in fact covered by the Reston/Herndon extract.)
+
+**Finding:** evidence extracts do not share a schema. `reston-herndon-2026-10-16.json` lists elements under `osm_elements`; later extracts use `elements`. The detector accepts both; schema normalization or validation is a separate task.
+
+**Retrieval blocked in this environment.** The workspace network cannot reach `api.openstreetmap.org`, and the OSM API and Overpass both disallow automated fetching via robots.txt for the external research tool. No workaround was attempted. Recovery must run from a maintainer machine or CI.
+
+**Tooling added (no data changes):**
+
+- `transit_map/evidence.py` finds cited-but-unretained elements and recovers each element's **OSM history version as of the end of the review day (America/New_York)**, so the extract shows what the reviewer could have seen, not later edits. Way geometry uses node versions at the same cutoff. Contributor names/UIDs are dropped. It flags elements changed after the review, elements absent or deleted at review time, and computes research-only distances from source references.
+- `python -m transit_map recover-evidence [--review ID] [--maps]` writes `build/evidence/baseline-recovery.json` using the existing cached, paced downloader. `--maps` also hashes cited WMATA vicinity maps; `edition` stays null until visually inspected. The command exits nonzero when any element cannot be recovered.
+- `tests/test_evidence_recovery.py` covers cutoff selection, later-edit and deletion handling, way-node resolution, contributor stripping and distances using synthetic histories. A **ratchet test** pins the 10-review / 22-element gap: it fails if any review adds a new unreproducible citation, and allows the set only to shrink.
+
+**To complete N4:** run `python -m transit_map recover-evidence --maps` with network access; inspect `problems` and `changed_after_review`; fill map editions after visual inspection; commit the result as `docs/evidence/baseline-recovery-2026-10-16.json`; then empty `KNOWN_UNREPRODUCIBLE`. The recovered distances should then be checked against note claims (for example, WMATA-210 says the panorama "coincides" with node 4448309368). Recovery reproduces cited geometry; it does not re-review or strengthen any outcome. Linking the extract from the ten reviews would be a separate transaction.
+
+### PR #13 completion — evidence recovered in this session
+
+Direct public OSM history API requests succeeded in this session. The original 22-element list covered explicit node/way forms but missed prose aliases/lists such as footways A/B/C, junctions and buildings. Extending the parser and measuring again found **35 unique missing elements across 12 reviews**, including the later Reston south review. The ratchet now checks those forms as well, and accepts retained geometry rather than an ID-only/incomplete way record.
+
+Recovery saved `docs/evidence/baseline-recovery-2026-10-16.json`: 35 cited elements, 145 way-node coordinate dependencies with selected versions/timestamps, seven WMATA map hashes and inspected editions, no recovery problems, and no observed post-cutoff changes. Contributor user/uid/changeset metadata is excluded. `KNOWN_UNREPRODUCIBLE` is empty; citation-gap checking passes with no allowance. Raw network caches remain ignored. Earlier PR scope/counts above are preserved as history, superseded by this measurement.
+
+Additional correctness fixes:
+
+- Washington day boundaries now use America/New_York timezone rules, including winter offset, and exclude the next midnight itself.
+- Because these reviews' calendar day was still in progress during retrieval, the effective cutoff is capped at recovery start. Both the next-midnight boundary and actual recovery timestamp are retained. End-of-day recovery remains an approximation when the original note lacks an exact observation timestamp; no future end-of-day state is claimed.
+- Batched latest-node retrieval is used only when a current node's timestamp proves it predates the cutoff. Later/deleted/unreturned node cases still use full history. Dependency versions and the selection method are retained so a parent way's unchanged version cannot hide node-coordinate provenance.
+- Tests cover timezone/boundary behavior, in-progress-day cutoffs, incomplete way records, prose lists and batched-node historical fallback.
+
+The recovered WMATA-210 reference-to-node/4448309368 distance is **0.7 m**. This supports a nearly coincident reference, not exact equality and not an elevator identity. Recovered geometry retains upper-level footway/447761004 with layer=2; the original unresolved elevator/level review is not upgraded. Evidence recovery does not independently validate every narrative claim, survey a threshold, certify equipment operation or permit OSM edits.
+
+All seven PDFs were rendered and inspected: Branch Avenue June 2026; Huntington, Minnesota Avenue, Reston Town Center, Southern Avenue and Twinbrook June 2025; Tysons December 2025. The existing review outcomes, accepted/rejected candidate decisions, source coordinates, raw screens and frozen baseline remain unchanged. F3 window sensitivity remains the next separate investigation.

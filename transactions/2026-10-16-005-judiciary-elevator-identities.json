@@ -1,0 +1,44 @@
+{
+  "transaction_id": "2026-10-16-judiciary-elevator-identities",
+  "rationale": "Separate the north general entrance from two platform-specific elevator identities; mapped elevator presence does not resolve direction assignment.",
+  "sources": [
+    "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Judiciary%20Sq_vicinity-map.pdf",
+    "https://www.wmata.com/ride/elevators-escalators/status.html",
+    "https://api.openstreetmap.org/api/0.6/nodes?nodes=3621904756,9981798981,9981798982"
+  ],
+  "operations": [
+    {
+      "table": "reviews",
+      "action": "add",
+      "id": "WMATA-114",
+      "record": {
+        "entrance_id": "WMATA-114",
+        "reviewed_on": "2026-10-16",
+        "status": "Existing entrance confirmed",
+        "notes": "Desktop identity review: The F Street entrance between 4th and 5th matches railway entrance node 3621904756, connected to steps way 356785101. WMATA map locates the north escalator entrance on that side of the station. Its research-reference distance is 48.9 m. This supports the general entrance identity, not either platform-specific elevator identity. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Judiciary%20Sq_vicinity-map.pdf ; https://www.wmata.com/ride/elevators-escalators/status.html ; https://www.openstreetmap.org/node/3621904756 ; https://www.openstreetmap.org/node/9981798981 ; https://www.openstreetmap.org/node/9981798982 ; docs/evidence/judiciary-2026-10-16.json. No field survey, panorama inspection, current operating-status assertion or full accessibility certification. No coordinates changed or OSM edit approved."
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "add",
+      "id": "WMATA-115",
+      "record": {
+        "entrance_id": "WMATA-115",
+        "reviewed_on": "2026-10-16",
+        "status": "Geometry present; entrance position unverified",
+        "notes": "Desktop identity review: The automated candidate is general railway entrance node 3621904756, tagged wheelchair=no and connected to steps; it does not establish the identity of this platform-specific elevator. Two separate elevator nodes 9981798981 and 9981798982 are mapped, each highway=elevator and railway=subway_entrance, with sidewalk ways 1102459378/1102459380 and room outlines 1102459377/1102459379. WMATA equipment descriptions distinguish street-to-platform elevators for Glenmont and Shady Grove at the Building Museum entrance. The recorded OSM tags and inspected vicinity map do not establish which node serves which direction. Both source elevator records retrieve 9981798982 as nearest elevator, but proximity cannot resolve the direction assignment. Existing elevator geometry is present; exact source-to-node assignment and platform topology remain unverified. Do not duplicate elevators or assign direction from distance. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Judiciary%20Sq_vicinity-map.pdf ; https://www.wmata.com/ride/elevators-escalators/status.html ; https://www.openstreetmap.org/node/3621904756 ; https://www.openstreetmap.org/node/9981798981 ; https://www.openstreetmap.org/node/9981798982 ; docs/evidence/judiciary-2026-10-16.json. No field survey, panorama inspection, current operating-status assertion or full accessibility certification. No coordinates changed or OSM edit approved."
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "add",
+      "id": "WMATA-116",
+      "record": {
+        "entrance_id": "WMATA-116",
+        "reviewed_on": "2026-10-16",
+        "status": "Geometry present; entrance position unverified",
+        "notes": "Desktop identity review: The automated candidate is general railway entrance node 3621904756, tagged wheelchair=no and connected to steps; it does not establish the identity of this platform-specific elevator. Two separate elevator nodes 9981798981 and 9981798982 are mapped, each highway=elevator and railway=subway_entrance, with sidewalk ways 1102459378/1102459380 and room outlines 1102459377/1102459379. WMATA equipment descriptions distinguish street-to-platform elevators for Glenmont and Shady Grove at the Building Museum entrance. The recorded OSM tags and inspected vicinity map do not establish which node serves which direction. Both source elevator records retrieve 9981798982 as nearest elevator, but proximity cannot resolve the direction assignment. Existing elevator geometry is present; exact source-to-node assignment and platform topology remain unverified. Do not duplicate elevators or assign direction from distance. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Judiciary%20Sq_vicinity-map.pdf ; https://www.wmata.com/ride/elevators-escalators/status.html ; https://www.openstreetmap.org/node/3621904756 ; https://www.openstreetmap.org/node/9981798981 ; https://www.openstreetmap.org/node/9981798982 ; docs/evidence/judiciary-2026-10-16.json. No field survey, panorama inspection, current operating-status assertion or full accessibility certification. No coordinates changed or OSM edit approved."
+      }
+    }
+  ]
+}

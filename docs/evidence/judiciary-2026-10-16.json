@@ -1,0 +1,262 @@
+{
+  "reviewed_on": "2026-10-16",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "license_url": "https://www.openstreetmap.org/copyright",
+  "map": {
+    "url": "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Judiciary%20Sq_vicinity-map.pdf",
+    "edition": "June 2025",
+    "sha256": "c684b22841602068ac46183c151c5a5cf048bc79161def7bc1a62d69621850eb"
+  },
+  "operator_equipment_source": "https://www.wmata.com/ride/elevators-escalators/status.html",
+  "scope": "Operator map inspected visually; operator equipment page distinguishes two platform-direction elevators, but no direction-to-OSM-node assignment verified. Three nodes checked live.",
+  "elements": [
+    {
+      "id": "node/3621904756",
+      "version": 5,
+      "tags": {
+        "name": "Judiciary Square",
+        "railway": "subway_entrance",
+        "source": "Bing Images",
+        "wheelchair": "no"
+      },
+      "coordinates": [
+        -77.0175536,
+        38.8969971
+      ]
+    },
+    {
+      "id": "node/9981798981",
+      "version": 2,
+      "tags": {
+        "highway": "elevator",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "coordinates": [
+        -77.0176661,
+        38.8966651
+      ]
+    },
+    {
+      "id": "node/9981798982",
+      "version": 2,
+      "tags": {
+        "highway": "elevator",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "coordinates": [
+        -77.0174428,
+        38.8968288
+      ]
+    },
+    {
+      "id": "way/356785101",
+      "version": 6,
+      "tags": {
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "up",
+        "ramp": "no",
+        "source": "Bing Images"
+      },
+      "node_refs": [
+        "3621904756",
+        "2039087107"
+      ],
+      "coordinates": [
+        [
+          -77.0175536,
+          38.8969971
+        ],
+        [
+          -77.0175557,
+          38.8972023
+        ]
+      ]
+    },
+    {
+      "id": "way/1102459377",
+      "version": 1,
+      "tags": {
+        "elevator": "yes",
+        "indoor": "room"
+      },
+      "node_refs": [
+        "10088032303",
+        "10088032304",
+        "10088032305",
+        "10088032306",
+        "9981798981",
+        "10088032303"
+      ],
+      "coordinates": [
+        [
+          -77.0176906,
+          38.8966665
+        ],
+        [
+          -77.0176949,
+          38.896629
+        ],
+        [
+          -77.017637,
+          38.8966248
+        ],
+        [
+          -77.0176359,
+          38.8966607
+        ],
+        [
+          -77.0176661,
+          38.8966651
+        ],
+        [
+          -77.0176906,
+          38.8966665
+        ]
+      ]
+    },
+    {
+      "id": "way/1102459378",
+      "version": 2,
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "surface": "paving_stones"
+      },
+      "node_refs": [
+        "9981798981",
+        "6312468787"
+      ],
+      "coordinates": [
+        [
+          -77.0176661,
+          38.8966651
+        ],
+        [
+          -77.0177496,
+          38.8966919
+        ]
+      ]
+    },
+    {
+      "id": "way/1102459379",
+      "version": 1,
+      "tags": {
+        "elevator": "yes",
+        "indoor": "room"
+      },
+      "node_refs": [
+        "10088032307",
+        "10088032308",
+        "10088032309",
+        "10088032310",
+        "9981798982",
+        "10088032307"
+      ],
+      "coordinates": [
+        [
+          -77.0174739,
+          38.8968294
+        ],
+        [
+          -77.0174825,
+          38.8967935
+        ],
+        [
+          -77.0174224,
+          38.8967876
+        ],
+        [
+          -77.0174203,
+          38.8968285
+        ],
+        [
+          -77.0174428,
+          38.8968288
+        ],
+        [
+          -77.0174739,
+          38.8968294
+        ]
+      ]
+    },
+    {
+      "id": "way/1102459380",
+      "version": 2,
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "surface": "paving_stones"
+      },
+      "node_refs": [
+        "6312468800",
+        "9981798982"
+      ],
+      "coordinates": [
+        [
+          -77.0174094,
+          38.8968834
+        ],
+        [
+          -77.0174428,
+          38.8968288
+        ]
+      ]
+    }
+  ],
+  "live_checks": [
+    {
+      "id": "3621904756",
+      "version": "5",
+      "timestamp": "2025-12-08T16:56:32Z",
+      "lat": "38.8969971",
+      "lon": "-77.0175536"
+    },
+    {
+      "id": "9981798981",
+      "version": "2",
+      "timestamp": "2022-10-09T23:37:45Z",
+      "lat": "38.8966651",
+      "lon": "-77.0176661"
+    },
+    {
+      "id": "9981798982",
+      "version": "2",
+      "timestamp": "2022-10-09T23:37:45Z",
+      "lat": "38.8968288",
+      "lon": "-77.0174428"
+    }
+  ],
+  "research_distances_m": [
+    {
+      "entrance_id": "WMATA-114",
+      "osm_edit_source": false,
+      "distances": {
+        "3621904756": 48.9,
+        "9981798981": 81.0,
+        "9981798982": 69.9
+      }
+    },
+    {
+      "entrance_id": "WMATA-115",
+      "osm_edit_source": false,
+      "distances": {
+        "3621904756": 36.6,
+        "9981798981": 55.7,
+        "9981798982": 54.1
+      }
+    },
+    {
+      "entrance_id": "WMATA-116",
+      "osm_edit_source": false,
+      "distances": {
+        "3621904756": 12.0,
+        "9981798981": 45.8,
+        "9981798982": 32.8
+      }
+    }
+  ]
+}

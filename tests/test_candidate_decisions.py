@@ -77,12 +77,35 @@ class CandidateDecisionTests(unittest.TestCase):
         self.assertIn('not unique physical entrances', adjusted['meaning'])
         self.assertIn('does not imply that an entrance is missing', adjusted['meaning'])
 
+    def test_materialization_rejects_missing_evidence_file(self):
+        import tempfile
+        import test_build
+        from transit_map.build import digest, write
+        with tempfile.TemporaryDirectory() as folder:
+            root = test_build.BuildTests().workspace(folder)
+            state, _ = materialize(root)
+            old = state['reviews']['records'][0]
+            record = dict(old, candidate_decisions=[{
+                'feature_id': 'node/324153414', 'decision': 'unresolved',
+                'reason': 'Synthetic test', 'evidence': ['docs/evidence/missing.json']}])
+            write(root / 'transactions/001.json', {
+                'transaction_id': 'missing-evidence-test', 'rationale': 'Regression test',
+                'sources': ['https://www.wmata.com/'], 'operations': [{
+                    'table': 'reviews', 'action': 'update', 'id': old['entrance_id'],
+                    'before_sha256': digest(old), 'record': record}]})
+            with self.assertRaisesRegex(ValueError, 'missing evidence file'):
+                materialize(root)
+
     def test_validation_rejects_malformed_decisions(self):
         inv, osm, reviews = self.args
         base = next(r for r in reviews if r['entrance_id'] == 'WMATA-052')
         good = base['candidate_decisions'][0]
         bad_cases = {
             'bad decision': dict(good, decision='maybe'),
+            'array decision': dict(good, decision=[]),
+            'object decision': dict(good, decision={}),
+            'hostless URL': dict(good, evidence=['https://']),
+            'malformed URL': dict(good, evidence=['https://[']),
             'empty reason': dict(good, reason='  '),
             'no evidence': dict(good, evidence=[]),
             'http evidence': dict(good, evidence=['http://example.org']),
@@ -94,6 +117,11 @@ class CandidateDecisionTests(unittest.TestCase):
             with self.subTest(name):
                 changed = [dict(r, candidate_decisions=[decision]) if r is base else r for r in reviews]
                 with self.assertRaises(ValueError):
+                    validate(inv, self.state['stations']['records'], osm, changed)
+        for invalid_container in (None, [], {}, "accepted"):
+            with self.subTest(container=invalid_container):
+                changed = [dict(r, candidate_decisions=invalid_container) if r is base else r for r in reviews]
+                with self.assertRaisesRegex(ValueError, 'nonempty list'):
                     validate(inv, self.state['stations']['records'], osm, changed)
         two_accepted = [good, dict(good, feature_id='node/324153442')]
         changed = [dict(r, candidate_decisions=two_accepted) if r is base else r for r in reviews]

@@ -138,7 +138,7 @@ def main(argv=None):
             by_id = {r["id"]: r for r in inventory}
             lines = ["# Desktop review queue", "", "Generated from materialized research records.", "",
                      "All records remain visible. Proximity does not confirm entrance identity.", "",
-                     "Shared candidates require review regardless of distance or desktop status.", ""]
+                     "Shared-candidate questions require explicit accepted or rejected decisions; status questions remain open.", ""]
             for task in review_worklist(inventory, osm, reviews):
                 record = by_id[task["entrance_id"]]
                 reasons = "; ".join(task["review_reasons"]) or "No open review question"

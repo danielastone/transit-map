@@ -150,7 +150,7 @@ def publish(state, manifest, output):
         '<p><a href="tasks.html">Research tasks</a> · <a href="data/audit.json">Automated screening JSON</a> · '
         '<a href="data/semantic-manifest.json">Build provenance</a></p>' + summary_tables(model['summaries']) +
         '<h2>Stations</h2><ul>' + ''.join(station_links) + '</ul>')
-    pages['tasks.html'] = page('Research tasks', '<p>All source records are listed. Shared candidates require identity review regardless of distance or desktop status. Proximity is not a confirmed match.</p><p><a href="data/review-queue.json">Review queue JSON</a></p><ul>' + ''.join(tasks) + '</ul>')
+    pages['tasks.html'] = page('Research tasks', '<p>All source records are listed. Shared-candidate questions close only through explicit accepted or rejected decisions; other review questions remain open. Proximity is not a confirmed match.</p><p><a href="data/review-queue.json">Review queue JSON</a></p><ul>' + ''.join(tasks) + '</ul>')
     for path, html in pages.items():
         target = output / path
         target.parent.mkdir(parents=True, exist_ok=True)

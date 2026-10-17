@@ -6,6 +6,7 @@ import json
 import math
 import re
 import xml.etree.ElementTree as ET
+from urllib.parse import urlsplit
 
 RAIL_TAGS = {"subway_entrance", "train_station_entrance"}
 REVIEW_STATUSES = {
@@ -385,9 +386,9 @@ def validate(inventory, stations, osm, reviews):
 
 def validate_candidate_decisions(review, osm):
     """Decisions name one OSM feature each, give a reason, and cite reviewable evidence."""
-    decisions = review.get("candidate_decisions")
-    if decisions is None:
+    if "candidate_decisions" not in review:
         return
+    decisions = review["candidate_decisions"]
     rid = review["entrance_id"]
     if not isinstance(decisions, list) or not decisions:
         raise ValueError(f"{rid}: candidate_decisions must be a nonempty list when present")
@@ -401,14 +402,23 @@ def validate_candidate_decisions(review, osm):
         if d["feature_id"] in seen:
             raise ValueError(f"{rid}: duplicate decision for {d['feature_id']}")
         seen.add(d["feature_id"])
-        if d["decision"] not in CANDIDATE_DECISIONS:
+        if not isinstance(d["decision"], str) or d["decision"] not in CANDIDATE_DECISIONS:
             raise ValueError(f"{rid}: unknown candidate decision")
         if not isinstance(d["reason"], str) or not d["reason"].strip():
             raise ValueError(f"{rid}: decision requires a reason")
+        def valid_evidence(item):
+            if not isinstance(item, str):
+                return False
+            if EVIDENCE_PATH.fullmatch(item):
+                return True
+            try:
+                parsed = urlsplit(item)
+                return parsed.scheme == "https" and bool(parsed.hostname)
+            except ValueError:
+                return False
         evidence = d["evidence"]
         if (not isinstance(evidence, list) or not evidence or
-                any(not isinstance(e, str) or not (e.startswith("https://") or EVIDENCE_PATH.fullmatch(e))
-                    for e in evidence)):
+                any(not valid_evidence(e) for e in evidence)):
             raise ValueError(f"{rid}: decision evidence must be HTTPS URLs or docs/evidence JSON paths")
         if d["decision"] == "accepted" and d["feature_id"] not in features:
             # An accepted identity must be reproducible from the recorded snapshot.

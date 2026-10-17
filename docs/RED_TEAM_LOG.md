@@ -223,3 +223,20 @@ Before merge, three validation gaps were reproduced and corrected: explicit null
 - `tests/test_evidence_recovery.py` covers cutoff selection, later-edit and deletion handling, way-node resolution, contributor stripping and distances using synthetic histories. A **ratchet test** pins the 10-review / 22-element gap: it fails if any review adds a new unreproducible citation, and allows the set only to shrink.
 
 **To complete N4:** run `python -m transit_map recover-evidence --maps` with network access; inspect `problems` and `changed_after_review`; fill map editions after visual inspection; commit the result as `docs/evidence/baseline-recovery-2026-10-16.json`; then empty `KNOWN_UNREPRODUCIBLE`. The recovered distances should then be checked against note claims (for example, WMATA-210 says the panorama "coincides" with node 4448309368). Recovery reproduces cited geometry; it does not re-review or strengthen any outcome. Linking the extract from the ten reviews would be a separate transaction.
+
+### PR #13 completion — evidence recovered in this session
+
+Direct public OSM history API requests succeeded in this session. The original 22-element list covered explicit node/way forms but missed prose aliases/lists such as footways A/B/C, junctions and buildings. Extending the parser and measuring again found **35 unique missing elements across 12 reviews**, including the later Reston south review. The ratchet now checks those forms as well, and accepts retained geometry rather than an ID-only/incomplete way record.
+
+Recovery saved `docs/evidence/baseline-recovery-2026-10-16.json`: 35 cited elements, 145 way-node coordinate dependencies with selected versions/timestamps, seven WMATA map hashes and inspected editions, no recovery problems, and no observed post-cutoff changes. Contributor user/uid/changeset metadata is excluded. `KNOWN_UNREPRODUCIBLE` is empty; citation-gap checking passes with no allowance. Raw network caches remain ignored. Earlier PR scope/counts above are preserved as history, superseded by this measurement.
+
+Additional correctness fixes:
+
+- Washington day boundaries now use America/New_York timezone rules, including winter offset, and exclude the next midnight itself.
+- Because these reviews' calendar day was still in progress during retrieval, the effective cutoff is capped at recovery start. Both the next-midnight boundary and actual recovery timestamp are retained. End-of-day recovery remains an approximation when the original note lacks an exact observation timestamp; no future end-of-day state is claimed.
+- Batched latest-node retrieval is used only when a current node's timestamp proves it predates the cutoff. Later/deleted/unreturned node cases still use full history. Dependency versions and the selection method are retained so a parent way's unchanged version cannot hide node-coordinate provenance.
+- Tests cover timezone/boundary behavior, in-progress-day cutoffs, incomplete way records, prose lists and batched-node historical fallback.
+
+The recovered WMATA-210 reference-to-node/4448309368 distance is **0.7 m**. This supports a nearly coincident reference, not exact equality and not an elevator identity. Recovered geometry retains upper-level footway/447761004 with layer=2; the original unresolved elevator/level review is not upgraded. Evidence recovery does not independently validate every narrative claim, survey a threshold, certify equipment operation or permit OSM edits.
+
+All seven PDFs were rendered and inspected: Branch Avenue June 2026; Huntington, Minnesota Avenue, Reston Town Center, Southern Avenue and Twinbrook June 2025; Tysons December 2025. The existing review outcomes, accepted/rejected candidate decisions, source coordinates, raw screens and frozen baseline remain unchanged. F3 window sensitivity remains the next separate investigation.

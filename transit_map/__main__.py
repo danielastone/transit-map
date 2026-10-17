@@ -132,8 +132,20 @@ def recover_evidence(args):
         raw, _ = download(url, cache / ("map-" + url.rsplit("/", 1)[-1].replace("%20", "_")), args.refresh)
         return raw
 
+    def fetch_nodes(node_ids):
+        import hashlib
+        records = []
+        for start in range(0, len(node_ids), 500):
+            ids = ",".join(n.split("/")[1] for n in node_ids[start:start + 500])
+            key = hashlib.sha256(ids.encode()).hexdigest()[:20]
+            raw, _ = download(f"{evidence.API}/nodes.json?nodes={ids}",
+                              cache / f"nodes-batch-{key}.json", args.refresh)
+            records.extend(json.loads(raw)["elements"])
+            time.sleep(args.delay)
+        return records
+
     maps = evidence.map_records([by_review[r] for r in gaps], fetch_bytes if args.maps else None)
-    result = evidence.recover(gaps, by_review, {r["id"]: r for r in inventory}, fetch_history, maps)
+    result = evidence.recover(gaps, by_review, {r["id"]: r for r in inventory}, fetch_history, maps, fetch_nodes=fetch_nodes)
     write_json(args.output, result)
     changed = sum(c["changed_after_review"] for c in result["live_checks"])
     print(json.dumps({"reviews": len(gaps), "elements": len(result["elements"]),

@@ -3,22 +3,11 @@ import unittest
 
 from transit_map.build import ROOT, materialize
 from transit_map.evidence import (cited_elements, recover, review_cutoff,
-                                  unreproducible_citations, version_at)
+                                  reproducible_ids, unreproducible_citations, version_at)
 
 # Elements cited by baseline review notes that no repository file retains. This set may
 # only shrink: recovered evidence removes entries; a new review must not add any.
-KNOWN_UNREPRODUCIBLE = {
-    "WMATA-021": ["way/305845881", "way/834810244"],
-    "WMATA-022": ["way/305845881", "way/834810243"],
-    "WMATA-107": ["node/6542276608", "way/305842958", "way/696658748"],
-    "WMATA-108": ["node/5589300606", "way/584775752"],
-    "WMATA-142": ["way/305847609"],
-    "WMATA-195": ["way/1017457921"],
-    "WMATA-208": ["node/3105395343", "way/305852778", "way/305852779"],
-    "WMATA-209": ["node/10035031323", "way/1095734267", "way/305852778"],
-    "WMATA-210": ["node/4448309368", "way/447761001", "way/447761004"],
-    "WMATA-211": ["node/10243110918", "node/4448309372", "way/1119943184", "way/1201241347"],
-}
+KNOWN_UNREPRODUCIBLE = {}
 
 
 def node(i, version, ts, lat, lon, visible=True, **tags):
@@ -40,11 +29,44 @@ class EvidenceRecoveryTests(unittest.TestCase):
             self.assertLessEqual(set(ids), set(KNOWN_UNREPRODUCIBLE[entrance_id]))
 
     def test_cited_elements_parses_urls_and_prose(self):
-        notes = 'footway 834810244 is not cited; https://www.openstreetmap.org/way/834810244 and node 6542276608'
+        notes = 'footway 834810244; https://www.openstreetmap.org/way/834810244 and node 6542276608'
         self.assertEqual(cited_elements(notes), ['node/6542276608', 'way/834810244'])
+
+    def test_citations_include_prose_aliases_and_lists(self):
+        self.assertEqual(cited_elements('Footways 447761002/447761004/447761005; '
+                                        'junction 7792548646; nodes 9384597573/9384597574; steps 305852780'),
+                         ['node/7792548646', 'node/9384597573', 'node/9384597574',
+                          'way/305852780', 'way/447761002', 'way/447761004', 'way/447761005'])
 
     def test_cutoff_is_end_of_review_day_in_washington(self):
         self.assertEqual(review_cutoff('2026-10-16').isoformat(), '2026-10-17T04:00:00+00:00')
+
+    def test_cutoff_respects_winter_and_excludes_next_day(self):
+        self.assertEqual(review_cutoff('2026-12-01').isoformat(), '2026-12-02T05:00:00+00:00')
+        cutoff = review_cutoff('2026-10-16')
+        self.assertIsNone(version_at([node(1, 1, '2026-10-17T04:00:00Z', 1, 1)], cutoff))
+
+    def test_today_recovery_does_not_claim_future_end_of_day(self):
+        from datetime import datetime, timezone
+        observed = datetime(2026, 10, 17, 1, tzinfo=timezone.utc)
+        histories = {'node/5': [node(5, 1, '2020-01-01T00:00:00Z', 1, 1),
+                                node(5, 2, '2026-10-17T02:00:00Z', 2, 2)]}
+        review = {'entrance_id': 'X', 'reviewed_on': '2026-10-16', 'notes': ''}
+        doc = recover({'X': ['node/5']}, {'X': review}, {'X': {'id': 'X'}},
+                      histories.__getitem__, observed_at=observed)
+        self.assertEqual(doc['review_cutoff_utc'], '2026-10-17T01:00:00Z')
+        self.assertEqual(doc['elements'][0]['version'], 1)
+
+    def test_partial_way_does_not_close_reproducibility_gap(self):
+        import tempfile, json
+        from pathlib import Path
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder) / 'partial.json'
+            path.write_text(json.dumps({'elements': [{'id': 'way/12345', 'node_refs': ['node/1', 'node/2']}]}))
+            self.assertNotIn('way/12345', reproducible_ids({'features': []}, folder))
+            path.write_text(json.dumps({'elements': [{'id': 'way/12345', 'node_refs': ['node/1', 'node/2'],
+                                                     'coordinates': [[1, 2], [3, 4]]}]}))
+            self.assertIn('way/12345', reproducible_ids({'features': []}, folder))
 
     def test_version_at_ignores_later_edits_and_deletions(self):
         cutoff = review_cutoff('2026-10-16')
@@ -76,6 +98,27 @@ class EvidenceRecoveryTests(unittest.TestCase):
         self.assertNotIn('"user"', str(doc).replace("'", '"'))
         self.assertNotIn('uid', str(doc))
         self.assertEqual(doc['problems'], [])
+
+    def test_batch_latest_nodes_prove_unchanged_versions_and_fall_back_for_later_edits(self):
+        from datetime import datetime, timezone
+        histories = {
+            'way/10': [way(10, 1, '2020-01-01T00:00:00Z', [1, 2])],
+            'node/2': [node(2, 1, '2020-01-01T00:00:00Z', 1, 2),
+                       node(2, 2, '2027-01-01T00:00:00Z', 8, 9)]}
+        asked = []
+        def fetch(key):
+            asked.append(key)
+            return histories[key]
+        def batch(ids):
+            self.assertEqual(ids, ['node/1', 'node/2'])
+            return [node(1, 1, '2020-01-01T00:00:00Z', 1, 1), histories['node/2'][-1]]
+        review = {'entrance_id': 'X', 'reviewed_on': '2026-10-16', 'notes': ''}
+        doc = recover({'X': ['way/10']}, {'X': review}, {'X': {'id': 'X'}}, fetch,
+                      observed_at=datetime(2026, 10, 18, tzinfo=timezone.utc), fetch_nodes=batch)
+        self.assertEqual(asked, ['way/10', 'node/2'])
+        self.assertEqual(doc['elements'][0]['coordinates'], [[1, 1], [2, 1]])
+        self.assertEqual(doc['node_dependencies'][0]['version_source'], 'latest_before_cutoff')
+        self.assertTrue(doc['node_dependencies'][1]['changed_after_cutoff'])
 
     def test_recover_reports_elements_absent_at_review_time(self):
         histories = {'node/5': [node(5, 1, '2027-01-01T00:00:00Z', 1, 1)]}

@@ -1,0 +1,112 @@
+{
+  "transaction_id": "2026-10-16-reston-herndon-directional-review",
+  "rationale": "Resolve directional reuse allegations using independent WMATA access maps and recorded OSM topology; preserve source coordinates and uncertainty; no edits to OSM.",
+  "sources": [
+    "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Reston%20Town%20Center_vicinity-map.pdf",
+    "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Herndon_vicinity-map.pdf",
+    "https://api.openstreetmap.org/api/0.6/nodes?nodes=7433034321,7432921910,13853391339,13853418711,3105651341,7432921936"
+  ],
+  "operations": [
+    {
+      "table": "reviews",
+      "action": "add",
+      "id": "WMATA-102",
+      "record": {
+        "entrance_id": "WMATA-102",
+        "reviewed_on": "2026-10-16",
+        "status": "Geometry present; entrance position unverified",
+        "notes": "The Herndon-Monroe Park and Ride is on the SOUTH side of the Dulles corridor in the WMATA map; the earlier north-side characterization was incorrect. Its research reference is 40.8 m from south entrance node 3105651341 and 227.1 m from north node 7432921936. Sharing the south candidate with WMATA-106 is not evidence of a cross-side mismatch. The broad Park and Ride source view has not been established as a separate physical station entrance; do not count it as an additional verified entrance or deduplicate source IDs. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Herndon_vicinity-map.pdf ; https://www.openstreetmap.org/node/3105651341 Recorded geometry evidence: docs/evidence/reston-herndon-2026-10-16.json. Desktop interpretation only; no OSM edit approved."
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "add",
+      "id": "WMATA-103",
+      "record": {
+        "entrance_id": "WMATA-103",
+        "reviewed_on": "2026-10-16",
+        "status": "Existing entrance confirmed",
+        "notes": "Desktop match: the 585 Herndon Parkway description is the north-pavilion side shown on the WMATA map. Node 7432921936 is railway=subway_entrance, wheelchair=yes, connected to approach footway 794694304 and steps 794694307; its research-reference distance is 1.4 m. This supports the north entrance match, not a separate elevator match for WMATA-105. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Herndon_vicinity-map.pdf ; https://www.openstreetmap.org/node/7432921936 ; https://www.openstreetmap.org/way/794694304 ; https://www.openstreetmap.org/way/794694307 Recorded geometry evidence: docs/evidence/reston-herndon-2026-10-16.json. Desktop interpretation only; no OSM edit approved."
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "add",
+      "id": "WMATA-104",
+      "record": {
+        "entrance_id": "WMATA-104",
+        "reviewed_on": "2026-10-16",
+        "status": "Geometry present; entrance position unverified",
+        "notes": "South access is mapped at railway entrance node 3105651341 via footway 305873339 and steps 794694306. The WMATA map shows a south-pavilion elevator as well as a separate parking-garage elevator. The node is not tagged highway=elevator, and no elevator-tagged feature is in the recorded Herndon query window. Do not infer an elevator identity from the nearby entrance or infer physical absence from missing tags. Exact elevator geometry and route remain unverified. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Herndon_vicinity-map.pdf ; https://www.openstreetmap.org/node/3105651341 ; https://www.openstreetmap.org/way/305873339 ; https://www.openstreetmap.org/way/794694306 Recorded geometry evidence: docs/evidence/reston-herndon-2026-10-16.json. Desktop interpretation only; no OSM edit approved."
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "add",
+      "id": "WMATA-105",
+      "record": {
+        "entrance_id": "WMATA-105",
+        "reviewed_on": "2026-10-16",
+        "status": "Geometry present; entrance position unverified",
+        "notes": "The WMATA map shows a north-pavilion elevator. North railway entrance node 7432921936 is wheelchair=yes and near the source reference, but it is not highway=elevator; wheelchair access does not identify a specific elevator. No elevator-tagged feature is in the recorded Herndon query window. Elevator position and topology remain unverified; do not treat the nearby entrance as a confirmed elevator match or propose a duplicate without survey. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Herndon_vicinity-map.pdf ; https://www.openstreetmap.org/node/7432921936 Recorded geometry evidence: docs/evidence/reston-herndon-2026-10-16.json. Desktop interpretation only; no OSM edit approved."
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "add",
+      "id": "WMATA-106",
+      "record": {
+        "entrance_id": "WMATA-106",
+        "reviewed_on": "2026-10-16",
+        "status": "Existing entrance confirmed",
+        "notes": "Desktop match: the WMATA map locates the South Pavilion beside the bus bays and Park and Ride. Node 3105651341 is railway=subway_entrance and connects ground footway 305873339 with steps 794694306; its source-reference distance is 4.5 m. North entrance node 7432921936 is 199.2 m away. WMATA-102 shares this south candidate but its broad source view does not establish another physical entrance. This is a station entrance match, not a confirmed elevator or accessibility-route assessment. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Herndon_vicinity-map.pdf ; https://www.openstreetmap.org/node/3105651341 ; https://www.openstreetmap.org/way/305873339 ; https://www.openstreetmap.org/way/794694306 Recorded geometry evidence: docs/evidence/reston-herndon-2026-10-16.json. Desktop interpretation only; no OSM edit approved."
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-172",
+      "record": {
+        "entrance_id": "WMATA-172",
+        "reviewed_on": "2026-10-16",
+        "status": "Existing entrance confirmed",
+        "notes": "2026-10-16 desktop match: north-pavilion elevator node 13853418711 is tagged highway=elevator and connects to ground-level footway 1517672541 and bridge-level footway 1517672540 within north pavilion/bridge building 1010702112. WMATA map shows a north-pavilion elevator. The panorama lies 162.9 m away near the road junction. The elevator geometry already exists; level/wheelchair/entrance-tag completeness needs a separate check. Evidence: https://www.openstreetmap.org/node/13853418711 ; https://www.openstreetmap.org/way/1517672540 ; https://www.openstreetmap.org/way/1517672541 ; https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Reston%20Town%20Center_vicinity-map.pdf Directional recheck: this is the north side of the Dulles corridor, between Sunset Hills Road and the northern carriageway. The south-labelled research references for WMATA-173/175 lying closer to this node do not turn it into a south-pavilion elevator. They are inconsistent with the south access description; do not use proximity to transfer identity. Recorded geometry evidence: docs/evidence/reston-herndon-2026-10-16.json. Desktop interpretation only; no OSM edit approved."
+      },
+      "before_sha256": "1158fa6da531e0273a2abff5578f0b7621aeedfa07a67d2c559338bef1b88b22"
+    },
+    {
+      "table": "reviews",
+      "action": "add",
+      "id": "WMATA-173",
+      "record": {
+        "entrance_id": "WMATA-173",
+        "reviewed_on": "2026-10-16",
+        "status": "Source location needs correction",
+        "notes": "Desktop recheck of the south-busbay elevator description: WMATA vicinity map shows a separate south-pavilion elevator. OSM node 13853391339 is highway=elevator, level=0;1, wheelchair=yes, attached to south bridge building 1010702114 and footways 1517654250/1517654251. Its geometry is on the south side of the Dulles corridor. The source research reference is 138.6 m from this south elevator but only 44.6 m from north elevator 13853418711. This is a label/reference-location inconsistency, not a confirmed missing elevator or a match to the north elevator. The panorama itself was not visually verified; whether its coordinate or source label is erroneous remains open. No source coordinate is replaced. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Reston%20Town%20Center_vicinity-map.pdf ; https://www.openstreetmap.org/node/13853391339 ; https://www.openstreetmap.org/way/1517654250 ; https://www.openstreetmap.org/way/1517654251 Recorded geometry evidence: docs/evidence/reston-herndon-2026-10-16.json. Desktop interpretation only; no OSM edit approved."
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-174",
+      "record": {
+        "entrance_id": "WMATA-174",
+        "reviewed_on": "2026-10-16",
+        "status": "Existing entrance confirmed",
+        "notes": "2026-10-16 desktop match: north-pavilion entrance node 7433034321 is railway=subway_entrance, connects to escalator way 794703764, and belongs to station stop-area relation 12568692. WMATA map identifies this north pavilion. The panorama is 158.0 m away near the road junction, producing a false proximity gap. Evidence: https://www.openstreetmap.org/node/7433034321 ; https://www.openstreetmap.org/way/794703764 ; https://www.openstreetmap.org/relation/12568692 ; https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Reston%20Town%20Center_vicinity-map.pdf Directional recheck: north identity is supported by the independent WMATA map and OSM approach geometry on the Sunset Hills Road side. Separate south entrance node 7432921910 is across the Dulles corridor. The 48.9 m proximity from south-labelled references does not establish a south match. Recorded geometry evidence: docs/evidence/reston-herndon-2026-10-16.json. Desktop interpretation only; no OSM edit approved."
+      },
+      "before_sha256": "2c9ff1513bf8e188285e4641decfc25de4dd73eac3c8b1ab1ab827974d3b1a60"
+    },
+    {
+      "table": "reviews",
+      "action": "add",
+      "id": "WMATA-175",
+      "record": {
+        "entrance_id": "WMATA-175",
+        "reviewed_on": "2026-10-16",
+        "status": "Source location needs correction",
+        "notes": "Desktop recheck: the WMATA map and approach geometry distinguish south entrance node 7432921910, connected to escalator/steps way 794694302 and ground footway 1010702107, from north entrance node 7433034321. The south-labelled research reference is 154.0 m from the south node and 48.9 m from the north node. Reject the automated north node as evidence of a south entrance match. A separate south entrance is mapped; the panorama coordinate versus description conflict remains unresolved without visual source/survey confirmation. No source coordinate is replaced. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Reston%20Town%20Center_vicinity-map.pdf ; https://www.openstreetmap.org/node/7432921910 ; https://www.openstreetmap.org/way/794694302 ; https://www.openstreetmap.org/way/1010702107 Recorded geometry evidence: docs/evidence/reston-herndon-2026-10-16.json. Desktop interpretation only; no OSM edit approved."
+      }
+    }
+  ]
+}

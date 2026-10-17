@@ -115,3 +115,15 @@ The map-side and topology evidence support the southern match. They do not ident
 Transaction `2026-10-16-004-largo-access-identities.json` adds two reviews. Materialized total: 29 reviews (eleven confirmed, sixteen geometry/position unresolved, two source-location conflicts). Three nodes and four ways checked live retain their recorded versions. [Evidence extract](evidence/largo-2026-10-16.json) retains selected geometry, versions, map URL/hash and reference distances. Source panoramas and field conditions were not inspected.
 
 This completes an initial desktop pass over the five named reuse examples: Reston, Herndon, Gallery Place, Grosvenor and Largo. It does not complete review of all 31 shared-candidate records. Automated screen counts, source coordinates and frozen baseline are unchanged; no OSM edits submitted. Remaining work includes the other reuse groups, north Largo's threshold, Herndon's elevator geometry, Reston's source-reference conflict, and query-window sensitivity.
+
+## Step 7 — Judiciary Square general entrance versus elevators (2026-10-16)
+
+Inventorying the remaining 18 unreviewed shared-candidate records identified the Judiciary Square trio as an available next group. The WMATA vicinity map (June 2025) places north escalator/elevator access by F Street; the operator equipment page separately describes street-to-platform elevators for Glenmont and Shady Grove. These are different identities, not three independent confirmations of one nearby entrance.
+
+- WMATA-114's general F Street entrance matches node/3621904756 and steps way/356785101; desktop identity confirmed. Reference distance: 48.9 m.
+- WMATA-115 and WMATA-116 name different platform-specific elevators. Both select the same general entrance, tagged wheelchair=no, as their screen candidate. Two separate elevator nodes (9981798981 and 9981798982) and their sidewalk/room geometry exist. Both references also retrieve 9981798982 as nearest elevator; neither nearest-entrance nor nearest-elevator retrieval establishes the platform-direction assignment.
+- The inspected map, recorded tags and geometry do not identify which elevator node serves which direction. Both elevator reviews remain `Geometry present; entrance position unverified`. No elevator is declared missing, duplicated or assigned a platform direction.
+
+Three live node checks retain the recorded versions. [Evidence extract](evidence/judiciary-2026-10-16.json) preserves selected access geometry, operator source links, map hash and distances. Equipment operation, source panoramas, field conditions and complete accessible routes were not verified.
+
+Transaction `2026-10-16-005-judiciary-elevator-identities.json` adds three reviews. Totals: 32 desktop reviews (twelve confirmed, eighteen geometry/position unresolved, two source-location conflicts). Fifteen of the 31 shared-candidate records still lack desktop review. Baseline/source coordinates and automated screens are unchanged; no OSM edits submitted.

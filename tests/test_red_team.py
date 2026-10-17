@@ -9,7 +9,7 @@ import unittest
 import test_build
 from transit_map.__main__ import main as cli
 from transit_map.build import FILES, digest, materialize, publish, write
-from transit_map.core import REVIEW_STATUSES, review_worklist
+from transit_map.core import REVIEW_STATUSES, review_worklist, status_label
 
 
 class RedTeamTests(unittest.TestCase):
@@ -46,7 +46,7 @@ class RedTeamTests(unittest.TestCase):
                 with redirect_stdout(io.StringIO()):
                     self.assertEqual(cli(args), 0)
                 section = (root / 'queue.md').read_text().split('## ' + review['entrance_id'] + ':')[1].split('\n## ')[0]
-                self.assertIn(status, section)
+                self.assertIn(status_label(status), section)
 
     def test_missing_empty_or_nontext_notes_rejected_during_materialization(self):
         for notes in [None, '', ' ', 123]:
@@ -87,7 +87,10 @@ class RedTeamTests(unittest.TestCase):
         self.assertEqual({r['entrance_id'] for r in work}, {r['id'] for r in inventory})
         reused = [r for r in work if r['candidate_reuse_count'] > 1]
         self.assertEqual(len(reused), 31)
-        self.assertTrue(all(r['review_required'] for r in reused))
+        # Only an explicit accepted/rejected decision on the screened candidate closes the warning.
+        for r in reused:
+            shared_open = any('Shared' in reason for reason in r['review_reasons'])
+            self.assertEqual(shared_open, r['candidate_decision'] not in {'accepted', 'rejected'})
         review = {'entrance_id': reused[0]['entrance_id'], 'status': 'Existing entrance confirmed',
                   'reviewed_on': '2026-10-16', 'notes': 'Synthetic test'}
         updated = [r for r in deepcopy(reviews) if r['entrance_id'] != review['entrance_id']] + [review]

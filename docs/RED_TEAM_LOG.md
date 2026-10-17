@@ -187,3 +187,23 @@ Transaction `2026-10-16-009-remaining-shared-candidate-reviews.json` adds all ni
 - **195 source records remain without desktop review.** Completing the shared-candidate subset is not a completeness audit of all 242 records.
 - The north Largo threshold, platform-specific Judiciary elevators, McLean level semantics, source-view ambiguities, other elevator identities and Pentagon City's west-elevator source-coverage task remain open. Query-window sensitivity has not yet been tested.
 - Frozen baseline, research coordinates and automated screen counts are unchanged; no OSM edits submitted.
+
+## Step 12 — Candidate decisions and review-adjusted publication (N1/N2, 2026-10-16)
+
+External Pass 2 (at a4cd635) found two publication defects. **N1:** a shared candidate kept its warning even after review, so 236/242 records were permanently flagged, including 11 confirmations. **N2:** `audit.json` and its counts still presented rejected candidates (Gallery Place A→D; Reston south→north) as screens, with no adjudicated summary. **N3** (labels) was addressed where it affects these outputs; **N4** (baseline evidence recovery) and **F3** (window sensitivity) are deferred.
+
+Changes:
+
+- Reviews may record explicit `candidate_decisions` (accepted/rejected/unresolved, feature ID, reason, evidence), validated in `core.validate_candidate_decisions` and checked for evidence-file existence during materialization.
+- Worklist: only an accepted or rejected decision on the screened candidate closes the shared-candidate warning; a confirmation without an accepted decision is an open reason; status questions stay open.
+- `audit.json` keeps raw screens per record and adds `candidate_decision`, `accepted_feature_id` and `review_outcome`; `summaries.raw_screening` and `summaries.review_adjusted` are published separately and shown on the index page. Entrance pages list decisions; tasks and the CLI queue use status labels.
+
+Transaction `2026-10-16-010-candidate-decisions.json` updates 37 existing reviews with 39 decisions (17 accepted, 8 rejected, 14 unresolved). It encodes judgments already stated in the review notes; no new observation, coordinate or status change. One interpretation goes slightly beyond the note wording: WMATA-115/116 reject general steps entrance node 3621904756 (wheelchair=no) as the identity of a platform-specific elevator, because separate elevator entrance nodes are mapped; which elevator serves each direction stays unresolved. The six baseline-era confirmations cite their original note links because no evidence extract exists (N4).
+
+Result: 17 accepted identities, 6 rejected-and-unresolved, 24 reviewed-unresolved, 195 unreviewed (sum 242). Raw screening counts are unchanged. Open worklist records fall from 236 to 225; open shared-candidate warnings from 31 to 14. Tests in `tests/test_candidate_decisions.py` cover the four specified cases (Gallery Place A rejects D with A's identity retained; Reston south rejects north with the conflict open; a supported shared candidate closes; an unresolved elevator stays open beside a supported entrance), confirmation-alone, summary reconciliation and malformed decisions. Frozen baseline unchanged; no OSM edits submitted.
+
+### PR #12 verification
+
+Independent review reproduced the 17/6/24/195 adjusted partition and unchanged raw screens. The WMATA-115/116 decisions reject a steps-connected general entrance as the identity of a specific elevator; they do not reject mapped elevator existence or assign a direction, so the interpretation is retained. Older confirmations remain subject to N4 evidence recovery.
+
+Before merge, three validation gaps were reproduced and corrected: explicit null decision lists passed validation but failed downstream; nonstring decision values could raise TypeError instead of a validation error; hostless HTTPS evidence was accepted. Regressions now cover those cases and the build-time missing-evidence-file gate. Absent decision fields remain permitted for historical transaction replay; explicit null fields are rejected. Queue instructions now describe decision-based closure. No review judgments or adjusted counts changed in this verification.

@@ -1,0 +1,861 @@
+{
+  "transaction_id": "2026-10-16-010-candidate-decisions",
+  "rationale": "Encode explicit candidate decisions already stated in existing desktop review notes, so publication reflects accepted identities, rejected screened candidates and unresolved cases. No new observation, coordinate or OSM edit. Statuses and notes unchanged. Rejection never implies a missing entrance. Baseline confirmations without evidence extracts cite their original note links (evidence recovery is a separate pass).",
+  "sources": [
+    "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Farragut%20W_vicinity-map.pdf",
+    "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Gallery%20Place_vicinity-map.pdf",
+    "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Grosvenor_vicinity-map.pdf",
+    "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Herndon_vicinity-map.pdf",
+    "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Judiciary%20Sq_vicinity-map.pdf",
+    "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Largo_vicinity-map.pdf",
+    "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Loudoun%20Gateway_vicinity-map.pdf",
+    "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/McLean_vicinity-map.pdf",
+    "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Minnesota%20Av_vicinity-map.pdf",
+    "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Pentagon%20City_vicinity-map.pdf",
+    "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Reston%20Town%20Center_vicinity-map.pdf",
+    "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Rosslyn_vicinity-map.pdf",
+    "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Tysons_vicinity-map.pdf",
+    "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Union%20Station_vicinity-map.pdf",
+    "https://www.wmata.com/initiatives/plans/upload/Final-Union-Station-Project-Report-Feb182011.pdf",
+    "https://www.wmata.com/ride/elevators-escalators/status.html"
+  ],
+  "operations": [
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-051",
+      "before_sha256": "6dc5c546f90cce2527106657b4cb3f81f217748e26fdf3960e57bf7f82297af1",
+      "record": {
+        "entrance_id": "WMATA-051",
+        "reviewed_on": "2026-10-16",
+        "status": "Geometry present; entrance position unverified",
+        "notes": "Desktop identity review: The Lottsford Road (North) source description must not inherit the identity of the southern railway entrance node 8651370043 merely because that node is nearest (55.2 m). The independent WMATA vicinity map depicts access at distinct ends of the station/parking complex. North-area approach footway 1129902875 joins footway 1200929257 at untagged node 11134904569 and ends at untagged node 10467379951 on the bus-platform boundary. These mapped approaches are near the north research reference but do not identify a verified station threshold or vertical access connection. Only one railway=subway_entrance feature is in the recorded query window; that is not proof that north access geometry is absent. Exact north entrance identity, level and connection remain open. Do not add a duplicate path or infer a new standalone entrance from the screen. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Largo_vicinity-map.pdf ; https://www.openstreetmap.org/node/8651370043 ; https://www.openstreetmap.org/way/613454503 ; https://www.openstreetmap.org/way/942949375 ; https://www.openstreetmap.org/way/1129902875 ; https://www.openstreetmap.org/way/1200929257 ; docs/evidence/largo-2026-10-16.json. Source panoramas and field conditions were not inspected; no source coordinates changed and no OSM edit approved.",
+        "candidate_decisions": [
+          {
+            "feature_id": "node/8651370043",
+            "decision": "rejected",
+            "reason": "This is the southern entrance (WMATA-052); the map shows distinct north access. North threshold unverified; rejection does not imply a missing entrance.",
+            "evidence": [
+              "docs/evidence/largo-2026-10-16.json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-052",
+      "before_sha256": "12206ff8d97857f6c2a3ae23b49a3ba9b2728659c80c5c3d1aeaa500b2712f23",
+      "record": {
+        "entrance_id": "WMATA-052",
+        "reviewed_on": "2026-10-16",
+        "status": "Existing entrance confirmed",
+        "notes": "Desktop identity review: The Harry S. Truman Drive and Largo Drive source description is consistent with the southern station access shown on the independent WMATA vicinity map. Existing railway entrance node 8651370043 lies on the southern/southeastern face of building 613454503 and connects approach footway 942949375 toward the southern access area. The research-reference distance is 9.7 m. Description, map-side agreement and mapped boundary/approach support this desktop match; the north source WMATA-051 does not become the same entrance because it shares this nearest candidate. No specific elevator identity, current operation, or complete accessible route is confirmed. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Largo_vicinity-map.pdf ; https://www.openstreetmap.org/node/8651370043 ; https://www.openstreetmap.org/way/613454503 ; https://www.openstreetmap.org/way/942949375 ; https://www.openstreetmap.org/way/1129902875 ; https://www.openstreetmap.org/way/1200929257 ; docs/evidence/largo-2026-10-16.json. Source panoramas and field conditions were not inspected; no source coordinates changed and no OSM edit approved.",
+        "candidate_decisions": [
+          {
+            "feature_id": "node/8651370043",
+            "decision": "accepted",
+            "reason": "Southern access: description, WMATA map side and building-face approach geometry agree (9.7 m).",
+            "evidence": [
+              "docs/evidence/largo-2026-10-16.json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-065",
+      "before_sha256": "b5f6e84d13e86be00d7f0c4c3f7341d698f2660ce9a141f7f8c9d87520c1cb18",
+      "record": {
+        "entrance_id": "WMATA-065",
+        "reviewed_on": "2026-10-16",
+        "status": "Existing entrance confirmed",
+        "notes": "Desktop identity review: General NW-corner 18th and I Street entrance matches named railway entrance node 1643428783, attached to steps/escalator way 1429421926 and footway 1429421925. Operator map places the station entrance/escalator at that corner. The research reference is 15.6 m away. Description, map location and approach geometry support this entrance identity, not the separate elevator identity. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Farragut%20W_vicinity-map.pdf ; https://www.openstreetmap.org/node/1643428783 ; https://www.openstreetmap.org/way/1429421925 ; https://www.openstreetmap.org/way/1429421926 ; docs/evidence/farragut-west-2026-10-16.json. No field survey, source panorama inspection, current equipment-status assertion or complete accessibility certification. Source coordinates unchanged; no OSM edit approved.",
+        "candidate_decisions": [
+          {
+            "feature_id": "node/1643428783",
+            "decision": "accepted",
+            "reason": "General NW-corner entrance: map location and steps/escalator approach agree (15.6 m). Not the elevator identity.",
+            "evidence": [
+              "docs/evidence/farragut-west-2026-10-16.json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-066",
+      "before_sha256": "2ab82839d9198bf5fa0d07e71a2a9b6a5bb9bdb068c000f58a4767afc4a55a46",
+      "record": {
+        "entrance_id": "WMATA-066",
+        "reviewed_on": "2026-10-16",
+        "status": "Geometry present; entrance position unverified",
+        "notes": "Desktop identity review: WMATA source description and map identify elevator access at the 18th and I Street entrance. General railway entrance node 1643428783 is only 3.4 m from this research reference, but is not tagged highway=elevator and connects to steps/escalator way 1429421926. The recorded query has no elevator-tagged feature, including no raw element with an elevator key/value. This limited query does not prove missing geometry or a missing physical elevator. Exact street elevator position, appropriate existing node and level/topology connection remain unverified. Do not add elevator tags to the general steps-connected entrance or create a duplicate solely from proximity. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Farragut%20W_vicinity-map.pdf ; https://www.openstreetmap.org/node/1643428783 ; https://www.openstreetmap.org/way/1429421925 ; https://www.openstreetmap.org/way/1429421926 ; docs/evidence/farragut-west-2026-10-16.json. No field survey, source panorama inspection, current equipment-status assertion or complete accessibility certification. Source coordinates unchanged; no OSM edit approved.",
+        "candidate_decisions": [
+          {
+            "feature_id": "node/1643428783",
+            "decision": "unresolved",
+            "reason": "General entrance is not tagged as an elevator; exact elevator position and whether it shares this threshold are unverified.",
+            "evidence": [
+              "docs/evidence/farragut-west-2026-10-16.json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-082",
+      "before_sha256": "b179bcff1eb6674daab1c57165713430131d7f28496f476e8309e48682883822",
+      "record": {
+        "entrance_id": "WMATA-082",
+        "reviewed_on": "2026-10-16",
+        "status": "Existing entrance confirmed",
+        "notes": "Desktop identity review: Entrance A matches existing railway entrance node 324153442 (ref=A), near 7th and F, with access footway 1341673975. The WMATA source description and vicinity-map escalator location support this identity. The research reference is 80.7 m from A but 37.1 m from elevator entrance D (node 9951151070). The automated assignment to D is an identity mismatch for this source description; it is not evidence that A is missing. Do not merge A and D or add a duplicate entrance. All four entrance nodes are members of station stop-area relations 359558 and 7945932 in the recorded snapshot. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Gallery%20Place_vicinity-map.pdf ; https://www.openstreetmap.org/node/324153442 ; https://www.openstreetmap.org/relation/359558 ; docs/evidence/gallery-place-2026-10-16.json. No source coordinates changed; no OSM edit approved.",
+        "candidate_decisions": [
+          {
+            "feature_id": "node/324153442",
+            "decision": "accepted",
+            "reason": "Entrance A: ref=A node near 7th and F, consistent with the map's escalator location.",
+            "evidence": [
+              "docs/evidence/gallery-place-2026-10-16.json"
+            ]
+          },
+          {
+            "feature_id": "node/9951151070",
+            "decision": "rejected",
+            "reason": "Screened candidate is elevator entrance D (ref=D); a proximity mismatch for A, not evidence that A is missing.",
+            "evidence": [
+              "docs/evidence/gallery-place-2026-10-16.json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-083",
+      "before_sha256": "336affe4dab40fce14e9dec5cd29358caeeb12874725ae94e1246aa468595bcd",
+      "record": {
+        "entrance_id": "WMATA-083",
+        "reviewed_on": "2026-10-16",
+        "status": "Existing entrance confirmed",
+        "notes": "Desktop identity review: Entrance B matches existing railway entrance node 9951151069 (ref=B), with access ways 1428204806 (steps/conveying) and 1428209233 (sidewalk), on the 9th and G side shown by WMATA. The research reference is 56.2 m away. Name/reference, street-side agreement and access geometry support the match; distance alone would not. All four entrance nodes are members of station stop-area relations 359558 and 7945932 in the recorded snapshot. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Gallery%20Place_vicinity-map.pdf ; https://www.openstreetmap.org/node/9951151069 ; https://www.openstreetmap.org/relation/359558 ; docs/evidence/gallery-place-2026-10-16.json. No source coordinates changed; no OSM edit approved.",
+        "candidate_decisions": [
+          {
+            "feature_id": "node/9951151069",
+            "decision": "accepted",
+            "reason": "Entrance B: ref=B railway entrance node matching the source description.",
+            "evidence": [
+              "docs/evidence/gallery-place-2026-10-16.json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-084",
+      "before_sha256": "76b2fabf29f7def11bf999108f6789b6c357a65f9e5fabf6a56042f5c9c6cfd6",
+      "record": {
+        "entrance_id": "WMATA-084",
+        "reviewed_on": "2026-10-16",
+        "status": "Existing entrance confirmed",
+        "notes": "2026-10-16 desktop match: OSM node 324153414 is railway=subway_entrance with ref=C, matching WMATA Entrance C at 7th & H. It belongs to the Gallery Place stop-area relations. The panorama point is 76.3 m away; the distance flag is not evidence of a missing entrance. Existing node: https://www.openstreetmap.org/node/324153414 ; station relation: https://www.openstreetmap.org/relation/359558 ; WMATA vicinity: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Gallery%20Place_vicinity-map.pdf",
+        "candidate_decisions": [
+          {
+            "feature_id": "node/324153414",
+            "decision": "accepted",
+            "reason": "Entrance C: ref=C railway entrance at 7th and H in the Gallery Place stop-area relations.",
+            "evidence": [
+              "https://www.openstreetmap.org/node/324153414",
+              "https://www.openstreetmap.org/relation/359558",
+              "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Gallery%20Place_vicinity-map.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-085",
+      "before_sha256": "24841fc0716472394f4ea9e64429ab0cb230dd6cd6b1578152288e640f483e06",
+      "record": {
+        "entrance_id": "WMATA-085",
+        "reviewed_on": "2026-10-16",
+        "status": "Existing entrance confirmed",
+        "notes": "Desktop identity review: Entrance D elevator matches node 9951151070 (ref=D, railway=subway_entrance, highway=elevator, wheelchair=yes), connected to sidewalk way 1102459367 at the arena frontage. The WMATA map shows a separate elevator north of the A escalator on 7th Street between F and G. Source description says 7th and G; this is retained verbatim rather than used to invent a replacement coordinate. Its research-reference distance is 39.3 m. The shared automated candidate with A is valid for D, not A. This confirms mapped elevator identity, not current operation or a complete accessible route. All four entrance nodes are members of station stop-area relations 359558 and 7945932 in the recorded snapshot. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Gallery%20Place_vicinity-map.pdf ; https://www.openstreetmap.org/node/9951151070 ; https://www.openstreetmap.org/relation/359558 ; docs/evidence/gallery-place-2026-10-16.json. No source coordinates changed; no OSM edit approved.",
+        "candidate_decisions": [
+          {
+            "feature_id": "node/9951151070",
+            "decision": "accepted",
+            "reason": "Elevator entrance D: ref=D and highway=elevator at the map's elevator position north of the A escalator.",
+            "evidence": [
+              "docs/evidence/gallery-place-2026-10-16.json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-100",
+      "before_sha256": "1b7831cd153d58a51e5a26bf82f113a9d922a0762fcaa7d97356d76aaeb2eec3",
+      "record": {
+        "entrance_id": "WMATA-100",
+        "reviewed_on": "2026-10-16",
+        "status": "Geometry present; entrance position unverified",
+        "notes": "Desktop access-geometry review: The second east-side source view has a distinct panorama URL but the same label as WMATA-099 apart from trailing whitespace. Nearest railway entrance node 9127756072 is 13.9 m away. It joins footway 263159298, bridge footway 987506651 and escalator/steps 263159300, which connect to the pedestrian tunnel under Rockville Pike via node 2687926496. This is east-side mapped access, not proof of a second independent physical entrance or a match for the west-side source view WMATA-101. Exact source-view identity and threshold remain unverified; keep both source IDs. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Grosvenor_vicinity-map.pdf ; https://www.openstreetmap.org/node/9127756071 ; https://www.openstreetmap.org/node/9127756072 ; https://www.openstreetmap.org/node/2687926494 ; https://www.openstreetmap.org/way/263159299 ; docs/evidence/grosvenor-2026-10-16.json. Source panoramas and field conditions were not inspected. No coordinates changed, no full accessibility route verified and no OSM edit approved.",
+        "candidate_decisions": [
+          {
+            "feature_id": "node/9127756072",
+            "decision": "unresolved",
+            "reason": "East-side access, but whether this second east source view is a distinct entrance is unverified.",
+            "evidence": [
+              "docs/evidence/grosvenor-2026-10-16.json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-101",
+      "before_sha256": "97f16fdc98e280f2f1a9407a2940418b2cf6a6cda9579f87e1cf474fa9be9504",
+      "record": {
+        "entrance_id": "WMATA-101",
+        "reviewed_on": "2026-10-16",
+        "status": "Geometry present; entrance position unverified",
+        "notes": "Desktop access-geometry review: The independent WMATA map marks a Tunnel to station west of Rockville Pike. OSM footway 263159296 joins tunnel way 263159299 at untagged west endpoint node 2687926494, only 2.5 m from this research reference. The tunnel crosses east to node 2687926496, then steps/escalator way 263159300 reaches tagged railway entrance node 9127756072. The automated 45.8 m east-side candidate does not identify the west tunnel mouth. West access geometry already exists; the appropriate threshold and entrance-tag semantics require verification before any tagging proposal. A missing entrance tag at the tunnel mouth does not mean a missing path or justify a duplicate station entrance. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Grosvenor_vicinity-map.pdf ; https://www.openstreetmap.org/node/9127756071 ; https://www.openstreetmap.org/node/9127756072 ; https://www.openstreetmap.org/node/2687926494 ; https://www.openstreetmap.org/way/263159299 ; docs/evidence/grosvenor-2026-10-16.json. Source panoramas and field conditions were not inspected. No coordinates changed, no full accessibility route verified and no OSM edit approved.",
+        "candidate_decisions": [
+          {
+            "feature_id": "node/9127756072",
+            "decision": "rejected",
+            "reason": "East-side node; the map marks west tunnel access and the untagged west tunnel endpoint is 2.5 m from the reference. West threshold/tag unverified.",
+            "evidence": [
+              "docs/evidence/grosvenor-2026-10-16.json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-102",
+      "before_sha256": "2e996153634bbbbad587e57d661093fe8e0bd7c2da21463e5bd9c4f89689146b",
+      "record": {
+        "entrance_id": "WMATA-102",
+        "reviewed_on": "2026-10-16",
+        "status": "Geometry present; entrance position unverified",
+        "notes": "The Herndon-Monroe Park and Ride is on the SOUTH side of the Dulles corridor in the WMATA map; the earlier north-side characterization was incorrect. Its research reference is 40.8 m from south entrance node 3105651341 and 227.1 m from north node 7432921936. Sharing the south candidate with WMATA-106 is not evidence of a cross-side mismatch. The broad Park and Ride source view has not been established as a separate physical station entrance; do not count it as an additional verified entrance or deduplicate source IDs. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Herndon_vicinity-map.pdf ; https://www.openstreetmap.org/node/3105651341 Recorded geometry evidence: docs/evidence/reston-herndon-2026-10-16.json. Desktop interpretation only; no OSM edit approved.",
+        "candidate_decisions": [
+          {
+            "feature_id": "node/3105651341",
+            "decision": "unresolved",
+            "reason": "Broad Park and Ride view on the south side; not established as a distinct entrance or as this node.",
+            "evidence": [
+              "docs/evidence/reston-herndon-2026-10-16.json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-103",
+      "before_sha256": "3ac4ba8d5c1227f1b9297bd0778f1fe4e2215c50e0c422b4e9f2ec5f0a1f9451",
+      "record": {
+        "entrance_id": "WMATA-103",
+        "reviewed_on": "2026-10-16",
+        "status": "Existing entrance confirmed",
+        "notes": "Desktop match: the 585 Herndon Parkway description is the north-pavilion side shown on the WMATA map. Node 7432921936 is railway=subway_entrance, wheelchair=yes, connected to approach footway 794694304 and steps 794694307; its research-reference distance is 1.4 m. This supports the north entrance match, not a separate elevator match for WMATA-105. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Herndon_vicinity-map.pdf ; https://www.openstreetmap.org/node/7432921936 ; https://www.openstreetmap.org/way/794694304 ; https://www.openstreetmap.org/way/794694307 Recorded geometry evidence: docs/evidence/reston-herndon-2026-10-16.json. Desktop interpretation only; no OSM edit approved.",
+        "candidate_decisions": [
+          {
+            "feature_id": "node/7432921936",
+            "decision": "accepted",
+            "reason": "North pavilion: description, WMATA map side and approach geometry agree (1.4 m). Not an elevator identity.",
+            "evidence": [
+              "docs/evidence/reston-herndon-2026-10-16.json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-104",
+      "before_sha256": "fc0887923d48af4928ffce1e081289c4a6f42fcfcb027751d855a358afb86773",
+      "record": {
+        "entrance_id": "WMATA-104",
+        "reviewed_on": "2026-10-16",
+        "status": "Geometry present; entrance position unverified",
+        "notes": "South access is mapped at railway entrance node 3105651341 via footway 305873339 and steps 794694306. The WMATA map shows a south-pavilion elevator as well as a separate parking-garage elevator. The node is not tagged highway=elevator, and no elevator-tagged feature is in the recorded Herndon query window. Do not infer an elevator identity from the nearby entrance or infer physical absence from missing tags. Exact elevator geometry and route remain unverified. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Herndon_vicinity-map.pdf ; https://www.openstreetmap.org/node/3105651341 ; https://www.openstreetmap.org/way/305873339 ; https://www.openstreetmap.org/way/794694306 Recorded geometry evidence: docs/evidence/reston-herndon-2026-10-16.json. Desktop interpretation only; no OSM edit approved.",
+        "candidate_decisions": [
+          {
+            "feature_id": "node/3105651341",
+            "decision": "unresolved",
+            "reason": "South entrance is not tagged as an elevator; south-pavilion elevator geometry is unverified.",
+            "evidence": [
+              "docs/evidence/reston-herndon-2026-10-16.json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-105",
+      "before_sha256": "1cf59714d938b2d20dce675258a5c4b2b69cd2a3474374c732afe4571ac0ac8c",
+      "record": {
+        "entrance_id": "WMATA-105",
+        "reviewed_on": "2026-10-16",
+        "status": "Geometry present; entrance position unverified",
+        "notes": "The WMATA map shows a north-pavilion elevator. North railway entrance node 7432921936 is wheelchair=yes and near the source reference, but it is not highway=elevator; wheelchair access does not identify a specific elevator. No elevator-tagged feature is in the recorded Herndon query window. Elevator position and topology remain unverified; do not treat the nearby entrance as a confirmed elevator match or propose a duplicate without survey. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Herndon_vicinity-map.pdf ; https://www.openstreetmap.org/node/7432921936 Recorded geometry evidence: docs/evidence/reston-herndon-2026-10-16.json. Desktop interpretation only; no OSM edit approved.",
+        "candidate_decisions": [
+          {
+            "feature_id": "node/7432921936",
+            "decision": "unresolved",
+            "reason": "North entrance is not tagged as an elevator; north-pavilion elevator geometry is unverified.",
+            "evidence": [
+              "docs/evidence/reston-herndon-2026-10-16.json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-106",
+      "before_sha256": "87c901a85cbfdbebeae03c6929f329e534c9c705637b7a94e3738bd2c2463cc7",
+      "record": {
+        "entrance_id": "WMATA-106",
+        "reviewed_on": "2026-10-16",
+        "status": "Existing entrance confirmed",
+        "notes": "Desktop match: the WMATA map locates the South Pavilion beside the bus bays and Park and Ride. Node 3105651341 is railway=subway_entrance and connects ground footway 305873339 with steps 794694306; its source-reference distance is 4.5 m. North entrance node 7432921936 is 199.2 m away. WMATA-102 shares this south candidate but its broad source view does not establish another physical entrance. This is a station entrance match, not a confirmed elevator or accessibility-route assessment. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Herndon_vicinity-map.pdf ; https://www.openstreetmap.org/node/3105651341 ; https://www.openstreetmap.org/way/305873339 ; https://www.openstreetmap.org/way/794694306 Recorded geometry evidence: docs/evidence/reston-herndon-2026-10-16.json. Desktop interpretation only; no OSM edit approved.",
+        "candidate_decisions": [
+          {
+            "feature_id": "node/3105651341",
+            "decision": "accepted",
+            "reason": "South pavilion beside the bus bays per WMATA map; approach and steps geometry agree (4.5 m).",
+            "evidence": [
+              "docs/evidence/reston-herndon-2026-10-16.json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-113",
+      "before_sha256": "89e97f767304d0e55a2eb28be44f9d319b5abd02aa13479ac4e9bf6d3347c12b",
+      "record": {
+        "entrance_id": "WMATA-113",
+        "reviewed_on": "2026-10-16",
+        "status": "Existing entrance confirmed",
+        "notes": "2026-10-16 desktop match: OSM node 3621904755 is the south Judiciary Square entrance, on 4th St between D and E, matching WMATA. It is included in station stop-area relation 7921912. It is 126.1 m from the panorama point; the automated nearest rail candidate was a different elevator. Retain the existing south entrance rather than adding a duplicate. Verify opening hours separately. Evidence: https://www.openstreetmap.org/node/3621904755 ; https://www.openstreetmap.org/relation/7921912 ; https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Judiciary%20Sq_vicinity-map.pdf",
+        "candidate_decisions": [
+          {
+            "feature_id": "node/3621904755",
+            "decision": "accepted",
+            "reason": "South entrance on 4th Street between D and E, in stop-area relation 7921912.",
+            "evidence": [
+              "https://www.openstreetmap.org/node/3621904755",
+              "https://www.openstreetmap.org/relation/7921912",
+              "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Judiciary%20Sq_vicinity-map.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-114",
+      "before_sha256": "84053a716b2825756ac421b39578cb14e9faf74756c619539be12ee65a436af4",
+      "record": {
+        "entrance_id": "WMATA-114",
+        "reviewed_on": "2026-10-16",
+        "status": "Existing entrance confirmed",
+        "notes": "Desktop identity review: The F Street entrance between 4th and 5th matches railway entrance node 3621904756, connected to steps way 356785101. WMATA map locates the north escalator entrance on that side of the station. Its research-reference distance is 48.9 m. This supports the general entrance identity, not either platform-specific elevator identity. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Judiciary%20Sq_vicinity-map.pdf ; https://www.wmata.com/ride/elevators-escalators/status.html ; https://www.openstreetmap.org/node/3621904756 ; https://www.openstreetmap.org/node/9981798981 ; https://www.openstreetmap.org/node/9981798982 ; docs/evidence/judiciary-2026-10-16.json. No field survey, panorama inspection, current operating-status assertion or full accessibility certification. No coordinates changed or OSM edit approved.",
+        "candidate_decisions": [
+          {
+            "feature_id": "node/3621904756",
+            "decision": "accepted",
+            "reason": "General F Street entrance: map side and steps geometry agree. Not either platform-specific elevator.",
+            "evidence": [
+              "docs/evidence/judiciary-2026-10-16.json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-115",
+      "before_sha256": "d86b52a4c22995ad0211f1431a31306a144d168d8201e5ce517d91c820a1095b",
+      "record": {
+        "entrance_id": "WMATA-115",
+        "reviewed_on": "2026-10-16",
+        "status": "Geometry present; entrance position unverified",
+        "notes": "Desktop identity review: The automated candidate is general railway entrance node 3621904756, tagged wheelchair=no and connected to steps; it does not establish the identity of this platform-specific elevator. Two separate elevator nodes 9981798981 and 9981798982 are mapped, each highway=elevator and railway=subway_entrance, with sidewalk ways 1102459378/1102459380 and room outlines 1102459377/1102459379. WMATA equipment descriptions distinguish street-to-platform elevators for Glenmont and Shady Grove at the Building Museum entrance. The recorded OSM tags and inspected vicinity map do not establish which node serves which direction. Both source elevator records retrieve 9981798982 as nearest elevator, but proximity cannot resolve the direction assignment. Existing elevator geometry is present; exact source-to-node assignment and platform topology remain unverified. Do not duplicate elevators or assign direction from distance. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Judiciary%20Sq_vicinity-map.pdf ; https://www.wmata.com/ride/elevators-escalators/status.html ; https://www.openstreetmap.org/node/3621904756 ; https://www.openstreetmap.org/node/9981798981 ; https://www.openstreetmap.org/node/9981798982 ; docs/evidence/judiciary-2026-10-16.json. No field survey, panorama inspection, current operating-status assertion or full accessibility certification. No coordinates changed or OSM edit approved.",
+        "candidate_decisions": [
+          {
+            "feature_id": "node/3621904756",
+            "decision": "rejected",
+            "reason": "General steps entrance tagged wheelchair=no; separate elevator entrance nodes are mapped. Which elevator serves this direction remains unresolved.",
+            "evidence": [
+              "docs/evidence/judiciary-2026-10-16.json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-116",
+      "before_sha256": "b8ed77b77bcbd8ce2984bb87565c69876e1292a073fe423e6307b9282b7ae124",
+      "record": {
+        "entrance_id": "WMATA-116",
+        "reviewed_on": "2026-10-16",
+        "status": "Geometry present; entrance position unverified",
+        "notes": "Desktop identity review: The automated candidate is general railway entrance node 3621904756, tagged wheelchair=no and connected to steps; it does not establish the identity of this platform-specific elevator. Two separate elevator nodes 9981798981 and 9981798982 are mapped, each highway=elevator and railway=subway_entrance, with sidewalk ways 1102459378/1102459380 and room outlines 1102459377/1102459379. WMATA equipment descriptions distinguish street-to-platform elevators for Glenmont and Shady Grove at the Building Museum entrance. The recorded OSM tags and inspected vicinity map do not establish which node serves which direction. Both source elevator records retrieve 9981798982 as nearest elevator, but proximity cannot resolve the direction assignment. Existing elevator geometry is present; exact source-to-node assignment and platform topology remain unverified. Do not duplicate elevators or assign direction from distance. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Judiciary%20Sq_vicinity-map.pdf ; https://www.wmata.com/ride/elevators-escalators/status.html ; https://www.openstreetmap.org/node/3621904756 ; https://www.openstreetmap.org/node/9981798981 ; https://www.openstreetmap.org/node/9981798982 ; docs/evidence/judiciary-2026-10-16.json. No field survey, panorama inspection, current operating-status assertion or full accessibility certification. No coordinates changed or OSM edit approved.",
+        "candidate_decisions": [
+          {
+            "feature_id": "node/3621904756",
+            "decision": "rejected",
+            "reason": "General steps entrance tagged wheelchair=no; separate elevator entrance nodes are mapped. Which elevator serves this direction remains unresolved.",
+            "evidence": [
+              "docs/evidence/judiciary-2026-10-16.json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-125",
+      "before_sha256": "a81cb6faab8407d850859bcbb16e936635ef60ed005ebdec805efb148dece7ef",
+      "record": {
+        "entrance_id": "WMATA-125",
+        "reviewed_on": "2026-10-16",
+        "status": "Geometry present; entrance position unverified",
+        "notes": "Desktop identity review: North busbay elevator description is not identified by railway entrance node 8043490483 merely because it is 5.4 m from the research reference. That node connects bridge footway 863453474 and steps way 863532694. The WMATA map distinguishes station elevator/escalator access from garage elevator access. No elevator-tagged feature is in the recorded query; exact station elevator geometry, level and topology remain unresolved. Do not infer physical absence or tag this steps-connected node as an elevator from proximity. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Loudoun%20Gateway_vicinity-map.pdf ; docs/evidence/remaining-reuse-loudoun-gateway-2026-10-16.json. No surveyed coordinates, current equipment operation or complete accessible route verified. Source coordinates unchanged; no OSM edit approved.",
+        "candidate_decisions": [
+          {
+            "feature_id": "node/8043490483",
+            "decision": "unresolved",
+            "reason": "Steps-connected railway node; station elevator geometry, level and topology are unverified.",
+            "evidence": [
+              "docs/evidence/remaining-reuse-loudoun-gateway-2026-10-16.json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-127",
+      "before_sha256": "f9bcebcda2a428db824d0c06c5919d98317e2bdcc8bda60954f19354baab7154",
+      "record": {
+        "entrance_id": "WMATA-127",
+        "reviewed_on": "2026-10-16",
+        "status": "Existing entrance confirmed",
+        "notes": "Desktop identity review: The source Garage Entrance matches existing entrance=yes node 8870302198 on parking building 294419005 (WMATA Metro Parking), connected to station bridge footway 863453474 and footway 1517117896. Its research-reference distance is 4.2 m, whereas the screen selects railway node 8043490483 at 59.9 m. The operator map shows the garage/bridge connection. This confirms the garage access identity, not a distinct railway entrance threshold or elevator. Do not add a duplicate railway entrance at the garage doorway. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Loudoun%20Gateway_vicinity-map.pdf ; docs/evidence/remaining-reuse-loudoun-gateway-2026-10-16.json. No surveyed coordinates, current equipment operation or complete accessible route verified. Source coordinates unchanged; no OSM edit approved.",
+        "candidate_decisions": [
+          {
+            "feature_id": "node/8870302198",
+            "decision": "accepted",
+            "reason": "Garage entrance: entrance=yes on the WMATA parking building (4.2 m), connected to the station bridge per map.",
+            "evidence": [
+              "docs/evidence/remaining-reuse-loudoun-gateway-2026-10-16.json"
+            ]
+          },
+          {
+            "feature_id": "node/8043490483",
+            "decision": "rejected",
+            "reason": "Screened railway node (59.9 m) is not the garage access identity; no duplicate entrance is implied.",
+            "evidence": [
+              "docs/evidence/remaining-reuse-loudoun-gateway-2026-10-16.json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-128",
+      "before_sha256": "4adda1068abae004749c3c12c5fe8c8349185966c37402a8e6de4afc5f278bf4",
+      "record": {
+        "entrance_id": "WMATA-128",
+        "reviewed_on": "2026-10-16",
+        "status": "Geometry present; entrance position unverified",
+        "notes": "Desktop level/identity review: The operator map shows station access and elevators by the Dolley Madison/Scotts Crossing side, but the nearest shared railway entrance node 10242056060 also belongs to platform area 810065189 tagged level=2 and layer=2, and connects to footway 1119813162 without an explicit level. Another railway entrance node 13334336661 lies on station building outline 227612806 and connects to footway 1453963154. These associations create unresolved street-threshold/level semantics, not two confirmed street entrances. The shared node wheelchair=yes tag does not identify a specific elevator. Nearest elevator node 13325542089 is tagged level=0;-1;-2;-3;-4 and connects to footway 1453014394; no station-serving identity or route is established by this review. Do not choose that elevator merely because it is nearest, infer platform connectivity, or add another entrance/elevator without verifying the existing geometry. Exact source identity, street entrance level and elevator connection remain open. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/McLean_vicinity-map.pdf ; https://www.openstreetmap.org/node/10242056060 ; https://www.openstreetmap.org/node/13334336661 ; https://www.openstreetmap.org/node/13325542089 ; https://www.openstreetmap.org/way/810065189 ; docs/evidence/mclean-2026-10-16.json. No source panorama or field inspection, equipment operation or complete accessible route verified. Coordinates unchanged; no OSM edit approved.",
+        "candidate_decisions": [
+          {
+            "feature_id": "node/10242056060",
+            "decision": "unresolved",
+            "reason": "Node is also on a level=2 platform area; street-threshold/level semantics unresolved; not an elevator identity.",
+            "evidence": [
+              "docs/evidence/mclean-2026-10-16.json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-129",
+      "before_sha256": "04eea278ce0e2d90f239eb25af693a0a1009311b8cf14d9ca99ab1a9c2931942",
+      "record": {
+        "entrance_id": "WMATA-129",
+        "reviewed_on": "2026-10-16",
+        "status": "Geometry present; entrance position unverified",
+        "notes": "Desktop level/identity review: The operator map shows station access and elevators by the Dolley Madison/Scotts Crossing side, but the nearest shared railway entrance node 10242056060 also belongs to platform area 810065189 tagged level=2 and layer=2, and connects to footway 1119813162 without an explicit level. Another railway entrance node 13334336661 lies on station building outline 227612806 and connects to footway 1453963154. These associations create unresolved street-threshold/level semantics, not two confirmed street entrances. The shared node wheelchair=yes tag does not identify a specific elevator. Nearest elevator node 13325542089 is tagged level=0;-1;-2;-3;-4 and connects to footway 1453014394; no station-serving identity or route is established by this review. Do not choose that elevator merely because it is nearest, infer platform connectivity, or add another entrance/elevator without verifying the existing geometry. Exact source identity, street entrance level and elevator connection remain open. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/McLean_vicinity-map.pdf ; https://www.openstreetmap.org/node/10242056060 ; https://www.openstreetmap.org/node/13334336661 ; https://www.openstreetmap.org/node/13325542089 ; https://www.openstreetmap.org/way/810065189 ; docs/evidence/mclean-2026-10-16.json. No source panorama or field inspection, equipment operation or complete accessible route verified. Coordinates unchanged; no OSM edit approved.",
+        "candidate_decisions": [
+          {
+            "feature_id": "node/10242056060",
+            "decision": "unresolved",
+            "reason": "Node is also on a level=2 platform area; street-threshold/level semantics unresolved.",
+            "evidence": [
+              "docs/evidence/mclean-2026-10-16.json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-142",
+      "before_sha256": "a4f69d7a21e0148f8d7bd418ba12eff2cf5adc5455e0347ef70cda8d60b7157a",
+      "record": {
+        "entrance_id": "WMATA-142",
+        "reviewed_on": "2026-10-16",
+        "status": "Existing entrance confirmed",
+        "notes": "2026-10-16 desktop match: OSM node 3105340706 is tagged railway=subway_entrance at the end of tunnel footway 305847609 and connects to approach 305847610. Station relation 11480381 includes it. This matches the west-side tunnel access depicted on the WMATA vicinity map; the street/panorama marker is 112.5 m away. The route is already mapped. Evidence: https://www.openstreetmap.org/node/3105340706 ; https://www.openstreetmap.org/way/305847609 ; https://www.openstreetmap.org/relation/11480381 ; https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Minnesota%20Av_vicinity-map.pdf",
+        "candidate_decisions": [
+          {
+            "feature_id": "node/3105340706",
+            "decision": "accepted",
+            "reason": "West tunnel-end railway entrance, in station relation 11480381, matching the map's tunnel access.",
+            "evidence": [
+              "https://www.openstreetmap.org/node/3105340706",
+              "https://www.openstreetmap.org/way/305847609",
+              "https://www.openstreetmap.org/relation/11480381",
+              "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Minnesota%20Av_vicinity-map.pdf"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-162",
+      "before_sha256": "955bde3746bf8d175436483ccb29211ca3c96014b4877cc6845782bd4bed4b36",
+      "record": {
+        "entrance_id": "WMATA-162",
+        "reviewed_on": "2026-10-16",
+        "status": "Existing entrance confirmed",
+        "notes": "Desktop identity review: Named railway entrance node 449437258 lies on the east side of Hayes Street and connects to sidewalk way 1086281513. Source description and the independent WMATA vicinity map agree on the east station access area; the research-reference distance is 15.5 m. This supports the general east entrance identity, not the specific elevator identity or complete accessible route. Source coverage caveat: Arlington County reports a second WEST-side street elevator completed 2025-09-17; the June 2025 map predates it and the existing scraped inventory has no separately labelled west-elevator record. This needs independent inventory reconciliation; no new source record or coordinate is invented here. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Pentagon%20City_vicinity-map.pdf ; https://www.arlingtonva.us/Government/Projects/Project-Types/Transportation-Projects/Pentagon-City-Metro-Station-Second-Elevator ; https://www.openstreetmap.org/node/449437258 ; docs/evidence/pentagon-city-2026-10-16.json. Source panoramas, field conditions and current operation were not inspected. No source coordinates changed or OSM edit approved.",
+        "candidate_decisions": [
+          {
+            "feature_id": "node/449437258",
+            "decision": "accepted",
+            "reason": "General east Hayes Street entrance: description and map side agree (15.5 m). Not the elevator identity.",
+            "evidence": [
+              "docs/evidence/pentagon-city-2026-10-16.json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-163",
+      "before_sha256": "a850a00bef780dd37d41f9a045bdf68d948200b94ecb331de41b4b3c44fc4154",
+      "record": {
+        "entrance_id": "WMATA-163",
+        "reviewed_on": "2026-10-16",
+        "status": "Geometry present; entrance position unverified",
+        "notes": "Desktop identity review: WMATA map and source description identify an east-side elevator. Shared candidate node 449437258, 18.0 m from this research reference, is railway=subway_entrance and wheelchair=yes but not highway=elevator. The recorded OSM query has no elevator-tagged feature, including no raw element with an elevator key/value. The wheelchair tag does not identify a specific elevator or establish its position/topology. Another nearby railway entrance node 11767528252 connects to steps way 1266961615 and is not promoted into an elevator match. Exact elevator geometry remains unverified; missing tags are not proof of a missing physical elevator. Do not create or retag an elevator solely from the shared candidate. Source coverage caveat: Arlington County reports a second WEST-side street elevator completed 2025-09-17; the June 2025 map predates it and the existing scraped inventory has no separately labelled west-elevator record. This needs independent inventory reconciliation; no new source record or coordinate is invented here. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Pentagon%20City_vicinity-map.pdf ; https://www.arlingtonva.us/Government/Projects/Project-Types/Transportation-Projects/Pentagon-City-Metro-Station-Second-Elevator ; https://www.openstreetmap.org/node/449437258 ; docs/evidence/pentagon-city-2026-10-16.json. Source panoramas, field conditions and current operation were not inspected. No source coordinates changed or OSM edit approved.",
+        "candidate_decisions": [
+          {
+            "feature_id": "node/449437258",
+            "decision": "unresolved",
+            "reason": "General east entrance is not tagged as an elevator; elevator position/topology unverified.",
+            "evidence": [
+              "docs/evidence/pentagon-city-2026-10-16.json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-172",
+      "before_sha256": "cf958377950b4bcbc0fc7b41cb4afc1c260fe7d8a1c5700e8658e18321f4a55d",
+      "record": {
+        "entrance_id": "WMATA-172",
+        "reviewed_on": "2026-10-16",
+        "status": "Existing entrance confirmed",
+        "notes": "2026-10-16 desktop match: north-pavilion elevator node 13853418711 is tagged highway=elevator and connects to ground-level footway 1517672541 and bridge-level footway 1517672540 within north pavilion/bridge building 1010702112. WMATA map shows a north-pavilion elevator. The panorama lies 162.9 m away near the road junction. The elevator geometry already exists; level/wheelchair/entrance-tag completeness needs a separate check. Evidence: https://www.openstreetmap.org/node/13853418711 ; https://www.openstreetmap.org/way/1517672540 ; https://www.openstreetmap.org/way/1517672541 ; https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Reston%20Town%20Center_vicinity-map.pdf Directional recheck: this is the north side of the Dulles corridor, between Sunset Hills Road and the northern carriageway. The south-labelled research references for WMATA-173/175 lying closer to this node do not turn it into a south-pavilion elevator. They are inconsistent with the south access description; do not use proximity to transfer identity. Recorded geometry evidence: docs/evidence/reston-herndon-2026-10-16.json. Desktop interpretation only; no OSM edit approved.",
+        "candidate_decisions": [
+          {
+            "feature_id": "node/13853418711",
+            "decision": "accepted",
+            "reason": "North-pavilion elevator per WMATA map, connected to ground and bridge-level footways.",
+            "evidence": [
+              "docs/evidence/reston-herndon-2026-10-16.json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-173",
+      "before_sha256": "a131bc5569e5cab8f8dde134025f3577af3b24c5d8805ae79c378e6dbbdcc604",
+      "record": {
+        "entrance_id": "WMATA-173",
+        "reviewed_on": "2026-10-16",
+        "status": "Source location needs correction",
+        "notes": "Desktop recheck of the south-busbay elevator description: WMATA vicinity map shows a separate south-pavilion elevator. OSM node 13853391339 is highway=elevator, level=0;1, wheelchair=yes, attached to south bridge building 1010702114 and footways 1517654250/1517654251. Its geometry is on the south side of the Dulles corridor. The source research reference is 138.6 m from this south elevator but only 44.6 m from north elevator 13853418711. This is a label/reference-location inconsistency, not a confirmed missing elevator or a match to the north elevator. The panorama itself was not visually verified; whether its coordinate or source label is erroneous remains open. No source coordinate is replaced. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Reston%20Town%20Center_vicinity-map.pdf ; https://www.openstreetmap.org/node/13853391339 ; https://www.openstreetmap.org/way/1517654250 ; https://www.openstreetmap.org/way/1517654251 Recorded geometry evidence: docs/evidence/reston-herndon-2026-10-16.json. Desktop interpretation only; no OSM edit approved.",
+        "candidate_decisions": [
+          {
+            "feature_id": "node/7433034321",
+            "decision": "rejected",
+            "reason": "North-pavilion entrance; the WMATA map shows a separate south-pavilion elevator. The source-reference conflict remains open.",
+            "evidence": [
+              "docs/evidence/reston-herndon-2026-10-16.json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-174",
+      "before_sha256": "189bd04100476a09d018e7b4697970398bffe97633685c4b8f714f237eabc2ec",
+      "record": {
+        "entrance_id": "WMATA-174",
+        "reviewed_on": "2026-10-16",
+        "status": "Existing entrance confirmed",
+        "notes": "2026-10-16 desktop match: north-pavilion entrance node 7433034321 is railway=subway_entrance, connects to escalator way 794703764, and belongs to station stop-area relation 12568692. WMATA map identifies this north pavilion. The panorama is 158.0 m away near the road junction, producing a false proximity gap. Evidence: https://www.openstreetmap.org/node/7433034321 ; https://www.openstreetmap.org/way/794703764 ; https://www.openstreetmap.org/relation/12568692 ; https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Reston%20Town%20Center_vicinity-map.pdf Directional recheck: north identity is supported by the independent WMATA map and OSM approach geometry on the Sunset Hills Road side. Separate south entrance node 7432921910 is across the Dulles corridor. The 48.9 m proximity from south-labelled references does not establish a south match. Recorded geometry evidence: docs/evidence/reston-herndon-2026-10-16.json. Desktop interpretation only; no OSM edit approved.",
+        "candidate_decisions": [
+          {
+            "feature_id": "node/7433034321",
+            "decision": "accepted",
+            "reason": "North-pavilion railway entrance with escalator way, in stop-area relation 12568692.",
+            "evidence": [
+              "docs/evidence/reston-herndon-2026-10-16.json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-175",
+      "before_sha256": "70ea8603146a4c89afa16cbaae62087e097e4d19c2ba66f68bab15613ecac1ff",
+      "record": {
+        "entrance_id": "WMATA-175",
+        "reviewed_on": "2026-10-16",
+        "status": "Source location needs correction",
+        "notes": "Desktop recheck: the WMATA map and approach geometry distinguish south entrance node 7432921910, connected to escalator/steps way 794694302 and ground footway 1010702107, from north entrance node 7433034321. The south-labelled research reference is 154.0 m from the south node and 48.9 m from the north node. Reject the automated north node as evidence of a south entrance match. A separate south entrance is mapped; the panorama coordinate versus description conflict remains unresolved without visual source/survey confirmation. No source coordinate is replaced. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Reston%20Town%20Center_vicinity-map.pdf ; https://www.openstreetmap.org/node/7432921910 ; https://www.openstreetmap.org/way/794694302 ; https://www.openstreetmap.org/way/1010702107 Recorded geometry evidence: docs/evidence/reston-herndon-2026-10-16.json. Desktop interpretation only; no OSM edit approved.",
+        "candidate_decisions": [
+          {
+            "feature_id": "node/7433034321",
+            "decision": "rejected",
+            "reason": "North-pavilion entrance; a separate south entrance is mapped. The source-reference conflict remains open.",
+            "evidence": [
+              "docs/evidence/reston-herndon-2026-10-16.json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-183",
+      "before_sha256": "6add3b9e9ea269c5100e0f7c396529ae7a8eb78ff9554e9f3ea37ef6c05d5db5",
+      "record": {
+        "entrance_id": "WMATA-183",
+        "reviewed_on": "2026-10-16",
+        "status": "Geometry present; entrance position unverified",
+        "notes": "Desktop identity review: The generic east N. Moore/Wilson source view selects elevator entrance node 576549187 at 16.8 m. The operator map distinguishes elevator access east of N. Moore from escalator access west of N. Moore. Separate railway entrance nodes 12031036802/12031036803 exist by the western access. Without inspecting the source view, the generic record cannot be assigned to a precise threshold or established as a separate physical entrance from its elevator-labelled companion. Mapped access is present; do not merge or split source identities from distance alone. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Rosslyn_vicinity-map.pdf ; docs/evidence/remaining-reuse-rosslyn-2026-10-16.json. No surveyed coordinates, current equipment operation or complete accessible route verified. Source coordinates unchanged; no OSM edit approved.",
+        "candidate_decisions": [
+          {
+            "feature_id": "node/576549187",
+            "decision": "unresolved",
+            "reason": "Generic east-side view; cannot be assigned to a threshold or separated from its elevator companion without the source view.",
+            "evidence": [
+              "docs/evidence/remaining-reuse-rosslyn-2026-10-16.json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-184",
+      "before_sha256": "75581b1df6e340de82206fafa7438a3e6933c66b34430f8b7be527fcf813c48e",
+      "record": {
+        "entrance_id": "WMATA-184",
+        "reviewed_on": "2026-10-16",
+        "status": "Existing entrance confirmed",
+        "notes": "Desktop identity review: The east N. Moore/Wilson elevator source description is supported by WMATA map location and node 576549187, tagged highway=elevator, railway=subway_entrance, operator=WMATA, wheelchair=yes, level=-1;0, with sidewalk 892764182. Research-reference distance is 7.1 m. This supports mapped elevator-access identity at that entrance area; it does not certify a particular elevator car, all levels, equipment operation or an accessible route. Another nearby elevator node is not assumed to be interchangeable. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Rosslyn_vicinity-map.pdf ; docs/evidence/remaining-reuse-rosslyn-2026-10-16.json. No surveyed coordinates, current equipment operation or complete accessible route verified. Source coordinates unchanged; no OSM edit approved.",
+        "candidate_decisions": [
+          {
+            "feature_id": "node/576549187",
+            "decision": "accepted",
+            "reason": "East N. Moore elevator access: highway=elevator entrance at the map's elevator location (7.1 m).",
+            "evidence": [
+              "docs/evidence/remaining-reuse-rosslyn-2026-10-16.json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-212",
+      "before_sha256": "f5e221ef90c584ee9f3d3205bbcf5b64750dbf43d6fee902e4884384c3c18d6d",
+      "record": {
+        "entrance_id": "WMATA-212",
+        "reviewed_on": "2026-10-16",
+        "status": "Geometry present; entrance position unverified",
+        "notes": "Desktop identity review: The elevator-labelled Tysons Blvd/Chain Bridge view selects general railway entrance node 10240319627 at 7.5 m. The operator map shows distinct elevator/escalator symbols at this access area, but the shared node is not highway=elevator. The nearest elevator way 1344450024 is an indoor level=1 area 234.7 m from the research reference; no station-serving route or identity has been established for it. Exact station elevator geometry/level connection remains unresolved. Do not infer the shared railway node is the elevator or a distant tagged elevator serves the station. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Tysons_vicinity-map.pdf ; docs/evidence/remaining-reuse-tysons-2026-10-16.json. No surveyed coordinates, current equipment operation or complete accessible route verified. Source coordinates unchanged; no OSM edit approved.",
+        "candidate_decisions": [
+          {
+            "feature_id": "node/10240319627",
+            "decision": "unresolved",
+            "reason": "General entrance is not tagged as an elevator; station elevator geometry/level connection unresolved.",
+            "evidence": [
+              "docs/evidence/remaining-reuse-tysons-2026-10-16.json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-213",
+      "before_sha256": "58a9bdebb8b2d4c628cfe5d9421ac1c0158b5940fff8a4eb9a183a94db3dbfc1",
+      "record": {
+        "entrance_id": "WMATA-213",
+        "reviewed_on": "2026-10-16",
+        "status": "Existing entrance confirmed",
+        "notes": "Desktop identity review: General Tysons Blvd/Chain Bridge station access matches named railway entrance node 10240319627 at the north-side operator-map access area. It connects footways 1119617018/1119617019 and explicit level=0 footway 1125120499. Research-reference distance is 6.4 m. Source description, map-side agreement and ground-level approach support the general access identity, not the separate elevator identity. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Tysons_vicinity-map.pdf ; docs/evidence/remaining-reuse-tysons-2026-10-16.json. No surveyed coordinates, current equipment operation or complete accessible route verified. Source coordinates unchanged; no OSM edit approved.",
+        "candidate_decisions": [
+          {
+            "feature_id": "node/10240319627",
+            "decision": "accepted",
+            "reason": "General north-side access: map side and ground-level approach agree (6.4 m). Not the elevator identity.",
+            "evidence": [
+              "docs/evidence/remaining-reuse-tysons-2026-10-16.json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-217",
+      "before_sha256": "94b1fc353b02bef13ed37a5fdd529fa18e62043b8070b8ef4c4cb0ee215c2d07",
+      "record": {
+        "entrance_id": "WMATA-217",
+        "reviewed_on": "2026-10-16",
+        "status": "Geometry present; entrance position unverified",
+        "notes": "Desktop identity review: The First Street between Massachusetts and G source view selects south railway node 585908957 at 28.4 m. A distinct north railway entrance node 5519584476 and approach 1009365605 also exist, consistent with the independent map showing north and south access. The broad street description spans that corridor; without inspecting its source view, exact north/south threshold identity is not established. Do not collapse source views to the south point simply because it is closest. Dated supporting operator report: https://www.wmata.com/initiatives/plans/upload/Final-Union-Station-Project-Report-Feb182011.pdf . Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Union%20Station_vicinity-map.pdf ; docs/evidence/remaining-reuse-union-station-2026-10-16.json. No surveyed coordinates, current equipment operation or complete accessible route verified. Source coordinates unchanged; no OSM edit approved.",
+        "candidate_decisions": [
+          {
+            "feature_id": "node/585908957",
+            "decision": "unresolved",
+            "reason": "Broad First Street view spans north and south access; threshold identity unresolved.",
+            "evidence": [
+              "docs/evidence/remaining-reuse-union-station-2026-10-16.json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-218",
+      "before_sha256": "dd222b16c44ed2e12b5915b58674ea643e77c7942922ee3b84032cf2e7746a2e",
+      "record": {
+        "entrance_id": "WMATA-218",
+        "reviewed_on": "2026-10-16",
+        "status": "Geometry present; entrance position unverified",
+        "notes": "Desktop identity review: The First Street/Amtrak-terminal source view selects south railway node 585908957 at 16.4 m, while general terminal entrance node 4719111804 and separate north railway node 5519584476 also exist. WMATA map distinguishes north and south station access. Its dated 2011 access study describes First Street/north-mezzanine and Amtrak-concourse connections, but is not current surveyed topology. The exact connection represented by this mixed street/terminal source view remains unresolved; a terminal door and railway entrance are not interchangeable. Dated supporting operator report: https://www.wmata.com/initiatives/plans/upload/Final-Union-Station-Project-Report-Feb182011.pdf . Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Union%20Station_vicinity-map.pdf ; docs/evidence/remaining-reuse-union-station-2026-10-16.json. No surveyed coordinates, current equipment operation or complete accessible route verified. Source coordinates unchanged; no OSM edit approved.",
+        "candidate_decisions": [
+          {
+            "feature_id": "node/585908957",
+            "decision": "unresolved",
+            "reason": "Mixed street/Amtrak-terminal view; exact connection unresolved; terminal door and railway entrance not interchangeable.",
+            "evidence": [
+              "docs/evidence/remaining-reuse-union-station-2026-10-16.json"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "update",
+      "id": "WMATA-219",
+      "before_sha256": "70f3fe50bbfb820949c3ac36ac2b81c57386f52401af8a52ace831d27cba7849",
+      "record": {
+        "entrance_id": "WMATA-219",
+        "reviewed_on": "2026-10-16",
+        "status": "Geometry present; entrance position unverified",
+        "notes": "Desktop identity review: The Massachusetts Avenue/upper-level-concourse source view selects south railway entrance node 585908957 at 4.5 m. That is a relevant mapped south access point, but does not establish the full upper-level route to buses/shops named in the description. A separate north railway entrance and terminal/elevator geometry also exist. Exact threshold, concourse-level path and source-view identity remain unresolved; do not represent all three source access descriptions as one verified entrance merely from their shared south candidate. Dated supporting operator report: https://www.wmata.com/initiatives/plans/upload/Final-Union-Station-Project-Report-Feb182011.pdf . Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Union%20Station_vicinity-map.pdf ; docs/evidence/remaining-reuse-union-station-2026-10-16.json. No surveyed coordinates, current equipment operation or complete accessible route verified. Source coordinates unchanged; no OSM edit approved.",
+        "candidate_decisions": [
+          {
+            "feature_id": "node/585908957",
+            "decision": "unresolved",
+            "reason": "Relevant south access point, but the upper-level concourse route named in the description is unresolved.",
+            "evidence": [
+              "docs/evidence/remaining-reuse-union-station-2026-10-16.json"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

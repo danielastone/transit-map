@@ -10,14 +10,23 @@ The frozen October 16, 2026 adoption snapshot contains **242 named WMATA entranc
 across 98 stations**, **714 OSM features**, and **14 baseline desktop reviews**.
 Append-only transactions bring the materialized total to **47 reviewed source records**.
 
-| Materialized desktop outcome | Records |
-| --- | ---: |
-| Supported existing access identity (including garage access) | 17 |
-| Access geometry exists; exact identity/position unresolved | 28 |
-| Source location needs correction or reconciliation | 2 |
+Published outputs carry two distinct summaries. **Raw screening counts** are the
+unmodified proximity screens, kept for reproducibility. **Review-adjusted outcomes**
+come from explicit candidate decisions recorded on reviews:
 
-All **31 shared-candidate records** have an initial desktop review; their identity-review
-flags remain active. Another **195 source records** have automated screens only.
+| Review-adjusted outcome (source records) | Records |
+| --- | ---: |
+| Accepted identity | 17 |
+| Screened candidate rejected; identity unresolved | 6 |
+| Reviewed; identity unresolved | 24 |
+| Unreviewed | 195 |
+
+Eight screened candidates are rejected (two because a different feature was accepted).
+Rejected candidates stay visible as research history, are excluded from accepted
+totals, and never imply that an entrance is missing. Of the **31 shared-candidate
+records**, 17 have an accepted or rejected decision that closes the shared-candidate
+question; 14 remain explicitly unresolved. Status questions (elevator geometry,
+source-reference conflicts, thresholds) stay open independently.
 These are source-record outcomes, not counts of unique physical station entrances.
 No new OSM entrance has yet been confirmed necessary, and no OSM edits have been submitted.
 See the [running review log](docs/RED_TEAM_LOG.md); generate the complete current worklist

@@ -6,6 +6,7 @@ import json
 import math
 import re
 import xml.etree.ElementTree as ET
+from urllib.parse import urlsplit
 
 RAIL_TAGS = {"subway_entrance", "train_station_entrance"}
 REVIEW_STATUSES = {
@@ -13,6 +14,29 @@ REVIEW_STATUSES = {
     "New entrance needed", "Source location needs correction",
     "Geometry present; entrance position unverified",
 }
+# Stored status values are immutable ledger history; outputs use labels that do not
+# overstate what a review established (an elevator is not an "entrance"; a conflict
+# between a source label and its reference point does not establish which is wrong).
+STATUS_LABELS = {
+    "Existing entrance confirmed": "Existing access feature confirmed",
+    "Source location needs correction": "Source reference conflict",
+}
+CANDIDATE_DECISIONS = {"accepted", "rejected", "unresolved"}
+FEATURE_ID = re.compile(r"(node|way|relation)/[1-9][0-9]*")
+EVIDENCE_PATH = re.compile(r"docs/evidence/[A-Za-z0-9._-]+\.json")
+
+
+def status_label(status):
+    return STATUS_LABELS.get(status, status)
+
+
+def decisions_by_feature(review):
+    return {d["feature_id"]: d for d in (review or {}).get("candidate_decisions", [])}
+
+
+def accepted_feature(review):
+    return next((d["feature_id"] for d in (review or {}).get("candidate_decisions", [])
+                 if d["decision"] == "accepted"), None)
 
 
 def parse_wmata(html, station, source_url, existing=()):
@@ -220,9 +244,65 @@ def audit(inventory, osm, reviews=()):
         rows.append(row)
     for row in rows:
         row["candidate_reuse_count"] = counts.get(row.get("candidate_id"), 0)
+        decision = decisions_by_feature(row["review"]).get(row.get("candidate_id"))
+        row["candidate_decision"] = decision["decision"] if decision else None
+        row["accepted_feature_id"] = accepted_feature(row["review"])
+        row["review_outcome"] = review_outcome(row)
+    raw = dict(Counter(r["screen"] for r in rows))
     return {"research_only": True, "osm_upload_ready": False,
             "distance_method": "nearest OSM geometry, local equirectangular projection",
-            "screen_counts": dict(Counter(r["screen"] for r in rows)), "records": rows}
+            "screen_counts": raw,
+            "summaries": {
+                "raw_screening": {
+                    "meaning": ("Unmodified automated proximity screens, retained for "
+                                "reproducibility. Desktop reviews do not change these counts; "
+                                "a screened candidate may since have been rejected."),
+                    "counts": raw},
+                "review_adjusted": review_adjusted_summary(rows)},
+            "records": rows}
+
+
+REVIEW_OUTCOMES = (
+    "Accepted identity",
+    "Screened candidate rejected; identity unresolved",
+    "Reviewed; identity unresolved",
+    "Unreviewed",
+)
+
+
+def review_outcome(row):
+    """One adjudicated outcome per source record; never a physical-entrance count."""
+    if not row["review"]:
+        return "Unreviewed"
+    if row["accepted_feature_id"]:
+        return "Accepted identity"
+    if row["candidate_decision"] == "rejected":
+        return "Screened candidate rejected; identity unresolved"
+    return "Reviewed; identity unresolved"
+
+
+def review_adjusted_summary(rows):
+    outcomes = Counter(r["review_outcome"] for r in rows)
+    decisions = Counter(d["decision"] for r in rows
+                        for d in (r["review"] or {}).get("candidate_decisions", []))
+    return {
+        "meaning": ("Source-record outcomes after desktop review: accepted identities, "
+                    "rejected screened candidates, unresolved cases and unreviewed records. "
+                    "These count WMATA source records, not unique physical entrances. "
+                    "A rejected candidate is research history, excluded from accepted "
+                    "totals, and does not imply that an entrance is missing."),
+        "counts": {k: outcomes.get(k, 0) for k in REVIEW_OUTCOMES},
+        "accepted_identity_records": outcomes.get("Accepted identity", 0),
+        "rejected_screened_candidates": sum(r["candidate_decision"] == "rejected" for r in rows),
+        "candidate_decisions": {k: decisions.get(k, 0) for k in sorted(CANDIDATE_DECISIONS)},
+        "accepted_identity_differs_from_screen": sum(
+            1 for r in rows if r["accepted_feature_id"] and r.get("candidate_id") and
+            r["accepted_feature_id"] != r["candidate_id"]),
+        "accepted_identity_without_screened_candidate": sum(
+            1 for r in rows if r["accepted_feature_id"] and not r.get("candidate_id")),
+        "review_status_labels": dict(Counter(status_label(r["review"]["status"])
+                                             for r in rows if r["review"])),
+    }
 
 
 def review_worklist(inventory, osm, reviews):
@@ -234,11 +314,19 @@ def review_worklist(inventory, osm, reviews):
         status = review["status"] if review else "Unreviewed"
         reasons = []
         if status != "Existing entrance confirmed":
-            reasons.append("Initial desktop review required" if status == "Unreviewed" else status)
-        if screen["candidate_reuse_count"] > 1:
-            reasons.append("Shared automated candidate: verify entrance identity across source records")
-        work.append(dict(screen, review_status=status, review_required=bool(reasons),
-                         review_reasons=reasons, review_notes=review["notes"] if review else ""))
+            reasons.append("Initial desktop review required" if status == "Unreviewed"
+                           else "Open review status: " + status_label(status))
+        elif not screen["accepted_feature_id"]:
+            # A narrative confirmation alone does not record which feature was accepted.
+            reasons.append("Confirmation lacks an accepted candidate decision")
+        if screen["candidate_reuse_count"] > 1 and screen["candidate_decision"] not in {"accepted", "rejected"}:
+            # Only an explicit decision on this record's screened candidate closes the
+            # shared-candidate question; status-based questions above stay open.
+            reasons.append("Shared automated candidate: record an accepted or rejected decision")
+        work.append(dict(screen, review_status=status, review_label=status_label(status),
+                         review_required=bool(reasons), review_reasons=reasons,
+                         review_notes=review["notes"] if review else "",
+                         candidate_decisions=(review or {}).get("candidate_decisions", [])))
     return sorted(work, key=lambda r: (not r["review_required"], r["entrance_id"]))
 
 
@@ -277,6 +365,7 @@ def validate(inventory, stations, osm, reviews):
             date.fromisoformat(review.get("reviewed_on", ""))
         except (TypeError, ValueError):
             raise ValueError("Review requires ISO reviewed_on date") from None
+        validate_candidate_decisions(review, osm)
     feature_ids = [f["id"] for f in osm["features"]]
     if len(feature_ids) != len(set(feature_ids)):
         raise ValueError("Duplicate OSM feature IDs")
@@ -293,3 +382,46 @@ def validate(inventory, stations, osm, reviews):
             "osm_features": len(feature_ids), "desktop_reviews": len(reviews),
             "review_counts": dict(Counter(r["status"] for r in reviews)),
             "ambiguous_source_labels": sum(count > 1 for count in normalized_labels.values())}
+
+
+def validate_candidate_decisions(review, osm):
+    """Decisions name one OSM feature each, give a reason, and cite reviewable evidence."""
+    if "candidate_decisions" not in review:
+        return
+    decisions = review["candidate_decisions"]
+    rid = review["entrance_id"]
+    if not isinstance(decisions, list) or not decisions:
+        raise ValueError(f"{rid}: candidate_decisions must be a nonempty list when present")
+    features = {f["id"] for f in osm["features"]}
+    seen = set()
+    for d in decisions:
+        if not isinstance(d, dict) or set(d) != {"feature_id", "decision", "reason", "evidence"}:
+            raise ValueError(f"{rid}: decision needs exactly feature_id, decision, reason, evidence")
+        if not isinstance(d["feature_id"], str) or not FEATURE_ID.fullmatch(d["feature_id"]):
+            raise ValueError(f"{rid}: invalid decision feature_id")
+        if d["feature_id"] in seen:
+            raise ValueError(f"{rid}: duplicate decision for {d['feature_id']}")
+        seen.add(d["feature_id"])
+        if not isinstance(d["decision"], str) or d["decision"] not in CANDIDATE_DECISIONS:
+            raise ValueError(f"{rid}: unknown candidate decision")
+        if not isinstance(d["reason"], str) or not d["reason"].strip():
+            raise ValueError(f"{rid}: decision requires a reason")
+        def valid_evidence(item):
+            if not isinstance(item, str):
+                return False
+            if EVIDENCE_PATH.fullmatch(item):
+                return True
+            try:
+                parsed = urlsplit(item)
+                return parsed.scheme == "https" and bool(parsed.hostname)
+            except ValueError:
+                return False
+        evidence = d["evidence"]
+        if (not isinstance(evidence, list) or not evidence or
+                any(not valid_evidence(e) for e in evidence)):
+            raise ValueError(f"{rid}: decision evidence must be HTTPS URLs or docs/evidence JSON paths")
+        if d["decision"] == "accepted" and d["feature_id"] not in features:
+            # An accepted identity must be reproducible from the recorded snapshot.
+            raise ValueError(f"{rid}: accepted feature {d['feature_id']} is not in the OSM snapshot")
+    if sum(d["decision"] == "accepted" for d in decisions) > 1:
+        raise ValueError(f"{rid}: at most one accepted identity per source record")

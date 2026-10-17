@@ -127,3 +127,13 @@ Inventorying the remaining 18 unreviewed shared-candidate records identified the
 Three live node checks retain the recorded versions. [Evidence extract](evidence/judiciary-2026-10-16.json) preserves selected access geometry, operator source links, map hash and distances. Equipment operation, source panoramas, field conditions and complete accessible routes were not verified.
 
 Transaction `2026-10-16-005-judiciary-elevator-identities.json` adds three reviews. Totals: 32 desktop reviews (twelve confirmed, eighteen geometry/position unresolved, two source-location conflicts). Fifteen of the 31 shared-candidate records still lack desktop review. Baseline/source coordinates and automated screens are unchanged; no OSM edits submitted.
+
+## Step 8 — Farragut West 18th/I entrance and elevator (2026-10-16)
+
+WMATA-065 and WMATA-066 both select named railway entrance node/1643428783. The general entrance reference is 15.6 m away; the elevator-labelled reference is 3.4 m away. The WMATA map (June 2025) separately shows escalator and elevator access at the northwest 18th/I corner.
+
+The node's steps/escalator connection (way/1429421926) and footway (way/1429421925), together with operator-map location and source description, support the general entrance match. The node lacks highway=elevator; the recorded query contains no elevator-tagged feature, including no raw element with an elevator key/value. This is not evidence of physical absence or a basis to tag the general steps-connected node as an elevator. Exact elevator position, level connection and suitable existing geometry remain unverified.
+
+Transaction `2026-10-16-006-farragut-west-elevator-review.json` adds one general entrance confirmation and one `Geometry present; entrance position unverified` review. The live railway entrance node retains its recorded version. [Evidence extract](evidence/farragut-west-2026-10-16.json) contains the selected topology, map hash, live node check and research distances. No source panorama, field condition, current operating status or full accessible route was verified.
+
+Totals: 34 desktop reviews (thirteen confirmed, nineteen geometry/position unresolved, two source-location conflicts). Thirteen shared-candidate records remain unreviewed. Baseline/source coordinates and automated screens are unchanged; no OSM edits submitted.

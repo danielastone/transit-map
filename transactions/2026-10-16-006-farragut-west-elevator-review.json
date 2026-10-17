@@ -1,0 +1,33 @@
+{
+  "transaction_id": "2026-10-16-farragut-west-elevator-review",
+  "rationale": "Support general 18th/I entrance identity while separating unresolved street elevator geometry from a steps-connected shared candidate.",
+  "sources": [
+    "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Farragut%20W_vicinity-map.pdf",
+    "https://www.wmata.com/ridertools/station/farragut-west/info",
+    "https://www.openstreetmap.org/node/1643428783"
+  ],
+  "operations": [
+    {
+      "table": "reviews",
+      "action": "add",
+      "id": "WMATA-065",
+      "record": {
+        "entrance_id": "WMATA-065",
+        "reviewed_on": "2026-10-16",
+        "status": "Existing entrance confirmed",
+        "notes": "Desktop identity review: General NW-corner 18th and I Street entrance matches named railway entrance node 1643428783, attached to steps/escalator way 1429421926 and footway 1429421925. Operator map places the station entrance/escalator at that corner. The research reference is 15.6 m away. Description, map location and approach geometry support this entrance identity, not the separate elevator identity. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Farragut%20W_vicinity-map.pdf ; https://www.openstreetmap.org/node/1643428783 ; https://www.openstreetmap.org/way/1429421925 ; https://www.openstreetmap.org/way/1429421926 ; docs/evidence/farragut-west-2026-10-16.json. No field survey, source panorama inspection, current equipment-status assertion or complete accessibility certification. Source coordinates unchanged; no OSM edit approved."
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "add",
+      "id": "WMATA-066",
+      "record": {
+        "entrance_id": "WMATA-066",
+        "reviewed_on": "2026-10-16",
+        "status": "Geometry present; entrance position unverified",
+        "notes": "Desktop identity review: WMATA source description and map identify elevator access at the 18th and I Street entrance. General railway entrance node 1643428783 is only 3.4 m from this research reference, but is not tagged highway=elevator and connects to steps/escalator way 1429421926. The recorded query has no elevator-tagged feature, including no raw element with an elevator key/value. This limited query does not prove missing geometry or a missing physical elevator. Exact street elevator position, appropriate existing node and level/topology connection remain unverified. Do not add elevator tags to the general steps-connected entrance or create a duplicate solely from proximity. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Farragut%20W_vicinity-map.pdf ; https://www.openstreetmap.org/node/1643428783 ; https://www.openstreetmap.org/way/1429421925 ; https://www.openstreetmap.org/way/1429421926 ; docs/evidence/farragut-west-2026-10-16.json. No field survey, source panorama inspection, current equipment-status assertion or complete accessibility certification. Source coordinates unchanged; no OSM edit approved."
+      }
+    }
+  ]
+}

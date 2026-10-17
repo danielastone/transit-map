@@ -1,0 +1,264 @@
+{
+  "reviewed_on": "2026-10-16",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "license_url": "https://www.openstreetmap.org/copyright",
+  "map": {
+    "url": "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Tysons_vicinity-map.pdf",
+    "edition": "December 2025",
+    "sha256": "2f890a3b2b7cf8c928d912231a97ddd0428faa2cf0faf6df26b3955b3bff3f3a"
+  },
+  "scope": "Selected recorded OSM access geometry and map inspected visually; selected nodes checked live. No source panorama or field inspection.",
+  "elements": [
+    {
+      "id": "node/10240319627",
+      "version": 3,
+      "tags": {
+        "check_date": "2023-04-19",
+        "name": "Tysons",
+        "old_name": "Tysons Corner",
+        "operator": "Washington Metropolitan Area Transit Authority",
+        "operator:wikidata": "Q7972051",
+        "railway": "subway_entrance",
+        "website": "https://www.wmata.com/rider-guide/stations/tysons.cfm",
+        "wikidata": "Q7861806",
+        "wikipedia": "en:Tysons station"
+      },
+      "coordinates": [
+        -77.2225153,
+        38.9206001
+      ]
+    },
+    {
+      "id": "way/1119617018",
+      "version": 4,
+      "tags": {
+        "highway": "footway"
+      },
+      "node_refs": [
+        "10240319625",
+        "10240319627"
+      ],
+      "coordinates": [
+        [
+          -77.2225885,
+          38.9206147
+        ],
+        [
+          -77.2225153,
+          38.9206001
+        ]
+      ]
+    },
+    {
+      "id": "way/1119617019",
+      "version": 2,
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "node_refs": [
+        "10240319627",
+        "10240319631",
+        "10240319632",
+        "10240319626"
+      ],
+      "coordinates": [
+        [
+          -77.2225153,
+          38.9206001
+        ],
+        [
+          -77.2221793,
+          38.9206377
+        ],
+        [
+          -77.2221221,
+          38.9206674
+        ],
+        [
+          -77.2220645,
+          38.9206727
+        ]
+      ]
+    },
+    {
+      "id": "way/1125120499",
+      "version": 1,
+      "tags": {
+        "highway": "footway",
+        "level": "0"
+      },
+      "node_refs": [
+        "10240319627",
+        "10288890360"
+      ],
+      "coordinates": [
+        [
+          -77.2225153,
+          38.9206001
+        ],
+        [
+          -77.2225759,
+          38.920556
+        ]
+      ]
+    },
+    {
+      "id": "way/1344450024",
+      "version": 1,
+      "tags": {
+        "area": "yes",
+        "highway": "elevator",
+        "indoor": "area",
+        "level": "1"
+      },
+      "node_refs": [
+        "12437851994",
+        "12437851997",
+        "12437851995",
+        "12437851996",
+        "12437851994"
+      ],
+      "coordinates": [
+        [
+          -77.2225135,
+          38.9184917
+        ],
+        [
+          -77.2224197,
+          38.9184616
+        ],
+        [
+          -77.2223994,
+          38.9185001
+        ],
+        [
+          -77.2224932,
+          38.9185301
+        ],
+        [
+          -77.2225135,
+          38.9184917
+        ]
+      ]
+    },
+    {
+      "id": "way/1513670379",
+      "version": 2,
+      "tags": {
+        "highway": "footway",
+        "surface": "paved"
+      },
+      "node_refs": [
+        "10240319627",
+        "13828857298"
+      ],
+      "coordinates": [
+        [
+          -77.2225153,
+          38.9206001
+        ],
+        [
+          -77.2225484,
+          38.9206634
+        ]
+      ]
+    }
+  ],
+  "live_checks": [
+    {
+      "id": "10240319627",
+      "version": "3",
+      "timestamp": "2023-04-19T23:11:41Z",
+      "lat": "38.9206001",
+      "lon": "-77.2225153"
+    }
+  ],
+  "automated_research_candidates": [
+    {
+      "entrance_id": "WMATA-212",
+      "osm_edit_source": false,
+      "candidates": {
+        "rail": {
+          "id": "node/10240319627",
+          "url": "https://www.openstreetmap.org/node/10240319627",
+          "distance_m": 7.5,
+          "tags": {
+            "check_date": "2023-04-19",
+            "name": "Tysons",
+            "old_name": "Tysons Corner",
+            "operator": "Washington Metropolitan Area Transit Authority",
+            "operator:wikidata": "Q7972051",
+            "railway": "subway_entrance",
+            "website": "https://www.wmata.com/rider-guide/stations/tysons.cfm",
+            "wikidata": "Q7861806",
+            "wikipedia": "en:Tysons station"
+          }
+        },
+        "other": {
+          "id": "node/5825429388",
+          "url": "https://www.openstreetmap.org/node/5825429388",
+          "distance_m": 199.5,
+          "tags": {
+            "entrance": "yes"
+          }
+        },
+        "elevator": {
+          "id": "way/1344450024",
+          "url": "https://www.openstreetmap.org/way/1344450024",
+          "distance_m": 234.7,
+          "tags": {
+            "area": "yes",
+            "highway": "elevator",
+            "indoor": "area",
+            "level": "1"
+          }
+        }
+      },
+      "selected_candidate": "node/10240319627"
+    },
+    {
+      "entrance_id": "WMATA-213",
+      "osm_edit_source": false,
+      "candidates": {
+        "rail": {
+          "id": "node/10240319627",
+          "url": "https://www.openstreetmap.org/node/10240319627",
+          "distance_m": 6.4,
+          "tags": {
+            "check_date": "2023-04-19",
+            "name": "Tysons",
+            "old_name": "Tysons Corner",
+            "operator": "Washington Metropolitan Area Transit Authority",
+            "operator:wikidata": "Q7972051",
+            "railway": "subway_entrance",
+            "website": "https://www.wmata.com/rider-guide/stations/tysons.cfm",
+            "wikidata": "Q7861806",
+            "wikipedia": "en:Tysons station"
+          }
+        },
+        "other": {
+          "id": "node/5825429388",
+          "url": "https://www.openstreetmap.org/node/5825429388",
+          "distance_m": 195.7,
+          "tags": {
+            "entrance": "yes"
+          }
+        },
+        "elevator": {
+          "id": "way/1344450024",
+          "url": "https://www.openstreetmap.org/way/1344450024",
+          "distance_m": 230.6,
+          "tags": {
+            "area": "yes",
+            "highway": "elevator",
+            "indoor": "area",
+            "level": "1"
+          }
+        }
+      },
+      "selected_candidate": "node/10240319627"
+    }
+  ]
+}

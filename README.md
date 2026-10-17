@@ -6,17 +6,23 @@ verification before an OSM edit.
 
 ## Current state
 
-The October 16, 2026 snapshot contains **242 named WMATA entrance-view records
-across 98 stations**, **714 OSM features**, and **14 desktop reviews**.
+The frozen October 16, 2026 adoption snapshot contains **242 named WMATA entrance-view records
+across 98 stations**, **714 OSM features**, and **14 baseline desktop reviews**.
+Append-only transactions bring the materialized total to **47 reviewed source records**.
 
-| Desktop outcome | Records |
+| Materialized desktop outcome | Records |
 | --- | ---: |
-| Matched to an existing OSM entrance or elevator | 5 |
-| Access geometry exists; exact entrance/tag position unverified | 9 |
+| Supported existing access identity (including garage access) | 17 |
+| Access geometry exists; exact identity/position unresolved | 28 |
+| Source location needs correction or reconciliation | 2 |
 
-The other 228 records have automated proximity screens, not completed desktop
-reviews. No new OSM entrance has yet been confirmed necessary, and no OSM edits
-have been submitted. Read the [review queue](docs/REVIEW_QUEUE.md).
+All **31 shared-candidate records** have an initial desktop review; their identity-review
+flags remain active. Another **195 source records** have automated screens only.
+These are source-record outcomes, not counts of unique physical station entrances.
+No new OSM entrance has yet been confirmed necessary, and no OSM edits have been submitted.
+See the [running review log](docs/RED_TEAM_LOG.md); generate the complete current worklist
+with `python -m transit_map review-queue`. The [original review queue](docs/REVIEW_QUEUE.md)
+is a historical baseline document.
 
 **Location provenance matters:** the WMATA Station View coordinates were extracted
 from Google panorama URLs embedded on WMATA's website. They are research reference

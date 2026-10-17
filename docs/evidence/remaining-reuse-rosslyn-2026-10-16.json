@@ -1,0 +1,267 @@
+{
+  "reviewed_on": "2026-10-16",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "license_url": "https://www.openstreetmap.org/copyright",
+  "map": {
+    "url": "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Rosslyn_vicinity-map.pdf",
+    "edition": "June 2025",
+    "sha256": "c7acfcae8764a819b65bf2965cb86731f3861f20aa0654b7715f3937b5f1c49d"
+  },
+  "scope": "Selected recorded OSM access geometry and map inspected visually; selected nodes checked live. No source panorama or field inspection.",
+  "elements": [
+    {
+      "id": "node/576549187",
+      "version": 8,
+      "tags": {
+        "highway": "elevator",
+        "level": "-1;0",
+        "level:ref": "T;*S",
+        "operator": "WMATA",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "coordinates": [
+        -77.0713864,
+        38.8961466
+      ]
+    },
+    {
+      "id": "node/10196205351",
+      "version": 2,
+      "tags": {
+        "highway": "elevator"
+      },
+      "coordinates": [
+        -77.0710028,
+        38.8961613
+      ]
+    },
+    {
+      "id": "node/12031036802",
+      "version": 1,
+      "tags": {
+        "railway": "subway_entrance"
+      },
+      "coordinates": [
+        -77.0718991,
+        38.8960833
+      ]
+    },
+    {
+      "id": "node/12031036803",
+      "version": 1,
+      "tags": {
+        "railway": "subway_entrance"
+      },
+      "coordinates": [
+        -77.0719479,
+        38.8958701
+      ]
+    },
+    {
+      "id": "way/892764182",
+      "version": 2,
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "surface": "concrete"
+      },
+      "node_refs": [
+        "576549187",
+        "8297439379"
+      ],
+      "coordinates": [
+        [
+          -77.0713864,
+          38.8961466
+        ],
+        [
+          -77.0714237,
+          38.8961466
+        ]
+      ]
+    },
+    {
+      "id": "way/1114793402",
+      "version": 2,
+      "tags": {
+        "highway": "footway",
+        "layer": "-1",
+        "tunnel": "yes"
+      },
+      "node_refs": [
+        "12031036803",
+        "10196205346"
+      ],
+      "coordinates": [
+        [
+          -77.0719479,
+          38.8958701
+        ],
+        [
+          -77.0716225,
+          38.8958889
+        ]
+      ]
+    },
+    {
+      "id": "way/1114793407",
+      "version": 2,
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "surface": "concrete"
+      },
+      "node_refs": [
+        "10196205351",
+        "10196205352"
+      ],
+      "coordinates": [
+        [
+          -77.0710028,
+          38.8961613
+        ],
+        [
+          -77.0709617,
+          38.8961614
+        ]
+      ]
+    },
+    {
+      "id": "way/1298768572",
+      "version": 1,
+      "tags": {
+        "highway": "footway"
+      },
+      "node_refs": [
+        "10196205370",
+        "12031036802"
+      ],
+      "coordinates": [
+        [
+          -77.0718481,
+          38.8960867
+        ],
+        [
+          -77.0718991,
+          38.8960833
+        ]
+      ]
+    }
+  ],
+  "live_checks": [
+    {
+      "id": "576549187",
+      "version": "8",
+      "timestamp": "2024-10-03T19:57:16Z",
+      "lat": "38.8961466",
+      "lon": "-77.0713864"
+    },
+    {
+      "id": "10196205351",
+      "version": "2",
+      "timestamp": "2026-02-02T20:46:29Z",
+      "lat": "38.8961613",
+      "lon": "-77.0710028"
+    },
+    {
+      "id": "12031036802",
+      "version": "1",
+      "timestamp": "2024-07-03T11:17:53Z",
+      "lat": "38.8960833",
+      "lon": "-77.0718991"
+    },
+    {
+      "id": "12031036803",
+      "version": "1",
+      "timestamp": "2024-07-03T11:17:53Z",
+      "lat": "38.8958701",
+      "lon": "-77.0719479"
+    }
+  ],
+  "automated_research_candidates": [
+    {
+      "entrance_id": "WMATA-183",
+      "osm_edit_source": false,
+      "candidates": {
+        "elevator": {
+          "id": "node/576549187",
+          "url": "https://www.openstreetmap.org/node/576549187",
+          "distance_m": 16.8,
+          "tags": {
+            "highway": "elevator",
+            "level": "-1;0",
+            "level:ref": "T;*S",
+            "operator": "WMATA",
+            "railway": "subway_entrance",
+            "wheelchair": "yes"
+          }
+        },
+        "rail": {
+          "id": "node/576549187",
+          "url": "https://www.openstreetmap.org/node/576549187",
+          "distance_m": 16.8,
+          "tags": {
+            "highway": "elevator",
+            "level": "-1;0",
+            "level:ref": "T;*S",
+            "operator": "WMATA",
+            "railway": "subway_entrance",
+            "wheelchair": "yes"
+          }
+        },
+        "other": {
+          "id": "node/13500761816",
+          "url": "https://www.openstreetmap.org/node/13500761816",
+          "distance_m": 32.4,
+          "tags": {
+            "entrance": "yes"
+          }
+        }
+      },
+      "selected_candidate": "node/576549187"
+    },
+    {
+      "entrance_id": "WMATA-184",
+      "osm_edit_source": false,
+      "candidates": {
+        "elevator": {
+          "id": "node/576549187",
+          "url": "https://www.openstreetmap.org/node/576549187",
+          "distance_m": 7.1,
+          "tags": {
+            "highway": "elevator",
+            "level": "-1;0",
+            "level:ref": "T;*S",
+            "operator": "WMATA",
+            "railway": "subway_entrance",
+            "wheelchair": "yes"
+          }
+        },
+        "rail": {
+          "id": "node/576549187",
+          "url": "https://www.openstreetmap.org/node/576549187",
+          "distance_m": 7.1,
+          "tags": {
+            "highway": "elevator",
+            "level": "-1;0",
+            "level:ref": "T;*S",
+            "operator": "WMATA",
+            "railway": "subway_entrance",
+            "wheelchair": "yes"
+          }
+        },
+        "other": {
+          "id": "node/13500761816",
+          "url": "https://www.openstreetmap.org/node/13500761816",
+          "distance_m": 38.5,
+          "tags": {
+            "entrance": "yes"
+          }
+        }
+      },
+      "selected_candidate": "node/576549187"
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "reviewed_on": "2026-10-16",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "license_url": "https://www.openstreetmap.org/copyright",
+  "map": {
+    "url": "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/McLean_vicinity-map.pdf",
+    "edition": "June 2025",
+    "sha256": "248935df2c6dc20ec5caaa554c8ff98824527c789b333ac2fb7c738bef0f4572"
+  },
+  "scope": "Operator map inspected visually. Recorded node, building/platform membership and approach topology retained; three key nodes checked live. No surveyed level or street-threshold identity.",
+  "elements": [
+    {
+      "id": "node/10242056060",
+      "version": 3,
+      "tags": {
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "coordinates": [
+        -77.2095181,
+        38.9247041
+      ]
+    },
+    {
+      "id": "node/13325542089",
+      "version": 2,
+      "tags": {
+        "highway": "elevator",
+        "level": "0;-1;-2;-3;-4"
+      },
+      "coordinates": [
+        -77.2100021,
+        38.9255419
+      ]
+    },
+    {
+      "id": "node/13334336661",
+      "version": 1,
+      "tags": {
+        "railway": "subway_entrance"
+      },
+      "coordinates": [
+        -77.2097108,
+        38.9247959
+      ]
+    },
+    {
+      "id": "way/227612806",
+      "version": 15,
+      "tags": {
+        "building": "train_station",
+        "layer": "1",
+        "operator": "Washington Metropolitan Area Transit Authority",
+        "source": "Bing"
+      },
+      "node_refs": [
+        "4011339963",
+        "5026643514",
+        "7573449646",
+        "5026643513",
+        "5351736889",
+        "5351736888",
+        "13334336661",
+        "5351736890",
+        "4011339963"
+      ],
+      "coordinates": [
+        [
+          -77.2092924,
+          38.9248057
+        ],
+        [
+          -77.2094228,
+          38.9247468
+        ],
+        [
+          -77.2094635,
+          38.9247284
+        ],
+        [
+          -77.2095049,
+          38.9247097
+        ],
+        [
+          -77.210775,
+          38.924136
+        ],
+        [
+          -77.2108753,
+          38.9242664
+        ],
+        [
+          -77.2097108,
+          38.9247959
+        ],
+        [
+          -77.2094008,
+          38.9249369
+        ],
+        [
+          -77.2092924,
+          38.9248057
+        ]
+      ]
+    },
+    {
+      "id": "way/810065189",
+      "version": 9,
+      "tags": {
+        "area": "yes",
+        "bench": "yes",
+        "bicycle": "dismount",
+        "bin": "yes",
+        "foot": "designated",
+        "layer": "2",
+        "level": "2",
+        "lit": "yes",
+        "network": "Washington Metro",
+        "operator": "Washington Metropolitan Area Transit Authority",
+        "public_transport": "platform",
+        "railway": "platform",
+        "shelter": "yes",
+        "subway": "yes",
+        "tactile_paving": "yes"
+      },
+      "node_refs": [
+        "5249741027",
+        "5249741028",
+        "5026643514",
+        "7573449646",
+        "5026643513",
+        "10242056060",
+        "5249741029",
+        "5249741030",
+        "5249741027"
+      ],
+      "coordinates": [
+        [
+          -77.2093967,
+          38.924902
+        ],
+        [
+          -77.2093443,
+          38.9248345
+        ],
+        [
+          -77.2094228,
+          38.9247468
+        ],
+        [
+          -77.2094635,
+          38.9247284
+        ],
+        [
+          -77.2095049,
+          38.9247097
+        ],
+        [
+          -77.2095181,
+          38.9247041
+        ],
+        [
+          -77.2114137,
+          38.9238973
+        ],
+        [
+          -77.2114687,
+          38.9239672
+        ],
+        [
+          -77.2093967,
+          38.924902
+        ]
+      ]
+    },
+    {
+      "id": "way/1119813162",
+      "version": 2,
+      "tags": {
+        "highway": "footway",
+        "surface": "concrete"
+      },
+      "node_refs": [
+        "10242056055",
+        "10242056058",
+        "10242056059",
+        "10242056060"
+      ],
+      "coordinates": [
+        [
+          -77.209577,
+          38.9245859
+        ],
+        [
+          -77.2096013,
+          38.924637
+        ],
+        [
+          -77.2095032,
+          38.9246833
+        ],
+        [
+          -77.2095181,
+          38.9247041
+        ]
+      ]
+    },
+    {
+      "id": "way/1453014394",
+      "version": 1,
+      "tags": {
+        "highway": "footway"
+      },
+      "node_refs": [
+        "13325542088",
+        "13325542089"
+      ],
+      "coordinates": [
+        [
+          -77.2100784,
+          38.9255853
+        ],
+        [
+          -77.2100021,
+          38.9255419
+        ]
+      ]
+    },
+    {
+      "id": "way/1453963154",
+      "version": 1,
+      "tags": {
+        "highway": "footway"
+      },
+      "node_refs": [
+        "13334336660",
+        "13334336661"
+      ],
+      "coordinates": [
+        [
+          -77.2097182,
+          38.9248056
+        ],
+        [
+          -77.2097108,
+          38.9247959
+        ]
+      ]
+    }
+  ],
+  "live_checks": [
+    {
+      "id": "10242056060",
+      "version": "3",
+      "timestamp": "2025-06-19T17:12:41Z",
+      "lat": "38.9247041",
+      "lon": "-77.2095181"
+    },
+    {
+      "id": "13325542089",
+      "version": "2",
+      "timestamp": "2025-11-26T18:03:15Z",
+      "lat": "38.9255419",
+      "lon": "-77.2100021"
+    },
+    {
+      "id": "13334336661",
+      "version": "1",
+      "timestamp": "2025-11-26T18:03:15Z",
+      "lat": "38.9247959",
+      "lon": "-77.2097108"
+    }
+  ],
+  "research_distances_m": [
+    {
+      "entrance_id": "WMATA-128",
+      "osm_edit_source": false,
+      "distances": {
+        "10242056060": 9.6,
+        "13334336661": 16.8,
+        "13325542089": 93.5
+      }
+    },
+    {
+      "entrance_id": "WMATA-129",
+      "osm_edit_source": false,
+      "distances": {
+        "10242056060": 8.0,
+        "13334336661": 11.7,
+        "13325542089": 94.8
+      }
+    }
+  ]
+}

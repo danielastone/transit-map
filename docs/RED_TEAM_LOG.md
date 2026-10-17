@@ -65,3 +65,20 @@ Candidate reuse by WMATA-102 and WMATA-106 is not evidence of a cross-side confl
 Transaction `2026-10-16-001-reston-herndon-directional-review.json` updates two existing north-side reviews and adds seven reviews. Materialized review count is now 21: seven existing entrances confirmed, twelve geometry/position unresolved, and two source-location inconsistencies. Frozen source files, OSM snapshot, automated screens and research-reference coordinates are unchanged. No OSM changes submitted.
 
 The review-worklist policy continues to flag shared candidates even when a desktop match is supported. Other reuse groups (Gallery Place, Grosvenor, Largo and others), query-window sensitivity, and exact Herndon elevator geometry remain open. This step resolves two specific allegations; it does not validate all automated candidates or certify station accessibility.
+
+## Step 4 — Gallery Place A/D candidate identity (2026-10-16)
+
+The A/D reuse group is a confirmed automated candidate identity mismatch for A. The source inventory names A at 7th/F and D as an elevator at 7th/G. The independent WMATA vicinity map (December 2025) depicts separate escalator and elevator access along 7th Street. The recorded OSM geometry has four distinct entrance nodes with references A/B/C/D; all four belong to stop-area relations 359558 and 7945932. Live OSM checks retain the recorded versions, tags and coordinates for the four nodes.
+
+| Source entrance | Supported OSM identity | Distance from research reference | Automated candidate |
+| --- | --- | ---: | --- |
+| A / WMATA-082 | node/324153442, ref=A | 80.7 m | node/9951151070, ref=D, 37.1 m — wrong identity for A |
+| B / WMATA-083 | node/9951151069, ref=B | 56.2 m | Same B node |
+| C / WMATA-084 | node/324153414, ref=C | 76.3 m | No selected candidate within the screen threshold; existing review already confirms C |
+| D / WMATA-085 | node/9951151070, ref=D, elevator | 39.3 m | Same D node |
+
+This is a specific demonstration that proximity can select a different entrance while the intended entrance already exists. The A/D source references do not justify merging the entrances. No missing entrance or new geometry is established. D's source street description is preserved verbatim; identity rests on reference, elevator type, map location and topology, not a precise interpretation of the named intersection.
+
+Transaction `2026-10-16-002-gallery-place-identities.json` adds A/B/D desktop confirmations. C's existing confirmation is retained. Materialized totals are now 24 reviews: ten confirmed, twelve geometry/position unresolved, two source-location conflicts. Complete accessibility routes, current equipment operation and the source panoramas were not verified. Automated screen values are intentionally retained as reproducible candidate retrieval; the desktop reviews reject the A candidate interpretation. The worklist continues to expose the A/D reuse warning.
+
+Evidence: [selected OSM topology, live node checks, map hash and reference distances](evidence/gallery-place-2026-10-16.json). Source files and coordinates are unchanged, and no OSM edit was submitted. Remaining reuse groups include Grosvenor and Largo; window sensitivity remains open.

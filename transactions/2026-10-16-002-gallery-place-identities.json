@@ -1,0 +1,44 @@
+{
+  "transaction_id": "2026-10-16-gallery-place-identities",
+  "rationale": "Reject the nearest D elevator as Entrance A identity using independent WMATA descriptions/map and distinct OSM entrance references; record supported A/B/D matches without modifying source coordinates.",
+  "sources": [
+    "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Gallery%20Place_vicinity-map.pdf",
+    "https://www.wmata.com/ridertools/station/gallery-pl-chinatown/info",
+    "https://api.openstreetmap.org/api/0.6/nodes?nodes=324153442,9951151069,324153414,9951151070"
+  ],
+  "operations": [
+    {
+      "table": "reviews",
+      "action": "add",
+      "id": "WMATA-082",
+      "record": {
+        "entrance_id": "WMATA-082",
+        "reviewed_on": "2026-10-16",
+        "status": "Existing entrance confirmed",
+        "notes": "Desktop identity review: Entrance A matches existing railway entrance node 324153442 (ref=A), near 7th and F, with access footway 1341673975. The WMATA source description and vicinity-map escalator location support this identity. The research reference is 80.7 m from A but 37.1 m from elevator entrance D (node 9951151070). The automated assignment to D is an identity mismatch for this source description; it is not evidence that A is missing. Do not merge A and D or add a duplicate entrance. All four entrance nodes are members of station stop-area relations 359558 and 7945932 in the recorded snapshot. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Gallery%20Place_vicinity-map.pdf ; https://www.openstreetmap.org/node/324153442 ; https://www.openstreetmap.org/relation/359558 ; docs/evidence/gallery-place-2026-10-16.json. No source coordinates changed; no OSM edit approved."
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "add",
+      "id": "WMATA-083",
+      "record": {
+        "entrance_id": "WMATA-083",
+        "reviewed_on": "2026-10-16",
+        "status": "Existing entrance confirmed",
+        "notes": "Desktop identity review: Entrance B matches existing railway entrance node 9951151069 (ref=B), with access ways 1428204806 (steps/conveying) and 1428209233 (sidewalk), on the 9th and G side shown by WMATA. The research reference is 56.2 m away. Name/reference, street-side agreement and access geometry support the match; distance alone would not. All four entrance nodes are members of station stop-area relations 359558 and 7945932 in the recorded snapshot. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Gallery%20Place_vicinity-map.pdf ; https://www.openstreetmap.org/node/9951151069 ; https://www.openstreetmap.org/relation/359558 ; docs/evidence/gallery-place-2026-10-16.json. No source coordinates changed; no OSM edit approved."
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "add",
+      "id": "WMATA-085",
+      "record": {
+        "entrance_id": "WMATA-085",
+        "reviewed_on": "2026-10-16",
+        "status": "Existing entrance confirmed",
+        "notes": "Desktop identity review: Entrance D elevator matches node 9951151070 (ref=D, railway=subway_entrance, highway=elevator, wheelchair=yes), connected to sidewalk way 1102459367 at the arena frontage. The WMATA map shows a separate elevator north of the A escalator on 7th Street between F and G. Source description says 7th and G; this is retained verbatim rather than used to invent a replacement coordinate. Its research-reference distance is 39.3 m. The shared automated candidate with A is valid for D, not A. This confirms mapped elevator identity, not current operation or a complete accessible route. All four entrance nodes are members of station stop-area relations 359558 and 7945932 in the recorded snapshot. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Gallery%20Place_vicinity-map.pdf ; https://www.openstreetmap.org/node/9951151070 ; https://www.openstreetmap.org/relation/359558 ; docs/evidence/gallery-place-2026-10-16.json. No source coordinates changed; no OSM edit approved."
+      }
+    }
+  ]
+}

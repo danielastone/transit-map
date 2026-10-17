@@ -1,0 +1,348 @@
+{
+  "reviewed_on": "2026-10-16",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "license_url": "https://www.openstreetmap.org/copyright",
+  "map": {
+    "url": "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Gallery%20Place_vicinity-map.pdf",
+    "edition": "December 2025",
+    "sha256": "ecae6d51ddc2b8c88923993fc6a61f43311654be322dcf4003ddce6bcdd25b60"
+  },
+  "scope": "Recorded access geometry and relation membership; four nodes checked live with versions/coordinates unchanged. No field survey or source panorama inspection.",
+  "elements": [
+    {
+      "id": "node/324153414",
+      "version": 6,
+      "timestamp": "2024-12-11T03:19:43Z",
+      "tags": {
+        "network": "Washington Metro",
+        "railway": "subway_entrance",
+        "ref": "C",
+        "wheelchair": "no"
+      },
+      "coordinates": [
+        -77.0217227,
+        38.8996564
+      ]
+    },
+    {
+      "id": "node/324153442",
+      "version": 6,
+      "timestamp": "2024-12-11T03:19:43Z",
+      "tags": {
+        "network": "Washington Metro",
+        "railway": "subway_entrance",
+        "ref": "A",
+        "wheelchair": "no"
+      },
+      "coordinates": [
+        -77.0217143,
+        38.897506
+      ]
+    },
+    {
+      "id": "node/9951151069",
+      "version": 3,
+      "timestamp": "2025-09-09T03:27:50Z",
+      "tags": {
+        "railway": "subway_entrance",
+        "ref": "B",
+        "wheelchair": "no"
+      },
+      "coordinates": [
+        -77.0237543,
+        38.8980598
+      ]
+    },
+    {
+      "id": "node/9951151070",
+      "version": 3,
+      "timestamp": "2024-12-11T03:19:43Z",
+      "tags": {
+        "highway": "elevator",
+        "railway": "subway_entrance",
+        "ref": "D",
+        "wheelchair": "yes"
+      },
+      "coordinates": [
+        -77.0217569,
+        38.8979408
+      ]
+    },
+    {
+      "id": "way/1102459367",
+      "version": 2,
+      "timestamp": "2025-02-13T20:13:35Z",
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "surface": "paving_stones"
+      },
+      "node_refs": [
+        "10088032290",
+        "9951151070"
+      ],
+      "coordinates": [
+        [
+          -77.0218006,
+          38.8979408
+        ],
+        [
+          -77.0217569,
+          38.8979408
+        ]
+      ]
+    },
+    {
+      "id": "way/1341673973",
+      "version": 1,
+      "timestamp": "2024-12-11T03:19:43Z",
+      "tags": {
+        "highway": "footway",
+        "surface": "concrete"
+      },
+      "node_refs": [
+        "12410781087",
+        "12410781088",
+        "12410781089",
+        "324153414"
+      ],
+      "coordinates": [
+        [
+          -77.0215705,
+          38.8997122
+        ],
+        [
+          -77.0215715,
+          38.8996875
+        ],
+        [
+          -77.0215726,
+          38.8996535
+        ],
+        [
+          -77.0217227,
+          38.8996564
+        ]
+      ]
+    },
+    {
+      "id": "way/1341673975",
+      "version": 2,
+      "timestamp": "2025-05-03T19:17:57Z",
+      "tags": {
+        "highway": "footway",
+        "surface": "paving_stones"
+      },
+      "node_refs": [
+        "324153442",
+        "12410781092",
+        "12410781091"
+      ],
+      "coordinates": [
+        [
+          -77.0217143,
+          38.897506
+        ],
+        [
+          -77.0217141,
+          38.8974835
+        ],
+        [
+          -77.0217144,
+          38.8974435
+        ]
+      ]
+    },
+    {
+      "id": "way/1428204806",
+      "version": 1,
+      "timestamp": "2025-09-09T03:27:50Z",
+      "tags": {
+        "conveying": "yes",
+        "highway": "steps",
+        "incline": "down",
+        "indoor": "no"
+      },
+      "node_refs": [
+        "9951151069",
+        "13130166834"
+      ],
+      "coordinates": [
+        [
+          -77.0237543,
+          38.8980598
+        ],
+        [
+          -77.0237564,
+          38.8981991
+        ]
+      ]
+    },
+    {
+      "id": "way/1428209233",
+      "version": 1,
+      "timestamp": "2025-09-09T04:18:07Z",
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway"
+      },
+      "node_refs": [
+        "13130261742",
+        "9951151069"
+      ],
+      "coordinates": [
+        [
+          -77.023833,
+          38.8980614
+        ],
+        [
+          -77.0237543,
+          38.8980598
+        ]
+      ]
+    },
+    {
+      "id": "relation/359558",
+      "version": 13,
+      "timestamp": "2026-07-31T20:48:44Z",
+      "tags": {
+        "name": "Gallery Place (Yellow/Green)",
+        "network": "Washington Metro",
+        "operator": "Washington Metropolitan Area Transit Authority",
+        "public_transport": "stop_area",
+        "railway": "facility",
+        "type": "public_transport"
+      },
+      "entrance_members": [
+        {
+          "type": "node",
+          "ref": "9951151070",
+          "role": ""
+        },
+        {
+          "type": "node",
+          "ref": "9951151069",
+          "role": ""
+        },
+        {
+          "type": "node",
+          "ref": "324153442",
+          "role": ""
+        },
+        {
+          "type": "node",
+          "ref": "324153414",
+          "role": ""
+        }
+      ]
+    },
+    {
+      "id": "relation/7945932",
+      "version": 8,
+      "timestamp": "2026-07-31T20:48:44Z",
+      "tags": {
+        "name": "Gallery Place (Red)",
+        "network": "Washington Metro",
+        "operator": "Washington Metropolitan Area Transit Authority",
+        "public_transport": "stop_area",
+        "railway": "facility",
+        "type": "public_transport"
+      },
+      "entrance_members": [
+        {
+          "type": "node",
+          "ref": "9951151070",
+          "role": ""
+        },
+        {
+          "type": "node",
+          "ref": "9951151069",
+          "role": ""
+        },
+        {
+          "type": "node",
+          "ref": "324153442",
+          "role": ""
+        },
+        {
+          "type": "node",
+          "ref": "324153414",
+          "role": ""
+        }
+      ]
+    }
+  ],
+  "live_node_check": [
+    {
+      "id": "324153414",
+      "version": "6",
+      "timestamp": "2024-12-11T03:19:43Z",
+      "lat": "38.8996564",
+      "lon": "-77.0217227"
+    },
+    {
+      "id": "324153442",
+      "version": "6",
+      "timestamp": "2024-12-11T03:19:43Z",
+      "lat": "38.8975060",
+      "lon": "-77.0217143"
+    },
+    {
+      "id": "9951151069",
+      "version": "3",
+      "timestamp": "2025-09-09T03:27:50Z",
+      "lat": "38.8980598",
+      "lon": "-77.0237543"
+    },
+    {
+      "id": "9951151070",
+      "version": "3",
+      "timestamp": "2024-12-11T03:19:43Z",
+      "lat": "38.8979408",
+      "lon": "-77.0217569"
+    }
+  ],
+  "research_distances_m": [
+    {
+      "entrance_id": "WMATA-082",
+      "osm_edit_source": false,
+      "distances": {
+        "node/324153442": 80.7,
+        "node/9951151069": 147.8,
+        "node/324153414": 166.4,
+        "node/9951151070": 37.1
+      }
+    },
+    {
+      "entrance_id": "WMATA-083",
+      "osm_edit_source": false,
+      "distances": {
+        "node/324153442": 163.9,
+        "node/9951151069": 56.2,
+        "node/324153414": 194.1,
+        "node/9951151070": 137.5
+      }
+    },
+    {
+      "entrance_id": "WMATA-084",
+      "osm_edit_source": false,
+      "distances": {
+        "node/324153442": 169.3,
+        "node/9951151069": 183.7,
+        "node/324153414": 76.3,
+        "node/9951151070": 121.0
+      }
+    },
+    {
+      "entrance_id": "WMATA-085",
+      "osm_edit_source": false,
+      "distances": {
+        "node/324153442": 83.9,
+        "node/9951151069": 149.2,
+        "node/324153414": 162.6,
+        "node/9951151070": 39.3
+      }
+    }
+  ]
+}

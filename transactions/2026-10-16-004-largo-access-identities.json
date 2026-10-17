@@ -1,0 +1,33 @@
+{
+  "transaction_id": "2026-10-16-largo-access-identities",
+  "rationale": "Support the southern Truman/Largo mapped entrance while keeping the distinct Lottsford North threshold unresolved; shared nearest candidates do not establish shared entrance identity.",
+  "sources": [
+    "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Largo_vicinity-map.pdf",
+    "https://www.wmata.com/ridertools/station/downtown-largo/info",
+    "https://www.openstreetmap.org/node/8651370043"
+  ],
+  "operations": [
+    {
+      "table": "reviews",
+      "action": "add",
+      "id": "WMATA-051",
+      "record": {
+        "entrance_id": "WMATA-051",
+        "reviewed_on": "2026-10-16",
+        "status": "Geometry present; entrance position unverified",
+        "notes": "Desktop identity review: The Lottsford Road (North) source description must not inherit the identity of the southern railway entrance node 8651370043 merely because that node is nearest (55.2 m). The independent WMATA vicinity map depicts access at distinct ends of the station/parking complex. North-area approach footway 1129902875 joins footway 1200929257 at untagged node 11134904569 and ends at untagged node 10467379951 on the bus-platform boundary. These mapped approaches are near the north research reference but do not identify a verified station threshold or vertical access connection. Only one railway=subway_entrance feature is in the recorded query window; that is not proof that north access geometry is absent. Exact north entrance identity, level and connection remain open. Do not add a duplicate path or infer a new standalone entrance from the screen. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Largo_vicinity-map.pdf ; https://www.openstreetmap.org/node/8651370043 ; https://www.openstreetmap.org/way/613454503 ; https://www.openstreetmap.org/way/942949375 ; https://www.openstreetmap.org/way/1129902875 ; https://www.openstreetmap.org/way/1200929257 ; docs/evidence/largo-2026-10-16.json. Source panoramas and field conditions were not inspected; no source coordinates changed and no OSM edit approved."
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "add",
+      "id": "WMATA-052",
+      "record": {
+        "entrance_id": "WMATA-052",
+        "reviewed_on": "2026-10-16",
+        "status": "Existing entrance confirmed",
+        "notes": "Desktop identity review: The Harry S. Truman Drive and Largo Drive source description is consistent with the southern station access shown on the independent WMATA vicinity map. Existing railway entrance node 8651370043 lies on the southern/southeastern face of building 613454503 and connects approach footway 942949375 toward the southern access area. The research-reference distance is 9.7 m. Description, map-side agreement and mapped boundary/approach support this desktop match; the north source WMATA-051 does not become the same entrance because it shares this nearest candidate. No specific elevator identity, current operation, or complete accessible route is confirmed. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Largo_vicinity-map.pdf ; https://www.openstreetmap.org/node/8651370043 ; https://www.openstreetmap.org/way/613454503 ; https://www.openstreetmap.org/way/942949375 ; https://www.openstreetmap.org/way/1129902875 ; https://www.openstreetmap.org/way/1200929257 ; docs/evidence/largo-2026-10-16.json. Source panoramas and field conditions were not inspected; no source coordinates changed and no OSM edit approved."
+      }
+    }
+  ]
+}

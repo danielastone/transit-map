@@ -1,0 +1,347 @@
+{
+  "reviewed_on": "2026-10-16",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "license_url": "https://www.openstreetmap.org/copyright",
+  "map": {
+    "url": "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Largo_vicinity-map.pdf",
+    "edition": "June 2026",
+    "sha256": "8da16c6dad7e505a4d090787a495cdbb897300ad508388650808e08bf66579ae"
+  },
+  "scope": "Selected recorded OSM geometry; three nodes and four ways also checked live. Independent operator map inspected visually. No field survey or panorama inspection.",
+  "elements": [
+    {
+      "id": "node/8651370043",
+      "version": 1,
+      "timestamp": "2021-04-21T12:54:06Z",
+      "tags": {
+        "railway": "subway_entrance"
+      },
+      "coordinates": [
+        -76.844895,
+        38.8998521
+      ]
+    },
+    {
+      "id": "node/10467379951",
+      "version": 2,
+      "timestamp": "2023-08-21T20:01:07Z",
+      "tags": {},
+      "coordinates": [
+        -76.845247,
+        38.9002531
+      ]
+    },
+    {
+      "id": "node/11134904569",
+      "version": 1,
+      "timestamp": "2023-08-21T20:01:07Z",
+      "tags": {},
+      "coordinates": [
+        -76.8452171,
+        38.9002762
+      ]
+    },
+    {
+      "id": "way/613454503",
+      "version": 2,
+      "timestamp": "2021-04-21T12:54:06Z",
+      "tags": {
+        "addr:city": "Upper Marlboro",
+        "addr:housenumber": "701",
+        "addr:postcode": "20774",
+        "addr:state": "MD",
+        "addr:street": "Harry S Truman Drive North",
+        "building": "yes",
+        "height": "7.22628627164",
+        "roof:shape": "gabled",
+        "source": "M-NCPPC"
+      },
+      "node_refs": [
+        "5804416239",
+        "8651370043",
+        "5804416238",
+        "5804416237",
+        "5804416236",
+        "5804416239"
+      ],
+      "coordinates": [
+        [
+          -76.8448056,
+          38.8999211
+        ],
+        [
+          -76.844895,
+          38.8998521
+        ],
+        [
+          -76.8449783,
+          38.8997879
+        ],
+        [
+          -76.8451851,
+          38.8999517
+        ],
+        [
+          -76.8450125,
+          38.9000849
+        ],
+        [
+          -76.8448056,
+          38.8999211
+        ]
+      ]
+    },
+    {
+      "id": "way/942949375",
+      "version": 3,
+      "timestamp": "2023-08-21T20:01:07Z",
+      "tags": {
+        "bicycle": "yes",
+        "highway": "footway",
+        "surface": "concrete"
+      },
+      "node_refs": [
+        "8651370043",
+        "10011899781",
+        "8731638254",
+        "11134904570",
+        "8731638255",
+        "10011899802",
+        "8731638256",
+        "8731638257"
+      ],
+      "coordinates": [
+        [
+          -76.844895,
+          38.8998521
+        ],
+        [
+          -76.8448662,
+          38.8998311
+        ],
+        [
+          -76.8447132,
+          38.8997197
+        ],
+        [
+          -76.8444506,
+          38.8996791
+        ],
+        [
+          -76.8444291,
+          38.8996758
+        ],
+        [
+          -76.8443734,
+          38.8996533
+        ],
+        [
+          -76.8443146,
+          38.8996238
+        ],
+        [
+          -76.844174,
+          38.8995351
+        ]
+      ]
+    },
+    {
+      "id": "way/1129902875",
+      "version": 2,
+      "timestamp": "2023-08-21T20:01:07Z",
+      "tags": {
+        "highway": "footway"
+      },
+      "node_refs": [
+        "10467379946",
+        "10467379947",
+        "10467379948",
+        "10467379949",
+        "10467379950",
+        "11134904569",
+        "10467379951"
+      ],
+      "coordinates": [
+        [
+          -76.8454695,
+          38.9006649
+        ],
+        [
+          -76.8454715,
+          38.9005941
+        ],
+        [
+          -76.8454599,
+          38.9005353
+        ],
+        [
+          -76.8454436,
+          38.9004699
+        ],
+        [
+          -76.8454274,
+          38.9004397
+        ],
+        [
+          -76.8452171,
+          38.9002762
+        ],
+        [
+          -76.845247,
+          38.9002531
+        ]
+      ]
+    },
+    {
+      "id": "way/1200929257",
+      "version": 1,
+      "timestamp": "2023-08-21T20:01:07Z",
+      "tags": {
+        "highway": "footway"
+      },
+      "node_refs": [
+        "11134904569",
+        "11134904570"
+      ],
+      "coordinates": [
+        [
+          -76.8452171,
+          38.9002762
+        ],
+        [
+          -76.8444506,
+          38.8996791
+        ]
+      ]
+    }
+  ],
+  "live_checks": [
+    {
+      "id": "node/8651370043",
+      "version": 1,
+      "timestamp": "2021-04-21T12:54:06Z",
+      "matches_recorded_version": true,
+      "tags": {
+        "railway": "subway_entrance"
+      },
+      "coordinates": [
+        -76.844895,
+        38.8998521
+      ]
+    },
+    {
+      "id": "node/10467379951",
+      "version": 2,
+      "timestamp": "2023-08-21T20:01:07Z",
+      "matches_recorded_version": true,
+      "tags": {},
+      "coordinates": [
+        -76.845247,
+        38.9002531
+      ]
+    },
+    {
+      "id": "node/11134904569",
+      "version": 1,
+      "timestamp": "2023-08-21T20:01:07Z",
+      "matches_recorded_version": true,
+      "tags": {},
+      "coordinates": [
+        -76.8452171,
+        38.9002762
+      ]
+    },
+    {
+      "id": "way/613454503",
+      "version": 2,
+      "timestamp": "2021-04-21T12:54:06Z",
+      "matches_recorded_version": true,
+      "tags": {
+        "addr:city": "Upper Marlboro",
+        "addr:housenumber": "701",
+        "addr:postcode": "20774",
+        "addr:state": "MD",
+        "addr:street": "Harry S Truman Drive North",
+        "building": "yes",
+        "height": "7.22628627164",
+        "roof:shape": "gabled",
+        "source": "M-NCPPC"
+      },
+      "node_refs": [
+        "5804416239",
+        "8651370043",
+        "5804416238",
+        "5804416237",
+        "5804416236",
+        "5804416239"
+      ]
+    },
+    {
+      "id": "way/942949375",
+      "version": 3,
+      "timestamp": "2023-08-21T20:01:07Z",
+      "matches_recorded_version": true,
+      "tags": {
+        "bicycle": "yes",
+        "highway": "footway",
+        "surface": "concrete"
+      },
+      "node_refs": [
+        "8651370043",
+        "10011899781",
+        "8731638254",
+        "11134904570",
+        "8731638255",
+        "10011899802",
+        "8731638256",
+        "8731638257"
+      ]
+    },
+    {
+      "id": "way/1129902875",
+      "version": 2,
+      "timestamp": "2023-08-21T20:01:07Z",
+      "matches_recorded_version": true,
+      "tags": {
+        "highway": "footway"
+      },
+      "node_refs": [
+        "10467379946",
+        "10467379947",
+        "10467379948",
+        "10467379949",
+        "10467379950",
+        "11134904569",
+        "10467379951"
+      ]
+    },
+    {
+      "id": "way/1200929257",
+      "version": 1,
+      "timestamp": "2023-08-21T20:01:07Z",
+      "matches_recorded_version": true,
+      "tags": {
+        "highway": "footway"
+      },
+      "node_refs": [
+        "11134904569",
+        "11134904570"
+      ]
+    }
+  ],
+  "research_distances_m": [
+    {
+      "entrance_id": "WMATA-051",
+      "osm_edit_source": false,
+      "selected_candidate": "node/8651370043",
+      "distance_m": 55.2
+    },
+    {
+      "entrance_id": "WMATA-052",
+      "osm_edit_source": false,
+      "selected_candidate": "node/8651370043",
+      "distance_m": 9.7
+    }
+  ]
+}

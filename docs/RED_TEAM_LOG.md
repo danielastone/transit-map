@@ -82,3 +82,21 @@ This is a specific demonstration that proximity can select a different entrance 
 Transaction `2026-10-16-002-gallery-place-identities.json` adds A/B/D desktop confirmations. C's existing confirmation is retained. Materialized totals are now 24 reviews: ten confirmed, twelve geometry/position unresolved, two source-location conflicts. Complete accessibility routes, current equipment operation and the source panoramas were not verified. Automated screen values are intentionally retained as reproducible candidate retrieval; the desktop reviews reject the A candidate interpretation. The worklist continues to expose the A/D reuse warning.
 
 Evidence: [selected OSM topology, live node checks, map hash and reference distances](evidence/gallery-place-2026-10-16.json). Source files and coordinates are unchanged, and no OSM edit was submitted. Remaining reuse groups include Grosvenor and Largo; window sensitivity remains open.
+
+## Step 5 — Grosvenor east/west access geometry (2026-10-16)
+
+The WMATA vicinity map (June 2026), inspected visually, explicitly marks a tunnel to the station on the west side of Rockville Pike. OSM already contains the west approach and crossing tunnel; the screen instead assigns the west source view to an east-side tagged entrance node.
+
+| Source | Automated selected node | Distance | Independent/contextual evidence | Outcome |
+| --- | --- | ---: | --- | --- |
+| WMATA-099 east view | node/9127756071 | 10.9 m | East access footways 263159301 and 987506650 | Geometry present; exact view/threshold identity unverified |
+| WMATA-100 second east view | node/9127756072 | 13.9 m | East end of access system, connected to tunnel via steps/escalator 263159300 | Geometry present; distinct physical entrance identity unverified |
+| WMATA-101 west view | node/9127756072 | 45.8 m | West tunnel endpoint node/2687926494 is 2.5 m from research reference; west approach way/263159296 connects to tunnel way/263159299 | Existing west access, not an identity match to the east tagged node |
+
+The tunnel runs from node/2687926494 to node/2687926496; steps/escalator way/263159300 then reaches node/9127756072 on the east side. The west endpoint has no tags. This supports existing access geometry at the west source description, without establishing the appropriate station-entrance threshold or tag. No new path, standalone entrance, or entrance-tag change is justified by this desktop review alone.
+
+WMATA-099 and WMATA-100 have identical labels after whitespace normalization, different panorama URLs, and nearby but distinct tagged OSM nodes. Neither the label duplication nor proximity establishes whether the source views describe distinct physical entrances. Both stable source IDs remain; no physical-entrance count is inferred. All three reviews use `Geometry present; entrance position unverified`.
+
+Transaction `2026-10-16-003-grosvenor-access-geometry.json` adds three reviews. Materialized review total is now 27: ten confirmed, fifteen geometry/position unresolved, two source-location conflicts. A live check of the two railway nodes, west tunnel endpoint and three west-access ways retains recorded versions. [Evidence extract](evidence/grosvenor-2026-10-16.json) preserves versions, topology, map URL/hash and research distances. Source panoramas, current field conditions and complete accessibility paths were not inspected.
+
+Automated screen counts, source coordinates and frozen baseline remain unchanged; no OSM edits submitted. Largo is the next named reuse group. Query-window sensitivity and other shared-candidate records remain open.

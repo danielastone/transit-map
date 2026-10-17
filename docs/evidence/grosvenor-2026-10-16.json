@@ -1,0 +1,406 @@
+{
+  "reviewed_on": "2026-10-16",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "license_url": "https://www.openstreetmap.org/copyright",
+  "map": {
+    "url": "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Grosvenor_vicinity-map.pdf",
+    "edition": "June 2026",
+    "sha256": "bcc61f033c3aa74688aa9704241a05d3bbf77b780678a1bd9a06f69713fb2cc0"
+  },
+  "scope": "Selected recorded OSM access geometry; three nodes and three west-access ways checked live. No field survey or panorama inspection.",
+  "elements": [
+    {
+      "id": "node/2687926494",
+      "version": 1,
+      "timestamp": "2014-02-24T04:52:24Z",
+      "tags": {},
+      "coordinates": [
+        -77.104344,
+        39.0287046
+      ]
+    },
+    {
+      "id": "node/2687926496",
+      "version": 1,
+      "timestamp": "2014-02-24T04:52:24Z",
+      "tags": {},
+      "coordinates": [
+        -77.1039631,
+        39.0288151
+      ]
+    },
+    {
+      "id": "node/9127756071",
+      "version": 3,
+      "timestamp": "2024-05-10T23:39:00Z",
+      "tags": {
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "coordinates": [
+        -77.1035988,
+        39.0289316
+      ]
+    },
+    {
+      "id": "node/9127756072",
+      "version": 3,
+      "timestamp": "2026-08-17T21:57:58Z",
+      "tags": {
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "coordinates": [
+        -77.1038286,
+        39.0288615
+      ]
+    },
+    {
+      "id": "way/263159296",
+      "version": 2,
+      "timestamp": "2026-01-04T23:19:57Z",
+      "tags": {
+        "highway": "footway",
+        "surface": "concrete"
+      },
+      "node_refs": [
+        "2687926484",
+        "2687926486",
+        "2687926488",
+        "2687926490",
+        "2687926492",
+        "2687926494"
+      ],
+      "coordinates": [
+        [
+          -77.104591,
+          39.0287864
+        ],
+        [
+          -77.104521,
+          39.0287859
+        ],
+        [
+          -77.1044674,
+          39.0287484
+        ],
+        [
+          -77.1044433,
+          39.0287067
+        ],
+        [
+          -77.1043869,
+          39.0286921
+        ],
+        [
+          -77.104344,
+          39.0287046
+        ]
+      ]
+    },
+    {
+      "id": "way/263159298",
+      "version": 4,
+      "timestamp": "2026-05-22T16:30:25Z",
+      "tags": {
+        "highway": "footway",
+        "lit": "24/7",
+        "surface": "concrete"
+      },
+      "node_refs": [
+        "2519425281",
+        "2687926517",
+        "9127756072"
+      ],
+      "coordinates": [
+        [
+          -77.1036924,
+          39.0283064
+        ],
+        [
+          -77.1038773,
+          39.0287463
+        ],
+        [
+          -77.1038286,
+          39.0288615
+        ]
+      ]
+    },
+    {
+      "id": "way/263159299",
+      "version": 3,
+      "timestamp": "2026-01-04T23:19:48Z",
+      "tags": {
+        "check_date:surface": "2026-01-04",
+        "highway": "footway",
+        "layer": "-1",
+        "surface": "paved",
+        "tunnel": "yes"
+      },
+      "node_refs": [
+        "2687926494",
+        "2687926496"
+      ],
+      "coordinates": [
+        [
+          -77.104344,
+          39.0287046
+        ],
+        [
+          -77.1039631,
+          39.0288151
+        ]
+      ]
+    },
+    {
+      "id": "way/263159300",
+      "version": 6,
+      "timestamp": "2026-08-17T21:58:28Z",
+      "tags": {
+        "access": "yes",
+        "conveying": "yes",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "up",
+        "lit": "24/7",
+        "surface": "metal"
+      },
+      "node_refs": [
+        "2687926496",
+        "9127756072"
+      ],
+      "coordinates": [
+        [
+          -77.1039631,
+          39.0288151
+        ],
+        [
+          -77.1038286,
+          39.0288615
+        ]
+      ]
+    },
+    {
+      "id": "way/263159301",
+      "version": 9,
+      "timestamp": "2024-10-09T09:33:56Z",
+      "tags": {
+        "highway": "footway",
+        "lit": "24/7",
+        "surface": "asphalt"
+      },
+      "node_refs": [
+        "9127756071",
+        "2687926569",
+        "2687926502",
+        "2687926548",
+        "9770188402",
+        "2687926511"
+      ],
+      "coordinates": [
+        [
+          -77.1035988,
+          39.0289316
+        ],
+        [
+          -77.1034454,
+          39.0289754
+        ],
+        [
+          -77.1033355,
+          39.0290067
+        ],
+        [
+          -77.103195,
+          39.0290435
+        ],
+        [
+          -77.1030476,
+          39.0290895
+        ],
+        [
+          -77.1029864,
+          39.0291071
+        ]
+      ]
+    },
+    {
+      "id": "way/987506650",
+      "version": 3,
+      "timestamp": "2024-05-13T21:34:41Z",
+      "tags": {
+        "bridge": "yes",
+        "highway": "footway",
+        "layer": "1",
+        "lit": "24/7",
+        "surface": "concrete"
+      },
+      "node_refs": [
+        "2687926500",
+        "9127756071"
+      ],
+      "coordinates": [
+        [
+          -77.1036631,
+          39.0289132
+        ],
+        [
+          -77.1035988,
+          39.0289316
+        ]
+      ]
+    },
+    {
+      "id": "way/987506651",
+      "version": 3,
+      "timestamp": "2026-05-22T16:30:25Z",
+      "tags": {
+        "bridge": "yes",
+        "highway": "footway",
+        "layer": "1",
+        "lit": "24/7",
+        "surface": "tiles"
+      },
+      "node_refs": [
+        "9127756072",
+        "2687926498"
+      ],
+      "coordinates": [
+        [
+          -77.1038286,
+          39.0288615
+        ],
+        [
+          -77.1037591,
+          39.0288855
+        ]
+      ]
+    }
+  ],
+  "live_checks": [
+    {
+      "id": "node/2687926494",
+      "version": 1,
+      "timestamp": "2014-02-24T04:52:24Z",
+      "matches_recorded_version": true,
+      "tags": {},
+      "coordinates": [
+        -77.104344,
+        39.0287046
+      ]
+    },
+    {
+      "id": "node/9127756071",
+      "version": 3,
+      "timestamp": "2024-05-10T23:39:00Z",
+      "matches_recorded_version": true,
+      "tags": {
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "coordinates": [
+        -77.1035988,
+        39.0289316
+      ]
+    },
+    {
+      "id": "node/9127756072",
+      "version": 3,
+      "timestamp": "2026-08-17T21:57:58Z",
+      "matches_recorded_version": true,
+      "tags": {
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "coordinates": [
+        -77.1038286,
+        39.0288615
+      ]
+    },
+    {
+      "id": "way/263159296",
+      "version": 2,
+      "timestamp": "2026-01-04T23:19:57Z",
+      "matches_recorded_version": true,
+      "tags": {
+        "highway": "footway",
+        "surface": "concrete"
+      },
+      "node_refs": [
+        "2687926484",
+        "2687926486",
+        "2687926488",
+        "2687926490",
+        "2687926492",
+        "2687926494"
+      ]
+    },
+    {
+      "id": "way/263159299",
+      "version": 3,
+      "timestamp": "2026-01-04T23:19:48Z",
+      "matches_recorded_version": true,
+      "tags": {
+        "check_date:surface": "2026-01-04",
+        "highway": "footway",
+        "layer": "-1",
+        "surface": "paved",
+        "tunnel": "yes"
+      },
+      "node_refs": [
+        "2687926494",
+        "2687926496"
+      ]
+    },
+    {
+      "id": "way/263159300",
+      "version": 6,
+      "timestamp": "2026-08-17T21:58:28Z",
+      "matches_recorded_version": true,
+      "tags": {
+        "access": "yes",
+        "conveying": "yes",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "up",
+        "lit": "24/7",
+        "surface": "metal"
+      },
+      "node_refs": [
+        "2687926496",
+        "9127756072"
+      ]
+    }
+  ],
+  "research_distances_m": [
+    {
+      "entrance_id": "WMATA-099",
+      "osm_edit_source": false,
+      "distances": {
+        "node/9127756071": 10.9,
+        "node/9127756072": 32.2,
+        "node/2687926494": 80.0
+      }
+    },
+    {
+      "entrance_id": "WMATA-100",
+      "osm_edit_source": false,
+      "distances": {
+        "node/9127756071": 27.6,
+        "node/9127756072": 13.9,
+        "node/2687926494": 47.1
+      }
+    },
+    {
+      "entrance_id": "WMATA-101",
+      "osm_edit_source": false,
+      "distances": {
+        "node/9127756071": 67.1,
+        "node/9127756072": 45.8,
+        "node/2687926494": 2.5
+      }
+    }
+  ]
+}

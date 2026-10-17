@@ -1,0 +1,44 @@
+{
+  "transaction_id": "2026-10-16-grosvenor-access-geometry",
+  "rationale": "Separate west tunnel approach from east tagged station nodes, preserve unresolved duplicate-label source views and record existing geometry without inventing entrance identities.",
+  "sources": [
+    "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Grosvenor_vicinity-map.pdf",
+    "https://www.wmata.com/ridertools/station/grosvenor-strathmore/info",
+    "https://www.openstreetmap.org/way/263159299"
+  ],
+  "operations": [
+    {
+      "table": "reviews",
+      "action": "add",
+      "id": "WMATA-099",
+      "record": {
+        "entrance_id": "WMATA-099",
+        "reviewed_on": "2026-10-16",
+        "status": "Geometry present; entrance position unverified",
+        "notes": "Desktop access-geometry review: WMATA map shows station access on the east side of Rockville Pike. Railway entrance node 9127756071 is 10.9 m from this research reference and connects footways 263159301 and 987506650. Another east-side source view, WMATA-100, has the same normalized description and a different panorama URL. The map does not distinguish the exact thresholds represented by these two source views or establish that they are distinct physical station entrances. Existing east-side access geometry is present; exact source-view identity and threshold remain unverified. Do not deduplicate source IDs or infer a separate entrance from each view. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Grosvenor_vicinity-map.pdf ; https://www.openstreetmap.org/node/9127756071 ; https://www.openstreetmap.org/node/9127756072 ; https://www.openstreetmap.org/node/2687926494 ; https://www.openstreetmap.org/way/263159299 ; docs/evidence/grosvenor-2026-10-16.json. Source panoramas and field conditions were not inspected. No coordinates changed, no full accessibility route verified and no OSM edit approved."
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "add",
+      "id": "WMATA-100",
+      "record": {
+        "entrance_id": "WMATA-100",
+        "reviewed_on": "2026-10-16",
+        "status": "Geometry present; entrance position unverified",
+        "notes": "Desktop access-geometry review: The second east-side source view has a distinct panorama URL but the same label as WMATA-099 apart from trailing whitespace. Nearest railway entrance node 9127756072 is 13.9 m away. It joins footway 263159298, bridge footway 987506651 and escalator/steps 263159300, which connect to the pedestrian tunnel under Rockville Pike via node 2687926496. This is east-side mapped access, not proof of a second independent physical entrance or a match for the west-side source view WMATA-101. Exact source-view identity and threshold remain unverified; keep both source IDs. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Grosvenor_vicinity-map.pdf ; https://www.openstreetmap.org/node/9127756071 ; https://www.openstreetmap.org/node/9127756072 ; https://www.openstreetmap.org/node/2687926494 ; https://www.openstreetmap.org/way/263159299 ; docs/evidence/grosvenor-2026-10-16.json. Source panoramas and field conditions were not inspected. No coordinates changed, no full accessibility route verified and no OSM edit approved."
+      }
+    },
+    {
+      "table": "reviews",
+      "action": "add",
+      "id": "WMATA-101",
+      "record": {
+        "entrance_id": "WMATA-101",
+        "reviewed_on": "2026-10-16",
+        "status": "Geometry present; entrance position unverified",
+        "notes": "Desktop access-geometry review: The independent WMATA map marks a Tunnel to station west of Rockville Pike. OSM footway 263159296 joins tunnel way 263159299 at untagged west endpoint node 2687926494, only 2.5 m from this research reference. The tunnel crosses east to node 2687926496, then steps/escalator way 263159300 reaches tagged railway entrance node 9127756072. The automated 45.8 m east-side candidate does not identify the west tunnel mouth. West access geometry already exists; the appropriate threshold and entrance-tag semantics require verification before any tagging proposal. A missing entrance tag at the tunnel mouth does not mean a missing path or justify a duplicate station entrance. Evidence: https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Grosvenor_vicinity-map.pdf ; https://www.openstreetmap.org/node/9127756071 ; https://www.openstreetmap.org/node/9127756072 ; https://www.openstreetmap.org/node/2687926494 ; https://www.openstreetmap.org/way/263159299 ; docs/evidence/grosvenor-2026-10-16.json. Source panoramas and field conditions were not inspected. No coordinates changed, no full accessibility route verified and no OSM edit approved."
+      }
+    }
+  ]
+}

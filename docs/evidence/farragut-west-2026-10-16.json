@@ -1,0 +1,100 @@
+{
+  "reviewed_on": "2026-10-16",
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "license_url": "https://www.openstreetmap.org/copyright",
+  "map": {
+    "url": "https://www.wmata.com/content/dam/wmata-com/maps/Rail%20Station%20Vicinity%20Maps/Farragut%20W_vicinity-map.pdf",
+    "edition": "June 2025",
+    "sha256": "e3644481c7431fc705c1bdae2992a03b34066274fff5da2262c36f63b2f6831b"
+  },
+  "scope": "Operator map inspected visually; recorded query contains no highway=elevator feature or element with an elevator key/value. This is window-limited, not proof of physical absence. General entrance node checked live.",
+  "elements": [
+    {
+      "id": "node/1643428783",
+      "version": 6,
+      "tags": {
+        "name": "Farragut West",
+        "network": "Washington Metro",
+        "operator": "Washington Metropolitan Area Transit Authority",
+        "railway": "subway_entrance",
+        "website": "https://www.wmata.com/rider-guide/stations/farragut-west.cfm"
+      },
+      "coordinates": [
+        -77.0419276,
+        38.9015106
+      ]
+    },
+    {
+      "id": "way/1429421925",
+      "version": 1,
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "layer": "-1"
+      },
+      "node_refs": [
+        "1643428783",
+        "13140144085"
+      ],
+      "coordinates": [
+        [
+          -77.0419276,
+          38.9015106
+        ],
+        [
+          -77.0418103,
+          38.9015107
+        ]
+      ]
+    },
+    {
+      "id": "way/1429421926",
+      "version": 1,
+      "tags": {
+        "conveying": "yes",
+        "highway": "steps",
+        "incline": "down",
+        "indoor": "no",
+        "tunnel": "yes"
+      },
+      "node_refs": [
+        "1643428783",
+        "13140144086"
+      ],
+      "coordinates": [
+        [
+          -77.0419276,
+          38.9015106
+        ],
+        [
+          -77.0419272,
+          38.9014477
+        ]
+      ]
+    }
+  ],
+  "live_checks": [
+    {
+      "id": "1643428783",
+      "version": "6",
+      "timestamp": "2025-09-13T01:12:45Z",
+      "lat": "38.9015106",
+      "lon": "-77.0419276"
+    }
+  ],
+  "research_distances_m": [
+    {
+      "entrance_id": "WMATA-065",
+      "osm_edit_source": false,
+      "candidate_id": "node/1643428783",
+      "distance_m": 15.6
+    },
+    {
+      "entrance_id": "WMATA-066",
+      "osm_edit_source": false,
+      "candidate_id": "node/1643428783",
+      "distance_m": 3.4
+    }
+  ]
+}

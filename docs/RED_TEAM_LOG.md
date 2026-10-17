@@ -161,3 +161,29 @@ This independently documented opening requires inventory reconciliation before t
 Transaction `2026-10-16-008-pentagon-city-elevator-review.json` adds one general entrance confirmation and one geometry/position unresolved review. Two live OSM nodes retain recorded versions. [Evidence extract](evidence/pentagon-city-2026-10-16.json) preserves selected geometry, node checks, map hash and the county's dated factual claim without map coordinates. No source panorama, field condition, full accessibility path or current operating status verified.
 
 Totals: 38 desktop reviews (fourteen confirmed, twenty-two geometry/position unresolved, two source-location conflicts). Nine shared-candidate records remain unreviewed. The existing general west source record is outside this pair's scope. Baseline/source coordinates and automated screens are unchanged; no OSM edits submitted.
+
+## Step 11 — Complete initial pass on remaining shared candidates (2026-10-16)
+
+Scope: the remaining nine unreviewed shared-candidate records at Loudoun Gateway, Rosslyn, Tysons and Union Station. The four WMATA vicinity maps were visually inspected. Eleven selected nodes checked live retain the versions and coordinates in the recorded snapshots. No source panorama or field inspection was performed.
+
+| Source IDs | Supported interpretation | Outcome |
+| --- | --- | --- |
+| WMATA-125 | A steps-connected railway entrance near the north busbay does not identify the station elevator; map distinguishes station and garage elevator access | Geometry/position unresolved |
+| WMATA-127 | Garage doorway node/8870302198 lies on WMATA parking building/294419005 and connects to bridge/863453474, consistent with map. The screen instead selects a railway node 59.9 m away | Garage entrance identity confirmed; not a new railway threshold |
+| WMATA-183 | Generic east N. Moore source view may overlap elevator access; separate western railway entrances also exist. Exact generic-view threshold is not established | Geometry/position unresolved |
+| WMATA-184 | Operator map, WMATA elevator tags on node/576549187 and sidewalk/892764182 support the mapped east-side elevator access | Elevator-access identity confirmed; individual cars/route unverified |
+| WMATA-212 | General railway node is not an elevator; nearest elevator way is an indoor level-1 area 234.7 m away without verified station-serving identity | Geometry/position unresolved |
+| WMATA-213 | Named Tysons railway entrance and level-0 approach align with general north-side source/map access | General entrance confirmed |
+| WMATA-217/218/219 | Shared south railway node cannot establish all street, terminal and upper-concourse identities. Separate north railway entrance, terminal doorway and elevator geometry exist | Three source identities/level connections unresolved |
+
+The Union Station map shows separate north and south access. WMATA's dated 2011 access/capacity report corroborates different First Street/north-mezzanine and Amtrak-concourse contexts but is not treated as current surveyed topology. The Massachusetts Avenue reference is close to a relevant south entrance, but its upper-concourse/bus/shop route remains unverified; no full-record identity is promoted from proximity alone.
+
+Transaction `2026-10-16-009-remaining-shared-candidate-reviews.json` adds all nine reviews: three supported access identities and six unresolved records. Evidence extracts are in `docs/evidence/remaining-reuse-*-2026-10-16.json`, preserving selected geometry, live checks, map hashes and research-only candidate distances.
+
+### Review coverage at completion of this pass
+
+- All **31 shared-candidate records now have an initial desktop review**. None is represented as cleared solely because a review exists; the worklist conservatively retains all 31 identity-review flags.
+- Overall there are **47 reviewed source records**: seventeen confirmations (including a garage access identity), twenty-eight geometry/position unresolved, and two source-location inconsistencies. These are source-record outcomes, not counts of unique physical station entrances.
+- **195 source records remain without desktop review.** Completing the shared-candidate subset is not a completeness audit of all 242 records.
+- The north Largo threshold, platform-specific Judiciary elevators, McLean level semantics, source-view ambiguities, other elevator identities and Pentagon City's west-elevator source-coverage task remain open. Query-window sensitivity has not yet been tested.
+- Frozen baseline, research coordinates and automated screen counts are unchanged; no OSM edits submitted.

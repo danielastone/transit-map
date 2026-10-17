@@ -100,3 +100,18 @@ WMATA-099 and WMATA-100 have identical labels after whitespace normalization, di
 Transaction `2026-10-16-003-grosvenor-access-geometry.json` adds three reviews. Materialized review total is now 27: ten confirmed, fifteen geometry/position unresolved, two source-location conflicts. A live check of the two railway nodes, west tunnel endpoint and three west-access ways retains recorded versions. [Evidence extract](evidence/grosvenor-2026-10-16.json) preserves versions, topology, map URL/hash and research distances. Source panoramas, current field conditions and complete accessibility paths were not inspected.
 
 Automated screen counts, source coordinates and frozen baseline remain unchanged; no OSM edits submitted. Largo is the next named reuse group. Query-window sensitivity and other shared-candidate records remain open.
+
+## Step 6 — Downtown Largo shared candidate (2026-10-16)
+
+The WMATA vicinity map (June 2026), visually inspected, shows station access at distinct ends of the station/parking complex. The source inventory has a Lottsford Road (North) view and a Truman/Largo Drive view. Both retrieve the sole railway entrance tag in the recorded window, node/8651370043; this is not sufficient to identify both source descriptions as the same entrance.
+
+| Source | Candidate distance | Additional evidence | Desktop outcome |
+| --- | ---: | --- | --- |
+| WMATA-051 Lottsford Rd. (North) | 55.2 m | North-area footway 1129902875, junction 11134904569, and footway 1200929257 exist, but no verified threshold/vertical connection identified | Geometry present; entrance position unverified |
+| WMATA-052 Truman/Largo Dr. | 9.7 m | Tagged node on southern/southeastern boundary of building 613454503, connected to approach footway 942949375; consistent with the map's southern access area | Existing entrance confirmed |
+
+The map-side and topology evidence support the southern match. They do not identify the north view's exact threshold, establish a missing north entrance, or justify reusing the south node as that identity. The north approach's untagged node 10467379951 lies on a bus-platform boundary, so it is not promoted into a station entrance. No new coordinates or tags are proposed. Current equipment operation and full accessibility routes were not checked.
+
+Transaction `2026-10-16-004-largo-access-identities.json` adds two reviews. Materialized total: 29 reviews (eleven confirmed, sixteen geometry/position unresolved, two source-location conflicts). Three nodes and four ways checked live retain their recorded versions. [Evidence extract](evidence/largo-2026-10-16.json) retains selected geometry, versions, map URL/hash and reference distances. Source panoramas and field conditions were not inspected.
+
+This completes an initial desktop pass over the five named reuse examples: Reston, Herndon, Gallery Place, Grosvenor and Largo. It does not complete review of all 31 shared-candidate records. Automated screen counts, source coordinates and frozen baseline are unchanged; no OSM edits submitted. Remaining work includes the other reuse groups, north Largo's threshold, Herndon's elevator geometry, Reston's source-reference conflict, and query-window sensitivity.

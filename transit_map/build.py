@@ -9,7 +9,7 @@ import shutil
 from pathlib import Path
 from urllib.parse import urlsplit
 
-from .core import audit, review_worklist, validate
+from .core import audit, review_worklist, status_label, validate
 
 ROOT = Path(__file__).resolve().parents[1]
 FILES = {'entrances': 'data/wmata/entrances.json', 'stations': 'data/wmata/stations.json',
@@ -78,6 +78,11 @@ def materialize(root=ROOT):
             'transaction_sha256': digest(tx), 'before_sha256': before, 'after_sha256': digest(state),
             'operation_count': len(tx['operations'])})
     validate(state['entrances']['records'], state['stations']['records'], state['osm'], state['reviews']['records'])
+    for review in state['reviews']['records']:
+        for decision in review.get('candidate_decisions', []):
+            for item in decision['evidence']:
+                if not item.startswith('https://') and not (root / item).is_file():
+                    raise ValueError(f"{review['entrance_id']}: missing evidence file {item}")
     manifest['final_sha256'] = digest(state)
     return state, manifest
 
@@ -118,29 +123,59 @@ def publish(state, manifest, output):
     tasks = []
     for record in entrances:
         review = reviews.get(record['id'])
-        status = review['status'] if review else 'No desktop review recorded'
+        status = status_label(review['status']) if review else 'No desktop review recorded'
         body = f'<p>{escape(record["station"])}</p><p>{escape(record["description"])}</p><h2>Desktop review</h2><p>{escape(status)}</p>'
         if review:
             body += f'<p>{escape(review["notes"])}</p>'
+            decisions = review.get('candidate_decisions', [])
+            if decisions:
+                body += ('<h2>Candidate decisions</h2><p>Rejected candidates remain as research history; '
+                         'a rejection does not mean an entrance is missing.</p><table><thead><tr>'
+                         '<th>OSM feature</th><th>Decision</th><th>Reason</th><th>Evidence</th></tr></thead><tbody>')
+                for d in decisions:
+                    evidence = ' '.join(link(e, 'source') if e.startswith('https://') else f'<code>{escape(e)}</code>'
+                                        for e in d['evidence'])
+                    body += (f'<tr><td>{link("https://www.openstreetmap.org/" + d["feature_id"], d["feature_id"])}</td>'
+                             f'<td>{escape(d["decision"])}</td><td>{escape(d["reason"])}</td><td>{evidence}</td></tr>')
+                body += '</tbody></table>'
         body += '<h2>Provenance</h2>' + link(record['source_url'], 'WMATA source')
         body += '<p>Source panorama coordinates are research references only; they are not an OSM edit source. Automated distance screening does not establish a missing entrance. No record is approved for OSM upload.</p>'
         pages[f'entrances/{record["id"]}.html'] = page(record['id'], body, '../')
     for task in worklist:
         reasons = '; '.join(task['review_reasons']) or 'Desktop confirmation recorded; no open task'
-        tasks.append(f'<li data-entrance-id="{escape(task["entrance_id"], quote=True)}"><a href="entrances/{escape(task["entrance_id"], quote=True)}.html">{escape(task["entrance_id"])}</a>: {escape(task["review_status"])} — {escape(reasons)}</li>')
+        tasks.append(f'<li data-entrance-id="{escape(task["entrance_id"], quote=True)}" data-review-status="{escape(task["review_status"], quote=True)}"><a href="entrances/{escape(task["entrance_id"], quote=True)}.html">{escape(task["entrance_id"])}</a>: {escape(task["review_label"])} — {escape(reasons)}</li>')
     pages['index.html'] = page('WMATA entrance research',
         f'<p>{len(entrances)} source entrance records across {len(station_links)} stations; {len(reviews)} desktop reviews.</p>'
         '<p>This is a research inventory, not a live service or accessibility guide.</p>'
         '<p><a href="tasks.html">Research tasks</a> · <a href="data/audit.json">Automated screening JSON</a> · '
-        '<a href="data/semantic-manifest.json">Build provenance</a></p><ul>' + ''.join(station_links) + '</ul>')
+        '<a href="data/semantic-manifest.json">Build provenance</a></p>' + summary_tables(model['summaries']) +
+        '<h2>Stations</h2><ul>' + ''.join(station_links) + '</ul>')
     pages['tasks.html'] = page('Research tasks', '<p>All source records are listed. Shared candidates require identity review regardless of distance or desktop status. Proximity is not a confirmed match.</p><p><a href="data/review-queue.json">Review queue JSON</a></p><ul>' + ''.join(tasks) + '</ul>')
     for path, html in pages.items():
         target = output / path
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(html, encoding='utf-8')
-    (output / 'style.css').write_text('body{font:1rem/1.6 system-ui,sans-serif;max-width:72rem;margin:auto;padding:1.5rem;color:#172b35;background:#fafcfb}a{color:#006b70}main{min-height:70vh}li{margin:.4rem 0}header,footer{padding:1rem 0;border-bottom:1px solid #ccd6d6}p{max-width:80ch}', encoding='utf-8')
+    (output / 'style.css').write_text('body{font:1rem/1.6 system-ui,sans-serif;max-width:72rem;margin:auto;padding:1.5rem;color:#172b35;background:#fafcfb}a{color:#006b70}main{min-height:70vh}li{margin:.4rem 0}table{border-collapse:collapse;margin:1rem 0}caption{text-align:left;font-weight:600}th,td{border:1px solid #ccd6d6;padding:.3rem .6rem;text-align:left;vertical-align:top}header,footer{padding:1rem 0;border-bottom:1px solid #ccd6d6}p{max-width:80ch}', encoding='utf-8')
     check_site(output)
     return len(pages)
+
+
+def summary_tables(summaries):
+    """Two distinct summaries: raw screens for reproducibility, review-adjusted outcomes."""
+    def table(caption, counts):
+        rows = ''.join(f'<tr><th scope="row">{escape(k)}</th><td>{v}</td></tr>' for k, v in counts.items())
+        return f'<table><caption>{escape(caption)}</caption><tbody>{rows}</tbody></table>'
+    raw, adjusted = summaries['raw_screening'], summaries['review_adjusted']
+    return ('<h2>Raw screening counts</h2>' + f'<p>{escape(raw["meaning"])}</p>' +
+            table('Automated proximity screens (source records)', raw['counts']) +
+            '<h2>Review-adjusted outcomes</h2>' + f'<p>{escape(adjusted["meaning"])}</p>' +
+            table('Outcome per source record', adjusted['counts']) +
+            table('Candidate decisions', {'Rejected screened candidates': adjusted['rejected_screened_candidates'],
+                                          'Accepted identity overrules a different screened candidate':
+                                              adjusted['accepted_identity_differs_from_screen'],
+                                          'Accepted identity where the screen selected no candidate':
+                                              adjusted['accepted_identity_without_screened_candidate'],
+                                          **{f'Decisions recorded: {k}': v for k, v in adjusted['candidate_decisions'].items()}}))
 
 
 def check_site(output):

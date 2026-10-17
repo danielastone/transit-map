@@ -141,10 +141,12 @@ def main(argv=None):
                      "Shared candidates require review regardless of distance or desktop status.", ""]
             for task in review_worklist(inventory, osm, reviews):
                 record = by_id[task["entrance_id"]]
-                reasons = "; ".join(task["review_reasons"]) or "Desktop confirmation recorded; no open task"
+                reasons = "; ".join(task["review_reasons"]) or "No open review question"
+                decisions = [f"- {d['decision']}: {d['feature_id']} — {d['reason']}"
+                             for d in task["candidate_decisions"]]
                 lines.extend([f"## {record['id']}: {record['station']}", "",
-                              record["description"], "", task["review_status"], "", reasons, "",
-                              task["review_notes"], ""])
+                              record["description"], "", task["review_label"], "", reasons, "",
+                              *(decisions + [""] if decisions else []), task["review_notes"], ""])
             output = Path(args.output)
             output.parent.mkdir(parents=True, exist_ok=True)
             output.write_text("\n".join(lines), encoding="utf-8")
@@ -152,7 +154,7 @@ def main(argv=None):
         else:
             result = audit(inventory, osm, reviews)
             write_json(args.output, result)
-            print(json.dumps(result["screen_counts"], indent=2))
+            print(json.dumps({name: summary["counts"] for name, summary in result["summaries"].items()}, indent=2))
         return 0
     except (OSError, ValueError, KeyError) as error:
         print(f"Error: {error}", file=sys.stderr)
